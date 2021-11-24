@@ -1,3 +1,5 @@
+[![Project Status: WIP – Initial development is in progress, but there has not yet been a stable, usable release suitable for the public.](https://www.repostatus.org/badges/latest/wip.svg)](https://www.repostatus.org/#wip)
+
 # Daghregister in Text-Fabric
 
 ## Source
@@ -69,3 +71,7 @@ You can also use text-fabric in a jupyter notebook.
 
 A tutorial will follow, but it is not unlike this one for the
 [General Missives](https://nbviewer.org/github/annotation/tutorials/blob/master/missieven/start.ipynb).
+
+# Author
+
+[Dirk Roorda](https://github.com/dirkroorda)
