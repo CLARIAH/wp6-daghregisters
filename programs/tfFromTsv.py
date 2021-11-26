@@ -5,6 +5,9 @@ from tf.convert.walker import CV
 
 from config import Config
 
+C = Config()
+
+SEP = "\t"
 
 SLOT_TYPE = "word"
 
@@ -15,7 +18,7 @@ GENERIC = dict(
     researcher="Lodewijk Petram",
     converters="Dirk Roorda",
     sourceFormat="HTML => TSV (tab-separated)",
-)
+) | C.seriesInfo
 
 OTEXT = {
     "fmt:text-orig-full": "{letters}{punc} ",
@@ -28,6 +31,10 @@ TYPE_MAP = ["page", "para", "line"]
 INT_FEATURES = {"n"}
 
 FEATURE_META = {
+    "years": {
+        "description": "years covered by the volume",
+        "format": "string, comma-separated list of 4-digit years",
+    },
     "n": {
         "description": ("sequence number of a volume, page, line"),
         "format": "number",
@@ -40,32 +47,34 @@ FEATURE_META = {
         "description": "punctuation and/or space immediately after a word",
         "format": "string",
     },
+    "head": {
+        "description": "contents of the header line of each page",
+        "format": "string",
+    },
 }
 
 
-def convert():
+def convert(volume):
     global VOLUME
     global SRC_FILE
-    global SEP
 
-    C = Config()
+    if not C.checkVolume(volume):
+        return
 
-    volume = C.name[-3:]
-    VOLUME = int(volume.lstrip("0"))
-    SRC_FILE = f"{C.local}/{C.name}_words.tsv"
+    VOLUME = volume
+
+    SRC_FILE = f"{C.local}/{C.volumeName(VOLUME)}_words.tsv"
+
     tfVersion = C.tfVersion
-    tfDir = f"{C.tfDir}/{volume}"
-    dest = f"{tfDir}/{tfVersion}"
-
-    SEP = "\t"
-
-    cv = CV(Fabric(locations=dest))
+    tfDir = f"{C.tfDir}/{VOLUME:>03}"
+    DEST = f"{tfDir}/{tfVersion}"
+    cv = CV(Fabric(locations=DEST))
 
     return cv.walk(
         director,
         SLOT_TYPE,
         otext=OTEXT,
-        generic=GENERIC,
+        generic=GENERIC | C.volumeInfo[VOLUME],
         intFeatures=INT_FEATURES,
         featureMeta=FEATURE_META,
         generateTf=True,
@@ -82,6 +91,8 @@ def director(cv):
     [walker converion engine of Text-Fabric](https://annotation.github.io/text-fabric/tf/convert/walker.html)
     See `fusus.convert` for a description of the fields in the TSV files.
     """
+
+    headerLines = C.volumeInfo[VOLUME]["headerLines"]
 
     errors = collections.defaultdict(set)
 
@@ -109,17 +120,31 @@ def director(cv):
     data = getData(SRC_FILE, SEP)
 
     vol = cv.node("volume")
-    cv.feature(vol, n=VOLUME)
+    cv.feature(vol, n=VOLUME, years=C.volumeInfo[VOLUME]["years"])
+    curHead = None
 
     for (r, fields) in enumerate(data):
         for i in range(nSec):
             if fields[i] != prev[i]:
                 for j in reversed(range(i, nSec)):
                     cv.terminate(cur[j])
+                    prev[j] = 0
+                if i == 0:
+                    page = fields[i]
+                    pageHeaderLines = headerLines.get(page, headerLines.get(0, 0))
                 for j in range(i, nSec):
-                    cn = cv.node(TYPE_MAP[j])
-                    cv.feature(cn, n=fields[j])
-                    cur[j] = cn
+                    isLine = j == 2
+                    isHead = isLine and fields[j] <= pageHeaderLines
+                    if isHead:
+                        if fields[j] == 1:
+                            curHead = ""
+                    else:
+                        cn = cv.node(TYPE_MAP[j])
+                        cv.feature(cn, n=fields[j])
+                        cur[j] = cn
+                        if isLine and curHead is not None:
+                            cv.feature(cur[0], head=curHead.strip())
+                            curHead = None
                 break
         for i in range(nSec):
             prev[i] = fields[i]
@@ -127,8 +152,13 @@ def director(cv):
         letters = fields[3]
         punc = fields[4]
 
-        s = cv.slot()
-        cv.feature(s, letters=letters, punc=punc)
+        if curHead is None:
+            s = cv.slot()
+            cv.feature(s, letters=letters, punc=punc)
+        else:
+            curHead += f" {letters}{punc}"
+    if curHead is not None:
+        cv.feature(cur[0], head=curHead)
 
     for i in reversed(range(nSec)):
         if cur[i]:
@@ -152,15 +182,17 @@ def director(cv):
 # TF LOADING (to test the generated TF)
 
 
-def loadTf():
-    C = Config()
+def loadTf(volume):
+    if not C.checkVolume(volume):
+        return
 
-    volume = C.name[-3:]
+    VOLUME = volume
+
     tfVersion = C.tfVersion
-    tfDir = f"{C.tfDir}/{volume}"
-    dest = f"{tfDir}/{tfVersion}"
+    tfDir = f"{C.tfDir}/{C.volumeNameNum(VOLUME)}"
+    DEST = f"{tfDir}/{tfVersion}"
 
-    TF = Fabric(locations=[dest])
+    TF = Fabric(locations=[DEST])
     allFeatures = TF.explore(silent=True, show=True)
     loadableFeatures = allFeatures["nodes"] + allFeatures["edges"]
     api = TF.load(loadableFeatures, silent=False)

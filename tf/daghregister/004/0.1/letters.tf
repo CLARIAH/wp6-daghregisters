@@ -1,51 +1,27 @@
 @node
 @converters=Dirk Roorda
 @description=text string of a word without punctuation
+@editor=Uitgegeven door het Bataviaasch Genootschap van Kunsten en Wetenschappen, met medewerking van de Nederlandsch-Indische Regering en onder toezicht van Mr. J.A. van der Chijs
+@fileName=daghregister
 @format=string
+@frontPages=6
+@headerLines={0: 1, 43: 2, 159: 2, 341: 2, 390: 2, 498: 3, 499: 2, 500: 2, 501: 2, 502: 2, 503: 2, 504: 2, 505: 2, 506: 2, 507: 2, 508: 2, 509: 2, 510: 2, 511: 2, 512: 2, 513: 2, 514: 2, 515: 2, 516: 2, 517: 2, 518: 2, 519: 2, 520: 2, 521: 2, 522: 2}
 @institute=CLARIAH-Huygens-INT-DANS
 @language=nld
 @project=daghregister
+@published=1887
+@publisher=Batavia Landsdrukkerij and M. Nijhoff, 's Hage
 @researcher=Lodewijk Petram
 @sourceFormat=HTML => TSV (tab-separated)
+@subtitle=gehouden int Casteel Batavia vant passerende daer ter plaetse als over geheel Nederlandts-India
+@tailPages=525
+@title=Dagh-Register
 @valueType=str
+@volume=Anno 1640-1641
+@years=1640,1641
 @writtenBy=Text-Fabric
-@dateWritten=2021-11-23T16:00:44Z
+@dateWritten=2021-11-26T12:38:05Z
 
-int
-en
-door
-het
-Bataviaaseh
-Genootschap
-ran
-Eonsten
-en
-WetenschappeD
-met
-medewerking
-yan
-de
-Nederlandseh-Indisehe
-Regeering
-en
-onder
-toezicht
-VAN
-M
-J
-A
-VM
-DER
-CHJS
-■■"—&gt;/\\AAAAAAAnAAAA^v
-
-
-BATAVIA
-)SDRUKKERIJ
-1887
-'sHAGE
-M
-NIJHOFF
 Ü
 
 ,0
@@ -344,7 +320,7 @@ dier
 dagregisters
 reeds
 van
-i&amp;ii
+i&ii
 toen
 Heeren
 XVII
@@ -382,7 +358,7 @@ Moluques
 Amboina
 Banda
 Patana
-y&gt
+y
 Japon
 Jambi
 Paleacatte
@@ -395,7 +371,7 @@ op
 alle
 plaetsen
 daer
-y&gt;eenige
+y>eenige
 camptoiren
 zyn
 van
@@ -433,7 +409,7 @@ van
 aen
 ons
 met
-y&gt;alle
+y>alle
 schepen
 successivelyck
 copie
@@ -444,7 +420,7 @@ om
 ons
 daermede
 te
-7&gt;behelpen
+7>behelpen
 des
 nodich
 synde
@@ -691,7 +667,7 @@ December
 
 1732
 
-«&gt
+
 
 Januarij
 
@@ -839,7 +815,7 @@ t'adsisteren
 mitsgaders
 die
 van
-i&gt;den
+i>den
 Raede
 grondige
 kennisse
@@ -847,7 +823,7 @@ ende
 experientie
 van
 des
-Comp&gt
+Comp
 generalen
 standt
 hier
@@ -885,7 +861,7 @@ Zie
 achter
 bladz
 72
-:s&gt;ende
+:s>ende
 g'arresteert
 het
 generaele
@@ -896,7 +872,7 @@ hier
 te
 lande
 dat
-y&gt;tot
+y>tot
 noch
 toe
 hy
@@ -933,7 +909,7 @@ advysen
 van
 dckx
 quartier
-r&gt;pertinent
+r>pertinent
 te
 registreren
 ende
@@ -947,7 +923,7 @@ te
 geven
 poincten
 van
-i&gt;syn
+i>syn
 Ed
 volgens
 d'intentie
@@ -966,7 +942,7 @@ alsoo
 onder
 d*aenwesende
 Raedspersootwn
-t&gt;(buyten
+t>(buyten
 den
 E
 Comelis
@@ -998,7 +974,7 @@ te
 verdeelen
 als
 namentlyck
-t&gt;den
+t>den
 E
 Johan
 Maetsuycker
@@ -1045,7 +1021,7 @@ residentie
 te
 weten
 Mauritius
-)&gt;eylant
+)>eylant
 Sumatras
 Westcust
 Jamby
@@ -1071,7 +1047,7 @@ Queda
 Pera
 Bangary
 etuie
-y&gt;Salangh
+y>Salangh
 Malacca
 Patany
 Sangora
@@ -1084,7 +1060,7 @@ n'teylant
 Formosa
 ende
 Japan
-y&gt;den
+y>den
 E
 Saloman
 Sweers
@@ -1103,7 +1079,7 @@ van
 India
 ende
 Ceylon
-j&gt;ende
+j>ende
 den
 Secretaris
 deser
@@ -1111,10 +1087,10 @@ vergaderingh
 Pieler
 Mestdagh
 Choromandel
-r&gt;Bengale
+r>Bengale
 ende
 Pegu
-y&gt;mits
+y>mits
 dat
 gemelten
 Secretaris
@@ -1145,7 +1121,7 @@ dese
 besoignes
 haren
 aenvangh
-y&gt;primo
+y>primo
 Novemfyer
 passato
 tot
@@ -1177,7 +1153,7 @@ Gameren
 der
 Oost
 Indische
-y&gt;Gomp
+y>Gomp
 gesonden
 syn
 Op
@@ -2984,7 +2960,7 @@ den
 do
 goetgevonden
 den
-2&lt
+2
 Augusty
 daer
 aenvolgende
@@ -5274,7 +5250,7 @@ anders
 ontlangen
 als
 geit
-dat&lt;e
+dat<e
 kennen
 daerom
 sal
@@ -6291,7 +6267,7 @@ Chineese
 coopmanschappen
 alsmede
 een
-laml&gt;oe
+laml>oe
 nae
 Succadana
 met
@@ -7317,7 +7293,7 @@ retourne
 neffens
 gemelte
 fluyt
-do&gt
+do
 jacht
 in
 comp
@@ -8939,7 +8915,7 @@ voor
 de
 ordinarie
 ende
-re&lt;lelycke
+re<lelycke
 ondermaet
 by
 provisie
@@ -9229,7 +9205,7 @@ dat
 deselve
 tot
 Va
-ré&amp;el
+ré&el
 ofte
 ^/g
 qualyck
@@ -10272,7 +10248,7 @@ oock
 successivelyck
 soodanigh
 hadde
-l&gt;enaerstight
+l>enaerstight
 met
 fondamentale
 redenen
@@ -12431,7 +12407,7 @@ van
 't
 contract
 overluyt
-uytgeroei&gt;en
+uytgeroei>en
 hebben
 Daeromme
 ick
@@ -14720,7 +14696,7 @@ van
 nu
 aff
 den
-oork&gt;gh
+oork>gh
 aen
 denselven
 God
@@ -16690,7 +16666,7 @@ sulcx
 aendiende
 ben
 ick
-n&gt;et
+n>et
 alle
 de
 overigheyt
@@ -18932,7 +18908,7 @@ ende
 den
 20
 ende
-26«"&gt
+26
 Augusty
 Grypskerck
 en
@@ -28753,7 +28729,7 @@ hem
 int
 repareren
 van
-Comp&lt
+Comp
 wooninge
 tot
 Bantam
@@ -30623,7 +30599,7 @@ haer
 E
 geen
 eerlyck
-Comp&lt
+Comp
 dienaer
 van
 ondiscretie
@@ -31049,7 +31025,7 @@ Maestricht
 vande
 Gamer
 Rotterdam
-geweest&gt
+geweest
 doch
 by
 westen
@@ -32232,7 +32208,7 @@ moet
 opdroegh
 De
 cleeden
-v&lt;raren
+v<raren
 alle
 verhandelt
 (uytgesondert
@@ -32577,7 +32553,7 @@ Comp
 gecocht
 gescheept
 Den
-14&lt
+14
 do
 vertrecken
 d'onderstaende
@@ -40069,7 +40045,7 @@ dien
 glorieusen
 coloriken
 Coninck
-Comp&lt
+Comp
 saecken
 ten
 besten
@@ -43322,7 +43298,7 @@ van
 gebracht
 ende
 aen
-&amp
+
 Chinanna
 vercocht
 bleven
@@ -45739,7 +45715,7 @@ soude
 gelyek
 oock
 den
-2«'&gt
+2
 dagh
 daeraen
 synde
@@ -54872,7 +54848,7 @@ catchouw
 
 oliphantstanden
 10120
-&gt
+
 wierook
 als
 andere
@@ -58280,12 +58256,12 @@ rode
 sware
 gilems
 1228
-&gt
+
 roode
 sware
 pangsjes
 256
-&gt
+
 sware
 damasten
 alderhande
@@ -59219,7 +59195,7 @@ nevens
 eenige
 complementos
 versoeckl
-vo&lt;5rs
+vo<5rs
 vaertuygh
 tolvry
 gehouden
@@ -61629,7 +61605,7 @@ vande
 muscus
 mede
 niet
-gesupple&lt;ert
+gesupple<ert
 werden
 hebbende
 niet
@@ -61638,7 +61614,7 @@ als
 18
 tayl
 V4
-&lt;^^6s
+<^^6s
 swaerte
 goeden
 ditto
@@ -63233,7 +63209,7 @@ als
 eenige
 cleeden
 1
-&gt
+
 Biema
 met
 cleeden
@@ -63242,7 +63218,7 @@ Chinese
 coopmanschappen
 ende
 2
-&gt
+
 Bantam
 uytvoerende
 eenige
@@ -63412,7 +63388,7 @@ mede
 gebracht
 van
 dato
-21&lt
+21
 do
 doch
 meest
@@ -65218,7 +65194,7 @@ wert
 Waeniyt
 gemelte
 heer
-Taeckemond&lt
+Taeckemond
 besloot
 dat
 der
@@ -66114,7 +66090,7 @@ syn
 May
 rede
 sp
-E&lt
+E
 comste
 bekent
 was
@@ -67194,7 +67170,7 @@ geschrift
 advis
 vanden
 rycxraet
-Taeckemond&lt
+Taeckemond
 ende
 den
 heer
@@ -70789,8 +70765,6 @@ dat
 in
 eenige
 io
-3i
-DECEMBER
 havenen
 sullen
 geparesceert
@@ -71132,7 +71106,7 @@ f
 Van
 CAMBODJA
 Den
-10&lt
+10
 Augusly
 de
 fluyt
@@ -73645,7 +73619,7 @@ hadde
 syn
 gelove
 verlochent
-seggende&gt
+seggende
 dat
 gemeent
 hadde
@@ -76536,7 +76510,7 @@ jonghste
 in
 dato
 deu
-6&lt
+6
 November
 per
 Ackerslooth
@@ -76928,7 +76902,7 @@ ten
 dienste
 van
 d'E
-Comp&lt
+Comp
 overgelecht
 is
 *T
@@ -81297,7 +81271,7 @@ die
 aldaer
 voor
 13
-&amp
+
 14hondert
 tangen
 ingecocht
@@ -84710,7 +84684,7 @@ der
 Ghinesen
 versoeck
 in
-Gomp&lt
+Gomp
 packhuysen
 opgeslagen
 ende
@@ -85363,7 +85337,7 @@ met
 37
 i*^el
 P^r
-pi&lt;^l
+pi<^l
 niet
 conden
 behouden
@@ -87152,7 +87126,7 @@ Comp
 schuldigh
 was
 voors
-Wanghsa&lt;yepa
+Wanghsa<yepa
 versocht
 by
 syn
@@ -88134,7 +88108,7 @@ reparatie
 van
 node
 te
-hd&gt;ben
+hd>ben
 vande
 rhede
 van
@@ -88191,7 +88165,7 @@ affgescheyden
 ende
 hadden
 op
-25&lt
+25
 Novei]ri)er
 't
 jacht
@@ -90308,7 +90282,7 @@ tot
 tyt
 by
 de
-Comp&lt
+Comp
 getrocken
 wierden
 soo
@@ -91427,7 +91401,7 @@ Gfoa
 in
 dato
 den
-5^&lt
+5
 November
 voorleeden
 mitsgaders
@@ -91922,7 +91896,7 @@ Portagesen
 boosdadicheyt
 in
 Wingerla
-Gomp&lt
+Gomp
 dienaeren
 ende
 middelen
@@ -91987,7 +91961,7 @@ van
 'sComp
 jacht
 Pranicker
-lnd&lt;&gt
+lnd
 Abdul
 daermede
 hem
@@ -94403,7 +94377,7 @@ ingeladen
 24406
 
 Ultimo
-&lt;f
+<f
 arriveert
 't
 jacht
@@ -96278,7 +96252,7 @@ Hurt
 als
 andere
 raden
-versc&amp;eyde
+versc&eyde
 malen
 aensproocken
 synde
@@ -96603,7 +96577,7 @@ den
 gouverneur
 overhandicht
 ende
-daeroi&gt
+daeroi
 g^isponeert
 te
 werden
@@ -98986,7 +98960,7 @@ syn
 May
 verwachten
 mitsgaders
-&lt;lat
+<lat
 soo
 veele
 goederen
@@ -99560,7 +99534,7 @@ vande
 gutta
 gomma
 
-&gt
+
 42
 item
 vanden
@@ -99797,7 +99771,7 @@ Den
 November
 waeren
 aldaer
-?&gt
+
 Macassaerse
 vaertuygen
 aengecomen
@@ -101063,7 +101037,7 @@ vanden
 voorleeden
 jaere
 tusschen
-22&lt
+22
 July
 ende
 IS
@@ -107009,7 +106983,7 @@ cabessa
 crusados
 bariga
 1
-d&lt;&gt
+d
 ende
 pee
 3
@@ -107356,7 +107330,7 @@ met
 rys
 6
 gantafighs
-d&lt;&gt
+d
 maeckende
 
 8
@@ -108579,7 +108553,7 @@ netten
 d
 gaeren
 9
-&amp
+
 suycker
 2
 boeyons
@@ -114097,7 +114071,7 @@ dat
 de
 voors
 lOOO
-l&gt;har
+l>har
 voor
 de
 forlresse
@@ -116366,7 +116340,7 @@ in
 Cambodja
 voor
 7^2
-t&amp;ü
+t&ü
 in
 betalinge
 passeeren
@@ -117162,7 +117136,7 @@ over
 quam
 Den
 ouden
-Ck&gt;ninck
+Ck>ninck
 hadde
 den
 brieff
@@ -117788,7 +117762,7 @@ contingh
 van
 Japara
 met
-&amp
+
 man
 gdaden
 met
@@ -117830,7 +117804,7 @@ daeronder
 8S
 soldaten
 naer
-Geyk&gt;n
+Geyk>n
 ende
 Choromandel
 met
@@ -118297,7 +118271,7 @@ naer
 Battangh
 met
 116
-dit&lt
+dit
 als
 2
 tinganghs
@@ -119982,7 +119956,7 @@ hooft
 gepraet
 ende
 is
-&amp
+
 Hertsinck
 voornoemt
 van
@@ -121827,7 +121801,7 @@ laecken
 d
 swert
 50
-&gt
+
 gefigureerde
 satynen
 met
@@ -125004,7 +124978,7 @@ geen
 onrecht
 toegereeckent
 wert
-d&lt
+d
 vellen
 waren
 gecargeert
@@ -129219,7 +129193,7 @@ daeronder
 soldalen
 waeren
 den
-12&lt;*February
+12<*February
 seer
 desolaet
 aen
@@ -129629,7 +129603,7 @@ Volgens
 't
 advis
 vande
-H"&gt
+H
 Majores
 souden
 uyt
@@ -131664,7 +131638,7 @@ attal
 rolle
 goutlaecken
 2
-d&lt
+d
 fluweel
 4
 siouwels
@@ -134465,7 +134439,7 @@ voorraet
 picol
 sappanhout
 181
-•&gt
+
 Siams
 tin
 268
@@ -134507,7 +134481,7 @@ cattj
 oliphanls
 lauden
 114
-&gt
+
 agulhoul
 6
 stx
@@ -135520,7 +135494,7 @@ synde
 den
 2
 Maert
-a&lt
+a
 1641
 Soo
 becomt
@@ -135805,7 +135779,7 @@ soo
 Moorse
 als
 Maleyse
-l&gt;ootsgesellen
+l>ootsgesellen
 t'samen
 61
 persoonen
@@ -136354,7 +136328,7 @@ Amboina
 geladen
 met
 ÏÈ
-234I&gt;59
+234I>59
 giroffel
 nagelen
 bedragende
@@ -142351,7 +142325,7 @@ altyt
 3
 4
 a
-&amp
+
 corcorren
 int
 Hittoese
@@ -142462,7 +142436,7 @@ te
 copen
 ende
 aende
-Gomp&lt
+Gomp
 te
 leveren
 daerop
@@ -143532,7 +143506,7 @@ Chinesen
 desen
 jare
 met
-Comp&lt
+Comp
 schepen
 derwaerts
 genavigeert
@@ -145716,7 +145690,7 @@ gevolcht
 den
 brieff
 vanden
-Cap&lt
+Cap
 Moor
 welckers
 inhout
@@ -146101,7 +146075,7 @@ ses
 coyanghs
 padje
 2
-d&lt
+d
 rys
 45
 pi
@@ -147283,7 +147257,7 @@ niet
 geparesseert
 dat
 de
-Gomp&lt
+Gomp
 in
 veelen
 schadelyck
@@ -148618,7 +148592,7 @@ off
 3
 a
 4
-r&lt
+r
 p
 man
 achabarj
@@ -150053,7 +150027,7 @@ Amadabat
 ingecocht
 a
 21
-r&lt;&gt
+r
 pr
 corge
 d
@@ -151742,7 +151716,7 @@ in
 Soir
 Porodera
 74
-r®-&gt
+r
 
 Samloot
 ende
@@ -153210,7 +153184,7 @@ d'Oude
 Leeuw
 was
 op
-22^&gt
+22
 Marty
 geheel
 lecq
@@ -156292,9 +156266,6 @@ veelen
 alteratie
 gecauseert
 heeft
-528
-23
-MAYÜS
 U
 E
 versoucken
@@ -161274,7 +161245,7 @@ coopmanschappen
 ende
 5Ó
 realen
-contant&gt
+contant
 22
 2
 tingaDghs
@@ -164221,7 +164192,7 @@ Jan
 de
 Yinck
 tot
-Bantam&gt
+Bantam
 doch
 van
 geen
@@ -164237,7 +164208,7 @@ daer
 noch
 onthielden
 18
-d&lt;f
+d<f
 comt
 een
 contingh
@@ -164324,7 +164295,7 @@ die
 den
 oppercoopman
 Carel
-Hertsinck&gt
+Hertsinck
 in
 Toncquin
 om
@@ -164627,7 +164598,7 @@ Op
 dato
 is
 inde
-voornacht&gt
+voornacht
 ontrent
 den
 elff
@@ -165019,7 +164990,7 @@ patelen
 rollen
 satp
 5
-&amp
+
 fluweel
 ende
 10
@@ -166156,7 +166127,7 @@ versocht
 hebben
 U
 Ed
-&gt;Tye
+>Tye
 passé
 haeren
 tVeegen
@@ -167889,7 +167860,7 @@ schryven
 waeren
 aldaer
 op
-12&lt
+12
 May
 drye
 prauwen
@@ -168055,7 +168026,7 @@ verliesen
 Den
 Coninck
 had
-d'Comp&lt
+d'Comp
 eyndelyck
 volgens
 syn
@@ -169288,7 +169259,7 @@ claer
 doen
 maecken
 16
-&lt;t
+<t
 hadden
 de
 scheepen
@@ -170537,7 +170508,7 @@ diversche
 cleeden
 ende
 40
-&amp
+
 in
 geldt
 4
@@ -177115,7 +177086,7 @@ den
 20
 Jnly
 stonden
-Gomp^&gt
+Gomp
 saecken
 in
 Macassar
@@ -178455,9 +178426,6 @@ te
 beginnen
 een
 merckelyck
-31
-JÜLIÜS
-377
 ontselh
 derwaerts
 gesonden
@@ -178553,7 +178521,7 @@ tot
 ende
 uytterlyck
 60
-r&lt
+r
 d'man
 36
 duysent
@@ -179732,7 +179700,7 @@ niet
 meer
 als
 l^i
-r&lt;&gt
+r
 d'man
 van
 36
@@ -179784,7 +179752,7 @@ niet
 meer
 als
 9
-r&gt
+r
 d'corge
 hadden
 op
@@ -180572,7 +180540,7 @@ de
 vruchten
 (die
 ü
-Ed&lt
+Ed
 eygentlyck
 toecomen
 te
@@ -180613,7 +180581,7 @@ ons
 kennelyck
 is
 U
-Ed&lt
+Ed
 niet
 soo
 onachtsaem
@@ -181746,7 +181714,7 @@ een
 suyver
 oprecht
 hart
-4&lt
+4
 d
 arriveeren
 hier
@@ -185813,7 +185781,7 @@ periculeus
 te
 leggen
 gebracht
-te&gt
+te
 werden
 dat
 opt
@@ -189887,7 +189855,7 @@ met
 gout
 ingeleyt
 een
-d&lt;&gt
+d
 veurxken
 met
 d
@@ -191741,7 +191709,7 @@ Pera
 mitsgaders
 den
 oppercoopman
-Ck&gt;melis
+Ck>melis
 van
 Sanen
 met
@@ -193542,7 +193510,7 @@ meeste
 gedeelte
 vande
 oncosten
-l&gt;etaelen
+l>etaelen
 hebbe
 naergelaeten
 van
@@ -197917,7 +197885,7 @@ Neptunis
 (dat
 op
 den
-18^&gt;&gt
+18
 d
 van
 Gamron
@@ -199753,7 +199721,7 @@ met
 duysent
 realen
 van
-8&lt
+8
 in
 specie
 ende
@@ -199956,7 +199924,7 @@ aen
 cleeden
 ende
 15
-d&lt
+d
 contant
 mitsgaders
 den
@@ -206060,7 +206028,7 @@ gelegentbeyt
 der
 Spanjaerden
 in
-Moluc&lt;x
+Moluc<x
 stont
 boven
 maten
@@ -211021,7 +210989,7 @@ een
 cargasoen
 van
 1317774
-&lt;^^^U
+<^^^U
 Banda
 suyvere
 macis
@@ -214640,7 +214608,7 @@ door
 syn
 tusschen
 spreecken
-e&amp;k
+e&k
 goede
 vreede
 te
@@ -219510,7 +219478,7 @@ geordonneerde
 uyt
 Heemskercken
 overgelevert
-hd&gt;beDde
+hd>beDde
 voorts
 naer
 Siam
@@ -223381,7 +223349,7 @@ schipper
 op
 d'Royale
 Marye
-14&lt
+14
 d
 arriveeren
 een
@@ -224132,7 +224100,7 @@ contant
 ende
 een
 contingh
-na&amp
+na
 Lampon
 met
 2
@@ -224552,7 +224520,7 @@ aen
 cleeden
 ende
 20
-d&lt
+d
 contant
 een
 nae
@@ -228301,7 +228269,7 @@ was
 den
 Coninck
 op
-18d&lt
+18d
 uyt
 Candia
 met
@@ -228437,11 +228405,6 @@ ofte
 Coetiarum
 te
 ontfangen
-VAN
-PERSONEN
-EN
-PLAATS-NAMEN
-
 -A
 Accoley
 (C
@@ -228626,7 +228589,7 @@ b
 t
 Cberibon
 voor
-&gt;Serrabon
+>Serrabon
 Kakiali
 voor
 •Cackialy
@@ -228650,11 +228613,6 @@ in
 den
 tekst
 voorkomen
-REGISTER
-VAN
-PERSONEN
-EN
-PLAATS-NAMEN
 Angke
 (riv
 van
@@ -228989,7 +228947,6 @@ Banda
 575
 445
 471
-487
 Bandanezen
 4
 125
@@ -229338,11 +229295,6 @@ C
 190
 -194
 419
-REGISTER
-VAN
-PERSONEN
-EN
-PLAATS-NAMEN
 Boano
 46
 47
@@ -229547,7 +229499,7 @@ de
 Cabo
 Verde
 160
-!&gt
+
 de
 Rochado
 366
@@ -229676,7 +229628,6 @@ Ceilon
 478
 479
 485
-489
 Celebes
 588
 Ceram
@@ -230054,11 +230005,6 @@ Gouchitchia
 Courten
 (M
 3
-REGISTER
-VAN
-PERSONEN
-EN
-PLAATS-NAMËN
 Crappe
 270
 Craudenius
@@ -230396,12 +230342,11 @@ Dortsman
 446
 Duinkerkers
 211
-491
 Dumbra
 93
 Duycker
 253
-2&amp;6
+2&6
 Duyns
 404
 Duyvel
@@ -230692,11 +230637,6 @@ Gardenys
 468
 464
 478
-REGISTER
-VAN
-PERSONEN
-EN
-PLAATS-NAMEN
 Gardiner
 (6
 405
@@ -231012,7 +230952,6 @@ Hangamat
 197
 Hangsaboet
 466
-495
 Hangsia
 466
 Hangtando
@@ -231338,11 +231277,6 @@ Insdono
 Insno-kami
 146
 146
-REGISTER
-VAN
-PERSONEN
-EN
-PLAATS-NAMEN
 Ipere
 Moedi
 500
@@ -231673,7 +231607,6 @@ i91
 292
 298
 572
-495
 Kaja
 (kapilan-laul
 21
@@ -231975,11 +231908,6 @@ Koialischom
 516
 Kokora
 146
-REGISTER
-VAN
-PERSONEN
-EN
-PLAATS-NAMEN
 Kombelo
 47
 49
@@ -232285,7 +232213,6 @@ Leonardo
 92
 95
 09
-497
 Lequesche
 eil
 152
@@ -232657,11 +232584,6 @@ Makasar
 468
 475—477
 32
-REGISTER
-VAN
-PERSONEN
-EN
-PLaaTS-NAMEN
 Makasaren
 47—49
 52
@@ -232732,7 +232654,7 @@ Malaka
 60
 62
 68—70
-7&gt
+7
 86
 90
 108
@@ -233062,7 +232984,6 @@ Mataram
 Malavani
 (Sultan
 221
-499
 Matau
 265
 Mateliefif
@@ -233363,11 +233284,6 @@ Nala
 Doeta
 (kiai
 215
-ftEGïSTER
-VAN
-PERSONEN
-EN
-PLAATS-NAMEN
 Nangaia
 263
 Nangasaki
@@ -233639,7 +233555,6 @@ d
 482
 Ongarang
 226
-501
 Onrust
 (eil
 166
@@ -233981,11 +233896,6 @@ Payacha
 Pays
 (J
 295
-REGISTER
-VAN
-PERSONEN
-EN
-PLAATS-NAMEN
 Pedel
 114
 Peeckel
@@ -234396,7 +234306,6 @@ x243
 469
 475
 481—483
-SOS
 Post
 (A
 366
@@ -234460,7 +234369,7 @@ Corlas
 Queda
 zie
 Këdah
-&lt;s
+<s
 Quelquepoeti
 456
 Quesnoy
@@ -234675,11 +234584,6 @@ de
 555
 388
 420
-REGISTER
-VAN
-PERSONEN
-EN
-PLAATS-NAMEN
 s
 Sa^a
 454
@@ -234984,7 +234888,6 @@ Siaul
 206
 Sibel
 572
-mn
 Sibideradja
 3
 68
@@ -235302,7 +235205,7 @@ Chichorro
 M
 de
 221
-&gt
+
 de
 Meneses
 (D
@@ -235336,11 +235239,6 @@ Spanjaarden
 456
 459
 448
-REGISTER
-VAN
-PERSONEN
-EN
-PLAATS-NAMEN
 Spanje
 42
 85
@@ -235389,7 +235287,7 @@ Brouwer
 
 Doerion
 365
-&gt
+
 Soenda
 11
 61
@@ -235694,7 +235592,6 @@ Tellouw
 Teuimber
 16
 505
-507
 Ternatanen
 47
 51
@@ -235987,11 +235884,6 @@ Utrecht
 üylhoeck
 (C
 25
-REGISTER
-VAN
-PERSONEN
-EN
-PLAATS-NAMEN
 -\\7
 Vadaer
 (Intje
@@ -236284,7 +236176,6 @@ Wirwasaroem
 
 Wisondas
 517
-509
 With
 (S
 de
@@ -236408,4 +236299,6 @@ Januarij
 December
 1768
 enz
+Digitized
+by
 Google

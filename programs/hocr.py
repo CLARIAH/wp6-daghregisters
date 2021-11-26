@@ -41,18 +41,32 @@ CLSLESS_ELEM = {"table", "tr", "td"}
 
 
 class Hocr:
-    def __init__(self):
-        self.config()
+    def __init__(self, volume):
+        self.volume = volume
+        self.good = self.config()
 
     def config(self):
+        volume = self.volume
+
         C = Config()
+        if not C.checkVolume(volume):
+            return False
+
         self.C = C
-        self.source = f"{C.local}/{C.name}_chocr.html"
-        self.simpleSource = f"{C.local}/{C.name}_chocr.tsv"
-        self.dest = f"{C.local}/{C.name}_words.tsv"
+        self.source = f"{C.local}/{C.volumeName(volume)}_chocr.html"
+        self.simpleSource = f"{C.local}/{C.volumeName(volume)}_chocr.tsv"
+        self.dest = f"{C.local}/{C.volumeName(volume)}_words.tsv"
+        return True
 
     def simplify(self):
+        if not self.config():
+            return
+
         source = self.source
+
+        if not os.path.exists(source):
+            print(f"Source file does not exist: {source}")
+
         simpleSource = self.simpleSource
         print("Simplifying HOCR source")
 
@@ -109,6 +123,14 @@ class Hocr:
                 match = contentRe.search(line)
                 if match:
                     content = match.group(1)
+                    content = (
+                        content.replace("&lt;", "<")
+                        .replace("&gt;", ">")
+                        .replace("&apos;", "'")
+                        .replace("&quot;", '"')
+                        .replace("&amp;", "&")
+                    )
+
                     outFields.append(content)
 
                 match = titleRe.search(line)
@@ -149,6 +171,15 @@ class Hocr:
             print("OK")
 
     def read(self):
+        if not self.config():
+            return
+
+        simpleSource = self.simpleSource
+
+        if not os.path.exists(simpleSource):
+            print(f"Simpliefied source file does not exist: {simpleSource}")
+
+        self.config()
         C = self.C
 
         cur = {
@@ -165,17 +196,18 @@ class Hocr:
         }
         amount = {
             PAGE: 0,
-            PHOTO: 0,
-            TABLE: 0,
-            TR: 0,
-            TD: 0,
             AREA: 0,
             PARA: 0,
             LINE: 0,
             WORD: 0,
             CHAR: 0,
         }
-        simpleSource = self.simpleSource
+        other = {
+            PHOTO: 0,
+            TABLE: 0,
+            TR: 0,
+            TD: 0,
+        }
         self.amount = amount
         boundaryFixes = set()
         self.boundaryFixes = boundaryFixes
@@ -205,6 +237,8 @@ class Hocr:
                         cur[WORD] = 0
                         cur[CHAR] = 0
                     elif container in {AREA, TD}:
+                        if container == TD:
+                            other[container] += 1
                         amount[AREA] += 1
                         cur[PARA] = 0
                         cur[WORD] = 0
@@ -221,6 +255,8 @@ class Hocr:
                         if not thinSpace:
                             amount[WORD] += 1
                             cur[CHAR] = 0
+                    else:
+                        other[container] += 1
                 elif line.startswith("∩"):
                     container = content[1:]
                     if container == WORD and thinSpace:
@@ -269,6 +305,16 @@ class Hocr:
         )
 
         print("Statistics:")
+        for (kind, n) in other.items():
+            if kind == PHOTO:
+                msg = "skipped"
+            elif kind in {TABLE, TR}:
+                msg = "ignored"
+            elif kind == TD:
+                msg = f"changed to {AREA}"
+            else:
+                msg = "OVERLOOKED!!!"
+            print(f"{kind:<10}: {n:>7} x {msg}")
         for (kind, n) in amount.items():
             if kind == CHAR:
                 print(f"{kind:<10}: {n:>7} x minus {thinSpaces} = {n - thinSpaces}")
@@ -281,6 +327,9 @@ class Hocr:
         print("OK")
 
     def wordify(self):
+        if not self.config():
+            return
+
         simplified = self.simplified
         boundaryFixes = self.boundaryFixes
 
@@ -350,11 +399,15 @@ class Hocr:
             print(f"line {k:>7}: {before} + {punc}")
 
     def clean(self):
+        if not self.config():
+            return
+
+        volume = self.volume
         C = self.C
         rawWords = self.rawWords
         amount = self.amount
-        frontPages = C.frontPages
-        headerLines = C.headerLines
+        frontPages = C.volumeInfo[volume]["frontPages"]
+        tailPages = C.volumeInfo[volume]["tailPages"]
         diag = C.diag
 
         if not os.path.exists(diag):
@@ -362,14 +415,16 @@ class Hocr:
 
         skips = set()
 
+        pre = ""
         if frontPages:
             pre = f"{frontPages} front pages and "
+        if tailPages >= 0:
+            pre += f"end pages from page {tailPages} and "
         print(f"Removing {pre}'Digitized by Google'")
 
         curPage = None
         entries = 0
         missed = 0
-        headLines = collections.defaultdict(list)
 
         def step():
             nonlocal entries
@@ -400,15 +455,12 @@ class Hocr:
             j,
             (i, page, area, para, line, word, letters, punc, confidence),
         ) in enumerate(rawWords):
-            if page <= frontPages:
+            if page <= frontPages or tailPages >= 0 and page >= tailPages:
                 skips.add(j)
             else:
                 if page != curPage:
                     step()
                     curPage = page
-                if line <= headerLines.get(page, headerLines.get(0, 0)):
-                    headLines[page].append((i, letters, punc))
-                    skips.add(j)
         step()
 
         words = []
@@ -420,25 +472,17 @@ class Hocr:
 
         print(f"Missed 'Digitized by Google' {missed} x")
         print(f"Deleted 'Digitized by Google' {entries} x")
-        print(f"Deleted the header line of {len(headLines)} pages")
         print(f"{len(words)} words")
         print(f"Not counting {len(skips)} skipped words")
         print(
             f"Did all other words make it into the word records?"
             f" {amount[WORD] - len(skips) == len(words)}"
         )
-        hFile = f"{diag}/headlines.tsv"
-        with open(hFile, "w") as dh:
-            dh.write("index\tpage\ttext\n")
-
-            for (page, headInfo) in headLines.items():
-                letters = "".join(f"{info[1]}{info[2]}" for info in headInfo)
-                start = headInfo[0][0]
-                end = headInfo[-1][0]
-                dh.write(f"{start}-{end}\t{page}\t{letters}\n")
-        print(f"See {hFile} for removed header lines")
 
     def write(self):
+        if not self.config():
+            return
+
         words = self.words
         dest = self.dest
 
