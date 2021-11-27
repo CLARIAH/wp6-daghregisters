@@ -11,14 +11,17 @@ SEP = "\t"
 
 SLOT_TYPE = "word"
 
-GENERIC = dict(
-    language="nld",
-    institute="CLARIAH-Huygens-INT-DANS",
-    project="daghregister",
-    researcher="Lodewijk Petram",
-    converters="Dirk Roorda",
-    sourceFormat="HTML => TSV (tab-separated)",
-) | C.seriesInfo
+GENERIC = (
+    dict(
+        language="nld",
+        institute="CLARIAH-Huygens-INT-DANS",
+        project="daghregister",
+        researcher="Lodewijk Petram",
+        converters="Dirk Roorda",
+        sourceFormat="HTML => TSV (tab-separated)",
+    )
+    | C.seriesInfo
+)
 
 OTEXT = {
     "fmt:text-orig-full": "{letters}{punc} ",
@@ -28,7 +31,7 @@ OTEXT = {
 
 TYPE_MAP = ["page", "para", "line"]
 
-INT_FEATURES = {"n"}
+INT_FEATURES = {"n", "year", "month", "dayfrom", "dayto"}
 
 FEATURE_META = {
     "years": {
@@ -47,9 +50,29 @@ FEATURE_META = {
         "description": "punctuation and/or space immediately after a word",
         "format": "string",
     },
+    "side": {
+        "description": "whether the page is a left or right page",
+        "format": "string, either L or R",
+    },
     "head": {
-        "description": "contents of the header line of each page",
+        "description": "raw contents of the header line of each page",
         "format": "string",
+    },
+    "year": {
+        "description": "year covered by a page",
+        "format": "integer",
+    },
+    "month": {
+        "description": "month covered by a page",
+        "format": "integer",
+    },
+    "dayfrom": {
+        "description": "first day covered by a page",
+        "format": "integer",
+    },
+    "dayto": {
+        "description": "last day covered by a page",
+        "format": "integer",
     },
 }
 
@@ -57,6 +80,7 @@ FEATURE_META = {
 def convert(volume):
     global VOLUME
     global SRC_FILE
+    global HEADER_FILE
 
     if not C.checkVolume(volume):
         return
@@ -64,6 +88,7 @@ def convert(volume):
     VOLUME = volume
 
     SRC_FILE = f"{C.local}/{C.volumeName(VOLUME)}_words.tsv"
+    HEADER_FILE = f"{C.auxDir}/{C.volumeNameNum(volume)}/heads.tsv"
 
     tfVersion = C.tfVersion
     tfDir = f"{C.tfDir}/{VOLUME:>03}"
@@ -92,36 +117,47 @@ def director(cv):
     See `fusus.convert` for a description of the fields in the TSV files.
     """
 
-    headerLines = C.volumeInfo[VOLUME]["headerLines"]
-
     errors = collections.defaultdict(set)
 
     cur = [None, None, None]
     prev = [None, None, None]
     nSec = len(prev)
 
-    def getData(dataFile, sep):
-        data = []
+    data = []
 
-        with open(dataFile) as fh:
-            next(fh)
-            for line in fh:
-                row = line.rstrip("\n").split(sep)[1:]
-                page = int(row[0])
-                para = int(row[2])
-                line = int(row[3])
-                letters = row[5]
-                punc = row[6]
-                conf = row[7]
-                row = (page, para, line, letters, punc, conf)
-                data.append(row)
-        return data
+    with open(SRC_FILE) as fh:
+        next(fh)
+        for line in fh:
+            row = line.rstrip("\n").split(SEP)[1:]
+            page = int(row[0])
+            para = int(row[2])
+            line = int(row[3])
+            letters = row[5]
+            punc = row[6]
+            conf = row[7]
+            row = (page, para, line, letters, punc, conf)
+            data.append(row)
 
-    data = getData(SRC_FILE, SEP)
+    headerLines = {}
+
+    with open(HEADER_FILE) as fh:
+        next(fh)
+        for line in fh:
+            (pageNum, side, okRep, year, month, dayFrom, dayTo, head) = line.rstrip(
+                "\n"
+            ).split("\t")
+
+            headerLines[int(pageNum)] = dict(
+                side=side,
+                year=int(year) if year else None,
+                month=int(month) if month else None,
+                dayfrom=int(dayFrom) if dayFrom else None,
+                dayto=int(dayTo) if dayTo else None,
+                head=head if head else None,
+            )
 
     vol = cv.node("volume")
     cv.feature(vol, n=VOLUME, years=C.volumeInfo[VOLUME]["years"])
-    curHead = None
 
     for (r, fields) in enumerate(data):
         for i in range(nSec):
@@ -129,22 +165,12 @@ def director(cv):
                 for j in reversed(range(i, nSec)):
                     cv.terminate(cur[j])
                     prev[j] = 0
-                if i == 0:
-                    page = fields[i]
-                    pageHeaderLines = headerLines.get(page, headerLines.get(0, 0))
                 for j in range(i, nSec):
-                    isLine = j == 2
-                    isHead = isLine and fields[j] <= pageHeaderLines
-                    if isHead:
-                        if fields[j] == 1:
-                            curHead = ""
-                    else:
-                        cn = cv.node(TYPE_MAP[j])
-                        cv.feature(cn, n=fields[j])
-                        cur[j] = cn
-                        if isLine and curHead is not None:
-                            cv.feature(cur[0], head=curHead.strip())
-                            curHead = None
+                    cn = cv.node(TYPE_MAP[j])
+                    cv.feature(cn, n=fields[j])
+                    if j == 0:
+                        cv.feature(cn, **headerLines[fields[j]])
+                    cur[j] = cn
                 break
         for i in range(nSec):
             prev[i] = fields[i]
@@ -152,13 +178,8 @@ def director(cv):
         letters = fields[3]
         punc = fields[4]
 
-        if curHead is None:
-            s = cv.slot()
-            cv.feature(s, letters=letters, punc=punc)
-        else:
-            curHead += f" {letters}{punc}"
-    if curHead is not None:
-        cv.feature(cur[0], head=curHead)
+        s = cv.slot()
+        cv.feature(s, letters=letters, punc=punc)
 
     for i in reversed(range(nSec)):
         if cur[i]:

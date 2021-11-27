@@ -1,10 +1,12 @@
 import os
 import collections
 import re
+from textwrap import dedent
 
 from Levenshtein import distance, ratio
 
 from config import Config
+from headconfig import Config as HeadConfig
 
 wordRe = re.compile(r"""^(.*?)(\W*)$""")
 endElemRe = re.compile(r"""^</(\S+)>$""")
@@ -39,6 +41,21 @@ clsDef = dict(
 IGNORE_ELEM = {"html", "head", "title", "meta", "body"}
 CLSLESS_ELEM = {"table", "tr", "td"}
 
+MONTH_LAST = {
+    1: 31,
+    2: 28,
+    3: 31,
+    4: 30,
+    5: 31,
+    6: 30,
+    7: 31,
+    8: 31,
+    9: 30,
+    10: 31,
+    11: 30,
+    12: 31,
+}
+
 
 class Hocr:
     def __init__(self, volume):
@@ -56,6 +73,10 @@ class Hocr:
         self.source = f"{C.local}/{C.volumeName(volume)}_chocr.html"
         self.simpleSource = f"{C.local}/{C.volumeName(volume)}_chocr.tsv"
         self.dest = f"{C.local}/{C.volumeName(volume)}_words.tsv"
+
+        HC = HeadConfig()
+        self.HC = HC
+
         return True
 
     def simplify(self):
@@ -404,27 +425,32 @@ class Hocr:
 
         volume = self.volume
         C = self.C
+        HC = self.HC
         rawWords = self.rawWords
         amount = self.amount
         frontPages = C.volumeInfo[volume]["frontPages"]
         tailPages = C.volumeInfo[volume]["tailPages"]
-        diag = C.diag
-
-        if not os.path.exists(diag):
-            os.makedirs(diag, exist_ok=True)
+        headLinePos = HC.lines[volume]
 
         skips = set()
 
-        pre = ""
-        if frontPages:
-            pre = f"{frontPages} front pages and "
-        if tailPages >= 0:
-            pre += f"end pages from page {tailPages} and "
-        print(f"Removing {pre}'Digitized by Google'")
+        print(
+            dedent(
+                f"""
+            Removing
+            * The first {frontPages} front pages
+            * The pages after page {tailPages}
+            * the strings Digitized by Google at the bottom of each page
+            Saving and removing
+            * The header lines of each page
+            """.strip()
+            )
+        )
 
         curPage = None
         entries = 0
         missed = 0
+        headWords = []
 
         def step():
             nonlocal entries
@@ -458,6 +484,10 @@ class Hocr:
             if page <= frontPages or tailPages >= 0 and page >= tailPages:
                 skips.add(j)
             else:
+                pageHeadLinePos = headLinePos.get(page, headLinePos.get(0, 0))
+                if line <= pageHeadLinePos:
+                    skips.add(j)
+                    headWords.append((page, f"{letters}{punc}"))
                 if page != curPage:
                     step()
                     curPage = page
@@ -470,8 +500,17 @@ class Hocr:
             if j not in skips:
                 words.append(w)
 
+        headLines = {}
+        self.headLines = headLines
+        for (page, word) in headWords:
+            headLines.setdefault(page, []).append(word)
+        for (page, wrds) in headLines.items():
+            headLines[page] = " ".join(wrds)
+        self.analyseHeads()
+
         print(f"Missed 'Digitized by Google' {missed} x")
         print(f"Deleted 'Digitized by Google' {entries} x")
+        print(f"Separated {len(headWords)} words in {len(headLines)} header lines")
         print(f"{len(words)} words")
         print(f"Not counting {len(skips)} skipped words")
         print(
@@ -479,14 +518,321 @@ class Hocr:
             f" {amount[WORD] - len(skips) == len(words)}"
         )
 
+    def analyseHeads(self, start=None, end=None, show=False):
+        HC = self.HC
+        volume = self.volume
+        corrections = HC.getData("corrections", volume, {})
+        monthsData = HC.getData("months", volume, {})
+        months = monthsData["entries"]
+        monthIndex = monthsData["index"]
+        monthHints = HC.getData("monthHints", volume, {})
+        dayHints = HC.getData("days", volume, {})
+        dayGaps = HC.getData("dayGaps", volume, {})
+        isRightStart = HC.getData("isRight", volume, {})
+
+        headLines = self.headLines
+
+        def matchMonth(word, show=False):
+            word = word.lower()
+            if word in monthHints:
+                return monthHints[word]
+
+            word = word.replace("ü", "u").replace("ë", "e").replace("é", "e")
+            rs = []
+            for (i, m) in enumerate(months):
+                r = ratio(m, word)
+                rs.append(r)
+
+            theI = None
+            maxR = max(rs)
+            maxI = [i for i in range(len(rs)) if rs[i] == maxR][0]
+            hiRep = ""
+            if maxR >= 0.54:
+                diff = 0.04 if maxR >= 0.7 else 0.09 if maxR >= 0.6 else 0.12
+                threshold = maxR - diff
+                highIs = [i for (i, r) in enumerate(rs) if r >= threshold]
+                if len(highIs) == 1:
+                    theI = maxI
+                    hiRep = f" single match >= {threshold:>.2f}"
+                else:
+                    hiRep = f" {len(highIs)} matches >= {threshold:.2f}"
+
+            if show:
+                print(f"{word} best match {maxR:.2f} {hiRep}")
+                for i in range(len(rs)):
+                    print(
+                        f"\t{'OK' if i == theI else 'XX'} ~{rs[i]:.2f} {months[i]:<12}"
+                    )
+            return None if theI is None else months[theI]
+
+        def separate(word, show=False):
+            if show:
+                print(f"ORIG: {word}")
+            for (occ, corr) in corrections.items():
+                word = word.replace(occ, corr)
+            if show:
+                print(f"CORR: {word}")
+
+            newWord = []
+            prevC = None
+            for c in word:
+                if prevC is not None:
+                    newWord.append(prevC)
+                    if (
+                        prevC.isalnum()
+                        and not c.isalnum()
+                        or not prevC.isalnum()
+                        and c.isalnum()
+                        and prevC != " "
+                    ):
+                        newWord.append(" ")
+                prevC = c
+            if prevC is not None:
+                newWord.append(prevC)
+            word = "".join(newWord)
+            newWord = []
+            prevC = None
+            for c in word:
+                if prevC is not None:
+                    newWord.append(prevC)
+                    if (
+                        prevC.isalpha()
+                        and not c.isalpha()
+                        or not prevC.isalpha()
+                        and c.isalpha()
+                        and prevC != " "
+                    ):
+                        newWord.append(" ")
+                prevC = c
+            if prevC is not None:
+                newWord.append(prevC)
+            newWord = "".join(newWord)
+            newWord = newWord.strip().split()
+            newWord = " ".join(newWord)
+            newWord = newWord.replace(" > ", ">")
+            newWord = newWord.replace(" < ", "<")
+            newWord = newWord.split()
+            if show:
+                print(f"SPLIT: {word}")
+            return newWord
+
+        def analyseHead(isRight, pageNum, curYear, show=False):
+            side = "R" if isRight else "L"
+            head = headLines[pageNum]
+            words = separate(head, show=show)
+            monthStr = ""
+            pageNumbers = []
+            dotSeen = False
+            firstWord = True
+            anno = ""
+            yearStr = ""
+            strings = []
+            days = []
+
+            month = ""
+            dayFrom = ""
+            dayTo = ""
+
+            for word in words:
+                if word in {".", ","}:
+                    dotSeen = True
+                    continue
+
+                if not monthStr and len(word) > 3:
+                    tryMonth = matchMonth(word, show=show)
+                    if tryMonth:
+                        monthStr = tryMonth
+                        continue
+
+                if word.lower() == "anno":
+                    anno = word.lower()
+                    continue
+
+                if isRight:
+                    if dotSeen and not pageNumbers:
+                        pageNumbers.append(word)
+                    else:
+                        if anno and not yearStr:
+                            yearStr = word
+                        else:
+                            strings.append(word)
+                else:
+                    if anno and not yearStr:
+                        yearStr = word
+                    elif firstWord and not pageNumbers:
+                        pageNumbers.append(word)
+                    else:
+                        strings.append(word)
+
+                firstWord = False
+
+            if yearStr:
+                curYear = yearStr
+
+            if monthStr:
+                if pageNum in dayHints:
+                    days = dayHints[pageNum]
+                else:
+                    for s in strings:
+                        if s == "n":
+                            s = "11"
+                        if s.lower() in {"en", "-", "—"}:
+                            s = "-"
+                            if days:
+                                days[-1] += s
+                            else:
+                                days.append(s)
+                        elif s.isdigit():
+                            if days and days[-1].endswith("-"):
+                                days[-1] += s
+                            else:
+                                days.append(s)
+                    days = "".join(days)
+                month = monthIndex[monthStr]
+                days = days.split("-", 1)
+                dayFrom = days[0]
+                dayTo = days[0] if len(days) == 1 else days[1]
+                ok = (
+                    curYear.isdigit()
+                    and 1500 <= int(curYear) <= 1800
+                    and 1 <= month <= 12
+                    and dayFrom.isdigit
+                    and 1 <= int(dayFrom) <= 31
+                    and dayTo.isdigit()
+                    and 1 <= int(dayTo) <= 31
+                )
+            else:
+                curYear = ""
+                ok = True
+
+            okRep = "OK" if ok else "XX"
+            return [pageNum, side, okRep, curYear, month, dayFrom, dayTo, head]
+
+        headData = []
+        self.headData = headData
+
+        isRight = isRightStart
+        curYear = ""
+
+        for pageNum in sorted(headLines):
+            if (
+                start is not None
+                and pageNum < start
+                or end is not None
+                and pageNum > end
+            ):
+                isRight = not isRight
+                continue
+            head = analyseHead(isRight, pageNum, curYear, show=show)
+            if show:
+                print(f"{head=}")
+            headData.append(head)
+            isRight = not isRight
+            curYear = head[3]
+
+        prevYear = None
+        prevMonth = None
+        prevDayTo = None
+
+        print("Head analysis:")
+        for data in headData:
+            pageNum = data[0]
+            gaps = dayGaps.get(pageNum, None)
+            gapFrom = None
+            gapTo = None
+            if gaps:
+                (gapFrom, gapTo) = (int(x) for x in gaps.split("-"))
+            ok = data[2]
+            (year, month, dayTo) = (
+                prevYear,
+                prevMonth,
+                prevDayTo,
+            )
+
+            if ok != "XX":
+                error = ""
+                dateParts = data[3:7]
+                for _ in [1]:
+                    if any(dp != "" for dp in dateParts):
+                        if not all(dp != "" for dp in dateParts):
+                            error = "INCOMPLETE"
+                            continue
+                        (year, month, dayFrom, dayTo) = (int(x) for x in dateParts)
+                        monthMax = MONTH_LAST[month]
+                        if dayFrom > monthMax + 1:
+                            error = "F"
+                        if dayTo > monthMax + 1:
+                            error += "T"
+                        if error:
+                            error = f"MMAX-{error}"
+                            continue
+
+                        if dayFrom > dayTo:
+                            error = "INV-RNG"
+                            continue
+
+                        if prevYear is not None and year not in {
+                            prevYear,
+                            prevYear + 1,
+                        }:
+                            error += "Y"
+                        if prevMonth is not None and month not in {
+                            prevMonth,
+                            1 if prevMonth == 12 else prevMonth + 1,
+                        }:
+                            error += "M"
+                        if (
+                            prevMonth is not None
+                            and prevDayTo is not None
+                            and dayFrom
+                            not in {
+                                prevDayTo,
+                                prevDayTo + 1,
+                                1
+                                if prevDayTo >= MONTH_LAST[prevMonth]
+                                else prevDayTo + 1,
+                            }
+                        ):
+                            if (
+                                gapFrom is None
+                                or gapTo is None
+                                or gapFrom != prevDayTo
+                                or gapTo != dayFrom
+                            ):
+                                error += "D"
+                        if error:
+                            error = f"CONT-{error}"
+                            continue
+                if error:
+                    data[2] = f"XX-{error}"
+                    text = "\t".join(str(x) for x in data)
+                    print(text)
+
+            (prevYear, prevMonth, prevDayTo) = (year, month, dayTo)
+
+        report = collections.Counter()
+        for data in headData:
+            report[data[2]] += 1
+        print("Head analysis overview:")
+        for (status, n) in sorted(report.items(), key=lambda x: (x[1], x[0])):
+            print(f"\t{n:>4} pages: {status}")
+
     def write(self):
         if not self.config():
             return
 
-        words = self.words
-        dest = self.dest
+        C = self.C
+        volume = self.volume
+        auxDir = f"{C.auxDir}/{C.volumeNameNum(volume)}"
+        if not os.path.exists(auxDir):
+            os.makedirs(auxDir, exist_ok=True)
 
-        print("Writing word file as tsv")
+        words = self.words
+        headData = self.headData
+        dest = self.dest
+        aux = f"{auxDir}/heads.tsv"
+
+        print(f"Writing word file as tsv: {dest}")
 
         with open(dest, "w") as dh:
             for (i, page, area, para, line, word, letters, punc, confidence) in words:
@@ -504,3 +850,11 @@ class Hocr:
                     )
                 )
                 dh.write(f"{text}\n")
+
+        print(f"Writing head line file as tsv: {aux}")
+
+        with open(aux, "w") as ah:
+            ah.write("page\tside\tok\tyear\tmonth\tdayfrom\tdaystart\traw\n")
+            for entry in headData:
+                text = "\t".join(str(f) for f in entry)
+                ah.write(f"{text}\n")

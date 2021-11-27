@@ -9,8 +9,8 @@ TF_NAME = "daghregister"
 
 REPO_DIR = f"{BASE}/{ORG}/{REPO}"
 LOCAL = f"{REPO_DIR}/_local"
-DIAG = f"{REPO_DIR}/diagnostics"
 TF_DIR = f"{REPO_DIR}/{RELATIVE}/{TF_NAME}"
+AUX_DIR = f"{REPO_DIR}/aux/{TF_NAME}"
 
 SERIES_INFO = dict(
     fileName="daghregister",
@@ -33,14 +33,6 @@ VOLUME_INFO = {
         published="1887",
         frontPages=6,
         tailPages=525,
-        headerLines={
-            0: 1,
-            43: 2,
-            159: 2,
-            341: 2,
-            390: 2,
-            498: 3,
-        } | {r: 2 for r in range(499, 523)}
     ),
 }
 
@@ -54,7 +46,6 @@ class Config:
         self.org = ORG
         self.repo = REPO
         self.local = LOCAL
-        self.diag = DIAG
         self.name = NAME
         self.thinSpaceThreshold = THIN_SPACE_THRESHOLD
         self.seriesInfo = SERIES_INFO
@@ -62,6 +53,7 @@ class Config:
         self.relative = RELATIVE
         self.tfName = TF_NAME
         self.tfDir = TF_DIR
+        self.auxDir = AUX_DIR
         self.tfVersion = TF_VERSION
 
     def checkVolume(self, volume):
