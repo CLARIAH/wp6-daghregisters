@@ -9,7 +9,7 @@ lines_004 = """
 """
 
 isRight_004 = """
-False
+True
 """
 
 corrections_004 = """

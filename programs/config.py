@@ -31,8 +31,8 @@ VOLUME_INFO = {
         ),
         publisher="Batavia Landsdrukkerij and M. Nijhoff, 's Hage",
         published="1887",
-        frontPages=6,
-        tailPages=525,
+        startPage=14,
+        endPage=496,
     ),
 }
 

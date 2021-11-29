@@ -428,8 +428,8 @@ class Hocr:
         HC = self.HC
         rawWords = self.rawWords
         amount = self.amount
-        frontPages = C.volumeInfo[volume]["frontPages"]
-        tailPages = C.volumeInfo[volume]["tailPages"]
+        startPage = C.volumeInfo[volume]["startPage"]
+        endPage = C.volumeInfo[volume]["endPage"]
         headLinePos = HC.lines[volume]
 
         skips = set()
@@ -438,8 +438,8 @@ class Hocr:
             dedent(
                 f"""
             Removing
-            * The first {frontPages} front pages
-            * The pages after page {tailPages}
+            * The pages before page {startPage}
+            * The pages after page {endPage}
             * the strings Digitized by Google at the bottom of each page
             Saving and removing
             * The header lines of each page
@@ -481,7 +481,7 @@ class Hocr:
             j,
             (i, page, area, para, line, word, letters, punc, confidence),
         ) in enumerate(rawWords):
-            if page <= frontPages or tailPages >= 0 and page >= tailPages:
+            if page < startPage or endPage >= 0 and page > endPage:
                 skips.add(j)
             else:
                 pageHeadLinePos = headLinePos.get(page, headLinePos.get(0, 0))
@@ -696,7 +696,7 @@ class Hocr:
                     curYear.isdigit()
                     and 1500 <= int(curYear) <= 1800
                     and 1 <= month <= 12
-                    and dayFrom.isdigit
+                    and dayFrom.isdigit()
                     and 1 <= int(dayFrom) <= 31
                     and dayTo.isdigit()
                     and 1 <= int(dayTo) <= 31

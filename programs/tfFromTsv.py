@@ -178,8 +178,22 @@ def director(cv):
         letters = fields[3]
         punc = fields[4]
 
-        s = cv.slot()
-        cv.feature(s, letters=letters, punc=punc)
+        parts = letters.split(",")
+        lastPart = len(parts) - 1
+        for (i, part) in enumerate(parts):
+            thisPunc = punc if i == lastPart else ", "
+            s = cv.slot()
+            if len(part) > 2 and (
+                part[0] == "'"
+                and part[1].lower() in {"s", "t"}
+                or part[0].lower() in {"d", "t"}
+                and part[1] == "'"
+            ):
+                cv.feature(s, letters=part[0:2], punc=" ")
+                s = cv.slot()
+                cv.feature(s, letters=part[2:], punc=thisPunc)
+            else:
+                cv.feature(s, letters=part, punc=thisPunc)
 
     for i in reversed(range(nSec)):
         if cur[i]:

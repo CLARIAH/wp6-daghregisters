@@ -2,9 +2,9 @@
 @converters=Dirk Roorda
 @description=raw contents of the header line of each page
 @editor=Uitgegeven door het Bataviaasch Genootschap van Kunsten en Wetenschappen, met medewerking van de Nederlandsch-Indische Regering en onder toezicht van Mr. J.A. van der Chijs
+@endPage=496
 @fileName=daghregister
 @format=string
-@frontPages=6
 @institute=CLARIAH-Huygens-INT-DANS
 @language=nld
 @project=daghregister
@@ -12,23 +12,16 @@
 @publisher=Batavia Landsdrukkerij and M. Nijhoff, 's Hage
 @researcher=Lodewijk Petram
 @sourceFormat=HTML => TSV (tab-separated)
+@startPage=14
 @subtitle=gehouden int Casteel Batavia vant passerende daer ter plaetse als over geheel Nederlandts-India
-@tailPages=525
 @title=Dagh-Register
 @valueType=str
 @volume=Anno 1640-1641
 @years=1640,1641
 @writtenBy=Text-Fabric
-@dateWritten=2021-11-27T12:33:25Z
+@dateWritten=2021-11-29T15:35:57Z
 
-258685	^^qUA^      f  «^  /si""'    / 
-VOORWOORD. 
-IV  VOORWOORD. 
-VOORWOORD. 
-VI  VOORWOORD. 
-Voorwoord.  vii 
-vul  VOOltWOORO 
-September  Anno  1640. 
+249589	September  Anno  1640. 
 2  10  SEPTEMBER. 
 10  SEPTEMBER.  5 
 4  10  SEPTEMBER. 
@@ -511,29 +504,3 @@ i—1  OCTOBËR.  46?
 31   OCTOBER.  48i 
 482  8i   OCTOBÉÖ. 
 Si   OCTOBER.  483 
-REGISTER  VAN  PERSONEN-  EN   PLAATS-NAMEN   {'). 
-486  REGISTER  VAN  PERSONEN-  EN  PLAATS-NAMEN. 
-REGISTER  VAN  PERSONEN-  EN  PLAATS-NAMEN.  487 
-488  REGISTER  VAN  PERSONEN-  EN  PLAATS-NAMEN. 
-REGISTER  VAN  PERSONEN-  EN  PLAATS-NAMËN.  489 
-490  REGISTER  VAN  PERSONEN-  EN  PLAATS-NAMËN. 
-REGISTER  VAN  PERSONEN-  EN  PLAATS-NAMEN.  491 
-492  REGISTER  VAN  PERSONEN-  EN  PLAATS-NAMEN. 
-REGISTER  VAN  PERSONEN-  EN  PLAATS-NAMEN.  495 
-494  REGISTER  VAN  PERSONEN-  EN  PLAATS-NAMEN. 
-REGISTER  VAN  PERSONEN-  EN  PLAATS-NAMEN.  495 
-496  REGISTER  VAN  PERSONEN-  EN  PLAATS-NAMEN. 
-REGISTER  VAN  PERSONEN-  EN  PLAATS-NAME.V.  497 
-498  REGISTER  VAN  PERSONEN-  EN  PLaaTS-NAMEN. 
-REGISTER  VAN  PERSONEN-  EN  PLAATS-NAMEN.  499 
-UÖO  ftEGïSTER  VAN  PERSONEN-  EN  PLAATS-NAMEN. 
-REfilSTER  VAN  PERSONEN-  EN  PLAATS-NAMEN.  501 
-»02  REGISTER  VAN  PERSONEN-  EN  PLAATS-NAMEN. 
-REGISTER  VAN  PERSONEN-  EN  PLAATS-NAMEN.  SOS 
-504  REGISTER  VAN  PERSONEN-  EN  PLAATS-NAMEN. 
-REGISTER  VAN  PERSONEN-  EN  PLAATS-NAMEN.  mn 
-S06  REGISTER  VAN  PERSONEN-  EN  PLAATS-NAMEN. 
-REGISTER  VAN  PERSONEN-  EN  PLAATSNAMEN.  507 
-SOS  REGISTER  VAN  PERSONEN-  EN  PLAATS-NAMEN. 
-REGISTER  VAN  PERSONtN-  EN  PLAATS-NAMÊN.  509 
-ERRATA. 
