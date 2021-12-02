@@ -217,7 +217,7 @@ def director(cv):
 # TF LOADING (to test the generated TF)
 
 
-def loadTf(volume):
+def loadTf(volume, silent=False):
     if not C.checkVolume(volume):
         return
 
@@ -227,12 +227,13 @@ def loadTf(volume):
     tfDir = f"{C.tfDir}/{C.volumeNameNum(VOLUME)}"
     DEST = f"{tfDir}/{tfVersion}"
 
-    TF = Fabric(locations=[DEST])
-    allFeatures = TF.explore(silent=True, show=True)
+    TF = Fabric(locations=[DEST], silent=True)
+    allFeatures = TF.explore(silent=True, show=silent)
     loadableFeatures = allFeatures["nodes"] + allFeatures["edges"]
-    api = TF.load(loadableFeatures, silent=False)
-    if api:
+    api = TF.load(loadableFeatures, silent=silent)
+    if api and not silent:
         print(f"max node = {api.F.otype.maxNode}")
         print("Frequencies of words")
         for (word, n) in api.F.letters.freqList()[0:20]:
             print(f"{n:>6} x {word}")
+    return TF

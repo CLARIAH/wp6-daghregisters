@@ -11,6 +11,7 @@ REPO_DIR = f"{BASE}/{ORG}/{REPO}"
 LOCAL = f"{REPO_DIR}/_local"
 TF_DIR = f"{REPO_DIR}/{RELATIVE}/{TF_NAME}"
 AUX_DIR = f"{REPO_DIR}/aux/{TF_NAME}"
+POST_DIR = f"{REPO_DIR}/post/{TF_NAME}"
 
 SERIES_INFO = dict(
     fileName="daghregister",
@@ -54,6 +55,7 @@ class Config:
         self.tfName = TF_NAME
         self.tfDir = TF_DIR
         self.auxDir = AUX_DIR
+        self.postDir = POST_DIR
         self.tfVersion = TF_VERSION
 
     def checkVolume(self, volume):
