@@ -142,13 +142,44 @@ def showDistribution(data, itemLabel, amountLabel, maxBuckets=50, maxAmounts=80)
 
 NS = (2, 3)
 
+CHAR_CLASSES = """
+*0 •™_~"[
+i1 fijklrtBDEFIJKLPRT1!ïÈÉËÏ£|!\
+i2 nhuHNUüÜ«°]
+i3 mM
+o1 abdgopqOQ690óöÓÖ()»}#&><^
+c1 ecCGèéêë€*®?
+v1 vxyVXY
+v2 ww
+s1 sS5$§
+z1 zZ
+21 2%
+a1 A
+"""
+
 
 class PostOcr:
     def __init__(self, volume):
         self.volume = volume
+        self.initOcrKey()
         self.good = self.config()
         self.loadTf()
         self.getGrams()
+
+    def initOcrKey(self):
+        """Compile the CHAR_CLASSES spec into a dict.
+
+        The dict maps characters into classes of characters
+        that tend to be confused by OCR processes.
+        """
+        OCR_KEY = {}
+        self.OCR_KEY = OCR_KEY
+
+        for line in CHAR_CLASSES.strip().split("\n"):
+            (clsCard, chars) = line.split(" ", 1)
+            (cls, card) = clsCard
+            for c in chars:
+                OCR_KEY[c] = (cls, card)
 
     def config(self):
         """Configure context information."""
@@ -571,10 +602,15 @@ class PostOcr:
                 theseIlLegalGrams.add(gram)
 
         kindRep = "end" if kind else "start"
+        kindCombis = sum(
+            1
+            for x in GRAM[n]
+            if kind and x.endswith(" ") or not kind and x.startswith(" ")
+        )
         print(
             dedent(
                 f"""
-        Total number of {kindRep:<5} {n}-grams:               {len(GRAM[n]):>5}
+        Total number of {kindRep:<5} {n}-grams:               {kindCombis:>5}
         Total number of consonant combis among them: {len(allCombis):>5}
         Of which are   legal:                        {len(theseLegalGrams):>5}
                  and illegal:                        {len(theseIlLegalGrams):>5}
@@ -655,3 +691,48 @@ class PostOcr:
                 fh.write(f"{form}\t{leg}\n")
                 distribution[leg] += 1
             showDistribution(distribution, "word form", "legality")
+
+    def getOcrKey(self, letters):
+        """Get the OCR key for a string.
+
+        Parameters
+        ----------
+        letters: string
+            The input string that we need the OCR key of
+
+        Returns
+        -------
+        string
+            The concatenation of the OCR-key mapping
+            of each character in the input string.
+        """
+        OCR_KEY = self.OCR_KEY
+
+        clses = []
+        for c in letters:
+            (cls, card) = OCR_KEY.get(c, (c, 1))
+            if clses and clses[-1][0] == cls:
+                clses[-1][1] += card
+            else:
+                clses.append([cls, card])
+        return "".join(f"{cls}{card}" for (cls, card) in clses)
+
+    def makeOcrIndex(self):
+        WORD_OCCS = self.WORD_OCCS
+        postDir = self.postDir
+
+        WORD_OCR = collections.defaultdict(list)
+        self.WORD_OCR = WORD_OCR
+
+        for word in WORD_OCCS:
+            WORD_OCR[self.getOcrKey(word)].append(word)
+
+        with open(f"{postDir}/ocrkeys.tsv", "w") as fh:
+            for (okey, words) in sorted(
+                WORD_OCR.items(), key=lambda x: (-len(x[1]), x[0])
+            ):
+                nw = len(words)
+                for word in sorted(words):
+                    fh.write(f"{nw}\t{okey}\t{word}\n")
+
+        print(f"{len(WORD_OCCS)} words clustered into {len(WORD_OCR)} ocr keys")
