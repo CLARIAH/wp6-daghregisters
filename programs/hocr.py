@@ -4,11 +4,14 @@ import re
 from textwrap import dedent
 
 from Levenshtein import distance, ratio
+from tf.core.helpers import unexpanduser
 
 from config import Config
 from headconfig import Config as HeadConfig
 
 wordRe = re.compile(r"""^(.*?)(\W*)$""")
+word2Re = re.compile(r"""^(.*?)(\s*)$""")
+whiteRe = re.compile(r"""^(\S*)(\s*)$""")
 endElemRe = re.compile(r"""^</(\S+)>$""")
 elemRe = re.compile(r"""^<([^> ]+)""")
 clsRe = re.compile(r'''class="([^"]*)"''')
@@ -86,7 +89,7 @@ class Hocr:
         source = self.source
 
         if not os.path.exists(source):
-            print(f"Source file does not exist: {source}")
+            print(f"Source file does not exist: {unexpanduser(source)}")
 
         simpleSource = self.simpleSource
         print("Simplifying HOCR source")
@@ -198,7 +201,10 @@ class Hocr:
         simpleSource = self.simpleSource
 
         if not os.path.exists(simpleSource):
-            print(f"Simpliefied source file does not exist: {simpleSource}")
+            print(
+                "Simplified source file does not exist: "
+                f"{unexpanduser(simpleSource)}"
+            )
 
         self.config()
         C = self.C
@@ -373,6 +379,10 @@ class Hocr:
             if curWord is not None:
                 avConfidence = sumConfidence / len(letters)
                 (realLetters, punc) = wordRe.findall(letters)[0]
+                if realLetters == "":
+                    (realLetters, punc) = word2Re.findall(letters)[0]
+                (nonWhite, white) = whiteRe.findall(punc)[0]
+                punc = nonWhite + " " if white else ""
                 if curLine != line and not punc.endswith(" "):
                     punc += " "
 
@@ -832,7 +842,7 @@ class Hocr:
         dest = self.dest
         aux = f"{auxDir}/heads.tsv"
 
-        print(f"Writing word file as tsv: {dest}")
+        print(f"Writing word file as tsv: {unexpanduser(dest)}")
 
         with open(dest, "w") as dh:
             for (i, page, area, para, line, word, letters, punc, confidence) in words:
@@ -851,7 +861,7 @@ class Hocr:
                 )
                 dh.write(f"{text}\n")
 
-        print(f"Writing head line file as tsv: {aux}")
+        print(f"Writing head line file as tsv: {unexpanduser(aux)}")
 
         with open(aux, "w") as ah:
             ah.write("page\tside\tok\tyear\tmonth\tdayfrom\tdaystart\traw\n")

@@ -2,6 +2,7 @@ import collections
 
 from tf.fabric import Fabric
 from tf.convert.walker import CV
+from tf.core.helpers import unexpanduser
 
 from config import Config
 
@@ -158,6 +159,7 @@ def director(cv):
 
     vol = cv.node("volume")
     cv.feature(vol, n=VOLUME, years=C.volumeInfo[VOLUME]["years"])
+    s = None
 
     for (r, fields) in enumerate(data):
         for i in range(nSec):
@@ -177,10 +179,18 @@ def director(cv):
 
         letters = fields[3]
         punc = fields[4]
+        if letters == "":
+            previousPunc = cv.get("punc", s)
+            if not previousPunc.endswith(" ") or not punc.startswith(" "):
+                punc = f"{previousPunc}{punc}"
+            cv.feature(s, punc=punc)
+            continue
 
         parts = letters.split(",")
         lastPart = len(parts) - 1
         for (i, part) in enumerate(parts):
+            if part == "":
+                continue
             thisPunc = punc if i == lastPart else ", "
             s = cv.slot()
             if len(part) > 2 and (
@@ -226,9 +236,10 @@ def loadTf(volume, silent=False):
     tfVersion = C.tfVersion
     tfDir = f"{C.tfDir}/{C.volumeNameNum(VOLUME)}"
     DEST = f"{tfDir}/{tfVersion}"
+    print(f"Loading tf data from {unexpanduser(DEST)}")
 
     TF = Fabric(locations=[DEST], silent=True)
-    allFeatures = TF.explore(silent=True, show=silent)
+    allFeatures = TF.explore(silent=True, show=True)
     loadableFeatures = allFeatures["nodes"] + allFeatures["edges"]
     api = TF.load(loadableFeatures, silent=silent)
     if api and not silent:

@@ -1,3 +1,4 @@
+page	line	word
 14	2	10
 14	2	ditto
 14	2	Nae
@@ -101,7 +102,6 @@
 14	11	bhaer
 14	11	peper
 14	12	monterende
-14	12	
 14	12	75648
 14	12	13:2
 14	12	door
@@ -114,7 +114,6 @@
 14	13	en
 14	13	Priaman
 14	13	genegotieert
-14	13	
 14	14	't
 14	14	jacht
 14	14	Sanivoort
@@ -132,7 +131,6 @@
 14	15	en
 14	15	campher
 14	15	monterende
-14	15	
 14	15	79756
 14	15	10:8
 14	15	brenght
@@ -966,7 +964,6 @@
 16	14	te
 16	14	vergeeffs
 16	15	geprocureert
-16	15	
 16	15	tot
 16	15	wat
 16	15	eynde
@@ -1132,7 +1129,6 @@
 16	28	t*zynen
 16	28	contentemenle
 16	29	overhandight
-16	29	
 16	29	den
 16	29	Commissaris
 16	29	hadde
@@ -1484,7 +1480,6 @@
 17	16	capileyn
 17	16	Lourens
 17	16	Forcenburgh
-17	16	
 17	17	Minne
 17	17	Willemsz
 17	17	Kaertekoe
@@ -2084,7 +2079,6 @@
 18	26	de
 18	26	stadt
 18	26	becomen
-18	26	
 18	27	Den
 18	27	6
 18	27	do
@@ -2316,7 +2310,6 @@
 19	2	18
 19	2	ende
 19	2	24
-19	2	
 19	2	boven
 19	2	hetgeen
 19	2	by
@@ -4386,7 +4379,6 @@
 22	44	verordonneerde
 22	44	logement
 22	44	geleyt
-22	44	
 23	2	Op
 23	2	dato
 23	2	vertreckt
@@ -4443,9 +4435,7 @@
 23	6	monterende
 23	6	f
 23	6	3244
-23	6	
 23	6	3
-23	6	
 23	6	8
 23	7	Heden
 23	7	arriveert
@@ -4604,7 +4594,6 @@
 23	22	ende
 23	22	andere
 23	22	snuysteringh
-23	22	
 23	22	comen
 23	22	eenelyck
 23	22	om
@@ -5275,9 +5264,7 @@
 24	37	inceops
 24	37	costende
 24	37	/'64145
-24	37	
 24	37	9
-24	37	
 24	37	4
 24	37	ende
 24	37	advyseert
@@ -6124,7 +6111,6 @@
 26	26	cargasoen
 26	26	van
 26	26	26661272
-26	26	
 26	26	nooten
 26	26	muscaten
 26	26	en
@@ -6286,7 +6272,6 @@
 26	41	Tot
 26	41	betalinge
 26	41	van
-26	41	
 26	41	voors
 26	41	overgesondeu
 26	41	als
@@ -6439,7 +6424,6 @@
 27	12	als
 27	12	andere
 27	12	mundentien
-27	12	
 27	13	had
 27	13	zyn
 27	13	Ed
@@ -7466,7 +7450,6 @@
 29	13	Ed
 29	13	heerGenerael
 29	14	overgesonden
-29	14	
 29	14	alle
 29	14	de
 29	14	materiaelen
@@ -8255,7 +8238,6 @@
 30	36	bhaer
 30	36	peper
 30	36	costende
-30	36	
 30	36	19272
 30	36	14
 30	36	11
@@ -8425,41 +8407,27 @@
 31	8	't
 31	8	monteeren
 31	8	van
-31	8	
 31	8	f
 31	8	S994
-31	8	
 31	8	1
-31	8	
-31	8	
-31	9	
 31	9	Mallabaer
 31	9	en
 31	9	Wingurla
-31	9	
-31	9	
 31	9	21060
 31	9	1
-31	9	
 31	9	10
-31	10	
 31	10	Parsia
 31	10	en
 31	10	Zuratta
-31	10	
-31	10	
 31	10	23748
 31	10	3
-31	10	
 31	10	14
 31	11	Monterende
 31	11	t'
 31	11	samen
 31	11	f
 31	11	50799
-31	11	
 31	11	6
-31	11	
 31	11	8
 31	12	Op
 31	12	dato
@@ -8500,10 +8468,8 @@
 31	15	ft
 31	15	nagelen
 31	15	monteren
-31	15	
 31	15	f
 31	15	1544
-31	15	
 31	15	10
 31	15	1
 31	16	Maccassar
@@ -8516,14 +8482,11 @@
 31	16	de
 31	16	onverhandelde
 31	17	restanten
-31	17	
-31	17	
 31	17	5168
 31	17	:3
 31	17	10
 31	18	T'
 31	18	samen
-31	18	
 31	18	6702:15
 31	18	11
 31	19	Den
@@ -9107,7 +9070,6 @@
 32	25	doen
 32	25	nae
 32	26	welgevallen
-32	26	
 32	26	de
 32	26	soasivos
 32	26	ende
@@ -9844,7 +9806,6 @@
 34	3	Spaengiaert
 34	3	niet
 34	3	senden
-34	3	
 34	3	ghy
 34	3	schryft
 34	3	my
@@ -10333,7 +10294,6 @@
 34	39	belaste
 34	39	te
 34	40	weten
-34	40	
 34	40	dat
 34	40	dit
 34	40	besluy
@@ -12341,7 +12301,6 @@
 38	38	rechten
 38	38	gemeent
 38	38	wierde
-38	38	
 38	39	Op
 38	39	alle
 38	39	't
@@ -12926,7 +12885,6 @@
 40	4	verborgen
 40	4	gehouden
 40	4	worden
-40	4	
 40	5	ick
 40	5	sweere
 40	5	by
@@ -13139,7 +13097,6 @@
 40	20	sal
 40	20	ick
 40	20	l)eginnen
-40	20	
 40	20	Coninck
 40	20	ghy
 40	20	syt
@@ -13227,7 +13184,6 @@
 40	26	oorloghe
 40	26	te
 40	26	bethoonen
-40	26	
 40	26	ende
 40	26	ojKlat
 40	27	d'
@@ -13681,7 +13637,6 @@
 41	23	is
 41	23	van
 41	23	gevoelen
-41	23	
 41	23	dat
 41	23	de
 41	23	saecken
@@ -14477,7 +14432,6 @@
 43	8	predicant
 43	9	Jan
 43	9	Glaesz
-43	9	
 43	9	Bakus
 43	9	grooten
 43	9	y
@@ -14485,7 +14439,6 @@
 43	9	ende
 43	9	naerstigbeyt
 43	9	gedaen
-43	9	
 43	9	des
 43	9	Sondagbs
 43	9	voor
@@ -14596,42 +14549,29 @@
 43	18	te
 43	19	welen
 43	19	op
-43	19	
 43	20	Maleya
-43	20	
 43	20	213
 43	20	coppen
 43	21	Tolucco
-43	21	
 43	21	25
 43	22	Tacomj
-43	22	
 43	22	15
 43	23	Dodinge
-43	23	
-43	23	
 43	23	10
 43	24	d'
 43	24	Noffica
-43	24	
 43	24	87
 43	25	Pouattj
-43	25	
 43	25	20
 43	26	Taflasoho
-43	26	
-43	26	
 43	26	69
 43	27	Tabbelola
-43	27	
 43	27	31
 43	28	Baetsjan
-43	28	
 43	28	50
 43	29	't
 43	29	schip
 43	29	Hollandia
-43	29	
 43	29	100
 43	30	Te
 43	30	water
@@ -14717,7 +14657,6 @@
 43	36	corps
 43	36	du
 43	37	guarden
-43	37	
 43	37	't
 43	37	bolwerck
 43	37	ende
@@ -15702,7 +15641,6 @@
 45	37	hebben
 45	37	t'
 45	37	assisteeren
-45	37	
 45	37	om
 45	37	eens
 45	37	een
@@ -16469,7 +16407,6 @@
 47	14	in
 47	14	specy
 47	14	aengecomen
-47	14	
 47	14	d'
 47	14	anachodas
 47	14	Sithoy
@@ -16756,7 +16693,6 @@
 47	40	en
 47	40	w^ert
 47	40	verbroocken
-47	41	
 47	41	Voorders
 47	41	laet
 47	41	ick
@@ -17510,7 +17446,6 @@
 49	21	het
 49	21	scharp
 49	21	affbyten
-49	21	
 49	22	sy
 49	22	liepen
 49	22	veel
@@ -20094,7 +20029,6 @@
 54	21	mocht
 54	21	halen
 54	21	geconsumeert
-54	21	
 54	21	ende
 54	21	soo
 54	21	den
@@ -20373,14 +20307,12 @@
 54	43	voorleden
 54	43	jaere
 54	43	int
-54	44	
 54	44	destrueeren
 54	44	vande
 54	44	Portugese
 54	44	gallioenen
 54	44	voor
 54	44	Goa
-54	44	
 54	44	mitsgaders
 54	44	int
 54	44	veroveren
@@ -20729,7 +20661,6 @@
 55	30	ende
 55	30	verbrant
 55	30	wesen
-55	30	
 55	30	d'
 55	30	overloopers
 55	30	wisten
@@ -20901,7 +20832,6 @@
 55	44	24
 55	44	a
 55	44	30
-55	44	
 56	2	soo
 56	2	wenscbten
 56	2	haer
@@ -21099,7 +21029,6 @@
 56	18	werck
 56	18	souden
 56	18	stellen
-56	18	
 56	18	waren
 56	18	echter
 56	18	voornemens
@@ -21107,7 +21036,6 @@
 56	18	daerop
 56	19	te
 56	19	attenderen
-56	19	
 56	19	t'
 56	19	seggen
 56	19	ware
@@ -21178,7 +21106,6 @@
 56	24	eens
 56	24	dencken
 56	25	souden
-56	25	
 56	25	haer
 56	25	E
 56	25	vermeenden
@@ -21245,7 +21172,6 @@
 56	30	ondienstigh
 56	30	geoordeelt
 56	30	wiert
-56	30	
 56	30	nae
 56	30	*t
 56	30	rapport
@@ -21457,7 +21383,6 @@
 57	4	ende
 57	4	eenige
 57	5	slaeffinnen
-57	5	
 57	6	een
 57	6	tingangh
 57	6	van
@@ -21540,9 +21465,7 @@
 58	4	cleeden
 58	4	etc
 58	4	monteerende
-58	4	
 58	4	19832.13
-58	4	
 58	4	om
 58	4	aldaer
 58	4	in
@@ -21666,7 +21589,6 @@
 58	15	monterende
 58	15	f
 58	15	32662
-58	15	
 58	15	.11
 58	16	't
 58	16	schip
@@ -22085,7 +22007,6 @@
 59	25	t'
 59	25	samen
 59	25	monterende
-59	25	
 59	25	11713.4.8
 59	26	Op
 59	26	dato
@@ -22177,18 +22098,15 @@
 59	34	cargasoen
 59	35	van
 59	35	55000
-59	35	
 59	35	nagelen
 59	35	ende
 59	35	2673
-59	35	
 59	35	oly
 59	35	van
 59	35	nagelen
 59	35	t'
 59	35	samen
 59	35	monterende
-59	35	
 59	35	18273.8.6
 59	36	ende
 59	36	advyseert
@@ -22665,7 +22583,6 @@
 60	33	volck
 60	33	Hselve
 60	33	^overvallen
-60	33	
 60	34	maer
 60	34	vonde
 60	34	het
@@ -22796,9 +22713,6 @@
 60	44	aende
 60	44	Manipe
 60	44	inde
-61	2	
-61	2	
-61	2	
 61	3	rivier
 61	3	by
 61	3	Massavoy
@@ -22886,7 +22800,6 @@
 61	9	weer
 61	9	te
 61	9	wesen
-61	9	
 61	9	d'
 61	9	eersle
 61	9	5
@@ -23823,7 +23736,6 @@
 62	40	in
 62	40	Gambello
 62	41	dootgeschoten
-62	41	
 62	41	syn
 62	41	E
 62	41	hadde
@@ -24406,7 +24318,6 @@
 64	4	strand
 64	5	gepangeyt
 64	5	hadden
-64	5	
 64	5	leggende
 64	5	voorts
 64	5	bet
@@ -24700,7 +24611,6 @@
 64	29	begonnen
 64	29	te
 64	29	hebben
-64	29	
 64	29	syn
 64	29	E
 64	29	gaff
@@ -24934,7 +24844,6 @@
 65	3	beletten
 65	4	T'
 65	4	syner
-65	4	
 65	4	wedercompste
 65	4	aen
 65	4	*t
@@ -25178,7 +25087,6 @@
 65	23	zee
 65	23	geholpen
 65	23	was
-65	23	
 65	23	syn
 65	23	E
 65	23	sond
@@ -25413,7 +25321,6 @@
 65	43	een
 65	43	veranderingh
 65	43	voorgevallen
-65	43	
 65	43	d'
 65	43	inwoonders
 65	43	leeffden
@@ -25719,7 +25626,6 @@
 66	27	een
 66	27	voor
 66	27	Hittoelamma
-66	27	
 66	27	alle
 66	27	weder
 66	27	nae
@@ -26034,7 +25940,6 @@
 67	10	cop
 67	10	binnen
 67	10	brachten
-67	10	
 67	10	die
 67	10	van
 67	10	Assahoudj
@@ -26581,7 +26486,6 @@
 68	14	wierden
 68	15	als
 68	15	volght
-68	15	
 68	16	Nassau
 68	16	voor
 68	16	Assahoudj
@@ -26597,7 +26501,6 @@
 68	18	Nachtegael
 68	18	omtr^t
 68	18	Gambello
-68	18	
 68	19	Jonge
 68	19	Prins
 68	19	voor
@@ -26656,7 +26559,6 @@
 68	24	inde
 68	24	kettingh
 68	24	gaen
-68	24	
 68	24	mede
 68	24	dat
 68	24	twee
@@ -26740,7 +26642,6 @@
 68	30	in
 68	31	Gherrebon
 68	31	wiert
-68	31	
 68	31	gerucht
 68	31	dat
 68	31	Sarapada
@@ -26854,10 +26755,7 @@
 68	40	monteerende
 68	40	't
 68	40	getaxeerde
-68	40	
 68	40	8088.4
-68	40	
-68	40	
 68	41	D'
 68	41	Ed
 68	41	heer
@@ -26920,7 +26818,6 @@
 69	4	ende
 69	4	andere
 69	4	cleynicheden
-69	4	
 69	5	een
 69	5	contingb
 69	5	ende
@@ -27002,7 +26899,6 @@
 69	13	sacken
 69	13	groen
 69	14	ertcn
-69	14	
 69	15	een
 69	15	tingangh
 69	15	van
@@ -27360,8 +27256,6 @@
 70	4	samen
 70	4	monterende
 70	4	/'944.9
-70	4	
-70	4	
 70	5	Voeren
 70	5	dei*waerts
 70	5	500
@@ -27375,10 +27269,7 @@
 70	6	monterende
 70	6	te
 70	6	samen
-70	6	
 70	6	1964.9
-70	6	
-70	6	
 70	7	Vertrecken
 70	7	mede
 70	7	twee
@@ -27765,7 +27656,6 @@
 70	43	worden
 70	43	gevoert
 70	43	ware
-70	44	
 70	44	Hier
 70	44	schijnt
 70	44	in
@@ -27792,7 +27682,6 @@
 71	3	cartouweD
 71	3	van
 71	3	24
-71	3	
 71	3	1
 71	3	do
 71	3	van
@@ -28261,7 +28150,6 @@
 71	42	houden
 71	42	om
 71	42	de
-71	42	
 71	42	stadt
 71	42	te
 71	42	benauwen
@@ -28464,7 +28352,6 @@
 72	16	beter
 72	16	te
 72	16	reeonvaliseren
-72	16	
 72	16	veele
 72	16	vande
 72	16	voomaemste
@@ -28507,7 +28394,6 @@
 72	19	sonde
 72	20	moeten
 72	20	comen
-72	20	
 72	20	versochten
 72	20	van
 72	20	bier
@@ -28785,7 +28671,6 @@
 72	43	Compobtel
 72	43	hem
 72	43	voori^telyek
-72	43	
 72	43	geantwoorl
 72	44	badde
 72	44	dat
@@ -29075,7 +28960,6 @@
 73	27	daer
 73	27	wel
 73	27	gearriveert
-73	27	
 73	27	ende
 73	27	waren
 73	27	uyt
@@ -29090,7 +28974,6 @@
 73	28	ter
 73	28	somma
 73	28	van
-73	28	
 73	28	74954
 73	28	gelicht
 73	28	ende
@@ -29170,7 +29053,6 @@
 73	34	solphur
 73	34	ende
 73	34	huyden
-73	34	
 73	34	52294
 73	34	ende
 73	34	hadde
@@ -29431,7 +29313,6 @@
 74	15	Ady
 74	15	24
 74	15	do
-74	15	
 74	15	keert
 74	15	S
 74	15	Overschie
@@ -29441,7 +29322,6 @@
 74	15	Waterlant
 74	15	van
 74	15	Bantam
-74	15	
 74	16	hebbende
 74	16	aldaer
 74	16	den
@@ -30148,7 +30028,6 @@
 75	36	in
 75	36	Indrapoera
 75	36	genegotieert
-75	36	
 76	2	Ady
 76	2	primo
 76	2	ditto
@@ -30437,9 +30316,7 @@
 76	29	Palimbangb
 76	29	incoops
 76	29	costende
-76	29	
 76	29	68098.4
-76	29	
 76	29	ende
 76	29	advyseert
 76	29	den
@@ -31080,10 +30957,7 @@
 78	11	die
 78	11	tot
 78	11	472
-78	11	
 78	11	*V4
-78	11	
-78	11	
 78	11	P
 78	11	ingecocht
 78	11	vdert
@@ -31436,7 +31310,6 @@
 78	44	redelyck
 78	44	voorsien
 79	2	Cabo
-79	2	
 79	2	de
 79	2	Rama
 79	2	hadden
@@ -31950,7 +31823,6 @@
 80	3	cogels
 80	3	van
 80	3	24
-80	3	
 80	3	voorsien
 80	3	gev^eest
 80	3	hadden
@@ -32066,15 +31938,11 @@
 80	12	coppen
 80	12	te
 80	12	weten
-80	12	
 80	13	Soldaten
-80	13	
 80	13	1130
 80	14	Matroosen
-80	14	
 80	14	821
 80	15	.Samen
-80	15	
 80	15	1991
 80	15	coppen
 80	16	daeronder
@@ -32219,7 +32087,6 @@
 80	29	standt
 80	29	vande
 80	30	belegeringe
-80	30	
 80	30	Limmen
 80	30	was
 80	30	gemant
@@ -32653,7 +32520,6 @@
 81	28	ende
 81	28	andere
 81	28	nootwendigheden
-81	28	
 81	28	ende
 81	28	dewyle
 81	28	boven
@@ -33269,7 +33135,6 @@
 82	38	met
 82	38	weynigh
 82	38	volck
-82	38	
 82	39	beseth
 82	39	waren
 82	39	dat
@@ -33480,7 +33345,6 @@
 83	14	U.E
 83	14	gesonden
 83	14	hebbe
-83	14	
 83	14	Sangouua
 83	14	ende
 83	14	Tounalim
@@ -34277,7 +34141,6 @@
 85	7	huns
 85	7	Conincx
 85	7	gediscoureert
-85	7	
 85	7	insonderheyt
 85	7	perfectelyck
 85	7	ontledight
@@ -34342,7 +34205,6 @@
 85	12	Twist
 85	12	verordent
 85	12	was
-85	12	
 85	12	ende
 85	12	om
 85	12	den
@@ -34460,7 +34322,6 @@
 85	22	monterende
 85	22	13287
 85	22	16
-85	22	
 85	22	ende
 85	22	adviseert
 85	22	den
@@ -34548,7 +34409,6 @@
 85	31	een
 85	31	ladinge
 85	31	van
-85	31	
 85	31	114271
 85	31	voor
 85	31	Japan
@@ -35067,7 +34927,6 @@
 86	31	lande
 86	31	hadde
 86	32	doen
-86	32	
 86	32	gelasten
 86	32	groote
 86	32	parthye
@@ -35535,7 +35394,6 @@
 87	30	verlegen
 87	30	sullen
 87	30	wesen
-87	30	
 87	30	soo
 87	30	en
 87	30	hadden
@@ -35605,7 +35463,6 @@
 87	37	geen
 87	37	aguelhout
 87	37	pee
-87	37	
 87	37	nae
 87	37	Tayouan
 87	37	souden
@@ -35749,7 +35606,6 @@
 88	6	groote
 88	6	moeyte
 88	6	gebad
-88	6	
 88	6	Oja
 88	6	Sicalat
 88	7	factoir
@@ -35797,7 +35653,6 @@
 88	10	800
 88	10	dat
 88	10	27a
-88	10	
 88	10	bondert
 88	10	verlooren
 88	10	souden
@@ -35871,7 +35726,6 @@
 88	15	Siacalat
 88	16	ontslagen
 88	16	werden
-88	16	
 88	16	den
 88	16	Goninck
 88	16	was
@@ -36201,7 +36055,6 @@
 88	41	Gomp
 88	41	seer
 88	42	toegedaen
-88	42	
 88	42	ende
 88	42	is
 88	42	den
@@ -36258,7 +36111,6 @@
 89	3	tot
 89	3	bem
 89	3	hebben
-89	3	
 89	3	ende
 89	3	dewyle
 89	3	deselve
@@ -37128,7 +36980,6 @@
 90	33	quaem
 90	33	inde
 90	33	wapenen
-90	33	
 90	33	't
 90	33	geschut
 90	33	wiert
@@ -37393,7 +37244,6 @@
 91	10	indispositie
 91	10	te
 91	10	vernemen
-91	10	
 91	11	ende
 91	11	denselven
 91	11	te
@@ -37435,7 +37285,6 @@
 91	14	poincten
 91	14	begroet
 91	14	wierden
-91	14	
 91	15	1
 91	15	dat
 91	15	alhoewel
@@ -37766,7 +37615,6 @@
 91	43	onder
 91	43	syn
 91	43	May
-91	43	
 91	44	bescherminge
 91	44	te
 91	44	sillen
@@ -38207,7 +38055,6 @@
 92	41	goede
 92	41	genegenthey
 92	41	t
-92	41	
 92	41	want
 92	41	weynigh
 92	41	tyts
@@ -38611,7 +38458,6 @@
 93	32	andermael
 93	32	dorste
 93	32	aenspreecken
-93	32	
 93	32	docb
 93	32	was
 93	32	bem
@@ -39194,7 +39040,6 @@
 94	38	Siam
 94	38	te
 94	38	coopen
-94	38	
 94	38	ofte
 94	38	te
 94	38	vervoeren
@@ -39352,7 +39197,6 @@
 95	7	negotianten
 95	7	den
 95	7	anderen
-95	7	
 95	7	souden
 95	8	mogen
 95	8	crediteren
@@ -39454,7 +39298,6 @@
 95	15	om
 95	15	te
 95	15	vertieren
-95	15	
 95	15	ende
 95	15	wanneer
 95	15	't
@@ -40031,7 +39874,6 @@
 96	21	230
 96	21	robynen
 96	22	ingeseth
-96	22	
 96	23	2
 96	23	musquetten
 96	23	op
@@ -40053,7 +39895,6 @@
 96	25	Chineese
 96	25	syde
 96	25	stuckwercken
-96	25	
 96	26	5
 96	26	stux
 96	26	geschilderde
@@ -40316,7 +40157,6 @@
 97	6	vande
 97	6	Justitie
 97	6	gevallen
-97	6	
 97	6	ende
 97	6	was
 97	6	de
@@ -40388,7 +40228,6 @@
 97	13	verantwoordinge
 97	13	connen
 97	13	comen
-97	13	
 97	13	eyndelyck
 97	13	hadde
 97	13	Sediamet
@@ -40513,7 +40352,6 @@
 97	24	jare
 97	24	redelyck
 97	24	slagen
-97	24	
 97	24	de
 97	24	rys
 97	24	was
@@ -40699,7 +40537,6 @@
 97	40	Manilha
 97	40	te
 97	40	bestellen
-97	40	
 97	40	d'
 97	40	onse
 97	41	hadden
@@ -40779,7 +40616,6 @@
 98	4	voet
 98	4	te
 98	4	lichten
-98	4	
 98	4	d'
 98	4	onse
 98	4	hadden
@@ -40937,7 +40773,6 @@
 98	17	syn
 98	17	residentie
 98	17	gehouden
-98	17	
 98	17	syn
 98	18	jacht
 98	18	was
@@ -41124,7 +40959,6 @@
 98	33	als
 98	33	andere
 98	33	cleynigheden
-98	33	
 98	33	hun
 98	33	was
 98	33	toegestaen
@@ -41429,7 +41263,6 @@
 99	20	ende
 99	20	andere
 99	21	snuysteringh
-99	21	
 99	22	een
 99	22	contingh
 99	22	nae
@@ -41569,7 +41402,6 @@
 99	37	do
 99	37	cattoene
 99	38	garen
-99	38	
 99	39	een
 99	39	lamboe
 99	39	naer
@@ -41650,7 +41482,6 @@
 100	2	ter
 100	2	somme
 100	2	van
-100	3	
 100	3	8820.1
 100	3	1.8
 100	3	ende
@@ -42046,7 +41877,6 @@
 100	36	voorde
 100	36	Nederlantse
 100	36	retouren
-100	36	
 100	37	te
 100	37	prefereren
 100	37	geschieden
@@ -42066,12 +41896,10 @@
 100	39	stx
 100	39	oliphanten
 100	39	van
-100	39	
 100	39	Ceylon
 100	39	gebracht
 100	39	ende
 100	39	aen
-100	39	
 100	39	Chinanna
 100	39	vercocht
 100	40	bleven
@@ -42509,7 +42337,6 @@
 101	35	ende
 101	35	Connerechittj
 101	35	geweest
-101	36	
 101	36	heeft
 101	36	in
 101	36	handen
@@ -42952,10 +42779,7 @@
 102	28	een
 102	28	cargasoen
 102	28	bedragende
-102	28	
 102	28	57795
-102	28	
-102	28	
 102	28	bestaende
 102	28	in
 102	29	8000
@@ -42965,26 +42789,20 @@
 102	29	Japans
 102	29	silver
 102	29	47864
-102	29	
 102	29	peper
 102	29	5457
 102	29	stucx
 102	29	fyn
 102	29	porceleyn
 102	30	2007Va
-102	30	
 102	30	quicksilver
 102	30	40120
-102	30	
 102	30	loot
 102	30	2730
-102	30	
 102	30	thin
 102	30	10621
-102	30	
 102	30	spiaulter
 102	30	36977
-102	30	
 102	31	sappanhout
 102	31	160
 102	31	stucx
@@ -43194,7 +43012,6 @@
 103	4	Parsia
 103	4	soude
 103	4	verlrecken
-103	4	
 103	4	Jiaer
 103	4	opgeven
 103	5	ende
@@ -43297,7 +43114,6 @@
 103	13	Bengalen
 103	13	te
 103	13	schicken
-103	13	
 103	13	H
 103	13	jacht
 103	13	den
@@ -43404,7 +43220,6 @@
 103	22	Negapatnam
 103	22	te
 103	22	cruyssen
-103	22	
 103	22	soo
 103	22	daer
 103	22	vaertuygh
@@ -43514,7 +43329,6 @@
 103	30	Atchin
 103	30	te
 103	30	senden
-103	30	
 103	31	van
 103	31	S
 103	31	Letchemaneyck
@@ -43572,7 +43386,6 @@
 103	35	cargasoen
 103	35	gesonden
 103	36	bedragende
-103	36	
 103	36	120975
 103	36	bestaende
 103	36	uyt
@@ -43595,7 +43408,6 @@
 103	37	Japans
 103	37	lackwerck
 103	38	69900
-103	38	
 103	38	rompen
 103	38	600
 103	38	calty
@@ -43722,28 +43534,20 @@
 104	6	U
 104	6	comptoir
 104	6	Palliacatta
-104	6	
 104	6	f
 104	6	124028.3
 104	7	op
 104	7	Masilapalnam
-104	7	
-104	7	
 104	7	70882.1.15
 104	8	op
 104	8	Pegu
-104	8	
-104	8	
 104	8	83709.1.12
 104	9	op
 104	9	Pipely
 104	9	ende
 104	9	Bengala
-104	9	
-104	9	
 104	9	26218.16.6
 104	10	Somma
-104	10	
 104	10	f
 104	10	304838.3.1
 104	11	Van
@@ -44000,7 +43804,6 @@
 104	32	maenden
 104	32	te
 104	32	betalen
-104	32	
 104	32	Tegenepatnam
 104	32	ende
 104	32	30
@@ -44181,7 +43984,6 @@
 105	6	cargasoen
 105	6	incoops
 105	6	costende
-105	6	
 105	6	18177
 105	6	hetselve
 105	6	had
@@ -44841,7 +44643,6 @@
 106	20	vanden
 106	20	E
 106	20	Jan
-106	20	
 106	20	Thyszen
 106	20	aenden
 106	20	Coninck
@@ -45409,7 +45210,6 @@
 107	30	ontrent
 107	30	syne
 107	30	May
-107	30	
 107	30	fortresse
 107	30	commanderen
 107	30	gelieve
@@ -45750,7 +45550,6 @@
 108	17	de
 108	17	remos
 108	17	souden
-108	17	
 108	17	gemaeckt
 108	17	ende
 108	17	met
@@ -46126,7 +45925,6 @@
 109	8	caneel
 109	8	sal
 109	8	leveren
-109	8	
 109	8	ende
 109	8	alles
 109	8	wat
@@ -46248,14 +46046,12 @@
 109	18	myn
 109	19	Conincklycke
 109	19	persoon
-109	19	
 109	19	in
 109	19	andere
 109	19	goederen
 109	19	als
 109	19	te
 109	19	weten
-109	19	
 109	19	areecq
 109	19	rys
 109	19	vee
@@ -46410,7 +46206,6 @@
 109	31	gebleven
 109	31	comt
 109	31	ten
-109	32	
 109	32	aensien
 109	32	de
 109	32	Portugesen
@@ -46725,7 +46520,6 @@
 110	15	vermaent
 110	16	Ten
 110	16	sevenden
-110	16	
 110	16	de
 110	16	advertentie
 110	16	die
@@ -46763,7 +46557,6 @@
 110	18	dagen
 110	18	gemist
 110	18	hebben
-110	18	
 110	18	syn
 110	18	mede
 110	19	noch
@@ -47703,7 +47496,6 @@
 112	11	ende
 112	11	daervan
 112	11	waerschoiiwen
-112	11	
 112	12	waermede
 112	12	denselve
 112	12	syn
@@ -47889,7 +47681,6 @@
 112	27	van
 112	27	syne
 112	27	May
-112	27	
 112	28	daermede
 112	28	van
 112	28	syne
@@ -48125,7 +47916,6 @@
 113	3	6
 113	3	larynen
 113	4	ende
-113	4	
 113	4	cleetjens
 113	4	v^as
 113	4	missende
@@ -48142,7 +47932,6 @@
 113	5	ende
 113	5	medegenomen
 113	5	hebben
-113	5	
 113	5	den
 113	5	president
 113	5	dede
@@ -48378,7 +48167,6 @@
 113	24	rusten
 113	24	is
 113	24	int
-113	24	
 113	24	nederbucken
 113	24	alsoo
 113	24	de
@@ -48876,7 +48664,6 @@
 114	20	niet
 114	20	wys
 114	20	worden
-114	20	
 114	21	was
 114	21	met
 114	21	eenige
@@ -49021,7 +48808,6 @@
 114	33	conden
 114	33	gaende
 114	33	houden
-114	33	
 114	33	ende
 114	33	soo
 114	33	der
@@ -49097,7 +48883,6 @@
 114	38	die
 114	38	yets
 114	38	brenght
-114	38	
 114	38	soo
 114	38	hadden
 114	38	't
@@ -49243,7 +49028,6 @@
 115	8	tyt
 115	8	geslreckt
 115	8	worden
-115	8	
 115	8	sullende
 115	8	hun
 115	8	den
@@ -49618,7 +49402,6 @@
 115	42	ter
 115	42	spmme
 115	42	van
-115	42	
 115	42	148579.11.13
 115	42	van
 115	42	Palliacatta
@@ -49658,11 +49441,9 @@
 116	2	ter
 116	2	somma
 116	2	van
-116	2	
 116	2	209888.18.10
 116	2	van
 116	2	Masilipatnam
-116	2	
 116	2	brengende
 116	2	tydinge
 116	2	dat
@@ -50144,7 +49925,6 @@
 117	2	schaers
 117	2	/0
 117	2	15
-117	2	
 117	2	ten
 117	2	hondert
 117	2	verlies
@@ -50657,7 +50437,6 @@
 117	44	vorderlycke
 117	44	conditie
 117	44	was
-117	44	
 117	44	soo
 118	2	was
 118	2	oock
@@ -50948,7 +50727,6 @@
 119	12	volght
 119	13	Banda
 119	13	met
-119	13	
 119	13	100
 119	13	matrosen
 119	13	11
@@ -50956,38 +50734,26 @@
 119	13	Portugesen
 119	14	Fredrick
 119	14	Henrick
-119	14	
 119	14	150
-119	14	
 119	14	17
 119	15	Sutphen
-119	15	
 119	15	110
-119	15	
 119	15	12
 119	16	Leeuwaerden
-119	16	
 119	16	110
-119	16	
 119	16	13
 119	17	Middelburgh
-119	17	
 119	17	130
-119	17	
 119	17	14
 119	18	den
 119	18	Salamander
-119	18	
 119	18	110
-119	18	
 119	18	11
 119	19	Matrosen
-119	19	
 119	19	710
 119	19	Portug
 119	19	78
 119	20	Samen
-119	20	
 119	20	788
 119	20	coppen
 119	21	Mitsgaders
@@ -51094,7 +50860,6 @@
 119	31	volcht
 120	2	Franicker
 120	2	mei
-120	2	
 120	2	40
 120	2	soldalen
 120	2	ende
@@ -51102,23 +50867,13 @@
 120	2	uialroosen
 120	3	de
 120	3	Duyff
-120	3	
-120	3	
 120	3	40
-120	3	
-120	3	
 120	3	40
-120	3	
 120	4	't
 120	4	galllot
-120	4	
-120	4	
 120	4	12
 120	5	Soldaten
-120	5	
-120	5	
 120	5	80
-120	5	
 120	5	malroosen
 120	5	102
 120	6	voor
@@ -51224,66 +50979,51 @@
 120	16	2900
 120	16	picol
 120	16	sappanhout
-120	16	
 120	17	243
 120	17	stux
 120	17	quiatj
 120	17	balcken
-120	17	
 120	18	342
 120	18	do
 120	18	gehouwen
 120	18	plancken
-120	18	
 120	19	16
 120	19	masten
 120	19	ende
 120	19	eenige
 120	19	spieren
-120	19	
 120	20	70
 120	20	cromhout
 120	20	tot
 120	20	«itters
 120	20	etc
-120	20	
 120	21	3B0
 120	21	ronde
 120	21	stutten
-120	21	
 120	22	280
 120	22	catty
 120	22	aguelhout
 120	22	cabessa
-120	22	
 120	23	50
 120	23	catty
 120	23	barigo
-120	23	
 120	24	1600
 120	24	potten
 120	24	cocus
 120	24	oly
-120	24	
 120	25	140
 120	25	picol
 120	25	swart
 120	25	nat
 120	25	lack
-120	25	
-120	25	
 120	26	60
 120	26	picol
 120	26	thin
-120	26	
-120	26	
 120	26	voor
 120	26	Japan
 120	27	80
 120	27	stux
 120	27	hartevellen
-120	27	
-120	27	
 120	28	Voor
 120	28	Tayouan
 120	28	hadden
@@ -51458,7 +51198,6 @@
 120	43	met
 120	43	toeseggingh
 120	43	de
-120	43	
 120	43	3000
 120	43	mede
 120	43	haest
@@ -51622,7 +51361,6 @@
 121	15	Conincx
 121	15	soon
 121	15	maer
-121	15	
 121	15	vermerckende
 121	15	uyt
 121	15	vele
@@ -51838,7 +51576,6 @@
 121	33	Comp
 121	33	waren
 121	33	gecomen
-121	33	
 121	33	soo
 121	33	syn
 121	33	May
@@ -51856,7 +51593,6 @@
 121	34	maerbequam
 121	34	magere
 121	34	antwoord
-121	34	
 121	35	want
 121	35	de
 121	35	meeninge
@@ -52416,7 +52152,6 @@
 122	39	de
 122	39	somma
 122	39	van
-122	39	
 122	39	115534
 122	40	Hy
 122	40	hadde
@@ -52461,7 +52196,6 @@
 122	43	te
 122	43	sullen
 122	43	gerieven
-122	43	
 122	43	sy
 122	43	versocht
 122	43	ernstelyck
@@ -52765,7 +52499,6 @@
 123	26	ter
 123	26	somme
 123	27	van
-123	27	
 123	27	1088150
 123	27	d'
 123	27	oorsake
@@ -53098,7 +52831,6 @@
 124	11	een
 124	11	cargasoen
 124	12	van
-124	12	
 124	12	184272
 124	13	De
 124	13	houtwercken
@@ -53242,7 +52974,6 @@
 124	24	gedespecheert
 124	24	te
 124	25	weten
-124	25	
 124	26	den
 124	26	14
 124	26	Juny
@@ -53257,7 +52988,6 @@
 124	26	Tonkins
 124	26	cargasoen
 124	27	monterende
-124	27	
 124	27	f
 124	27	9242
 124	27	4
@@ -53285,8 +53015,6 @@
 124	30	gecomen
 124	30	was
 124	30	van
-124	30	
-124	30	
 124	30	2072028
 124	30	9.10
 124	31	den
@@ -53295,8 +53023,6 @@
 124	31	den
 124	31	Otter
 124	31	met
-124	31	
-124	31	
 124	31	808920.10
 124	31	2
 124	32	den
@@ -53306,8 +53032,6 @@
 124	32	ende
 124	32	Gracht
 124	32	met
-124	32	
-124	32	
 124	32	1144915.19.11
 124	33	den
 124	33	6
@@ -53315,8 +53039,6 @@
 124	33	de
 124	33	Pauw
 124	33	met
-124	33	
-124	33	
 124	33	1123340.18.13
 124	34	ende
 124	34	den
@@ -53327,8 +53049,6 @@
 124	34	Goede
 124	34	Hoop
 124	34	met
-124	34	
-124	34	
 124	34	15165
 124	34	2
 124	34	9
@@ -53338,9 +53058,7 @@
 124	35	nae
 124	35	Japan
 124	35	gesonden
-124	35	
 124	35	i
-124	35	
 124	35	f
 124	35	5173613
 124	35	5
@@ -53362,7 +53080,6 @@
 124	37	de
 124	37	waerdye
 124	37	van
-124	37	
 124	37	28493
 124	37	in
 124	37	Chinese
@@ -53539,7 +53256,6 @@
 125	10	becomen
 125	10	sal
 125	10	wesen
-125	10	
 125	10	den
 125	10	eysch
 125	10	vande
@@ -53587,7 +53303,6 @@
 125	14	werden
 125	14	namen
 125	14	tlyck
-125	14	
 125	15	66
 125	15	duysent
 125	15	stux
@@ -53713,7 +53428,6 @@
 125	27	ende
 125	27	coopmanschappen
 125	27	namentlyck
-125	27	
 125	28	300
 125	28	kisten
 125	28	schuytsilver
@@ -53721,19 +53435,14 @@
 125	29	catty
 125	29	peper
 125	30	316
-125	30	
 125	30	mirhe
 125	31	4630
-125	31	
 125	31	nagelen
 125	32	9748
-125	32	
 125	32	catchouw
 125	33	8477
-125	33	
 125	33	oliphantstanden
 125	34	10120
-125	34	
 125	34	wierook
 125	34	als
 125	34	andere
@@ -53788,7 +53497,6 @@
 125	38	desen
 125	38	hadden
 125	38	voorgestelt
-125	38	
 125	38	ten
 125	38	selven
 125	38	dage
@@ -53992,7 +53700,6 @@
 126	12	tyt
 126	12	weynigh
 126	12	stutten
-126	12	
 126	12	echter
 126	12	hadde
 126	12	syn
@@ -54106,7 +53813,6 @@
 126	21	synde
 126	21	f
 126	21	216481.9
-126	21	
 126	21	in
 126	21	voorraet
 126	21	hadden
@@ -54170,7 +53876,6 @@
 126	27	die
 126	27	te
 126	27	maecken
-126	27	
 126	27	echter
 126	27	hadde
 126	27	syn
@@ -54522,7 +54227,6 @@
 127	13	handen
 127	13	te
 127	13	becomen
-127	13	
 127	13	maer
 127	13	aldaer
 127	13	gecomen
@@ -54556,7 +54260,6 @@
 127	16	mede
 127	16	aldaer
 127	16	gecomen
-127	16	
 127	16	naer
 127	16	sy
 127	16	presumeerden
@@ -54663,7 +54366,6 @@
 127	25	Gilem
 127	25	gevoert
 127	25	hebben
-127	25	
 127	25	doch
 127	25	aldaer
 127	25	gecomen
@@ -54867,14 +54569,12 @@
 127	41	samen
 127	41	gehoorsame
 127	41	kinderen
-127	41	
 127	42	den
 127	42	Christen
 127	42	religie
 127	42	nam
 127	42	groeten
 127	42	voortganck
-127	42	
 127	42	veele
 127	42	derselve
 127	42	menschen
@@ -55016,7 +54716,6 @@
 128	11	plaetse
 128	11	vertrocken
 128	11	is
-128	11	
 128	11	daer
 128	11	vsrierd
 128	12	bevonden
@@ -55898,7 +55597,6 @@
 129	41	in
 129	41	Tayouan
 129	41	geretourneert
-129	41	
 129	41	het
 129	41	cleyne
 129	41	jonckjen
@@ -56380,7 +56078,6 @@
 130	38	werck
 130	38	te
 130	38	houden
-130	38	
 130	38	't
 130	38	verongelucken
 130	38	vande
@@ -56651,7 +56348,6 @@
 131	16	onsmaeckelyck
 131	17	maken
 131	17	mocht
-131	17	
 131	17	uyt
 131	17	de
 131	17	Chinesen
@@ -56926,7 +56622,6 @@
 131	39	een
 131	39	cargasoen
 131	39	van
-131	40	
 131	40	1516S.2.9
 131	40	God
 131	40	betert
@@ -57014,7 +56709,6 @@
 132	3	voick
 132	3	mede
 132	3	gesalveert
-132	3	
 132	3	God
 132	3	den
 132	3	Heere
@@ -57118,7 +56812,6 @@
 132	13	tot
 132	13	swarlen
 132	13	verwe
-132	13	
 132	13	ende
 132	13	weynigh
 132	13	tot
@@ -57161,24 +56854,20 @@
 132	18	sware
 132	18	gilems
 132	19	1228
-132	19	
 132	19	roode
 132	19	sware
 132	19	pangsjes
 132	20	256
-132	20	
 132	20	sware
 132	20	damasten
 132	20	alderhande
 132	20	coleur
 132	21	199
-132	21	
 132	21	gefigureerde
 132	21	als
 132	21	effene
 132	21	sattynen
 132	22	70
-132	22	
 132	22	witte
 132	22	platgevouwen
 132	22	pelinghs
@@ -57265,7 +56954,6 @@
 132	31	eynde
 132	31	te
 132	31	loopen
-132	31	
 132	31	syn
 132	31	E
 132	32	calculeert
@@ -57324,7 +57012,6 @@
 132	36	is
 132	36	te
 132	36	gasteren
-132	36	
 132	36	20000
 132	36	te
 132	36	samen
@@ -57372,7 +57059,6 @@
 132	39	boven
 132	39	gecomen
 132	39	wesen
-132	39	
 132	39	desen
 132	39	jare
 132	40	bedroegen
@@ -57523,7 +57209,6 @@
 133	9	daer
 133	9	op
 133	9	valt
-133	9	
 133	9	maer
 133	9	was
 133	10	syn
@@ -57978,7 +57663,6 @@
 134	7	ende
 134	7	andere
 134	7	snuysteringh
-134	7	
 134	8	daerentegen
 134	8	vertrecken
 134	8	4
@@ -58303,7 +57987,6 @@
 134	42	desel^s
 134	42	plaetse
 134	42	gesurrogeert
-134	42	
 134	42	ende
 134	42	adviseert
 134	42	denselve
@@ -58562,7 +58245,6 @@
 135	21	brieff
 135	21	van
 135	21	complementos
-135	21	
 135	21	conden
 135	21	d'
 135	21	onse
@@ -58633,7 +58315,6 @@
 135	27	op
 135	27	te
 135	27	eysscben
-135	27	
 135	27	aende
 135	27	wal
 135	27	gecomen
@@ -58698,7 +58379,6 @@
 135	32	gemelte
 135	32	eylant
 135	32	conunitteren
-135	32	
 135	32	aldaer
 135	32	souden
 135	32	van
@@ -58978,7 +58658,6 @@
 136	11	Jansz
 136	12	Menie
 136	12	voors
-136	12	
 136	12	met
 136	12	deselve
 136	12	quamen
@@ -59193,11 +58872,9 @@
 136	31	nae
 136	31	Cherrebon
 136	32	1
-136	32	
 136	32	Bantam
 136	32	ende
 136	33	1
-136	33	
 136	33	Dammack
 136	33	voeren
 136	33	eenige
@@ -59232,12 +58909,10 @@
 136	37	eenige
 136	37	pitjes
 136	38	1
-136	38	
 136	38	Cherrebon
 136	38	niets
 136	38	uytvoerende
 136	39	1
-136	39	
 136	39	Packelongen
 136	39	met
 136	39	eenige
@@ -59356,7 +59031,6 @@
 137	8	catty
 137	8	Atchins
 137	8	costen
-137	8	
 137	8	74859.1.9
 137	8	met
 137	9	5600
@@ -59827,7 +59501,6 @@
 138	12	man
 138	12	te
 138	12	helpen
-138	12	
 138	12	desgelycx
 138	13	bleven
 138	13	mede
@@ -59937,7 +59610,6 @@
 138	22	ter
 138	22	somme
 138	23	van
-138	23	
 138	23	103250
 138	24	Wegen
 138	24	de
@@ -60093,7 +59765,6 @@
 138	38	stucx
 138	38	cabessa
 138	39	40
-138	39	
 138	39	bariga
 138	39	wegende
 138	39	75
@@ -60107,7 +59778,6 @@
 138	39	't
 138	39	hondert
 138	40	30
-138	40	
 138	40	phee
 138	41	Met
 138	41	Nappra
@@ -60356,7 +60026,6 @@
 139	17	200
 139	17	picol
 139	17	gommelac
-139	17	
 139	17	waren
 139	17	versproocken
 139	18	dat
@@ -60431,7 +60100,6 @@
 139	23	hadde
 139	23	souden
 139	23	aennemen
-139	23	
 139	23	den
 139	23	gommelac
 139	23	is
@@ -60743,7 +60411,6 @@
 140	5	de
 140	5	coyangh
 140	5	dalen
-140	5	
 140	5	gold
 140	5	op
 140	5	dato
@@ -60812,7 +60479,6 @@
 140	12	oock
 140	12	niet
 140	12	aen
-140	12	
 140	12	soo
 140	12	deselve
 140	12	root
@@ -60948,7 +60614,6 @@
 140	24	jaren
 140	24	hadde
 140	24	toegestaen
-140	24	
 140	25	hadden
 140	25	aldaer
 140	25	veele
@@ -61002,7 +60667,6 @@
 140	29	opde
 140	29	munte
 140	29	42
-140	29	
 140	29	ten
 140	29	hondert
 140	30	geadvanceert
@@ -61245,7 +60909,6 @@
 141	5	soude
 141	5	connen
 141	5	gagieren
-141	5	
 141	5	de
 141	5	packhuysen
 141	6	lagen
@@ -61627,7 +61290,6 @@
 141	36	hem
 141	37	gedaen
 141	37	was
-141	37	
 141	37	dan
 141	37	waren
 141	37	des
@@ -61878,7 +61540,6 @@
 142	17	sochten
 142	17	te
 142	17	vercoopen
-142	17	
 142	17	soo
 142	17	was
 142	17	mede
@@ -62084,7 +61745,6 @@
 142	36	nae
 142	36	Japara
 142	37	1
-142	37	
 142	37	Dammack
 142	37	voeren
 142	37	uyt
@@ -62178,7 +61838,6 @@
 143	7	eenige
 143	7	cleeden
 143	8	1
-143	8	
 143	8	Biema
 143	8	met
 143	8	cleeden
@@ -62187,7 +61846,6 @@
 143	8	coopmanschappen
 143	8	ende
 143	9	2
-143	9	
 143	9	Bantam
 143	9	uytvoerende
 143	9	eenige
@@ -62338,7 +61996,6 @@
 143	20	rugge
 143	21	f
 143	21	765
-143	21	
 143	21	denselve
 143	21	hadde
 143	21	mede
@@ -62468,7 +62125,6 @@
 143	33	een
 143	33	cargasoen
 143	34	van
-143	34	
 143	34	42114.11.4
 143	35	Ende
 143	35	adviseert
@@ -62974,11 +62630,8 @@
 144	39	Nederlantse
 144	39	fluweelen
 144	40	K
-144	40	
-144	40	
 144	40	felpen
 144	41	2
-144	41	
 144	41	Persiaense
 144	41	alcatyvea
 144	41	met
@@ -63275,7 +62928,6 @@
 145	25	Nederlantse
 145	25	Comp
 145	25	verleent
-145	25	
 145	25	daerop
 145	25	antwoorde
 145	26	d^selve
@@ -63389,7 +63041,6 @@
 145	34	soude
 145	35	doenlyck
 145	35	wesen
-145	35	
 145	35	naer
 145	35	welcke
 145	35	redenen
@@ -63928,7 +63579,6 @@
 146	36	sommige
 146	36	der
 146	36	voors
-146	37	
 146	37	heeren
 146	37	geoordeelt
 146	37	hadden
@@ -64208,7 +63858,6 @@
 147	18	voornemen
 147	18	geraken
 147	18	souden
-147	18	
 147	19	Den
 147	19	30
 147	19	do
@@ -64529,7 +64178,6 @@
 147	44	weder
 147	44	gecomen
 147	44	synde
-147	45	
 148	2	dede
 148	2	syn
 148	2	E
@@ -64573,7 +64221,6 @@
 148	5	groeten
 148	5	yerwonderingh
 148	5	aen
-148	5	
 148	5	maer
 148	5	alsoo
 148	5	den
@@ -64608,7 +64255,6 @@
 148	7	wyn
 148	7	trefTigh
 148	7	onthaelt
-148	7	
 148	7	des
 148	7	anderen
 148	7	daegbs
@@ -65513,7 +65159,6 @@
 149	36	daervan
 149	36	conde
 149	36	hebben
-149	36	
 149	36	versoeckende
 149	36	met
 149	36	eenen
@@ -65865,7 +65510,6 @@
 150	21	des
 150	21	May
 150	21	oom
-150	22	
 150	22	te
 150	22	gaen
 150	22	alsoo
@@ -66124,7 +65768,6 @@
 150	43	connen
 150	43	uy
 150	43	twachten
-150	43	
 150	44	doch
 150	44	't
 150	44	geene
@@ -66205,7 +65848,6 @@
 151	7	tale
 151	7	als
 151	7	volcht
-151	7	
 151	8	Ten
 151	8	tyde
 151	8	van
@@ -66962,7 +66604,6 @@
 152	28	van
 152	28	Nangasacqui
 152	28	Onderteeckent
-152	28	
 152	29	LOUYS
 152	29	PATCfflCO
 152	30	RODRIGO
@@ -67383,7 +67024,6 @@
 153	24	sullen
 153	24	mogen
 153	24	incomen
-153	24	
 153	24	blyckende
 153	24	dan
 153	24	sulcx
@@ -67565,7 +67205,6 @@
 153	40	penningen
 153	40	mogen
 153	40	voldoen
-153	40	
 153	41	tot
 153	41	welcken
 153	41	eynde
@@ -67647,7 +67286,6 @@
 154	4	van
 154	4	Nangasacqui
 154	4	onderteeckent
-154	4	
 154	5	De
 154	5	principaelste
 154	5	der
@@ -67692,7 +67330,6 @@
 154	10	ingelade
 154	11	goederen
 154	11	op
-154	11	
 154	11	dagh
 154	11	der
 154	11	10
@@ -68325,7 +67962,6 @@
 155	23	Ende
 155	23	was
 155	23	onderteeckent
-155	23	
 155	24	DON
 155	24	SEBASTIAEN
 155	24	CORTADO
@@ -68378,9 +68014,6 @@
 155	39	DE
 155	39	MASSADJ
 155	39	1
-155	39	
-155	39	
-155	39	
 155	40	™V^r^
 155	40	^^Vv^T\!^w
 155	40	Gecommitteerde
@@ -68391,7 +68024,6 @@
 155	41	DE
 155	41	S
 155	41	DOMINGO
-155	41	
 155	42	FRATER
 155	42	BENTO
 155	43	LEMONTE
@@ -68420,7 +68052,6 @@
 156	2	Sabroseymond
 156	2	ten
 156	3	antwoorde
-156	3	
 156	4	In
 156	4	Uwen
 156	4	briefi
@@ -68934,7 +68565,6 @@
 157	5	gegraven
 157	5	wech
 157	5	gesmeten
-157	5	
 157	5	dit
 157	5	alsoo
 157	5	volbracht
@@ -69518,7 +69148,6 @@
 158	11	3
 158	11	dagh
 158	12	Onderstont
-158	12	
 158	13	Aan
 158	13	BABBA
 158	13	SABROSEYHON
@@ -69590,7 +69219,6 @@
 158	27	dooden
 158	27	gelast
 158	27	syn
-158	27	
 158	27	den
 158	27	verleden
 158	27	jare
@@ -69854,7 +69482,6 @@
 159	8	naer
 159	8	Nangasacqui
 159	8	schicken
-159	9	
 159	9	jaer
 159	9	6
 159	9	maen
@@ -69963,7 +69590,6 @@
 159	21	lach
 159	21	gevaren
 159	21	syn
-159	21	
 159	21	hetselve
 159	21	keurich
 159	22	besichtight
@@ -70045,7 +69671,6 @@
 159	30	cargasoen
 159	30	bedragende
 159	30	incoops
-159	30	
 159	31	Den
 159	31	25
 159	31	Augusty
@@ -70053,22 +69678,17 @@
 159	31	fluyten
 159	32	Otter
 159	32	met
-159	32	
 159	33	Oostcappel
 159	33	met
-159	33	
 159	34	16
 159	34	do
 159	34	Broeckoort
 159	34	met
-159	34	
-159	34	
 159	35	9
 159	35	September
 159	35	de
 159	35	Gracht
 159	35	met
-159	35	
 159	36	10
 159	36	do
 159	36	de
@@ -70076,7 +69696,6 @@
 159	36	inhebbende
 159	36	aen
 159	36	cargasoen
-159	36	
 159	37	ende
 159	37	eyndelyck
 159	37	op
@@ -70087,7 +69706,6 @@
 159	37	verwachte
 159	37	Pauw
 159	37	met
-159	37	
 159	38	Somma
 159	39	Van
 159	39	TONQÜIN
@@ -70120,11 +69738,9 @@
 159	51	244025
 159	51	4
 159	51	9
-159	52	
 159	52	187951
 159	52	1
 159	52	1
-159	53	
 159	53	431974
 159	53	5:10
 160	2	Van
@@ -70136,8 +69752,6 @@
 160	3	fluyt
 160	3	Gaslricum
 160	3	met
-160	3	
-160	3	
 160	3	1032liO:16
 160	3	4
 160	4	Van
@@ -70149,7 +69763,6 @@
 160	5	ViTitten
 160	5	Oliphant
 160	5	met
-160	5	
 160	5	f
 160	5	114271:17
 160	5	8
@@ -70181,8 +69794,6 @@
 160	8	ter
 160	8	somma
 160	9	van
-160	9	
-160	9	
 160	9	6295367
 160	9	8
 160	9	1
@@ -70954,7 +70565,6 @@
 161	31	nest
 161	31	te
 161	31	jagen
-161	31	
 161	31	Macao
 161	31	aengetast
 161	31	synde
@@ -71153,7 +70763,6 @@
 162	5	dreygende
 162	5	onheylen
 162	5	voorgecomen
-162	5	
 162	5	want
 162	5	hadde
 162	5	d'
@@ -71420,7 +71029,6 @@
 162	30	als
 162	30	binnen
 162	30	scheepsboort
-162	30	
 162	30	sy
 162	30	dragen
 162	30	swarte
@@ -72785,7 +72393,6 @@
 165	24	Lequese
 165	24	eylanden
 165	25	gestrant
-165	25	
 165	25	het
 165	25	jacht
 165	25	ende
@@ -73049,7 +72656,6 @@
 166	4	sporlingh
 166	4	gemaeckt
 166	4	hadde
-166	4	
 166	4	willen
 166	4	's
 166	4	Keysers
@@ -73062,7 +72668,6 @@
 166	5	prompt
 166	5	naegecomen
 166	5	hebben
-166	5	
 166	5	gemelte
 166	5	schipper
 166	5	was
@@ -73569,7 +73174,6 @@
 167	4	inde
 167	4	goederen
 167	4	was
-167	4	
 167	4	item
 167	4	dat
 167	4	de
@@ -73938,7 +73542,6 @@
 167	36	byster
 167	37	geworden
 167	37	was
-167	37	
 167	37	doch
 167	37	dese
 167	37	synde
@@ -74120,7 +73723,6 @@
 168	9	alle
 168	9	onvercocht
 168	9	lagen
-168	9	
 168	9	den
 168	9	eysch
 168	10	was
@@ -74173,7 +73775,6 @@
 168	14	ende
 168	14	Doornickse
 168	14	sayen
-168	14	
 168	14	item
 168	14	't
 168	14	meerder
@@ -74191,7 +73792,6 @@
 168	16	qualyck
 168	16	conden
 168	16	halen
-168	16	
 168	16	soo
 168	16	bleven
 168	16	oock
@@ -74201,7 +73801,6 @@
 168	16	vragen
 168	16	ryckelyck
 168	16	voorsien
-168	16	
 168	17	maer
 168	17	't
 168	17	geëyschte
@@ -74272,7 +73871,6 @@
 168	22	luyden
 168	22	sententien
 168	22	uytgesproken
-168	22	
 168	22	hem
 168	22	was
 168	22	't
@@ -74347,15 +73945,12 @@
 168	29	ofte
 168	29	alderfynste
 168	29	sorteringh
-168	29	
 168	29	th
 168	29	340
 168	30	de
 168	30	primiere
 168	30	ofte
 168	30	middelbare
-168	30	
-168	30	
 168	30	310
 168	30	1
 168	30	picol
@@ -74364,8 +73959,6 @@
 168	31	ofte
 168	31	derde
 168	31	sorteringe
-168	31	
-168	31	
 168	31	280
 168	32	welck
 168	32	ten
@@ -74421,7 +74014,6 @@
 168	36	commissaris
 168	36	wesen
 168	36	congratuleren
-168	36	
 168	36	by
 168	36	welcke
 168	37	gelegentheyt
@@ -74677,7 +74269,6 @@
 169	14	achten
 169	14	wy
 169	14	cleyn
-169	14	
 169	14	dat
 169	14	ghy
 169	14	Christenen
@@ -75246,7 +74837,6 @@
 170	18	breecken
 170	18	wachte
 170	18	besoecken
-170	18	
 170	19	audiëntie
 170	19	becomen
 170	19	hebbende
@@ -75292,12 +74882,10 @@
 170	22	hebben
 170	22	te
 170	22	reguleren
-170	22	
 170	22	denselve
 170	22	gaff
 170	22	ten
 170	22	antwoord
-170	22	
 170	23	't
 170	23	is
 170	23	my
@@ -75344,7 +74932,6 @@
 170	26	volbracht
 170	26	moet
 170	26	werden
-170	26	
 170	26	over
 170	26	uwen
 170	26	handel
@@ -75380,7 +74967,6 @@
 170	29	syn
 170	29	affscheyt
 170	29	nam
-170	29	
 170	29	des
 170	29	anderen
 170	29	daeghs
@@ -75462,7 +75048,6 @@
 170	35	soude
 170	35	connen
 170	35	geschieden
-170	35	
 170	36	men
 170	36	mochte
 170	36	geen
@@ -75607,7 +75192,6 @@
 171	4	niet
 171	4	meer
 171	4	als
-171	5	
 171	5	980894
 171	5	in
 171	5	gout
@@ -75716,7 +75300,6 @@
 171	13	Chinesen
 171	13	te
 171	13	crygen
-171	13	
 171	13	doch
 171	13	waren
 171	13	meest
@@ -75785,7 +75368,6 @@
 171	18	tayl
 171	18	schuytsUver
 171	18	off
-171	18	
 171	18	399000
 171	18	dat
 171	19	weynigh
@@ -75821,7 +75403,6 @@
 171	21	gesecundeert
 171	21	can
 171	21	werden
-171	21	
 171	21	638689.8
 171	21	gout
 171	21	in
@@ -76070,7 +75651,6 @@
 171	42	retour
 171	42	gebracht
 171	42	waren
-171	42	
 171	42	eenige
 171	42	Chinesen
 171	42	aldaer
@@ -76425,7 +76005,6 @@
 173	6	ende
 173	6	Ioock
 173	7	Den
-173	7	
 173	7	do
 173	7	vertreckt
 173	7	een
@@ -76572,7 +76151,6 @@
 173	19	20
 173	19	coyangh
 173	19	rys
-173	19	
 173	19	hadde
 173	19	syn
 173	19	reyse
@@ -76663,24 +76241,18 @@
 173	28	volcht
 173	29	Haarlem
 173	29	met
-173	29	
 173	29	130
 173	29	coppen
 173	30	Maestricht
 173	30	met
-173	30	
 173	30	110
-173	30	
 173	31	de
 173	31	fluyt
 173	31	Berckel
 173	31	met
-173	31	
 173	31	80
-173	31	
 173	32	T'
 173	32	samen
-173	32	
 173	32	290
 173	32	coppen
 174	2	Mitsgaders
@@ -76783,7 +76355,6 @@
 174	13	catty
 174	13	peper
 174	14	monterende
-174	14	
 174	14	64156.14.11
 174	14	ende
 174	14	gout
@@ -76961,7 +76532,6 @@
 174	29	wel
 174	29	aengecomen
 174	30	medebrengende
-174	30	
 174	30	comp
 174	30	soldaten
 174	30	alle
@@ -77164,7 +76734,6 @@
 175	5	toe
 175	5	verleenen
 175	5	wil
-175	5	
 175	5	ondertusschen
 175	5	wierden
 175	5	soo
@@ -77524,7 +77093,6 @@
 175	36	aenden
 175	36	gront
 175	36	geraeekt
-175	36	
 175	36	den
 175	36	capileyn
 175	36	vresende
@@ -77845,7 +77413,6 @@
 176	19	te
 176	20	wege
 176	20	brengen
-176	20	
 176	20	dese
 176	20	gingen
 176	20	tegens
@@ -77916,7 +77483,6 @@
 176	25	stadt
 176	25	geclommen
 176	25	hebben
-176	25	
 176	25	echter
 176	25	cregen
 176	25	van
@@ -78179,7 +77745,6 @@
 177	2	namaels
 177	2	gestorven
 177	3	syn
-177	3	
 177	3	's
 177	3	morgens
 177	3	inden
@@ -78416,7 +77981,6 @@
 177	21	nader
 177	21	dorsten
 177	21	comen
-177	21	
 177	21	naer
 177	22	gissinge
 177	22	waren
@@ -78685,7 +78249,6 @@
 177	44	effecten
 177	44	verstaen
 177	44	mogen
-178	2	
 178	2	Voors
 178	2	jacht
 178	2	Langerack
@@ -78742,7 +78305,6 @@
 178	5	daerdoor
 178	6	veracbtert
 178	6	sy
-178	6	
 178	6	gemelte
 178	6	fluyt
 178	6	hadde
@@ -79307,7 +78869,6 @@
 179	12	hy
 179	12	soude
 179	12	voors
-179	12	
 179	12	vaertuygh
 179	13	echter
 179	13	naer
@@ -79730,7 +79291,6 @@
 180	9	te
 180	9	verwachten
 180	9	is
-180	9	
 180	9	2435:7
 180	9	15
 180	10	ende
@@ -79887,7 +79447,6 @@
 180	22	blauwe
 180	22	excuys
 180	22	was
-180	22	
 180	22	want
 180	22	door
 180	22	't
@@ -80011,7 +79570,6 @@
 180	31	soude
 180	31	mogen
 180	32	vercopen
-180	32	
 180	32	ondertusschen
 180	32	verschynt
 180	32	aldaer
@@ -80256,7 +79814,6 @@
 181	9	tot
 181	10	6000
 181	10	tangen
-181	10	
 181	10	met
 181	10	gemelte
 181	10	scheepskens
@@ -80287,7 +79844,6 @@
 181	12	mede
 181	12	tot
 181	12	een
-181	12	
 181	12	vereeringe
 181	12	voorden
 181	12	Goninck
@@ -80398,7 +79954,6 @@
 181	21	aldaer
 181	21	voor
 181	21	13
-181	21	
 181	21	14hondert
 181	21	tangen
 181	21	ingecocht
@@ -80679,8 +80234,6 @@
 181	44	*t
 181	44	oorloghsjacht
 181	44	Oudewater
-181	45	
-181	46	
 182	2	Op
 182	2	't
 182	2	porceleyn
@@ -81721,7 +81274,6 @@
 184	6	der
 184	6	stad
 184	6	Malacca
-184	6	
 184	6	met
 184	6	't
 184	6	jonghste
@@ -81831,7 +81383,6 @@
 184	14	gereet
 184	15	gemaakt
 184	15	wierd
-184	15	
 184	15	ende
 184	15	alsoo
 184	15	te
@@ -82018,7 +81569,6 @@
 184	31	gevonden
 184	31	soude
 184	31	werden
-184	31	
 184	31	uytgesondert
 184	32	't
 184	32	canon
@@ -82248,36 +81798,28 @@
 185	9	Ritsart
 185	9	Wils
 185	9	met
-185	9	
-185	9	
-185	9	
 185	9	45
 185	10	Luytenant
 185	10	Gerrit
 185	10	Galpers
 185	10	met
-185	10	
 185	10	50
 185	11	Luytenant
 185	11	Vincent
 185	11	Schroder
 185	11	met
-185	11	
 185	11	45
 185	12	de
 185	12	comp
 185	12	Mardyckers
 185	12	sterk
-185	12	
 185	12	50
 185	13	Luytenant
 185	13	de
 185	13	Wil
 185	13	met
-185	13	
 185	13	50
 185	14	Samen
-185	14	
 185	14	284
 185	14	coppen
 185	15	Daerover
@@ -82323,7 +81865,6 @@
 185	20	58
 185	20	man
 185	20	samen
-185	20	
 185	20	118
 185	20	coppen
 185	21	daeraen
@@ -82335,21 +81876,15 @@
 185	21	capiteyn
 185	22	Cleyn
 185	22	Javaen
-185	22	
-185	22	
 185	22	54
-185	22	
 185	23	mitsgaders
 185	23	de
 185	23	Luytenant
 185	23	Harderwyck
 185	23	met
-185	23	
 185	23	40
-185	23	
 185	24	Makende
 185	24	samen
-185	24	
 185	24	192
 185	24	coppen
 185	25	In
@@ -82364,11 +81899,8 @@
 185	26	Bandanesen
 185	26	ende
 185	26	Javanen
-185	26	
 185	26	84
-185	26	
 185	27	Samen
-185	27	
 185	27	822
 185	27	coppen
 185	28	Een
@@ -82384,7 +81916,6 @@
 185	28	aen
 185	28	te
 185	28	tasten
-185	28	
 185	29	den
 185	29	sergeant-mayor
 185	29	Johan
@@ -82608,7 +82139,6 @@
 186	4	van
 186	4	het
 186	4	cloeckste
-186	5	
 186	5	volck
 186	5	verlooren
 186	5	doch
@@ -82921,7 +82451,6 @@
 186	30	gewelt
 186	30	gecomen
 186	30	synde
-186	30	
 186	30	deden
 186	30	datelyck
 186	30	met
@@ -82980,7 +82509,6 @@
 186	35	uytgedeelt
 186	35	te
 186	35	werden
-186	35	
 186	35	van
 186	35	het
 186	35	eerste
@@ -83120,7 +82648,6 @@
 187	3	60
 187	3	gequetsten
 187	4	becomen
-187	4	
 187	4	ende
 187	4	dusdanigh
 187	4	is
@@ -83398,7 +82925,6 @@
 187	28	gewAischte
 187	28	victorie
 187	28	gecommuniceert
-187	28	
 187	28	d'
 187	28	selve
 187	28	hadden
@@ -83547,7 +83073,6 @@
 187	40	zee
 187	40	geraeckt
 187	41	waren
-187	41	
 187	41	God
 187	41	wil
 187	41	haer
@@ -83728,20 +83253,15 @@
 188	15	In
 188	15	den
 188	15	Oliphant
-188	15	
 188	15	f
 188	15	551677:18
 188	15	6
 188	16	den
 188	16	Otter
-188	16	
-188	16	
 188	16	126988
 188	16	8:10
 188	17	de
 188	17	Pauw
-188	17	
-188	17	
 188	17	140800
 188	17	1
 188	17	8
@@ -83750,7 +83270,6 @@
 188	18	Parsia
 188	18	ende
 188	19	Winguria
-188	20	
 188	20	f
 188	20	819466
 188	20	8
@@ -83759,13 +83278,10 @@
 188	21	Xis
 188	21	voor
 188	21	Ghoromandel
-188	21	
-188	21	
 188	21	657772
 188	21	4
 188	21	4
 188	22	Somma
-188	22	
 188	22	f
 188	22	1377238:12:12
 188	23	Den
@@ -84663,7 +84179,6 @@
 190	11	capiteyn
 190	11	Lacco
 190	11	van
-190	12	
 190	12	op
 190	12	hebbende
 190	12	75
@@ -84829,7 +84344,6 @@
 191	4	ingeladen
 191	4	cargasoen
 191	4	bedragende
-191	5	
 191	5	te
 191	5	samen
 191	5	ter
@@ -85269,7 +84783,6 @@
 192	12	op
 192	12	te
 192	12	maken
-192	12	
 192	12	souden
 192	12	deselve
 192	12	soo
@@ -85454,7 +84967,6 @@
 192	29	nae
 192	29	Onrust
 192	30	Den
-192	30	
 192	30	do
 192	30	vertreckt
 192	30	een
@@ -85828,7 +85340,6 @@
 193	20	te
 193	20	samen
 193	20	30
-193	20	
 193	20	gewrocht
 193	20	silver
 193	20	mitsgaders
@@ -85957,7 +85468,6 @@
 193	31	voor
 193	31	het
 193	31	volck
-193	31	
 193	32	Met
 193	32	voors
 193	32	2
@@ -86035,7 +85545,6 @@
 193	39	vertrecken
 193	39	niemant
 193	39	uytgesondert
-193	39	
 193	40	hebben
 193	40	soo
 193	40	't
@@ -86062,7 +85571,6 @@
 193	41	bosschieters
 193	41	ende
 193	41	ambachtsluyden
-193	41	
 193	42	eenige
 193	42	smits
 193	42	timmerluyden
@@ -86136,7 +85644,6 @@
 194	4	cleeden
 194	4	voor't
 194	5	guamisoen
-194	5	
 194	5	met
 194	5	't
 194	5	galiot
@@ -86385,7 +85892,6 @@
 194	26	ter
 194	26	somma
 194	26	van
-194	26	
 194	26	508165:1
 194	26	4:5
 194	26	de
@@ -86922,7 +86428,6 @@
 195	31	ende
 195	31	2
 195	31	rottanghmatten
-195	31	
 195	31	by
 195	31	voors
 195	31	brieff
@@ -87123,7 +86628,6 @@
 196	7	weynigh
 196	7	droge
 196	7	pisangh
-196	7	
 196	7	deselve
 196	7	v^as
 196	7	ontrent
@@ -87239,7 +86743,6 @@
 196	17	ter
 196	17	somme
 196	17	van
-196	17	
 196	17	38780
 196	17	ende
 196	18	adviseert
@@ -87267,7 +86770,6 @@
 196	20	hunne
 196	20	voorgaende
 196	21	ongelegentheyt
-196	21	
 196	21	den
 196	21	Ghristiaenshaven
 196	21	en
@@ -87359,7 +86861,6 @@
 196	28	andere
 196	28	Denen
 196	28	affgescheyden
-196	28	
 196	28	ende
 196	28	hadden
 196	28	op
@@ -88730,8 +88231,6 @@
 199	17	hooger
 199	17	als
 199	17	12672
-199	17	
-199	17	
 199	18	weynigh
 199	18	minder
 199	18	connen
@@ -88827,7 +88326,6 @@
 199	25	aenden
 199	25	Coninck
 199	26	van
-199	26	
 199	26	Camatica
 199	26	ende
 199	26	een
@@ -88904,13 +88402,11 @@
 199	32	percento
 199	32	advance
 199	32	gedebiteert
-199	32	
 199	32	van
 199	32	gelycken
 199	32	aen
 199	32	diverse
 199	33	402
-199	33	
 199	33	attael
 199	33	tot
 199	33	4
@@ -88929,7 +88425,6 @@
 199	34	ende
 199	34	soo
 199	34	veel
-199	34	
 199	34	sandelhout
 199	34	tot
 199	34	65
@@ -88938,7 +88433,6 @@
 199	34	babar
 199	34	van
 199	34	480
-199	34	
 199	34	soo
 199	34	oock
 199	34	eenige
@@ -89477,7 +88971,6 @@
 200	38	aen
 200	38	te
 200	38	neemen
-200	38	
 200	39	de
 200	39	ordinaire
 200	39	geschencken
@@ -89552,7 +89045,6 @@
 200	44	preeminentien
 200	44	te
 200	44	mainteneeren
-200	44	
 200	44	ende
 200	44	soude
 200	44	gemelte
@@ -89869,7 +89361,6 @@
 201	27	tegen
 201	27	te
 201	27	staen
-201	27	
 201	27	het
 201	27	eerste
 201	27	conde
@@ -90074,7 +89565,6 @@
 201	43	inden
 201	43	brant
 201	43	steecken
-201	43	
 201	43	item
 201	43	de
 201	43	vreemde
@@ -91254,7 +90744,6 @@
 204	13	doenlyck
 204	13	soude
 204	13	syn
-204	13	
 204	13	Block
 204	13	des
 204	13	anderen
@@ -91341,7 +90830,6 @@
 204	20	genoegen
 204	20	genomen
 204	20	had
-204	21	
 204	21	Geduyrende
 204	21	S
 204	21	Blocks
@@ -91526,7 +91014,6 @@
 204	35	verstercken
 204	35	ende
 204	35	Franicker
-204	35	
 204	35	Vliegende
 204	35	Hart
 204	35	ofbe
@@ -91548,7 +91035,6 @@
 204	37	Groot
 204	37	geadvisecrt
 204	37	hadden
-204	37	
 204	37	den
 204	37	Neptunus
 204	37	was
@@ -91557,7 +91043,6 @@
 204	37	te
 204	37	voorschyn
 204	37	gecomen
-204	37	
 204	38	800
 204	38	souden
 204	38	oock
@@ -91714,7 +91199,6 @@
 205	7	tyt
 205	8	In
 205	8	onse
-205	8	
 205	8	vloote
 205	8	was
 205	8	weinich
@@ -91769,7 +91253,6 @@
 205	13	Paets
 205	13	over
 205	13	genomen
-205	13	
 205	13	de
 205	13	boecken
 205	13	waren
@@ -92013,7 +91496,6 @@
 205	33	herwaerts
 205	33	te
 205	33	senden
-205	33	
 205	33	maer
 205	33	soude
 205	33	niet
@@ -92153,7 +91635,6 @@
 205	43	selve
 205	43	te
 205	43	ontsetten
-205	43	
 205	44	eerstdaechs
 205	44	M
 205	44	Pieter
@@ -92682,7 +92163,6 @@
 206	44	tot
 206	44	welcken
 206	45	13
-207	2	
 207	3	eynde
 207	3	omme
 207	3	seecker
@@ -92698,7 +92178,6 @@
 207	4	aldaer
 207	4	geremitteert
 207	4	hadden
-207	4	
 207	4	uyt
 207	4	de
 207	4	vloote
@@ -92713,47 +92192,36 @@
 207	5	gelicht
 207	5	het
 207	5	naervolgende
-207	5	
 207	6	12011
 207	6	S
 207	6	noten
 207	6	muscaet
 207	7	9460
-207	7	
 207	7	nagelen
 207	8	3170
-207	8	
 207	8	foelie
 207	9	1729
-207	9	
 207	9	benjuin
 207	9	cabessa
 207	10	2464
-207	10	
 207	10	dito
 207	10	barrigo
 207	11	2754
-207	11	
 207	11	aluyn
 207	12	2411
-207	12	
 207	12	radix
 207	12	china
 207	13	244S2
-207	13	
 207	13	swavel
 207	14	57522
-207	14	
 207	14	loot
 207	15	2362
 207	15	stx
 207	15	fyne
 207	15	porceleynen
 207	16	2578
-207	16	
 207	16	grove
 207	16	ditto
-207	17	
 207	17	96
 207	17	bos
 207	17	boeck
@@ -93253,7 +92721,6 @@
 208	18	haere
 208	18	creatuyren
 208	18	moeten
-208	19	
 208	19	hebben
 208	20	Den
 208	20	21
@@ -93274,7 +92741,6 @@
 208	21	40
 208	21	bahar
 208	21	peper
-208	21	
 208	21	ende
 208	21	vertrecken
 208	21	een
@@ -93387,8 +92853,6 @@
 208	30	gemonteert
 208	30	met
 208	30	2
-208	30	
-208	30	
 208	30	synde
 208	30	den
 208	30	18
@@ -93650,9 +93114,7 @@
 209	12	bedragende
 209	12	het
 209	12	ingeladen
-209	12	
 209	12	24406
-209	12	
 209	13	Ultimo
 209	13	<f
 209	13	arriveert
@@ -93680,8 +93142,6 @@
 209	15	schoone
 209	15	barnsteen
 209	15	wegende
-209	15	
-209	15	
 209	15	60
 209	15	vaetjens
 209	15	boscruyt
@@ -93693,12 +93153,9 @@
 209	16	beschadicht
 209	16	geweer
 209	16	ende
-209	16	
 209	16	gevangenen
-209	16	
 209	16	den
 209	16	E
-209	16	
 209	16	van
 209	16	Twist
 209	16	ende
@@ -93805,7 +93262,6 @@
 209	25	ordre
 209	25	te
 209	25	stellen
-209	25	
 209	25	maer
 209	25	hadde
 209	25	syn
@@ -95626,85 +95082,50 @@
 213	10	Den
 213	10	oppercoopman
 213	10	Hurt
-213	10	
-213	10	
-213	10	
-213	10	
-213	10	
 213	10	f
 213	10	89K2
-213	10	
 213	11	Sergeant
 213	11	Majoor
 213	11	Lamot
-213	11	
-213	11	
 213	11	9688
-213	11	
 213	12	den
 213	12	commissaris
 213	12	Spanhems
-213	12	
-213	12	
 213	12	8886
-213	12	
 213	13	den
 213	13	capiteyn
 213	13	Forcenburcb
-213	13	
-213	13	
 213	13	8907
-213	13	
 213	14	den
 213	14	oppercoopman
 213	14	Nicolaes
 213	14	Houtcoper
-213	14	
-213	14	
 213	14	8886
-213	14	
 213	15	d'
 213	15	schipper
 213	15	P
 213	15	Baeck
-213	15	
-213	15	
 213	15	9452
 213	16	den
 213	16	fiscael
 213	16	Childerhuysen
-213	16	
-213	16	
 213	16	1000
-213	16	
 213	17	den
 213	17	predicant
 213	17	Joannes
 213	17	Schottanus
-213	17	
-213	17	
-213	17	
-213	17	
 213	17	1000
-213	17	
 213	18	ende
 213	18	hem
 213	18	commandeur
-213	18	
-213	18	
 213	18	15502
-213	18	
 213	19	Bedragende
-213	19	
 213	19	ter
 213	19	samen
 213	19	ter
 213	19	somme
 213	19	van
-213	19	
-213	19	
 213	19	65995
-213	19	
 213	20	Gelyck
 213	20	dan
 213	20	oock
@@ -95804,14 +95225,12 @@
 213	28	goude
 213	28	ketens
 213	28	wegende
-213	28	
 213	28	62
 213	28	realen
 213	28	swaerte
 213	29	12
 213	29	corale
 213	29	dittos
-213	29	
 213	29	17
 213	30	128
 213	30	goude
@@ -95819,7 +95238,6 @@
 213	30	met
 213	30	een
 213	30	cruys
-213	30	
 213	30	12
 213	31	1
 213	31	silveren
@@ -95827,17 +95245,14 @@
 213	31	met
 213	31	vergulde
 213	31	cnoopen
-213	31	
 213	31	20
 213	32	26
 213	32	goude
 213	32	stiffen
-213	32	
 213	32	10
 213	33	verscheyden
 213	33	andere
 213	33	cleynicheeden
-213	33	
 213	33	10
 213	34	Daerenboven
 213	34	2
@@ -96342,7 +95757,6 @@
 214	34	ambachtsluyden
 214	34	etc
 214	35	ontrent
-214	35	
 214	35	20
 214	35	gesondeu
 214	35	ende
@@ -96352,53 +95766,31 @@
 214	36	van
 214	36	't
 214	36	guamisoen
-214	36	
 214	36	296
-214	36	
-214	36	
 214	36	71
 214	37	Bosschieters
 214	37	aen
 214	37	lant
-214	37	
 214	37	10
-214	37	
-214	37	
 214	37	4
 214	38	Opt
 214	38	schip
 214	38	Uytrecht
-214	38	
 214	38	21
-214	38	
-214	38	
 214	38	29
 214	39	Wassenaer
-214	39	
 214	39	19
-214	39	
-214	39	
 214	39	83
 214	40	Bredamme
-214	40	
-214	40	
 214	40	10
-214	40	
-214	40	
 214	40	16
 214	41	Engelse
 214	41	Anna
-214	41	
 214	41	6
-214	41	
-214	41	
 214	41	6
 214	42	Cleyn
 214	42	Sutphen
-214	42	
 214	42	6
-214	42	
-214	42	
 214	42	6
 214	43	Cleyn
 214	43	Amsterdam
@@ -96406,14 +95798,10 @@
 214	43	de
 214	43	wal
 214	43	gehaelt
-214	43	
 214	43	2
-214	43	
-214	43	
 214	44	In
 214	44	alles
 214	44	coppen
-214	44	
 214	44	390
 214	44	gesonden
 214	44	ende
@@ -96801,7 +96189,6 @@
 215	34	voornements
 215	35	sulcx
 215	35	rontomme
-215	35	
 215	35	de
 215	35	stadtsmuyren
 215	35	daer
@@ -97036,7 +96423,6 @@
 216	11	met
 216	11	9
 216	11	man
-216	12	
 216	12	ende
 216	12	2
 216	12	Va
@@ -97220,7 +96606,6 @@
 217	16	president
 217	16	overhandicht
 217	16	badden
-217	16	
 217	16	in
 217	17	discours
 217	17	van
@@ -97268,7 +96653,6 @@
 217	21	ter
 217	21	bant
 217	21	gestelt
-217	21	
 217	21	denselven
 217	21	toonden
 217	21	hem
@@ -97401,7 +96785,6 @@
 218	2	mei
 218	2	fondament
 218	2	steen
-218	2	
 218	2	mitsgaders
 218	2	een
 218	2	talamba
@@ -97814,7 +97197,6 @@
 218	42	over
 218	42	gemiscontenteert
 218	42	was
-218	42	
 218	42	p
 218	42	gemelte
 218	42	joncke
@@ -98553,7 +97935,6 @@
 220	18	soude
 220	18	blyven
 220	18	sitten
-220	18	
 220	18	ende
 220	18	hadden
 220	19	naederhant
@@ -98676,7 +98057,6 @@
 220	27	ten
 220	27	verwacht
 220	27	wiert
-220	27	
 220	27	den
 220	27	nachoda
 220	27	Champher
@@ -98817,19 +98197,13 @@
 220	39	19524
 220	39	stucx
 220	39	porceleynen
-220	39	
 220	39	f
 220	39	205
 220	40	1
 220	40	1
 220	40	stucx
 220	40	lackwerck
-220	40	
-220	40	
-220	40	
-220	40	
 220	40	41
-220	40	
 220	40	5
 220	40	1
 220	41	175
@@ -98839,16 +98213,12 @@
 220	41	in
 220	42	74
 220	42	vercocht
-220	42	
-220	42	
 220	42	öö...lü
 220	43	op
 220	43	reeckeninge
 220	43	vande
 220	43	gutta
 220	43	gomma
-220	43	
-220	43	
 220	43	42
 220	44	item
 220	44	vanden
@@ -98859,10 +98229,7 @@
 220	44	3
 220	44	stx
 220	44	juweelen
-220	44	
 220	44	97
-220	44	
-220	44	
 220	44	4
 221	2	mitsgaders
 221	2	op
@@ -98883,11 +98250,7 @@
 221	4	ysere
 221	4	pannen
 221	4	vereocht
-221	4	
-221	4	
 221	4	69
-221	4	
-221	4	
 221	4	8
 221	5	hebbende
 221	5	daerentegen
@@ -98974,7 +98337,6 @@
 221	13	vande
 221	13	overige
 221	14	scheepsniymte
-221	14	
 221	14	hare
 221	14	onvercochte
 221	14	juweelen
@@ -99088,7 +98450,6 @@
 221	23	November
 221	23	waeren
 221	23	aldaer
-221	23	
 221	23	Macassaerse
 221	23	vaertuygen
 221	23	aengecomen
@@ -99135,7 +98496,6 @@
 221	27	fyn
 221	27	lynwaet
 221	27	met
-221	27	
 221	27	louris
 221	27	als
 221	27	eenige
@@ -99716,7 +99076,6 @@
 222	32	alleen
 222	32	inden
 222	32	alfandige
-222	32	
 222	33	overgeslagen
 222	33	ende
 222	33	gewaerdeert
@@ -100114,7 +99473,6 @@
 223	23	realen
 223	23	aen
 223	23	cleeden
-223	23	
 223	23	d'
 223	23	ander
 223	23	nae
@@ -100175,8 +99533,6 @@
 223	27	een
 223	27	contingh
 223	27	van
-223	27	
-223	27	
 223	27	met
 223	27	8
 223	27	man
@@ -100232,7 +99588,6 @@
 223	32	2
 223	32	coyangh
 223	32	boontjes
-223	32	
 223	32	ditlo
 223	33	hadde
 223	33	in
@@ -100374,7 +99729,6 @@
 223	44	Augustj
 223	44	behouden
 223	44	int
-224	2	
 224	2	patria
 224	2	gearriveerl
 224	2	waereo
@@ -100383,7 +99737,6 @@
 224	2	loff
 224	2	mder
 224	2	eeuwiclieyl
-224	2	
 224	2	de
 224	2	Duynkerckers
 224	2	hadde
@@ -100445,7 +99798,6 @@
 224	7	resolutie
 224	7	vande
 224	7	ff
-224	7	
 224	7	Seventhienen
 224	8	op
 224	8	voors
@@ -100630,7 +99982,6 @@
 224	23	daervan
 224	23	verlangende
 224	23	was
-224	23	
 224	23	denselven
 224	23	was
 224	23	voornemens
@@ -100650,7 +100001,6 @@
 224	24	een
 224	24	weynich
 224	25	amphion
-224	25	
 224	26	Conien
 224	26	oock
 224	26	ten
@@ -100757,8 +100107,6 @@
 224	34	samen
 224	34	f
 224	34	10545
-224	34	
-224	34	
 224	35	ende
 224	35	advyseeren
 224	35	Comp
@@ -100995,7 +100343,6 @@
 225	11	te
 225	12	rugge
 225	12	sonden
-225	12	
 225	12	soo
 225	12	was
 225	12	oock
@@ -101165,7 +100512,6 @@
 225	26	coste
 225	26	vande
 225	26	Gomp
-225	26	
 225	26	ende
 225	26	en
 225	26	was
@@ -101436,7 +100782,6 @@
 226	8	van
 226	8	hier
 226	8	wechgeloopen
-226	8	
 226	9	den
 226	9	gemelte
 226	9	brieff
@@ -101573,7 +100918,6 @@
 226	21	salse
 226	21	hem
 226	21	geven
-226	21	
 226	21	ende
 226	21	nu
 226	21	jegenwoordich
@@ -101640,8 +100984,6 @@
 226	26	my
 226	26	soude
 226	26	doen
-226	26	
-226	26	
 226	26	alsoo
 226	26	ick
 226	26	seer
@@ -101795,10 +101137,7 @@
 226	41	padje
 226	41	ende
 226	41	Vz
-226	41	
 226	41	^^9
-226	41	
-226	41	
 226	41	champan
 226	41	van
 226	41	Mannac
@@ -101867,8 +101206,6 @@
 227	4	van
 227	4	f
 227	4	1653
-227	4	
-227	4	
 227	4	Punto
 227	4	Gale
 227	4	met
@@ -101899,7 +101236,6 @@
 227	6	van
 227	6	f
 227	6	4070.8
-227	6	
 227	7	22
 227	7	d
 227	7	comen
@@ -102157,7 +101493,6 @@
 227	31	2
 227	32	.committers
 227	32	ende
-227	32	
 227	32	corge
 227	32	goelonghs
 227	33	En
@@ -102280,8 +101615,6 @@
 227	42	Vaderlant
 227	42	gemonteert
 227	42	met
-227	43	
-227	43	
 227	43	ophebbende
 227	43	111
 227	43	copjien
@@ -102371,7 +101704,6 @@
 228	7	jachten
 228	7	voor
 228	7	Macasser
-228	7	
 228	8	Soo
 228	8	vertrecken
 228	8	oock
@@ -102513,7 +101845,6 @@
 228	18	een
 228	18	cargasoen
 228	19	van
-228	19	
 228	19	191343
 228	19	bestaende
 228	19	wt
@@ -102526,13 +101857,11 @@
 228	21	poeyer
 228	21	suycker
 228	22	6008
-228	22	
 228	22	boscruyt
 228	23	1500
 228	23	stx
 228	23	rochevellen
 228	24	1298
-228	24	
 228	24	wasch
 228	25	3
 228	25	stx
@@ -102541,7 +101870,6 @@
 228	25	muscus
 228	25	ende
 228	26	37
-228	26	
 228	26	slaven
 228	27	Per
 228	27	gemelte
@@ -102617,7 +101945,6 @@
 228	33	ter
 228	33	somme
 228	33	van
-228	33	
 228	33	557772
 228	33	meerder
 228	33	quantiteyt
@@ -102915,7 +102242,6 @@
 229	16	ende
 229	16	doorgaens
 229	16	wel
-229	16	
 229	16	derselver
 229	16	geremitteert
 229	16	dat
@@ -102998,7 +102324,6 @@
 229	22	aff
 229	23	te
 229	23	schepen
-229	23	
 229	24	Gemelte
 229	24	Nabab
 229	24	hield
@@ -103076,7 +102401,6 @@
 229	30	weynich
 229	30	eere
 229	31	genooten
-229	31	
 229	31	soo
 229	31	waeren
 229	31	d'
@@ -103562,7 +102886,6 @@
 230	30	ter
 230	30	somme
 230	30	van
-230	30	
 230	30	53500
 230	30	ende
 230	30	ten
@@ -103780,7 +103103,6 @@
 231	7	man
 231	7	van
 231	8	24
-231	8	
 231	8	HoUants
 231	8	deels
 231	8	contant
@@ -103796,7 +103118,6 @@
 231	9	giroffelnagelen
 231	9	tot
 231	9	478
-231	9	
 231	9	^^U
 231	9	pagoden
 231	9	de
@@ -104176,7 +103497,6 @@
 231	41	wel
 231	41	gecomen
 231	41	was
-231	41	
 231	42	Om
 231	42	Comp
 231	42	handel
@@ -104572,7 +103892,6 @@
 232	36	Januarj
 232	36	gelyck
 232	36	volcht
-232	36	
 232	37	Den
 232	37	vyant
 232	37	hielt
@@ -104894,7 +104213,6 @@
 233	20	lyff
 233	20	soude
 233	20	vallen
-233	20	
 233	20	de
 233	20	carvel
 233	21	daer
@@ -105116,7 +104434,6 @@
 234	5	als
 234	5	andere
 234	5	cleynicheeden
-234	5	
 234	6	brengen
 234	6	tydinge
 234	6	hoe
@@ -105263,10 +104580,7 @@
 234	17	somme
 234	17	van
 234	18	f
-234	18	
-234	18	
 234	18	mitsgaders
-234	18	
 234	18	gevangens
 234	18	Portugesen
 234	18	mesticen
@@ -105599,7 +104913,6 @@
 235	14	expectatie
 235	14	beter
 235	15	uytgevallen
-235	15	
 235	15	syn
 235	15	E
 235	15	hadde
@@ -105664,7 +104977,6 @@
 235	19	doenlycke
 235	19	middelen
 235	19	geêmployeert
-235	19	
 235	20	hy
 235	20	hadde
 235	20	voorts
@@ -106443,7 +105755,6 @@
 236	42	andere
 236	42	dorpen
 236	42	welcker
-236	42	
 236	42	genaemt
 236	42	Simelangan
 236	42	ende
@@ -106666,7 +105977,6 @@
 237	17	uyt
 237	17	het
 237	18	navolgende
-237	18	
 237	19	Eerstelyck
 237	19	soo
 237	19	wierd
@@ -106735,7 +106045,6 @@
 237	24	gantafighs
 237	24	d
 237	24	maeckende
-237	24	
 237	24	8
 237	24	HoUants
 237	24	ende
@@ -106812,7 +106121,6 @@
 237	30	rys
 237	30	van
 237	31	iVa
-237	31	
 237	31	d'
 237	31	man
 237	32	Voorts
@@ -107503,7 +106811,6 @@
 239	8	yser
 239	8	verekens
 239	8	etc
-239	8	
 239	9	Rio
 239	9	Campber
 239	9	geeft
@@ -107962,7 +107269,6 @@
 240	7	potten
 240	7	botter
 240	8	17
-240	8	
 240	8	olie
 240	9	191
 240	9	candi
@@ -107982,7 +107288,6 @@
 240	13	d
 240	13	gaeren
 240	14	9
-240	14	
 240	14	suycker
 240	15	2
 240	15	boeyons
@@ -108152,35 +107457,21 @@
 240	32	der
 240	32	Heyden
 240	32	l
-240	32	
-240	32	
-240	33	
 240	33	[Luytenants
 240	34	Claes
 240	34	Pietersz
 240	34	van
 240	34	Ditmarsen
-240	34	
 240	35	Nicolaes
 240	35	Lantsknecht
 240	35	van
 240	35	Middelburch
-240	35	
-240	35	
-240	35	
-240	35	
-240	35	
 240	36	»w
-240	36	
-240	36	
-240	36	
 240	36	Vendncns
 240	37	Hans
 240	37	Creuger
 240	37	van
 240	37	Betsou
-240	37	
-240	37	
 240	38	Andries
 240	38	Christoffel
 240	38	Poppe
@@ -108424,7 +107715,6 @@
 241	18	hout
 241	18	genieten
 241	19	7
-241	19	
 241	19	rys
 241	20	iVi
 241	20	d
@@ -108515,7 +107805,6 @@
 241	31	coppen
 241	31	te
 241	31	weeten
-241	31	
 241	31	547
 241	31	soldaten
 241	31	de
@@ -108523,7 +107812,6 @@
 241	31	bosschieters
 241	31	constapels
 241	31	etc
-241	31	
 241	31	doch
 241	31	verhoopen
 241	32	eerlangh
@@ -109801,7 +109089,6 @@
 244	18	van
 244	18	peper
 244	18	versonden
-244	18	
 244	18	ende
 244	18	opdat
 244	18	condtschap
@@ -110651,7 +109938,6 @@
 246	5	ter
 246	5	somme
 246	6	van
-246	6	
 246	6	597887.16.12
 246	7	Vertreckt
 246	7	oock
@@ -112116,7 +111402,6 @@
 249	7	sult
 249	7	comen
 249	8	besoecken
-249	8	
 249	8	soo
 249	8	ü
 249	8	E
@@ -112182,7 +111467,6 @@
 249	11	en
 249	12	wilden
 249	12	hebben
-249	12	
 249	12	dat
 249	12	sy
 249	12	naer
@@ -112227,7 +111511,6 @@
 249	15	de
 249	15	zeevaert
 249	15	nodich
-249	15	
 249	15	victualie
 249	15	hebbe
 249	15	ick
@@ -112247,7 +111530,6 @@
 249	16	haer
 249	16	eygen
 249	16	schuit
-249	16	
 249	16	ingevalle
 249	16	U
 249	16	E
@@ -112276,7 +111558,6 @@
 249	18	niet
 249	18	laet
 249	18	vaeren
-249	18	
 249	18	sonder
 249	18	Iwyffel
 249	18	die
@@ -112488,10 +111769,8 @@
 249	37	poeyer
 249	37	suycker
 249	38	935
-249	38	
 249	38	giroffelnagelen
 249	39	929
-249	39	
 249	39	nooten
 249	39	muscaten
 249	40	4
@@ -112504,9 +111783,7 @@
 249	41	stx
 249	41	orange
 249	41	laeckenen
-249	41	
 249	42	90800
-249	42	
 249	42	alderhande
 249	42	sorteringe
 249	42	groff
@@ -112881,7 +112158,6 @@
 250	31	dese
 250	31	twee
 250	31	mannen
-250	31	
 250	31	van
 250	31	Candj
 250	31	woonen
@@ -113036,7 +112312,6 @@
 250	44	daeraen
 250	44	gedoleert
 250	44	had
-251	2	
 251	2	Op
 251	2	de'duysent
 251	2	bhar
@@ -113600,7 +112875,6 @@
 252	5	onse
 252	6	verhandelt
 252	6	werden
-252	6	
 252	6	soo
 252	6	en
 252	6	was
@@ -113696,7 +112970,6 @@
 252	13	geschiet
 252	13	soude
 252	13	syn
-252	13	
 252	13	doch
 252	13	bleeck
 252	13	allerweegen
@@ -114138,7 +113411,6 @@
 253	7	coopman
 253	7	Maerschaick
 253	7	geintregeert
-253	7	
 253	7	als
 253	7	eenige
 253	7	sayen
@@ -115426,7 +114698,6 @@
 255	35	ander
 255	35	laten
 255	35	sitten
-255	35	
 255	35	soodat
 255	35	voorneemens
 255	36	bleeven
@@ -116464,7 +115735,6 @@
 257	35	te
 257	35	wachten
 257	35	'maer
-257	35	
 257	36	naderhant
 257	36	bevindende
 257	36	denselven
@@ -116562,7 +115832,6 @@
 257	43	Neederlanders
 257	44	op
 257	44	de
-257	44	
 257	44	Tonckinse
 257	44	joncke
 257	44	an
@@ -116712,7 +115981,6 @@
 258	13	scheepsladingh
 258	13	mochten
 258	13	uytvoeren
-258	13	
 258	13	eenige
 258	13	der
 258	13	aengelande
@@ -117049,7 +116317,6 @@
 258	44	partye
 258	44	eyereu
 258	44	etc
-258	44	
 258	44	den
 258	44	nachoda
 258	44	verhaelt
@@ -117243,7 +116510,6 @@
 259	18	14
 259	18	d
 259	18	comen
-259	18	
 259	18	tingangbs
 259	18	d'
 259	18	eene
@@ -117283,7 +116549,6 @@
 259	22	van
 259	22	Japara
 259	22	met
-259	22	
 259	22	man
 259	22	gdaden
 259	22	met
@@ -117332,7 +116597,6 @@
 259	26	een
 259	26	cargasoen
 259	27	monterende
-259	27	
 259	27	27355.9.8
 259	28	15
 259	28	do
@@ -117956,7 +117220,6 @@
 260	43	556
 260	43	bos
 260	44	rottangh
-260	44	
 261	2	1
 261	2	coDÜDgh
 261	2	nae
@@ -117985,7 +117248,6 @@
 261	4	Daer
 261	4	tegen
 261	4	arriveeren
-261	4	
 261	5	3
 261	5	tinganghs
 261	5	van
@@ -118189,7 +117451,6 @@
 261	26	een
 261	26	cargasoen
 261	27	van
-261	27	
 261	27	100386.11.12
 261	27	bestaende
 261	27	uyt
@@ -118209,7 +117470,6 @@
 261	30	gerafineerde
 261	30	sulfer
 261	31	43445
-261	31	
 261	31	witte
 261	31	poeyer
 261	31	suycker
@@ -118219,7 +117479,6 @@
 261	32	eycken
 261	32	balcken
 261	33	1000
-261	33	
 261	33	vloersteenen
 261	33	etc
 261	34	ende
@@ -118235,7 +117494,6 @@
 261	34	Januarj
 261	34	het
 261	35	volgende
-261	35	
 261	36	Het
 261	36	fluytschip
 261	36	Oostcappel
@@ -118252,7 +117510,6 @@
 261	37	een
 261	37	cargasoen
 261	37	van
-261	37	
 261	37	19125
 261	37	ende
 261	37	hadden
@@ -118334,7 +117591,6 @@
 261	44	van
 261	44	Tayouan
 261	44	de
-262	2	
 262	3	geordonneerde
 262	3	licenten
 262	3	betaelende
@@ -118550,7 +117806,6 @@
 262	22	een
 262	23	cargasoen
 262	23	van
-262	23	
 262	23	991
 262	23	72
 262	23	voor
@@ -118647,7 +117902,6 @@
 262	33	stuckwercken
 262	33	met
 262	33	verlies
-262	33	
 262	33	de
 262	33	Catsiouse
 262	33	bockins
@@ -118785,7 +118039,6 @@
 262	45	met
 262	45	merckelycke
 262	45	soumie
-263	2	
 263	3	geadepositeerde
 263	3	penningen
 263	3	belast
@@ -119492,7 +118745,6 @@
 264	17	gepraet
 264	17	ende
 264	17	is
-264	17	
 264	17	Hertsinck
 264	17	voornoemt
 264	17	van
@@ -120788,16 +120040,12 @@
 266	43	zyde
 266	43	1
 266	43	j
-266	43	
-266	44	
-266	44	
 266	44	d
 266	44	pnnce
 266	45	ende
 266	45	10
 266	45	stx
 266	45	conmcx
-266	45	
 267	2	De
 267	2	brieven
 267	2	vanden
@@ -120852,7 +120100,6 @@
 267	7	Hollanty
 267	7	te
 267	7	weeteu
-267	7	
 267	7	een
 267	7	musquet
 267	7	met
@@ -120903,11 +120150,9 @@
 267	11	roode
 267	11	laeckenen
 267	12	10
-267	12	
 267	12	d
 267	12	swart
 267	13	10
-267	13	
 267	13	d
 267	13	carmosyn
 267	13	root
@@ -121058,7 +120303,6 @@
 267	27	hoochsten
 267	27	behaecht
 267	27	heeft
-267	27	
 267	27	Gapiteyn
 267	27	Couckebacker
 267	27	U
@@ -121348,19 +120592,15 @@
 268	14	root
 268	14	laecken
 268	15	3
-268	15	
 268	15	d
 268	15	groen
 268	16	5
-268	16	
 268	16	hemelsblauw
 268	16	laecken
 268	17	10
-268	17	
 268	17	d
 268	17	swert
 268	18	50
-268	18	
 268	18	gefigureerde
 268	18	satynen
 268	18	met
@@ -121371,19 +120611,16 @@
 268	18	alderhande
 268	18	coleuren
 268	19	20
-268	19	
 268	19	cleeden
 268	19	met
 268	19	groote
 268	19	bloemen
 268	20	50
-268	20	
 268	20	sai*a9sen
 268	20	met
 268	20	groote
 268	20	bloemen
 268	21	100
-268	21	
 268	21	fyne
 268	21	witte
 268	21	cangangs
@@ -121475,7 +120712,6 @@
 268	30	een
 268	30	penchalingh
 268	30	met
-268	30	
 268	30	man
 268	30	ende
 268	30	60
@@ -121501,7 +120737,6 @@
 268	32	inhoude
 268	33	TRANSLAET
 268	33	MISSIVE
-268	33	
 268	33	vaurfew
 268	33	Coninck
 268	33	van
@@ -121661,7 +120896,6 @@
 269	5	aenstaende
 269	5	mousson
 269	5	senden
-269	5	
 269	5	ick
 269	6	hoop
 269	6	dat
@@ -121732,7 +120966,6 @@
 269	10	Batavia
 269	11	mach
 269	11	becomen
-269	11	
 269	11	voorders
 269	11	versoeck
 269	11	ick
@@ -122049,10 +121282,8 @@
 269	41	de
 269	41	somme
 269	41	van
-269	42	
 269	42	92
 269	42	123.8
-269	42	
 269	42	uyt
 269	42	Comp
 269	42	cassa
@@ -122414,7 +121645,6 @@
 270	29	vlytich
 270	29	naergecomen
 270	29	wierd
-270	29	
 270	29	den
 270	29	E
 270	29	Caron
@@ -122612,7 +121842,6 @@
 271	2	te
 271	3	laeten
 271	3	blycken
-271	3	
 271	3	want
 271	3	't
 271	3	geene
@@ -123305,7 +122534,6 @@
 272	18	wech
 272	18	gesonden
 272	18	dienden
-272	18	
 272	18	alle
 272	18	H
 272	18	weicke
@@ -123597,7 +122825,6 @@
 272	42	geprevenieert
 272	42	mochten
 272	42	werden
-272	42	
 272	42	waer
 272	42	meede
 272	42	sooveel
@@ -123687,7 +122914,6 @@
 273	6	niet
 273	6	te
 273	6	gaen
-273	6	
 273	7	eenige
 273	7	als
 273	7	Sannickedo
@@ -123704,7 +122930,6 @@
 273	8	doch
 273	8	te
 273	8	laet
-273	8	
 273	8	den
 273	8	commissaris
 273	8	was
@@ -124414,7 +123639,6 @@
 274	23	besendinge
 274	23	noch
 274	23	onvercocht
-274	23	
 274	24	gebleven
 274	24	daervan
 274	24	was
@@ -124452,8 +123676,6 @@
 274	26	incoops
 274	26	f
 274	26	479.7
-274	26	
-274	26	
 274	27	vercocht
 274	27	tot
 274	27	f
@@ -124473,7 +123695,6 @@
 274	28	van
 274	28	weynich
 274	28	consideratien
-274	28	
 274	29	De
 274	29	81
 274	29	stucx
@@ -124503,10 +123724,8 @@
 274	31	gecost
 274	31	f
 274	31	24.15
-274	31	
 274	31	eqde
 274	31	gerendeert
-274	31	
 274	31	85.2.1
 274	31	ende
 274	31	indien
@@ -124527,7 +123746,6 @@
 274	32	geweest
 274	32	souden
 274	32	ryckelyck
-274	33	
 274	33	120
 274	33	gegeven
 274	33	hebben
@@ -124645,7 +123863,6 @@
 274	43	van
 274	43	f
 274	43	40.10
-274	43	
 274	43	weynich
 274	44	advance
 274	44	ende
@@ -124863,13 +124080,11 @@
 275	22	Japanse
 275	22	sorteringe
 275	23	1000
-275	23	
 275	23	fyne
 275	23	gestreepte
 275	23	toffachieles
 275	23	gingan
 275	24	1000
-275	24	
 275	24	Parsiaense
 275	24	bereyde
 275	24	vellen
@@ -124884,37 +124099,29 @@
 275	25	levende
 275	25	coleuren
 275	26	1000
-275	26	
 275	26	gebleeckte
 275	26	parcallen
 275	27	500
-275	27	
 275	27	guinees
 275	27	lywaet
 275	28	500
-275	28	
 275	28	salampourys
 275	29	200
 275	29	p
 275	29	groven
 275	29	peper
 275	30	100
-275	30	
 275	30	giroffelnagelen
 275	31	50
-275	31	
 275	31	poetsjock
 275	32	50
-275	32	
 275	32	catchiou
 275	33	25
-275	33	
 275	33	sandelhout
 275	33	schoon
 275	33	ende
 275	33	groot
 275	34	25
-275	34	
 275	34	rompen
 275	35	S
 275	35	Thonese
@@ -125029,7 +124236,6 @@
 276	9	int
 276	9	generael
 276	9	geadvanceert
-276	9	
 276	9	848899
 276	10	inaer
 276	10	souden
@@ -125119,7 +124325,6 @@
 276	17	de
 276	17	somme
 276	17	van
-276	18	
 276	18	1783340
 276	18	belast
 276	19	Den
@@ -125508,7 +124713,6 @@
 277	9	aldaer
 277	9	te
 277	9	behouden
-277	9	
 277	9	ende
 277	9	v^aeren
 277	10	sedert
@@ -125921,7 +125125,6 @@
 278	3	lande
 278	3	te
 278	3	ondersoecken
-278	3	
 278	3	soo
 278	3	waeren
 278	3	oock
@@ -126208,7 +125411,6 @@
 278	29	preuve
 278	29	herwaerts
 278	29	geremitteert
-278	29	
 278	29	goet
 278	29	geoordeelt
 278	29	wordende
@@ -126448,7 +125650,6 @@
 279	7	van
 279	7	R
 279	7	3890
-279	7	
 279	7	ende
 279	7	om
 279	7	pertinent
@@ -126482,40 +125683,27 @@
 279	11	verekens
 279	11	pacht
 279	11	voor
-279	11	
 279	11	R
 279	11	380
-279	11	
 279	12	d'
 279	12	visscheryen
 279	12	excepto
 279	12	den
 279	12	herder
 279	12	vanghst
-279	12	
-279	12	
 279	12	300
-279	12	
 279	13	't
 279	13	arrack
 279	13	branden
 279	13	ende
 279	13	d'
 279	13	passar
-279	13	
-279	13	
 279	13	420
-279	13	
 279	14	d'
 279	14	verscbe
 279	14	boter
-279	14	
-279	14	
 279	14	200
-279	14	
-279	14	
 279	15	Somma
-279	15	
 279	15	~~R
 279	15	1300
 279	16	Daerby
@@ -126526,7 +125714,6 @@
 279	16	d'
 279	16	incomsten
 279	16	vanl
-279	17	
 279	17	hooftgelt
 279	17	voor
 279	17	12
@@ -126534,11 +125721,7 @@
 279	17	ter
 279	17	somme
 279	17	van
-279	17	
-279	17	
-279	17	
 279	17	1200
-279	17	
 279	18	alsmeede
 279	18	de
 279	18	thienden
@@ -126558,10 +125741,7 @@
 279	20	voort
 279	20	geschat
 279	20	tot
-279	20	
-279	20	
 279	20	680
-279	20	
 279	21	Souden
 279	21	de
 279	21	generale
@@ -126574,10 +125754,8 @@
 279	22	ter
 279	22	somme
 279	22	van
-279	22	
 279	22	R
 279	22	13950
-279	22	
 279	23	ende
 279	23	daermede
 279	23	de
@@ -126976,7 +126154,6 @@
 280	16	goede
 280	17	dispositie
 280	17	gevonden
-280	17	
 280	17	d'
 280	17	selve
 280	17	waeren
@@ -127905,7 +127082,6 @@
 282	12	swavel
 282	12	ende
 282	12	coegels
-282	12	
 282	12	sulcx
 282	12	Paducca
 282	12	Siri
@@ -127945,7 +127121,6 @@
 282	15	versoeckt
 282	15	Paducca
 282	15	Siri
-282	15	
 282	15	Sultan
 282	15	vanden
 282	15	h
@@ -128372,7 +127547,6 @@
 283	11	cleeden
 283	11	gecocht
 283	12	had
-283	12	
 283	12	waren
 283	12	ontrent
 283	12	30
@@ -128567,7 +127741,6 @@
 283	28	hun
 283	28	te
 283	28	onderdrucken
-283	28	
 283	28	maer
 283	28	mochten
 283	28	eens
@@ -128582,7 +127755,6 @@
 283	29	tol
 283	29	doen
 283	29	geven
-283	29	
 283	29	den
 283	29	Gouverneur
 283	29	Generael
@@ -128869,7 +128041,6 @@
 284	15	schipper
 284	15	Gerrit
 284	15	Vinckenburch
-284	15	
 284	15	ende
 284	15	adviseert
 284	15	den
@@ -128996,7 +128167,6 @@
 284	25	den
 284	25	roofl
 284	25	vaeren
-284	25	
 284	25	daer
 284	25	was
 284	25	nevens
@@ -129248,7 +128418,6 @@
 285	4	versoeckt
 285	4	eenige
 285	4	plougen
-285	4	
 285	4	bestiael
 285	4	daertoe
 285	4	bequaem
@@ -129328,7 +128497,6 @@
 285	10	jaer
 285	10	vruchten
 285	10	geven
-285	10	
 285	11	soo
 285	11	quamen
 285	11	oock
@@ -130158,7 +129326,6 @@
 287	23	hun
 287	23	groot
 287	23	leelw^esen
-287	23	
 287	24	het
 287	24	seeckerste
 287	24	dunckt
@@ -130258,7 +129425,6 @@
 287	31	syn
 287	31	voort
 287	31	gecomen
-287	31	
 287	32	voor
 287	32	de
 287	32	tweede
@@ -130489,7 +129655,6 @@
 288	9	handen
 288	9	heen
 288	9	gedaen
-288	9	
 288	9	daer
 288	9	en
 288	9	handele
@@ -130502,7 +129667,6 @@
 288	9	kennisse
 288	9	te
 288	9	steecken
-288	9	
 288	10	doch
 288	10	het
 288	10	seeckersle
@@ -130829,7 +129993,6 @@
 288	36	gehoor
 288	36	te
 288	36	becomen
-288	36	
 288	36	wegen
 288	36	alle
 288	36	't
@@ -130901,7 +130064,6 @@
 288	42	ende
 288	42	was
 288	42	onderteeckent
-288	42	
 288	43	VALERIO
 288	43	GENTYL
 288	44	In
@@ -130933,7 +130095,6 @@
 289	3	Joan
 289	3	van
 289	3	Twisl
-289	3	
 289	4	hadden
 289	4	op
 289	4	105
@@ -130981,7 +130142,6 @@
 289	8	Borneo
 289	8	uytvoerende
 289	8	302
-289	8	
 289	8	realen
 289	8	aen
 289	9	cleeden
@@ -131378,7 +130538,6 @@
 290	4	10
 290	4	zyde
 290	4	pelolen
-290	4	
 290	4	picol
 290	4	Chinese
 290	4	corael
@@ -131386,7 +130545,6 @@
 290	4	900
 290	4	realen
 290	5	contant
-290	6	
 290	6	do
 290	6	arriveert
 290	6	het
@@ -131557,7 +130715,6 @@
 290	22	gesuyverde
 290	22	peper
 290	23	bedragende
-290	23	
 290	23	68868
 290	23	ende
 290	23	adviseert
@@ -131648,7 +130805,6 @@
 290	30	van
 290	30	te
 290	30	verwachten
-290	30	
 290	31	den
 290	31	Queey
 290	31	Ranga
@@ -132833,7 +131989,6 @@
 293	13	tot
 293	13	alle
 293	13	coopluyden
-293	13	
 293	13	hy
 293	13	ist
 293	13	die
@@ -133272,7 +132427,6 @@
 294	8	gansche
 294	8	cargasoen
 294	8	ongeveer
-294	8	
 294	8	32000
 294	8	gewonnen
 294	8	worden
@@ -133473,7 +132627,6 @@
 294	24	bewaringe
 294	24	hadde
 294	24	gegeven
-294	24	
 294	24	van
 294	24	gelycken
 294	24	eenen
@@ -133538,7 +132691,6 @@
 294	29	bejegenen
 294	29	Macassar
 294	29	aengeloopen
-294	29	
 294	29	d^Engelse
 294	29	hadden
 294	29	aengenomen
@@ -133586,7 +132738,6 @@
 294	32	te
 294	32	verscylen
 294	32	maer
-294	32	
 294	33	siende
 294	33	dat
 294	33	gemelte
@@ -133758,7 +132909,6 @@
 295	3	rugge
 295	3	gecoinen
 295	3	was
-295	3	
 295	3	het
 295	3	auder
 295	3	was
@@ -134152,21 +133302,17 @@
 295	37	picol
 295	37	sappanhout
 295	38	181
-295	38	
 295	38	Siams
 295	38	tin
 295	39	268
-295	39	
 295	39	swart
 295	39	natlack
 295	40	31540
 295	40	stx
 295	40	herlevellen
 295	41	6672
-295	41	
 295	41	rochevellen
 295	42	875
-295	42	
 295	42	buflelshoornen
 295	43	Soodat
 295	43	om
@@ -134194,7 +133340,6 @@
 296	3	oliphanls
 296	3	lauden
 296	4	114
-296	4	
 296	4	agulhoul
 296	5	6
 296	5	stx
@@ -134210,7 +133355,6 @@
 296	8	quialj
 296	8	hakken
 296	9	222
-296	9	
 296	9	plancken
 296	10	550
 296	10	ronde
@@ -134235,7 +133379,6 @@
 296	14	ter
 296	15	somme
 296	15	van
-296	15	
 296	15	32713
 296	15	daer
 296	15	onder
@@ -134992,7 +134135,6 @@
 297	42	in
 298	2	HoUant
 298	2	gesonden
-298	2	
 298	2	lot
 298	2	noch
 298	2	heeft
@@ -135103,7 +134245,6 @@
 298	11	alhier
 298	11	connen
 298	11	doen
-298	11	
 298	11	syne
 298	11	May
 298	11	ende
@@ -135434,7 +134575,6 @@
 298	42	over
 298	42	steeveus
 298	42	I8V4
-298	42	
 298	42	^Y
 298	42	374
 298	42	vadem
@@ -135741,7 +134881,6 @@
 299	23	by
 299	23	connen
 299	23	vergelycken
-299	23	
 299	24	daerom
 299	24	versoucken
 299	24	andermael
@@ -135886,7 +135025,6 @@
 299	34	werff
 299	34	hebben
 299	34	gedeclareert
-299	34	
 299	35	't
 299	35	welck
 299	35	ons
@@ -135925,7 +135063,6 @@
 299	37	vergolden
 299	37	werden
 299	37	sal
-299	37	
 299	37	wy
 299	37	sullen
 299	38	dan
@@ -136069,7 +135206,6 @@
 300	6	ter
 300	6	somme
 300	6	van
-300	6	
 300	6	80634
 300	6	ende
 300	7	wert
@@ -136132,7 +135268,6 @@
 300	12	ter
 300	12	somme
 300	12	van
-300	12	
 300	12	173498
 300	13	Den
 300	13	kimelaha
@@ -136737,7 +135872,6 @@
 301	21	Macassar
 301	21	moeten
 301	21	retourneeren
-301	21	
 301	21	want
 301	21	naer
 301	21	dat
@@ -136908,7 +136042,6 @@
 301	35	van
 301	35	Macassar
 301	35	verzonden
-301	35	
 301	36	De
 301	36	vierde
 301	36	jonck
@@ -137073,7 +136206,6 @@
 302	6	ende
 302	6	belooft
 302	6	was
-302	6	
 302	6	mitsgaders
 302	6	dat
 302	6	in
@@ -137362,7 +136494,6 @@
 302	30	Massaboy
 302	30	te
 302	30	ruyneeren
-302	30	
 302	30	soo
 302	30	syn
 302	30	negrye
@@ -137484,7 +136615,6 @@
 302	40	C!omp
 302	40	handen
 302	40	gebracht
-302	40	
 302	40	de
 302	40	presentatie
 302	41	van
@@ -137726,7 +136856,6 @@
 303	17	met
 303	17	voordeel
 303	17	contiuueerende
-303	17	
 303	17	ende
 303	17	v^s
 303	18	bet
@@ -137983,7 +137112,6 @@
 303	37	gelycke
 303	37	vant
 303	37	Casteel
-303	37	
 303	37	dese
 303	37	liepen
 303	37	met
@@ -139200,7 +138328,6 @@
 306	9	staet
 306	9	geweest
 306	9	hadde
-306	9	
 306	9	desen
 306	9	liet
 306	9	syn
@@ -139494,7 +138621,6 @@
 306	35	Soya
 306	35	Hattibe
 306	35	Halou
-306	35	
 306	35	ende
 306	35	Mardica
 306	35	int
@@ -141023,7 +140149,6 @@
 309	36	aent
 309	37	casteel
 309	37	verschynen
-309	37	
 309	37	syn
 309	37	E
 309	37	was
@@ -141119,7 +140244,6 @@
 309	44	boete
 309	44	te
 309	44	beteren
-309	44	
 309	44	Godt
 309	44	den
 309	44	Heere
@@ -141561,7 +140685,6 @@
 310	37	sloopen
 310	37	vant
 310	37	jacht
-310	37	
 310	37	de
 310	37	Swaen
 310	37	sich
@@ -141589,7 +140712,6 @@
 310	39	ende
 310	39	5
 310	39	swarten
-310	39	
 310	39	den
 310	39	schipper
 310	40	was
@@ -141936,7 +141058,6 @@
 311	27	bevreedinge
 311	27	genegen
 311	27	was
-311	27	
 311	27	daer
 311	27	beneffens
 311	27	dat
@@ -142125,7 +141246,6 @@
 311	44	3
 311	44	4
 311	44	a
-311	44	
 311	44	corcorren
 311	44	int
 311	44	Hittoese
@@ -142722,7 +141842,6 @@
 313	8	weynige
 313	9	dagen
 313	9	bleeff
-313	9	
 313	9	uytgestelt
 313	9	ter
 313	9	tyt
@@ -142785,7 +141904,6 @@
 313	13	te
 313	13	helpen
 313	13	ruyneeren
-313	13	
 313	14	om
 313	14	den
 313	14	oorloch
@@ -142838,7 +141956,6 @@
 313	17	van
 313	18	Hittoe
 313	18	aengeleyt
-313	18	
 313	18	hoe
 313	18	sy
 313	18	dan
@@ -142904,7 +142021,6 @@
 313	23	daer
 313	23	gecomen
 313	23	waren
-313	23	
 313	23	syn
 313	23	E
 313	23	was
@@ -143375,7 +142491,6 @@
 314	21	ysere
 314	21	gotelingen
 314	21	voor
-314	21	
 314	22	Cackialj
 314	22	als
 314	22	meede
@@ -143937,7 +143052,6 @@
 315	25	spetie
 315	25	soude
 315	25	baren
-315	25	
 315	25	ende
 315	25	bleeff
 315	25	syn
@@ -144010,7 +143124,6 @@
 315	30	twyffel
 315	31	onlusten
 315	31	aenbrengen
-315	31	
 315	31	in
 315	31	Banda
 315	31	bestaet
@@ -144123,7 +143236,6 @@
 315	41	gevonden
 315	41	soude
 315	41	werden
-315	41	
 315	41	bleef
 315	41	echter
 315	42	voomeemens
@@ -144451,7 +143563,6 @@
 316	26	herwaerts
 316	26	te
 316	26	navigeren
-316	26	
 316	26	omme
 316	26	voorschreve
 316	26	persoenen
@@ -144599,7 +143710,6 @@
 316	39	vande
 316	39	Bandase
 316	40	inhabitanten
-316	40	
 316	40	die
 316	40	reedelyck
 316	40	sterck
@@ -144755,7 +143865,6 @@
 317	10	2
 317	10	lasten
 317	10	rys
-317	10	
 317	11	een
 317	11	jonck
 317	11	van
@@ -144854,7 +143963,6 @@
 317	19	voor
 317	19	12
 317	19	maenden
-317	20	
 317	20	de
 317	20	fluyt
 317	20	Meerman
@@ -145201,7 +144309,6 @@
 318	6	stereken
 318	6	wacht
 318	6	gehouden
-318	6	
 318	6	ende
 318	6	vonden
 318	6	aldaer
@@ -145336,7 +144443,6 @@
 318	18	en
 318	18	wilde
 318	18	verstaen
-318	18	
 318	18	den
 318	18	brieff
 318	18	van
@@ -146289,27 +145395,22 @@
 320	16	indigo
 320	16	Biana
 320	17	113229
-320	17	
 320	17	salpeter
 320	18	34
 320	18	caskens
 320	18	ofte
 320	19	1579Vj
-320	19	
 320	19	root
 320	19	segellack
 320	20	313257i
-320	20	
 320	20	poetchioc
 320	21	42
 320	21	7i
-320	21	
 320	21	amphion
 320	22	6
 320	22	kisten
 320	22	ofte
 320	22	949
-320	22	
 320	22	mirrhe
 320	23	partye
 320	23	droguen
@@ -146341,9 +145442,7 @@
 320	25	vcin
 320	25	f
 320	25	560902
-320	25	
 320	25	2
-320	25	
 320	25	6
 320	26	Den
 320	26	directeur
@@ -146592,7 +145691,6 @@
 321	3	gehadt
 321	3	soude
 321	3	hebben
-321	3	
 321	3	want
 321	3	en
 321	3	waeren
@@ -146613,10 +145711,8 @@
 321	6	packen
 321	6	kleeden
 321	7	206
-321	7	
 321	7	indigo
 321	8	23
-321	8	
 321	8	syfdLTie
 321	8	breede
 321	8	baftas
@@ -146637,7 +145733,6 @@
 321	13	smalle
 321	13	baftas
 321	14	11
-321	14	
 321	14	Nequanias
 321	15	dat
 321	15	op
@@ -147023,7 +146118,6 @@
 322	4	ter
 322	4	somnie
 322	4	van
-322	4	
 322	4	110880
 322	4	voor
 322	5	reeckeningh
@@ -147055,7 +146149,6 @@
 322	7	daer
 322	7	voor
 322	7	ontfangen
-322	7	
 322	7	9501
 322	7	ende
 322	7	waeren
@@ -147181,7 +146274,6 @@
 322	17	de
 322	17	cleeden
 322	17	bedragende
-322	17	
 322	17	41294
 322	17	tot
 322	18	den
@@ -147304,7 +146396,6 @@
 322	29	aldaer
 322	29	gelaten
 322	29	costende
-322	29	
 322	29	1500
 322	29	aenden
 322	29	gouverneur
@@ -147697,7 +146788,6 @@
 323	20	te
 323	20	conjectureren
 323	20	sy
-323	20	
 323	20	grooten
 323	20	arbeyt
 323	20	en
@@ -147902,7 +146992,6 @@
 323	37	den
 323	37	Coninck
 323	37	vervloeckt
-323	37	
 323	37	andere
 323	37	hadden
 323	37	't
@@ -147944,7 +147033,6 @@
 323	40	stuyver
 323	40	minder
 323	40	betaelt
-323	40	
 323	40	die
 323	40	van
 323	40	d'
@@ -148001,7 +147089,6 @@
 323	44	den
 323	44	tol
 323	44	van
-324	2	
 324	2	jacren
 324	2	mei
 324	2	voors
@@ -148026,7 +147113,6 @@
 324	3	Coninck
 324	3	te
 324	4	doen
-324	4	
 324	4	maer
 324	4	soude
 324	4	echter
@@ -148081,7 +147167,6 @@
 324	8	eenige
 324	8	specery
 324	8	olyen
-324	8	
 324	8	de
 324	8	jonghste
 324	8	oiyen
@@ -148112,7 +147197,6 @@
 324	10	hant
 324	10	te
 324	10	houden
-324	10	
 324	10	ende
 324	10	wanneer
 324	10	syn
@@ -148485,7 +147569,6 @@
 324	40	den
 324	40	indigo
 324	40	gepresenteert
-324	40	
 324	40	ende
 324	40	d'
 324	40	selve
@@ -148642,7 +147725,6 @@
 325	8	man
 325	8	hadden
 325	9	gebracht
-325	9	
 325	9	maer
 325	9	alsoo
 325	9	d'
@@ -148750,7 +147832,6 @@
 325	18	SS
 325	18	S
 325	18	synde
-325	18	
 325	18	ft
 325	18	108332
 325	19	Indigo
@@ -148759,18 +147840,11 @@
 325	20	2276
 325	20	man
 325	20	synde
-325	20	
-325	20	
 325	20	120628
-325	21	
 325	21	Biana
-325	21	
-325	22	
 325	22	Samen
 325	22	4320
 325	22	man
-325	22	
-325	22	
 325	22	228960
 325	23	Daerby
 325	23	gevoucht
@@ -148794,28 +147868,21 @@
 325	25	2236
 325	25	man
 325	25	achabarj
-325	25	
-325	25	
 325	25	118508
 325	26	Indigo
 325	26	van
 325	26	Gorgie
 325	27	1324
 325	27	man
-325	27	
-325	27	
 325	27	70172
 325	28	Samen
 325	28	3560
 325	28	man
 325	28	a
 325	28	53
-325	28	
 325	28	p
 325	28	man
 325	28	synde
-325	28	
-325	28	
 325	28	188680
 325	29	Soodat
 325	29	desen
@@ -148828,8 +147895,6 @@
 325	30	1080
 325	30	packen
 325	30	houdende
-325	30	
-325	30	
 325	30	228960
 325	31	Indigo
 325	31	Biana
@@ -148838,8 +147903,6 @@
 325	32	890
 325	32	packen
 325	32	houdende
-325	32	
-325	32	
 325	32	188680
 325	33	van
 325	33	Gorgie
@@ -148850,11 +147913,6 @@
 325	34	1970
 325	34	packen
 325	34	maeckende
-325	34	
-325	34	
-325	34	
-325	34	
-325	34	
 325	34	8
 325	34	417640
 325	35	Waermeede
@@ -148893,7 +147951,6 @@
 325	37	hadden
 325	37	connen
 325	37	suppleeren
-325	37	
 325	37	maer
 325	38	was
 325	38	den
@@ -149103,7 +148160,6 @@
 326	12	naer
 326	13	Pérsia
 326	13	voeren
-326	13	
 326	13	doch
 326	13	souden
 326	13	hun
@@ -149189,7 +148245,6 @@
 326	19	selve
 326	19	quamen
 326	19	aensoecken
-326	19	
 326	19	verlaten
 326	19	denselven
 326	19	voor
@@ -149874,7 +148929,6 @@
 327	30	niet
 327	30	connen
 327	30	becomen
-327	30	
 327	30	echter
 327	30	om
 327	30	syn
@@ -150121,8 +149175,6 @@
 328	7	man
 328	7	van
 328	7	4372
-328	7	
-328	7	
 328	7	SB^g
 328	7	ft
 328	7	off
@@ -150182,8 +149234,6 @@
 328	12	op
 328	12	nu
 328	12	geëyste
-328	12	
-328	12	
 328	12	voort
 328	13	vaderlandt
 328	13	als
@@ -150215,8 +149265,6 @@
 328	15	Capperia
 328	15	connen
 328	15	becomen
-328	15	
-328	15	
 328	16	Geduyrendo
 328	16	het
 328	16	aenweeseu
@@ -150451,14 +149499,12 @@
 328	36	alfandigo
 328	37	gebracht
 328	37	als
-328	37	
 328	38	47
 328	38	packen
 328	38	lakenen
 328	39	48
 328	39	stx
 328	39	perpetuanen
-328	40	
 328	40	250
 328	40	seugen
 328	40	loot
@@ -150562,13 +149608,11 @@
 329	12	144
 329	12	ft
 329	12	Hpack
-329	13	
 329	13	427
 329	13	d
 329	13	Biana
 329	13	a
 329	13	265
-329	13	
 329	13	yder
 329	14	40
 329	14	d
@@ -150751,7 +149795,6 @@
 329	36	corge
 329	36	mercoelys
 329	37	1645
-329	37	
 329	37	derria
 329	37	badys
 329	38	100000
@@ -150774,7 +149817,6 @@
 329	39	d'
 329	39	man
 329	40	120
-329	40	
 329	40	indigo
 329	40	Gorgie
 329	40	a
@@ -150799,7 +149841,6 @@
 329	42	tegen
 329	42	9500
 329	42	r
-329	42	
 329	42	soo
 329	42	badden
 329	42	oock
@@ -151287,7 +150328,6 @@
 330	38	gevordert
 330	38	sal
 330	38	werden
-330	38	
 330	38	doch
 330	38	had
 330	38	syn
@@ -151647,7 +150687,6 @@
 331	26	Porodera
 331	26	74
 331	26	r
-331	26	
 331	26	Samloot
 331	26	ende
 331	26	Mosempour
@@ -151658,9 +150697,7 @@
 331	26	Cassempour
 331	27	mede
 331	27	^4
-331	27	
 331	27	P
-331	27	
 331	27	gemitigeert
 331	27	dat
 331	27	den
@@ -151762,7 +150799,6 @@
 331	35	Wingerla
 331	36	van
 331	36	/*819321
-331	36	
 331	36	H
 331	36	geene
 331	36	voor
@@ -151788,7 +150824,6 @@
 331	37	ter
 331	38	somme
 331	38	van
-331	38	
 331	38	160084
 331	38	maer
 331	38	en
@@ -151932,7 +150967,6 @@
 332	6	hier
 332	6	naer
 332	6	Suratta
-332	6	
 332	6	gesonden
 332	6	wierde
 332	6	welck
@@ -152212,7 +151246,6 @@
 332	28	oock
 332	29	geschiet
 332	29	was
-332	29	
 332	30	De
 332	30	kist
 332	30	gutta
@@ -152370,7 +151403,6 @@
 332	42	ter
 332	42	somme
 332	42	van
-332	42	
 332	42	51950
 332	43	Ende
 332	43	waeren
@@ -152508,7 +151540,6 @@
 333	10	scheepsruym
 333	10	aldaer
 333	10	overgebleven
-333	10	
 333	10	ende
 333	10	had
 333	10	syn
@@ -152544,7 +151575,6 @@
 333	13	derwaerts
 333	13	te
 333	13	schicken
-333	13	
 333	13	om
 333	13	voor
 333	13	't
@@ -152631,10 +151661,8 @@
 333	21	van
 333	21	welcke
 333	21	een
-333	21	
 333	21	verongeluckt
 333	21	was
-333	21	
 333	21	in
 333	21	Pegu
 333	21	aengelant
@@ -152671,7 +151699,6 @@
 333	24	niet
 333	24	meer
 333	24	als
-333	24	
 333	24	50571
 333	25	dat
 333	25	met
@@ -152697,7 +151724,6 @@
 333	26	responde
 333	26	gegeven
 333	26	hadden
-333	26	
 333	26	dVespondiers
 333	27	an
 333	27	1
@@ -153302,7 +152328,6 @@
 334	33	een
 334	33	cargasoen
 334	33	van
-334	33	
 334	33	180432
 334	33	bestaende
 334	33	uyl
@@ -153316,7 +152341,6 @@
 334	34	Japanse
 334	34	coupans
 334	34	2059
-334	34	
 334	34	rouwe
 334	35	Chinese
 334	35	zyde
@@ -153324,10 +152348,8 @@
 334	35	ft
 334	35	alluyn
 334	35	1530
-334	35	
 334	35	macis
 334	35	25
-334	35	
 334	35	ft
 334	35	Bomesen
 334	35	campher
@@ -153489,7 +152511,6 @@
 335	4	penningen
 335	4	te
 335	5	ontlasten
-335	5	
 335	5	in
 335	5	Petatoulj
 335	5	ende
@@ -153614,7 +152635,6 @@
 335	14	goede
 335	14	winsten
 335	14	sy
-335	14	
 335	15	soo
 335	15	hadden
 335	15	oock
@@ -154125,7 +153145,6 @@
 336	15	vertrecken
 336	15	volgende
 336	15	vaerthuygen
-336	15	
 336	16	een
 336	16	tingangh
 336	16	nae
@@ -154247,7 +153266,6 @@
 336	26	40
 336	26	contant
 336	27	g^en
-336	27	
 336	27	vertreckt
 336	27	een
 336	27	tingangh
@@ -154342,7 +153360,6 @@
 336	35	met
 336	35	de
 336	35	ongeldeu
-336	35	
 336	35	70805
 336	35	ende
 336	35	adviseert
@@ -154363,7 +153380,6 @@
 336	37	substantie
 336	37	als
 336	37	volcht
-336	37	
 336	38	De
 336	38	scheepen
 336	38	Walvisch
@@ -154438,7 +153454,6 @@
 336	44	den
 336	44	Tidorees
 337	2	gehouden
-337	2	
 337	2	maer
 337	2	int
 337	2	particulier
@@ -154722,7 +153737,6 @@
 337	25	ende
 337	25	commotie
 337	25	gecauseert
-337	25	
 337	25	den
 337	25	Coninck
 337	26	Hamsia
@@ -154875,7 +153889,6 @@
 337	40	Hollanders
 337	40	trouwelyck
 337	41	gehouden
-337	41	
 337	41	voorts
 337	41	meest
 337	41	alle
@@ -155143,7 +154156,6 @@
 338	21	duysent
 338	21	bhaar
 338	21	nagelen
-338	22	
 338	22	Wy
 338	22	soubatten
 338	22	voor
@@ -155189,7 +154201,6 @@
 338	25	t'
 338	25	samen
 338	25	beraetslaecht
-338	25	
 338	25	d'
 338	25	b
 338	25	gouverneur
@@ -155303,7 +154314,6 @@
 338	34	voor
 338	34	desen
 338	34	geaccordeert
-338	34	
 338	34	dat
 338	34	alle
 338	34	de
@@ -155378,7 +154388,6 @@
 338	41	naer
 338	41	Macasser
 338	41	gesonden
-338	41	
 338	41	daer
 338	41	en
 338	41	boven
@@ -155817,7 +154826,6 @@
 339	41	limiten
 339	41	laten
 339	41	vertrecken
-339	41	
 339	42	want
 339	42	soo
 339	42	baest
@@ -155836,7 +154844,6 @@
 339	42	myne
 340	2	daertoe
 340	2	voegen
-340	2	
 340	2	sullen
 340	2	gesamentlyck
 340	2	het
@@ -156014,7 +155021,6 @@
 340	19	Quimelaha
 340	19	heeft
 340	19	affgesondert
-340	19	
 340	19	daeromme
 340	19	segge
 340	19	by
@@ -156042,7 +155048,6 @@
 340	21	myn
 340	21	alhier
 340	21	comen
-340	21	
 340	21	dit
 340	21	doende
 340	21	sal
@@ -156540,7 +155545,6 @@
 341	27	Iman
 341	27	van
 341	27	Lissidj
-341	27	
 341	27	en
 341	27	soo
 341	27	ick
@@ -156625,7 +155629,6 @@
 341	34	te
 341	34	rechte
 341	34	brengen
-341	34	
 341	35	By
 341	35	aldien
 341	35	den
@@ -156852,7 +155855,6 @@
 342	10	stadt
 342	10	MaTeyen
 342	10	desen
-342	10	
 342	10	December
 342	10	anno
 342	10	1640
@@ -156908,7 +155910,6 @@
 342	14	corcorren
 342	14	gecruyst
 342	14	werden
-342	14	
 342	15	soo
 342	15	was
 342	15	oock
@@ -157292,7 +156293,6 @@
 343	4	in
 343	4	voorraet
 343	4	blecff
-343	4	
 343	4	ende
 343	4	en
 343	4	soude
@@ -157507,7 +156507,6 @@
 343	22	boven
 343	22	de
 343	22	4
-343	22	
 343	22	salpeter
 343	22	connen
 343	22	gemaeckt
@@ -157967,7 +156966,6 @@
 344	17	gevanckenis
 344	17	verseeckert
 344	18	gehouden
-344	18	
 344	18	het
 344	18	joncksken
 344	18	was
@@ -158808,7 +157806,6 @@
 346	4	groot
 346	4	contentement
 346	4	geaccepteert
-346	4	
 346	4	d'
 346	4	antwoord
 346	4	daer
@@ -159467,7 +158464,6 @@
 347	21	conde
 347	21	affgemeeten
 347	21	worden
-347	21	
 347	21	off
 347	21	hy
 347	21	maeckte
@@ -159484,7 +158480,6 @@
 347	22	wille
 347	22	te
 347	22	wesen
-347	22	
 347	22	van
 347	23	Battacaloa
 347	23	stonden
@@ -159525,7 +158520,6 @@
 347	25	naer
 347	26	Palliacatta
 347	26	geêmmitteert
-347	26	
 347	26	bovendien
 347	26	sonden
 347	26	gemelte
@@ -159747,7 +158741,6 @@
 347	44	affhaudicht
 347	44	te
 347	44	maken
-347	44	
 347	44	ende
 347	44	waer
 347	44	niet
@@ -159951,7 +158944,6 @@
 348	18	in
 348	18	te
 348	18	brengen
-348	18	
 348	18	de
 348	18	fortressen
 348	19	Trinquenemale
@@ -160055,7 +159047,6 @@
 348	27	moetwillens
 348	27	uylgelalen
 348	27	was
-348	27	
 348	27	den
 348	27	adsistent
 348	27	Nicolaes
@@ -160314,7 +159305,6 @@
 349	5	meer
 349	5	te
 349	5	fortificeeren
-349	5	
 349	6	hadden
 349	6	de
 349	6	punt
@@ -160388,7 +159378,6 @@
 349	11	voeten
 349	11	dick
 349	11	comen
-349	11	
 349	11	soo
 349	11	waeren
 349	11	oock
@@ -160422,7 +159411,6 @@
 349	13	defentie
 349	13	souden
 349	13	wesen
-349	13	
 349	14	vant
 349	14	jacht
 349	14	Valckenburch
@@ -160677,7 +159665,6 @@
 349	34	beseylt
 349	34	can
 349	34	worden
-349	34	
 349	34	denselve
 349	34	synde
 349	34	een
@@ -160695,7 +159682,6 @@
 349	35	Punte
 349	35	Gale
 349	35	oversteecken
-349	35	
 349	36	want
 349	36	soo
 349	36	men
@@ -160751,7 +159737,6 @@
 349	39	begin
 349	39	van
 349	39	November
-349	39	
 349	40	doch
 349	40	om
 349	40	opt
@@ -161579,7 +160564,6 @@
 351	28	cust
 351	29	te
 351	29	vertrecken
-351	29	
 351	29	gelyck
 351	29	dan
 351	29	oock
@@ -161856,7 +160840,6 @@
 352	13	een
 352	13	cargasoen
 352	13	van
-352	14	
 352	14	43711:1:3
 352	15	Soo
 352	15	vertreckt
@@ -162011,7 +160994,6 @@
 352	32	ly
 352	32	Hugo
 352	32	Borre
-352	33	
 352	33	Goert
 352	33	Glaessen
 352	33	Backer
@@ -162025,18 +161007,15 @@
 352	37	Lim
 352	37	Lacco
 352	37	1^1
-352	38	
 352	38	I
 352	38	Chmesen
 352	39	Bencon
-352	39	
 352	40	Tot
 352	40	Hooft
 352	40	Officieren
 352	40	vande
 352	40	burgerlycke
 352	40	wacht
-352	40	
 352	41	Huybrecht
 352	41	vanden
 352	41	^Brouck
@@ -162428,7 +161407,6 @@
 354	32	gekielhaelt
 354	32	te
 354	32	worden
-354	32	
 355	2	ende
 355	2	retourneert
 355	2	't
@@ -163037,7 +162015,6 @@
 356	18	redelycke
 356	18	verversinge
 356	18	bequamen
-356	18	
 356	18	soo
 356	18	ontmoeten
 356	18	hun
@@ -163452,7 +162429,6 @@
 357	12	met
 357	12	partye
 357	12	pitjes
-357	12	
 357	13	als
 357	13	meede
 357	13	een
@@ -163667,7 +162643,6 @@
 357	31	het
 357	32	ingeladen
 357	32	f
-357	32	
 357	33	de
 357	33	joncke
 357	33	Jamby
@@ -163689,7 +162664,6 @@
 357	34	cargasoentje
 357	34	van
 357	34	f
-357	34	
 357	35	ende
 357	35	de
 357	35	fluyt
@@ -163701,7 +162675,6 @@
 357	35	gekielhaelt
 357	35	te
 357	35	worden
-357	35	
 357	36	daer
 357	36	tegen
 357	36	arriveeren
@@ -163889,7 +162862,6 @@
 358	8	IB
 358	8	realen
 358	8	contant
-358	8	
 358	9	ende
 358	9	een
 358	9	gillion
@@ -164083,27 +163055,20 @@
 358	28	synde
 358	28	opgetrocken
 358	29	sterck
-358	29	
 358	30	de
 358	30	5
 358	30	comp
 358	30	der
 358	30	swarten
-358	30	
 358	30	366
 358	30	coppen
 358	31	de
 358	31	Bandaneesen
-358	31	
 358	31	75
-358	31	
 358	32	de
 358	32	Javanen
-358	32	
 358	32	50
-358	32	
 358	33	Samen
-358	33	
 358	33	481
 358	33	coppen
 358	34	17
@@ -164277,7 +163242,6 @@
 359	9	geredit
 359	10	te
 359	10	veeeten
-359	10	
 359	10	4
 359	10	Javanen
 359	10	met
@@ -164363,7 +163327,6 @@
 359	16	zee
 359	16	19
 359	16	Neederlanderen
-359	16	
 359	17	nevens
 359	17	een
 359	17	Japander
@@ -165032,7 +163995,6 @@
 360	38	rollen
 360	38	satp
 360	39	5
-360	39	
 360	39	fluweel
 360	39	ende
 360	39	10
@@ -165141,7 +164103,6 @@
 361	6	niets
 361	6	uytvoerende
 361	7	24en
-361	7	
 361	7	vertreckt
 361	7	een
 361	7	lamboe
@@ -165199,7 +164160,6 @@
 361	12	stx
 361	12	goelonghs
 361	12	etc
-361	13	
 361	13	een
 361	13	champan
 361	13	nae
@@ -165238,8 +164198,6 @@
 361	15	aen
 361	15	Chinese
 361	16	coopmanschappen
-361	17	
-361	17	
 361	17	ende
 361	17	een
 361	17	tingangh
@@ -165370,7 +164328,6 @@
 361	30	2
 361	30	rolle
 361	30	fluweel
-361	31	
 361	31	ende
 361	31	d'
 361	31	ander
@@ -165532,7 +164489,6 @@
 361	44	Paleïnbangh
 361	44	syn
 361	44	affscheyt
-361	45	
 362	2	27en
 362	2	jo
 362	2	yerlrecken
@@ -165565,7 +164521,6 @@
 362	4	het
 362	4	ingeladen
 362	4	cargasoen
-362	4	
 362	4	248232:5:1
 362	5	ende
 362	5	H
@@ -165685,7 +164640,6 @@
 362	19	geheel
 362	19	vemieut
 362	19	was
-362	19	
 362	20	Op
 362	20	dato
 362	20	becomt
@@ -165827,7 +164781,6 @@
 362	31	te
 362	31	sullen
 362	31	weesen
-362	31	
 362	31	d'
 362	31	Engelse
 362	32	ende
@@ -165842,7 +164795,6 @@
 362	32	vertreck
 362	32	te
 362	32	maecken
-362	32	
 362	33	de
 362	33	Deenen
 362	33	hadde
@@ -166200,7 +165152,6 @@
 363	25	geraecken
 363	25	te
 363	25	soliciteeren
-363	25	
 363	25	het
 363	25	is
 363	25	my
@@ -166577,7 +165528,6 @@
 364	20	groot
 364	21	mogende
 364	21	vruntschappen
-364	21	
 364	21	ende
 364	21	't
 364	21	geene
@@ -166678,7 +165628,6 @@
 364	31	13
 364	31	lasten
 364	31	sout
-364	32	
 365	2	's
 365	2	maents
 365	3	Primo
@@ -166768,7 +165717,6 @@
 365	10	aclitereenvolgende
 365	10	maenden
 365	11	verpacht
-365	11	
 365	12	de
 365	12	gerechticheyt
 365	12	vande
@@ -166778,25 +165726,20 @@
 365	12	realen
 365	12	van
 365	12	8
-365	12	
-365	12	
 365	13	de
 365	13	cieeden
 365	13	passer
 365	13	101
 365	13	realen
-365	13	
 365	14	de
 365	14	wage
 365	14	110
 365	14	realen
-365	14	
 365	15	het
 365	15	pitjes
 365	15	maecken
 365	15	30
 365	15	realen
-365	15	
 365	16	2
 365	16	ci
 365	16	comt
@@ -166936,7 +165879,6 @@
 365	28	dorp
 365	28	genaemt
 365	28	Corupan
-365	28	
 365	28	daer
 365	28	binnen
 365	29	ontrent
@@ -167029,7 +165971,6 @@
 366	3	kinderen
 366	3	als
 366	3	boven
-366	3	
 366	3	alhiei
 366	3	vond
 366	3	7
@@ -167047,7 +165988,6 @@
 366	4	ende
 366	4	meest
 366	4	vergaen
-366	4	
 366	4	in
 366	4	dese
 366	4	negryen
@@ -167115,7 +166055,6 @@
 366	9	van
 366	9	Bantam
 366	9	vereert
-366	9	
 366	9	volgens
 366	9	de
 366	10	verclaeringe
@@ -167215,7 +166154,6 @@
 366	16	souden
 366	17	mogen
 366	17	venten
-366	17	
 366	17	nae
 366	17	't
 366	17	seggen
@@ -167249,7 +166187,6 @@
 366	19	vercopen
 366	19	gelast
 366	19	hadde
-366	19	
 366	19	soo
 366	19	wierd
 366	19	aldaer
@@ -167319,7 +166256,6 @@
 366	25	op
 366	25	te
 366	25	setten
-366	25	
 366	25	daer
 366	25	die
 366	25	van
@@ -167684,7 +166620,6 @@
 367	14	ter
 367	14	somme
 367	14	van
-367	14	
 367	14	1852:19.14
 367	15	5
 367	15	d
@@ -167758,7 +166693,6 @@
 367	21	als
 367	21	andere
 367	21	cleynicheden
-367	21	
 367	21	d'
 367	21	nachoda
 367	21	van
@@ -167920,7 +166854,6 @@
 367	38	adviserende
 367	38	als
 367	38	volcht
-367	38	
 367	38	sedert
 367	38	syn
 367	38	laesle
@@ -167959,7 +166892,6 @@
 367	41	meede
 367	41	te
 367	41	begroeten
-367	41	
 367	41	dese
 367	41	hadden
 367	41	ontrent
@@ -168054,7 +166986,6 @@
 368	7	van
 368	7	Tello
 368	7	den
-368	7	
 368	7	May
 368	7	verleeden
 368	7	sieckelyck
@@ -168129,7 +167060,6 @@
 368	13	mangus
 368	13	etc
 368	13	verciert
-368	13	
 368	13	het
 368	13	huys
 368	13	daerop
@@ -168422,7 +167352,6 @@
 368	36	niet
 368	36	te
 368	36	weesen
-368	36	
 368	36	het
 368	36	Engels
 368	36	schip
@@ -168434,7 +167363,6 @@
 368	37	Banjermassingh
 368	37	te
 368	37	vertrecken
-368	37	
 368	37	den
 368	37	Pangeran
 368	37	ginck
@@ -168832,7 +167760,6 @@
 369	36	Quast
 369	36	naer
 369	36	Goa
-369	36	
 369	36	soo
 369	36	meede
 369	36	den
@@ -168881,7 +167808,6 @@
 369	40	het
 369	40	ey
 369	40	landt
-369	40	
 369	40	op
 369	40	een
 369	40	onbekende
@@ -168897,7 +167823,6 @@
 369	41	daer
 369	41	sonder
 369	41	groote
-369	41	
 369	41	swaricheyt
 369	41	ofte
 369	41	moeyten
@@ -168977,7 +167902,6 @@
 370	4	eylant
 370	4	ten
 370	4	ancker
-370	4	
 370	5	waeren
 370	5	noch
 370	5	besich
@@ -168997,7 +167921,6 @@
 370	6	H
 370	6	werck
 370	6	togen
-370	6	
 370	6	soo
 370	6	vonden
 370	6	oock
@@ -169133,7 +168056,6 @@
 370	17	ende
 370	17	hout
 370	17	baelen
-370	17	
 370	17	des
 370	18	avonts
 370	18	quam
@@ -169154,7 +168076,6 @@
 370	19	het
 370	19	schip
 370	19	Amsterdam
-370	19	
 370	19	was
 370	19	afgesonden
 370	19	vanden
@@ -169628,7 +168549,6 @@
 371	16	staat
 371	16	te
 371	16	vergelden
-371	16	
 371	16	H
 371	16	is
 371	16	my
@@ -169639,7 +168559,6 @@
 371	17	moeyelyck
 371	17	moet
 371	17	syn
-371	17	
 371	17	soot
 371	17	Uw
 371	17	Ed
@@ -169769,7 +168688,6 @@
 371	28	predicatie
 371	28	gedaen
 371	28	wierd
-371	28	
 371	28	deselve
 371	28	geèyndicht
 371	28	heeft
@@ -169796,7 +168714,6 @@
 371	30	den
 371	30	volcke
 371	30	gepubliceert
-371	30	
 371	30	.voort
 371	30	tot
 371	31	vice-commandeur
@@ -169941,7 +168858,6 @@
 371	43	Anger
 371	43	ten
 371	43	ancker
-371	44	
 371	44	mochten
 371	44	comen
 372	2	Naer
@@ -170236,7 +169152,6 @@
 372	25	mylen
 372	25	buyten
 372	25	Onrust
-372	25	
 372	25	ende
 372	26	hadden
 372	26	den
@@ -170469,7 +169384,6 @@
 373	5	B
 373	5	man
 373	5	1
-373	5	
 373	5	lasten
 373	5	rys
 373	5	als
@@ -170499,7 +169413,6 @@
 373	7	S
 373	7	lasten
 373	7	rys
-373	7	
 373	8	ende
 373	8	een
 373	8	van
@@ -170516,7 +169429,6 @@
 373	9	Daer
 373	9	jegens
 373	9	vertrocken
-373	9	
 373	10	6
 373	10	lamboes
 373	10	twee
@@ -170597,7 +169509,6 @@
 373	17	cleeden
 373	17	ende
 373	17	40
-373	17	
 373	18	in
 373	18	geldt
 373	19	4
@@ -170609,7 +169520,6 @@
 373	19	uytvoerende
 373	19	als
 373	19	pitjes
-373	19	
 373	20	een
 373	20	nae
 373	20	Cherrebon
@@ -170768,7 +169678,6 @@
 373	37	10
 373	37	realen
 373	37	contant
-373	38	
 373	38	ende
 373	38	een
 373	38	nae
@@ -170881,7 +169790,6 @@
 374	6	talamboe
 374	6	van
 374	6	Banjermassingh
-374	6	
 374	6	ophebbende
 374	6	15
 374	6	man
@@ -171479,7 +170387,6 @@
 375	24	getaxeert
 375	24	te
 375	24	samen
-375	24	
 375	24	5862
 375	24	:18
 375	24	:8
@@ -171763,7 +170670,6 @@
 376	7	by
 376	7	voors
 376	7	gelegentheyt
-376	7	
 376	7	p
 376	7	eenen
 376	7	Anthonio
@@ -171825,7 +170731,6 @@
 376	12	Spangen
 376	12	toegesecht
 376	12	wierdt
-376	12	
 376	12	naer
 376	13	den
 376	13	geseyden
@@ -171897,7 +170802,6 @@
 376	18	kinderen
 376	19	te
 376	19	rantsoeneeren
-376	19	
 376	19	dese
 376	19	gemelte
 376	19	Anthonio
@@ -172828,7 +171732,6 @@
 378	13	Sutphen
 378	13	volgen
 378	13	soude
-378	13	
 378	13	denselve
 378	13	ongeacht
 378	14	voors
@@ -173100,7 +172003,6 @@
 378	36	despesche
 378	36	had
 378	36	gegeven
-378	36	
 378	36	uyt
 378	36	de
 378	36	advysen
@@ -173266,7 +172168,6 @@
 379	6	Touheel
 379	6	verwacht
 379	6	wierd
-379	6	
 379	7	Wt
 379	7	Patanj
 379	7	waeren
@@ -173288,7 +172189,6 @@
 379	8	gouverneur
 379	8	tot
 379	8	47
-379	8	
 379	8	realen
 379	8	de
 379	8	coyangh
@@ -173394,7 +172294,6 @@
 379	17	Malacca
 379	18	te
 379	18	brengen
-379	18	
 379	18	dat
 379	18	oordeelen
 379	18	met
@@ -173477,7 +172376,6 @@
 379	25	zee
 379	25	te
 379	25	bouwen
-379	25	
 379	25	vai
 379	25	maetrosen
 379	25	ende
@@ -174171,7 +173069,6 @@
 380	42	hadde
 380	43	comen
 380	43	besoecken
-380	43	
 380	43	soude
 380	43	geeme
 380	43	by
@@ -174205,7 +173102,6 @@
 381	2	hadde
 381	2	connen
 381	2	geschieden
-381	2	
 381	2	den
 381	3	ebbenhout
 381	3	stock
@@ -174341,7 +173237,6 @@
 381	14	5
 381	14	stx
 381	14	slagen
-381	14	
 381	14	7
 381	14	cattj
 381	15	ongetweemde
@@ -174486,7 +173381,6 @@
 381	27	bhar
 381	27	ofte
 381	27	31124
-381	28	
 381	28	suyver
 381	28	gewicht
 381	28	giroffel
@@ -174502,7 +173396,6 @@
 381	29	10244
 381	29	mitsgaders
 381	29	39000
-381	29	
 381	29	Bouroes
 381	29	ebbenhout
 381	29	ongetaxeert
@@ -174519,7 +173412,6 @@
 381	30	sandelhout
 381	30	775
 381	30	V
-381	30	
 381	30	schilpadtshoom
 381	31	137
 381	31	picol
@@ -174534,9 +173426,7 @@
 381	31	ter
 381	31	somme
 381	31	van
-381	31	
 381	31	30738
-381	31	
 381	32	volgens
 381	32	d'
 381	32	advysen
@@ -174560,7 +173450,6 @@
 381	33	aldaer
 381	33	nae
 381	33	wensch
-381	33	
 381	33	van
 381	33	des
 381	33	Kimelahas
@@ -174860,7 +173749,6 @@
 382	15	ancker
 382	15	waeren
 382	15	gelopen
-382	15	
 382	15	maer
 382	15	als
 382	15	den
@@ -174917,7 +173805,6 @@
 382	19	jachten
 382	19	te
 382	19	beschermen
-382	19	
 382	19	maer
 382	19	gaven
 382	19	d'
@@ -174961,7 +173848,6 @@
 382	22	gequets
 382	22	waeren
 382	22	geworden
-382	22	
 382	22	doch
 382	22	had
 382	22	den
@@ -175696,7 +174582,6 @@
 383	42	schermutsinge
 383	42	geweest
 383	42	doch
-383	43	
 383	43	Hier
 383	43	ontbreekt
 383	43	iets
@@ -175731,14 +174616,12 @@
 384	3	d'
 384	3	orangcays
 384	4	Toloucobessj
-384	4	
 384	4	als
 384	4	verdere
 384	4	hoofiden
 384	4	van
 384	4	Capaha
 384	4	Tanahittoemessin
-384	4	
 384	4	nevens
 384	4	Barus
 384	5	van
@@ -175788,7 +174671,6 @@
 384	8	niet
 384	8	connen
 384	8	geschieden
-384	8	
 384	8	ende
 384	8	bequam
 384	8	syn
@@ -176263,7 +175145,6 @@
 385	4	had
 385	5	by
 385	5	gelegentheyt
-385	5	
 385	5	dat
 385	5	die
 385	5	van
@@ -176449,7 +175330,6 @@
 385	20	aent
 385	20	casteel
 385	21	vertoont
-385	21	
 385	21	die
 385	21	van
 385	21	Ceram
@@ -176471,7 +175351,6 @@
 385	22	voorsien
 385	22	mochte
 385	22	werden
-385	22	
 385	23	maer
 385	23	d'
 385	23	andere
@@ -176856,7 +175735,6 @@
 386	13	te
 386	14	genieten
 386	14	7
-386	14	
 386	14	^P
 386	14	Y
 386	14	baroth
@@ -177365,7 +176243,6 @@
 387	14	S
 387	14	oliphants
 387	14	tanden
-387	15	
 387	15	Per
 387	15	gemelte
 387	15	commissaris
@@ -177441,7 +176318,6 @@
 387	22	vertrecken
 387	22	volgende
 387	22	vaerthuygen
-387	22	
 387	23	4
 387	23	tinganghs
 387	23	een
@@ -177820,7 +176696,6 @@
 388	19	Japara
 388	19	met
 388	19	241
-388	19	
 388	19	realen
 388	19	aen
 388	19	Chinese
@@ -177897,11 +176772,9 @@
 388	26	ons
 388	26	vaderlanl
 388	26	om
-388	26	
 388	26	adsistentie
 388	26	gesonden
 388	26	hadden
-388	26	
 388	26	Godt
 388	26	geve
 388	27	sulcx
@@ -178028,7 +176901,6 @@
 388	37	aldaer
 388	37	moslen
 388	37	overblyven
-388	37	
 388	37	soo
 388	37	den
 388	37	voorschreve
@@ -178116,56 +176988,35 @@
 388	44	goederen
 388	44	aldaer
 388	44	overgehouden
-388	44	
 389	2	26640
 389	2	S
 389	2	indigo
 389	2	sirchees
 389	2	costende
-389	2	
 389	2	f
 389	2	23302
 389	3	Ö17436
-389	3	
 389	3	catcha
-389	3	
-389	3	
 389	3	2484
 389	4	13186
-389	4	
 389	4	cottoene
 389	4	gaeren
-389	4	
-389	4	
 389	4	6863
 389	5	262
 389	5	Va
 389	5	corge
 389	5	roode
 389	5	chelas
-389	5	
-389	5	
 389	5	12463
 389	6	100
-389	6	
 389	6	swarte
 389	6	berams
-389	6	
-389	6	
 389	6	3891
 389	7	102
-389	7	
-389	7	
 389	7	cavghanghs
-389	7	
-389	7	
 389	7	B615
 389	8	820
-389	8	
-389	8	
 389	8	cannekins
-389	8	
-389	8	
 389	8	13014
 389	9	Oostende
 389	9	te
@@ -178225,7 +177076,6 @@
 389	13	sonder
 389	13	sant
 389	13	geêmbaleert
-389	13	
 389	14	virelcke
 389	14	best
 389	14	bevallen
@@ -178274,7 +177124,6 @@
 389	17	behoorde
 389	17	te
 389	17	weegen
-389	17	
 389	17	gelyck
 389	17	oock
 389	17	die
@@ -178349,8 +177198,6 @@
 389	24	oubans
 389	24	a
 389	24	IOV4
-389	24	
-389	24	
 389	24	Ütk^Adi
 389	25	hebbende
 389	25	het
@@ -178394,7 +177241,6 @@
 389	28	voor
 389	28	suyver
 389	28	advance
-389	28	
 389	28	28139:1:8
 389	28	ontrent
 389	28	17
@@ -178490,13 +177336,10 @@
 389	35	341782^8
 389	35	ropias
 389	36	ofte
-389	36	
 389	36	4
 389	36	101
 389	36	38
 389	36	17
-389	36	
-389	36	
 389	36	synde
 389	36	Vj
 389	36	p
@@ -178687,7 +177530,6 @@
 390	10	van
 390	10	56
 390	10	V4
-390	10	
 390	11	100
 390	11	sockels
 390	11	foelie
@@ -178714,8 +177556,6 @@
 390	12	d'
 390	12	man
 390	13	18
-390	13	
-390	13	
 390	13	rompen
 390	13	tot
 390	13	7
@@ -178726,10 +177566,7 @@
 390	13	man
 390	13	a
 390	13	37Vio
-390	13	
 390	14	10
-390	14	
-390	14	
 390	14	quicksilver
 390	14	tot
 390	14	35
@@ -178738,10 +177575,7 @@
 390	14	man
 390	14	van
 390	14	34^2
-390	14	
 390	15	8
-390	15	
-390	15	
 390	15	vermilioen
 390	15	tot
 390	15	35
@@ -178750,7 +177584,6 @@
 390	15	man
 390	15	d
 390	16	2
-390	16	
 390	16	man
 390	16	ofte
 390	16	69000
@@ -178801,8 +177634,6 @@
 390	19	ft
 390	20	y
 390	20	172
-390	20	
-390	20	
 390	20	Quedas
 390	20	tin
 390	20	tot
@@ -178814,7 +177645,6 @@
 390	20	man
 390	20	van
 390	20	34
-390	20	
 390	20	ft
 390	21	yX
 390	21	10
@@ -178836,8 +177666,6 @@
 390	22	10
 390	22	a
 390	22	11
-390	22	
-390	22	
 390	22	lange
 390	22	peper
 390	22	goet
@@ -178850,7 +177678,6 @@
 390	22	d'
 390	22	man
 390	22	van
-390	23	
 390	23	36
 390	23	V4
 390	23	ft
@@ -178888,7 +177715,6 @@
 390	26	meede
 390	26	d'
 390	26	porceleynen
-390	26	
 390	26	in
 390	26	Suhalj
 390	27	lach
@@ -178938,7 +177764,6 @@
 390	31	d'
 390	31	man
 390	32	4000
-390	32	
 390	32	cubebe
 390	32	tot
 390	32	20
@@ -179006,7 +177831,6 @@
 390	38	naevolgende
 390	38	dienslich
 390	38	weesen
-390	38	
 390	39	4
 390	39	halve
 390	39	stucken
@@ -179309,7 +178133,6 @@
 391	23	de
 391	23	somme
 391	23	van
-391	23	
 391	23	62673
 391	23	meest
 391	23	bestaende
@@ -179723,7 +178546,6 @@
 392	14	lelyck
 392	14	uy
 392	14	tgescholden
-392	14	
 392	14	gelyck
 392	14	syn
 392	14	E
@@ -179775,7 +178597,6 @@
 392	18	om
 392	18	te
 392	18	handelen
-392	18	
 392	18	nae
 392	18	't
 392	18	gevoelen
@@ -180027,7 +178848,6 @@
 392	36	getaxeert
 392	36	moeten
 392	36	werden
-392	36	
 392	36	de
 392	36	nagelen
 392	37	tot
@@ -180097,7 +178917,6 @@
 392	41	soude
 392	41	connen
 392	41	werden
-392	41	
 392	41	maer
 392	41	soo
 392	41	daerinne
@@ -180326,7 +179145,6 @@
 393	17	274
 393	17	packen
 393	17	cleeden
-393	17	
 393	17	den
 393	17	Suppley
 393	18	nae
@@ -180340,7 +179158,6 @@
 393	18	rovers
 393	18	te
 393	18	cruysen
-393	18	
 393	18	het
 393	18	jacht
 393	19	den
@@ -180401,7 +179218,6 @@
 393	25	president
 393	25	Willem
 393	25	Fremlingh
-393	25	
 393	26	Eerwaerdige
 393	26	Heeren
 393	26	onse
@@ -180693,7 +179509,6 @@
 394	11	ons
 394	11	bewust
 394	11	is
-394	11	
 394	11	ende
 394	11	gelyck
 394	11	hieronime
@@ -180898,7 +179713,6 @@
 394	26	hebt
 394	26	laten
 394	27	behouden
-394	27	
 394	27	maer
 394	27	wy
 394	27	gaen
@@ -180938,7 +179752,6 @@
 394	30	gelieft
 394	30	te
 394	30	pardonneeren
-394	30	
 394	30	gelooft
 394	30	ons
 394	30	Ed
@@ -180999,7 +179812,6 @@
 394	35	macbtich
 394	35	te
 394	35	syn
-394	35	
 394	35	echter
 394	35	behoorden
 394	35	d'
@@ -181043,7 +179855,6 @@
 394	38	sendende
 394	38	te
 394	38	geschieden
-394	38	
 394	38	ende
 394	38	onaengesien
 394	38	onsen
@@ -181245,7 +180056,6 @@
 395	12	kennelyck
 395	12	maecken
 395	12	sal
-395	12	
 395	13	ende
 395	13	by
 395	13	aldien
@@ -181258,10 +180068,6 @@
 395	13	straffen
 395	13	van
 395	13	dien
-395	13	
-395	13	
-395	13	
-395	13	
 395	14	doch
 395	14	impertinenten
 395	14	conounandeur
@@ -181286,7 +180092,6 @@
 395	15	van
 395	16	diergelycke
 395	16	discourtoise
-395	16	
 395	16	injurieuse
 395	16	onverdraechelyckheden
 395	16	gestut
@@ -181340,7 +180145,6 @@
 395	20	onderteeckenen
 395	21	Was
 395	21	onderteeckent
-395	21	
 395	22	U
 395	22	Edr
 395	22	respective
@@ -181424,7 +180228,6 @@
 396	7	een
 396	7	cargasoen
 396	7	van
-396	7	
 396	7	42476:3:12
 396	8	ende
 396	8	arriveert
@@ -181698,7 +180501,6 @@
 397	4	sal
 397	4	verbroocken
 397	4	werden
-397	4	
 397	4	ende
 397	4	de
 397	4	Neederlanders
@@ -181752,7 +180554,6 @@
 397	9	vrundtschap
 397	9	te
 397	9	verbreecken
-397	9	
 397	9	gelyck
 397	9	Crayen
 397	9	oock
@@ -181762,7 +180563,6 @@
 397	9	is
 397	9	te
 397	9	doen
-397	9	
 397	9	ende
 397	9	alsoo
 397	10	hy
@@ -181847,10 +180647,8 @@
 397	16	alle
 397	16	omleggende
 397	17	dorpen
-397	17	
 397	17	van
 397	17	die
-397	17	
 397	17	twee
 397	17	steeden
 397	17	hebben
@@ -182091,7 +180889,6 @@
 397	39	coopluyden
 397	39	te
 397	39	procureeren
-397	39	
 397	39	brenght
 397	39	oock
 397	39	een
@@ -182134,7 +180931,6 @@
 397	42	nae
 397	42	Suratta
 397	42	verseylen
-397	43	
 397	43	(t
 397	43	comen
 397	43	een
@@ -182420,7 +181216,6 @@
 398	27	5
 398	27	man
 398	27	geladen
-398	27	
 398	28	met
 398	28	2
 398	28	lasten
@@ -183046,7 +181841,6 @@
 399	44	jonge
 399	44	caymans
 399	44	gevangen
-399	44	
 399	44	oock
 399	44	had
 399	44	een
@@ -183063,7 +181857,6 @@
 400	2	ende
 400	2	binnen
 400	2	gebracht
-400	2	
 400	2	H
 400	2	was
 400	3	wonder
@@ -183460,7 +182253,6 @@
 400	40	geen
 400	40	scheepen
 400	40	vernomen
-400	40	
 400	40	bracht
 400	41	een
 400	41	brieff
@@ -183632,7 +182424,6 @@
 401	11	wilt
 401	11	verjaecht
 401	11	hadden
-401	11	
 401	11	Nundicipati
 401	11	hadde
 401	11	gesecht
@@ -184110,8 +182901,6 @@
 402	10	18
 402	10	Javanen
 402	10	van
-402	10	
-402	10	
 402	10	geladen
 402	10	met
 402	11	sout
@@ -184244,7 +183033,6 @@
 402	23	ende
 402	23	ontmant
 402	23	waeren
-402	23	
 402	23	den"president
 402	23	Backer
 402	23	had
@@ -184591,7 +183379,6 @@
 403	12	aende
 403	12	man
 403	12	geholpen
-403	12	
 403	13	doch
 403	13	badden
 403	13	p
@@ -184604,7 +183391,6 @@
 403	13	cargasoen
 403	13	becomen
 403	14	van
-403	14	
 403	14	14969B
 403	14	bestaende
 403	14	uyt
@@ -184765,7 +183551,6 @@
 403	26	een
 403	26	met
 403	26	het
-403	26	
 403	26	ander
 403	26	omtrent
 403	26	42200
@@ -184909,13 +183694,11 @@
 403	38	gesmeeten
 403	39	was
 403	39	geworden
-403	39	
 403	39	hun
 403	39	fregat
 403	39	den
 403	39	Diamant
 403	39	op
-403	39	
 403	39	April
 403	39	uyt
 403	39	Gamron
@@ -185114,7 +183897,6 @@
 404	14	met
 404	14	d'
 404	14	ongeldcn
-404	14	
 404	14	27912
 404	14	ingenomen
 404	14	den
@@ -185151,7 +183933,6 @@
 404	17	Comp
 404	17	seer
 404	17	toegedaen
-404	17	
 404	17	hadde
 404	17	gemelte
 404	17	van
@@ -185334,7 +184115,6 @@
 404	32	met
 404	32	de
 404	32	ongelden
-404	32	
 404	32	65790
 404	32	ende
 404	32	soude
@@ -185833,7 +184613,6 @@
 405	34	stompen
 405	34	aengelant
 405	35	waeren
-405	35	
 405	35	het
 405	35	schip
 405	35	Maestricht
@@ -186195,7 +184974,6 @@
 406	23	zee
 406	23	te
 406	23	halen
-406	23	
 406	24	Aengaende
 406	24	het
 406	24	eylandt
@@ -186779,7 +185557,6 @@
 407	31	echter
 407	31	eyndelyck
 407	31	veraccordeert
-407	31	
 407	31	meest
 407	32	op
 407	32	voorjarigen
@@ -186917,7 +185694,6 @@
 407	43	Sillida
 407	43	soude
 407	43	doen
-407	43	
 407	43	alwaer
 407	43	gecomen
 407	43	uyt
@@ -187164,7 +185940,6 @@
 408	21	schulden
 408	21	te
 408	21	rescontreeren
-408	21	
 408	21	Priaman
 408	21	soude
 408	21	volgens
@@ -187330,7 +186105,6 @@
 408	34	seedert
 408	34	weynich
 408	35	geadvanceert
-408	35	
 408	35	d'
 408	35	chaloupe
 408	35	Amboina
@@ -187508,7 +186282,6 @@
 409	9	S
 409	9	taruwe
 409	9	coslende
-409	9	
 409	10	Nae
 409	10	't
 409	10	schryven
@@ -187629,7 +186402,6 @@
 409	20	selven
 409	20	sich
 409	20	verexcuseert
-409	20	
 409	20	d*joncke
 409	20	was
 409	20	wel
@@ -188095,7 +186867,6 @@
 410	18	achter
 410	18	wege
 410	18	gebleeven
-410	18	
 410	18	gemelte
 410	19	jachten
 410	19	hadden
@@ -188114,7 +186885,6 @@
 410	20	3039
 410	20	ft
 410	20	cassomba
-410	20	
 410	20	38
 410	20	packen
 410	20	ofte
@@ -188290,7 +187060,6 @@
 410	35	daertoe
 410	35	noch
 410	35	arbeytsluyden
-410	35	
 410	35	noch
 410	35	materialen
 410	35	by
@@ -188804,7 +187573,6 @@
 411	38	diergelycke
 411	38	ceremoniën
 411	38	tracteerde
-411	38	
 411	39	H
 411	39	is
 411	39	de
@@ -188880,7 +187648,6 @@
 411	44	29
 411	44	Januarj
 411	44	1640
-411	44	
 411	44	in
 411	44	den
 411	44	selffden
@@ -189286,7 +188053,6 @@
 412	32	my
 412	32	sulcx
 412	32	toestaen
-412	32	
 412	32	het
 412	32	meerder
 412	32	't
@@ -189650,7 +188416,6 @@
 413	16	U
 413	16	E
 413	16	toedrage
-413	16	
 413	16	de
 413	16	memorie
 413	17	daer
@@ -189926,7 +188691,6 @@
 413	41	vant
 413	42	voorschreve
 413	42	casteel
-413	42	
 413	42	ende
 413	42	't
 413	42	geene
@@ -190033,7 +188797,6 @@
 414	9	E
 414	9	souden
 414	9	begeeren
-414	9	
 414	10	int
 414	10	meerder
 414	10	Godt
@@ -190175,19 +188938,13 @@
 414	28	twaelff
 414	28	verlackte
 414	28	rottanghs
-414	28	
 414	29	drye
 414	29	aent
 414	29	eynde
 414	29	met
 414	29	gout
 414	29	beslagen
-414	30	
-414	30	
-414	30	
-414	30	
 414	30	silver
-414	30	
 414	31	Het
 414	31	naervolgende
 414	31	sendt
@@ -190461,7 +189218,6 @@
 415	19	geit
 415	19	soude
 415	19	betaelen
-415	19	
 415	19	de
 415	19	selve
 415	20	syn
@@ -190506,7 +189262,6 @@
 415	22	groot
 415	22	endegoet
 415	22	is
-415	22	
 415	22	het
 415	22	fatsoen
 415	23	moet
@@ -190530,7 +189285,6 @@
 415	25	mochten
 415	25	aengenaem
 415	25	syn
-415	25	
 415	25	't
 415	25	geen
 415	25	soude
@@ -190540,7 +189294,6 @@
 415	25	sal
 415	25	Patrahitta
 415	25	betaelen
-415	25	
 415	26	ende
 415	26	in
 415	26	geval
@@ -190585,7 +189338,6 @@
 415	29	hooft
 415	29	over
 415	29	allen
-415	29	
 415	29	versouck
 415	30	myn
 415	30	broeder
@@ -190845,7 +189597,6 @@
 416	10	bejegent
 416	10	soude
 416	10	worden
-416	10	
 416	10	ende
 416	10	belangende
 416	10	de
@@ -190880,7 +189631,6 @@
 416	13	ende
 416	13	waeren
 416	13	syluyden
-416	13	
 416	13	gevangens
 416	13	op
 416	13	dato
@@ -190901,7 +189651,6 @@
 416	14	ende
 416	14	een
 416	15	Portugees
-416	15	
 416	15	Godt
 416	15	Almachtich
 416	15	wil
@@ -191107,7 +189856,6 @@
 416	35	als
 416	35	volcht
 416	36	Rechlwaerde
-416	36	
 416	37	U
 416	37	Ed
 416	37	aengename
@@ -191354,7 +190102,6 @@
 417	16	uyt
 417	16	te
 417	16	wercken
-417	16	
 417	17	ten
 417	17	is
 417	17	niet
@@ -191650,7 +190397,6 @@
 418	4	geweest
 418	4	Hoilandt
 418	4	te
-418	4	
 418	4	besichtigen
 418	4	geroerden
 418	4	doose
@@ -191744,7 +190490,6 @@
 418	11	daerin
 418	11	geweest
 418	11	is
-418	11	
 418	11	syn
 418	11	particuliere
 418	11	aflairen
@@ -191816,7 +190561,6 @@
 418	16	gebieden
 418	16	(was
 418	16	geteeckent
-418	16	
 418	17	JOHN
 418	17	STALLON
 418	18	50
@@ -191855,7 +190599,6 @@
 418	21	geladen
 418	21	met
 418	21	1
-418	21	
 418	21	lasten
 418	21	rys
 418	21	nevens
@@ -192371,7 +191114,6 @@
 420	3	gedimitteert
 420	3	geworden
 420	3	syn
-420	3	
 420	4	ende
 420	4	synde
 420	4	voorschreve
@@ -192693,7 +191435,6 @@
 420	32	te
 420	33	lande
 420	33	marcheren
-420	33	
 420	33	ende
 420	33	soo
 420	33	het
@@ -192880,7 +191621,6 @@
 421	14	22
 421	14	Januarj
 421	14	daeraenvolgende
-421	14	
 421	14	de
 421	14	lust
 421	14	die
@@ -193106,7 +191846,6 @@
 421	32	ende
 421	32	gunste
 421	32	gedaen
-421	32	
 421	32	door
 421	32	syn
 421	32	oorsaecke
@@ -193125,7 +191864,6 @@
 421	33	hebben
 421	33	connen
 421	34	sien
-421	34	
 421	34	ick
 421	34	weet
 421	34	niet
@@ -193143,7 +191881,6 @@
 421	35	gehoor
 421	35	heeft
 421	35	gegeven
-421	35	
 421	35	die
 421	35	geene
 421	35	die
@@ -193203,7 +191940,6 @@
 421	39	de
 421	39	waerheyt
 421	39	verclaeren
-421	39	
 421	39	meede
 421	39	hebben
 421	39	met
@@ -193520,7 +192256,6 @@
 422	25	morgenstondt
 422	25	soude
 422	25	aencomen
-422	25	
 422	26	doch
 422	26	eer
 422	26	myn
@@ -193925,7 +192660,6 @@
 423	16	middelen
 423	16	te
 423	16	versameien
-423	16	
 423	16	ben
 423	17	gecomen
 423	17	in
@@ -193937,7 +192671,6 @@
 423	17	feesten
 423	17	genaemt
 423	17	Parhera
-423	17	
 423	17	synde
 423	17	ick
 423	17	binnen
@@ -194002,7 +192735,6 @@
 423	22	ende
 423	22	eenige
 423	22	lascaryns
-423	22	
 423	22	met
 423	22	dit
 423	22	succes
@@ -194068,7 +192800,6 @@
 423	27	5
 423	27	sonder
 423	28	tanden
-423	28	
 423	28	't
 423	28	gcene
 423	28	ick
@@ -194080,7 +192811,6 @@
 423	28	is
 423	28	het
 423	28	navolgende
-423	28	
 423	29	Inden
 423	29	jare
 423	29	a
@@ -194108,7 +192838,6 @@
 423	30	halve
 423	30	bhaar
 423	30	peeper
-423	30	
 423	31	in
 423	31	den
 423	31	jare
@@ -194132,7 +192861,6 @@
 423	32	674
 423	32	conido
 423	32	5010
-423	32	
 423	32	wasch
 423	32	44000
 423	32	ponden
@@ -194152,14 +192880,12 @@
 423	33	ende
 423	33	twee
 423	33	mannekens
-423	33	
 423	34	inden
 423	34	jaer
 423	34	1640
 423	34	in
 423	34	Marlio
 423	34	11400
-423	34	
 423	34	fynen
 423	34	caneel
 423	34	712
@@ -194274,7 +193000,6 @@
 423	44	secours
 423	44	te
 424	2	senden
-424	2	
 424	2	ick
 424	2	hebbe
 424	2	alreets
@@ -194318,7 +193043,6 @@
 424	4	roere
 424	4	syn
 424	5	geworden
-424	5	
 424	5	U
 424	5	E
 424	5	sende
@@ -194369,7 +193093,6 @@
 424	9	by
 424	9	desen
 424	9	gedienstich
-424	9	
 424	9	uwe
 424	9	May
 424	9	gelieve
@@ -194464,7 +193187,6 @@
 424	16	in
 424	17	contante
 424	17	penningen
-424	17	
 424	17	soo
 424	17	daer
 424	17	yemant
@@ -194560,7 +193282,6 @@
 424	24	prys
 424	24	der
 424	24	coopmanschappen
-424	24	
 424	24	begeerende
 424	24	andere
 424	24	dingen
@@ -194595,7 +193316,6 @@
 424	26	in
 424	26	handen
 424	26	hebt
-424	26	
 424	26	stelt
 424	27	alsoo
 424	27	den
@@ -194733,7 +193453,6 @@
 424	37	quartieren
 424	37	van
 424	37	Mature
-424	37	
 424	37	als
 424	37	ick
 424	37	voldoe
@@ -194873,7 +193592,6 @@
 425	6	tot
 425	6	mynen
 425	6	dienst
-425	6	
 425	6	al
 425	6	ist
 425	6	saecke
@@ -194928,7 +193646,6 @@
 425	10	hebben
 425	10	genieten
 425	10	sal
-425	10	
 425	10	ende
 425	10	als
 425	10	wanneer
@@ -195107,7 +193824,6 @@
 425	25	't
 425	25	selve
 425	25	veroverden
-425	25	
 425	25	U
 425	25	E
 425	26	verneeme
@@ -195267,7 +193983,6 @@
 425	39	het
 425	40	3
 425	40	artyckel
-425	40	
 425	40	by
 425	40	aldien
 425	40	onse
@@ -195335,14 +194050,12 @@
 426	3	bet
 426	3	3
 426	3	artyckel
-426	3	
 426	3	ick
 426	3	bebbe
 426	3	plaets
 426	3	sulcx
 426	3	te
 426	3	presumeeren
-426	3	
 426	3	want
 426	3	inde
 426	3	capittelen
@@ -195387,7 +194100,6 @@
 426	6	in
 426	6	comptante
 426	7	penningen
-426	7	
 426	7	maer
 426	7	in
 426	7	coopmanschappen
@@ -195751,7 +194463,6 @@
 426	35	vertrouwt
 426	36	wil
 426	36	weesen
-426	36	
 426	36	item
 426	36	voor
 426	36	oprechte
@@ -195966,7 +194677,6 @@
 427	10	ambassadeurs
 427	10	met
 427	10	hun
-427	10	
 427	10	op
 427	10	d'
 427	10	andere
@@ -196123,7 +194833,6 @@
 427	21	en
 427	21	can
 427	21	probeeren
-427	21	
 427	22	de
 427	22	vreemdelingen
 427	22	die
@@ -196585,7 +195294,6 @@
 428	19	der
 428	19	Portugesen
 428	19	niet
-428	19	
 428	19	nochtans
 428	19	inde
 428	19	selve
@@ -196921,7 +195629,6 @@
 429	5	myn
 429	5	ge^acbte
 429	5	gecomen
-429	5	
 429	5	want
 429	5	soo
 429	5	ick
@@ -196938,7 +195645,6 @@
 429	6	voor
 429	6	gebouden
 429	6	bebbe
-429	6	
 429	6	ick
 429	6	ben
 429	6	wel
@@ -196993,7 +195699,6 @@
 429	10	eyiant
 429	10	te
 429	10	vei'dryven
-429	10	
 429	10	ende
 429	10	ü
 429	10	E
@@ -197363,7 +196068,6 @@
 429	39	met
 429	39	my
 429	39	handelen
-429	39	
 429	39	het
 429	39	geene
 429	39	voor
@@ -197565,7 +196269,6 @@
 430	14	E
 430	14	gegeven
 430	14	worden
-430	14	
 430	14	alhoewel
 430	15	soo
 430	15	ick
@@ -197724,7 +196427,6 @@
 430	27	soude
 430	27	geweest
 430	27	syn
-430	27	
 430	27	doch
 430	27	ten
 430	27	is
@@ -197738,7 +196440,6 @@
 430	27	g'imbroeljeert
 430	28	syn
 430	28	geworden
-430	28	
 430	28	maer
 430	28	die
 430	28	versamelt
@@ -197748,7 +196449,6 @@
 430	28	dese
 430	28	tegenwoordige
 430	28	scheepen
-430	28	
 430	28	die
 430	28	niet
 430	29	tydelyck
@@ -197810,7 +196510,6 @@
 430	34	vestingh
 430	34	geruymt
 430	34	wort
-430	34	
 430	34	op
 430	34	uwe
 430	34	May
@@ -198015,7 +196714,6 @@
 431	8	secours
 431	8	gedaen
 431	8	hebbe
-431	8	
 431	8	doch
 431	8	het
 431	8	en
@@ -198040,7 +196738,6 @@
 431	9	feesten
 431	9	gecomen
 431	10	was
-431	10	
 431	10	in
 431	10	dese
 431	10	tyt
@@ -198087,7 +196784,6 @@
 431	13	met
 431	13	myne
 431	13	macht
-431	13	
 431	13	maer
 431	13	alsoo
 431	13	in
@@ -198195,7 +196891,6 @@
 431	22	soo
 431	23	veel
 431	23	Javanen
-431	23	
 431	23	brenght
 431	23	10
 431	23	coyangh
@@ -198276,7 +196971,6 @@
 431	30	bedragende
 431	30	te
 431	30	samen
-431	30	
 431	30	15898
 431	30	uyt
 431	30	d'
@@ -198332,7 +197026,6 @@
 431	34	sober
 431	34	cargasoentjen
 431	34	van
-431	34	
 431	34	12489
 431	34	aldaer
 431	34	was
@@ -198446,7 +197139,6 @@
 431	44	geweest
 431	44	soude
 432	2	syn
-432	2	
 432	2	niaer
 432	2	was
 432	2	naer
@@ -198576,7 +197268,6 @@
 432	12	voorraet
 432	12	doen
 432	12	maken
-432	12	
 432	12	soo
 432	12	en
 432	12	waeren
@@ -198644,7 +197335,6 @@
 432	18	een
 432	18	capitael
 432	18	van
-432	18	
 432	18	35943
 432	18	becomen
 432	18	bestaende
@@ -198952,7 +197642,6 @@
 432	42	Comp
 432	42	aen
 432	42	te
-432	42	
 432	42	brengen
 432	42	cargasoen
 432	42	in
@@ -199160,7 +197849,6 @@
 433	16	noch
 433	16	niet
 433	16	gecontracteert
-433	16	
 433	16	alle
 433	16	het
 433	16	sandelhout
@@ -199205,7 +197893,6 @@
 433	19	jaers
 433	19	aldaer
 433	20	geavanceert
-433	20	
 433	20	27856
 433	20	blyvende
 433	20	d'
@@ -199213,7 +197900,6 @@
 433	20	ter
 433	20	somme
 433	20	van
-433	20	
 433	20	71115
 433	20	Helmont
 433	20	ende
@@ -199309,7 +197995,6 @@
 433	29	nae
 433	29	Trancquebare
 433	29	verseylt
-433	29	
 433	29	den
 433	29	Ghristiaenshaven
 433	29	wierd
@@ -199828,7 +198513,6 @@
 434	30	noch
 434	30	lancksaem
 434	30	voort
-434	30	
 434	30	d'
 434	30	tweede
 434	31	punt
@@ -199969,7 +198653,6 @@
 434	42	een
 434	42	cargasoen
 434	42	bedragende
-434	42	
 434	42	12621
 434	42	waermeede
 434	42	op
@@ -199986,7 +198669,6 @@
 434	43	ter
 434	43	somme
 434	43	van
-434	43	
 434	43	34083
 434	43	ingenomen
 434	43	hebbende
@@ -200205,7 +198887,6 @@
 435	19	bedragende
 435	19	te
 435	20	samen
-435	20	
 435	20	40345
 435	20	voor
 435	20	Jambj
@@ -200253,7 +198934,6 @@
 435	23	packen
 435	23	cleeden
 435	23	bedragende
-435	24	
 435	24	3668
 435	25	6
 435	25	d
@@ -200276,7 +198956,6 @@
 435	26	als
 435	26	andere
 435	26	cleynicheeden
-435	26	
 435	27	ende
 435	27	vertrecken
 435	28	2
@@ -200814,7 +199493,6 @@
 436	34	gevalueert
 436	34	bly
 436	34	ven
-436	34	
 436	34	vande
 436	34	tolvryheyt
 436	34	in
@@ -201783,13 +200461,10 @@
 438	34	mandament
 438	35	van
 438	35	my
-438	35	
 438	35	Mahamoulia
-438	35	
 438	35	Bava
 438	35	Dely
 438	35	Hallarat
-438	35	
 438	35	Paducka
 438	35	Sirj
 438	36	Sultan
@@ -201799,7 +200474,6 @@
 438	36	Mackaram
 438	36	Siahe
 438	36	Berdouleth
-438	36	
 438	37	jang
 438	37	diatas
 438	37	tachta
@@ -201807,7 +200481,6 @@
 438	37	Atche
 438	37	Darou
 438	37	Salem
-438	37	
 438	37	Jala
 438	37	Chalipha
 438	38	ToUa
@@ -201838,22 +200511,17 @@
 438	40	dit
 438	40	myn
 438	40	mandament
-438	41	
-438	41	
 438	41	De
 438	41	hoochgeachtste
-438	41	
 438	41	Daelende
 438	41	van
 438	41	myne
 438	41	hoogheyts
 438	41	gratie
-438	41	
 438	41	Syn
 438	41	hacrc
 438	41	Conincklycke
 438	41	nadnen
-438	42	
 438	42	Die
 438	42	op
 438	42	den
@@ -201861,7 +200529,6 @@
 438	42	van
 438	42	Atchin
 438	42	sidt
-438	42	
 438	42	Coninginne
 438	42	van
 438	42	Godt
@@ -201875,7 +200542,6 @@
 439	2	Siry
 439	2	radja
 439	2	Panglima
-439	2	
 439	2	Bandaer
 439	3	Calipha
 439	3	den
@@ -202001,7 +200667,6 @@
 439	16	Indrapoura
 439	16	en
 439	16	Padangh
-439	16	
 439	16	gelyck
 439	16	Paducka
 439	16	Morhoni
@@ -202048,7 +200713,6 @@
 439	20	haeren
 439	20	tol
 439	20	met
-439	20	
 439	20	realen
 439	20	piddangh
 439	20	betalen
@@ -202167,7 +200831,6 @@
 439	31	siy
 439	31	ende
 439	31	iVj
-439	31	
 439	31	ryst
 439	31	's
 439	31	daechs
@@ -202314,9 +200977,7 @@
 439	43	als
 439	43	andere
 439	43	coopmanschappen
-439	44	
 439	44	Ticou
-439	44	
 439	44	Rycxdaelders
 440	2	daer
 440	2	toe
@@ -202393,7 +201054,6 @@
 440	8	te
 440	8	verneemen
 440	8	staet
-440	8	
 440	8	omme
 440	8	d'
 440	8	zee
@@ -202424,7 +201084,6 @@
 440	10	soude
 440	10	syn
 440	10	altyt
-440	10	
 440	10	ofte
 440	10	meer
 440	11	gelias
@@ -202622,7 +201281,6 @@
 440	26	selven
 440	26	aengeschreven
 440	26	was
-440	26	
 440	26	off
 440	26	die
 440	26	van
@@ -202640,7 +201298,6 @@
 440	27	heeft
 440	27	syn
 440	27	bedencken
-440	27	
 440	28	soo
 440	28	waeren
 440	28	oock
@@ -202670,7 +201327,6 @@
 440	30	comende
 440	30	van
 440	30	Serbon
-440	30	
 440	30	het
 440	30	hooft
 440	30	daervan
@@ -202743,15 +201399,9 @@
 440	37	4
 440	37	8
 440	37	vlees
-440	37	
-440	37	
-440	37	
-440	37	
-440	37	
 440	38	2
 440	38	8
 440	38	speek
-440	38	
 440	38	's
 440	38	maents
 440	38	in
@@ -202763,7 +201413,6 @@
 440	39	2
 440	39	mutsjehs
 440	39	oly
-440	39	
 440	39	Item
 440	39	aen
 440	39	de
@@ -202774,16 +201423,13 @@
 440	40	d
 440	40	azyn
 440	40	ende
-440	40	
 440	40	een
 440	40	ende
 440	40	de
 440	40	soldaten
 440	40	als
 440	40	maetrosen
-440	40	
 440	40	reaels
-440	41	
 440	41	iVa
 440	41	can
 440	41	de
@@ -202793,9 +201439,7 @@
 440	41	haer
 440	41	reeckeninge
 440	42	2
-440	42	
 440	42	arrac
-440	42	
 440	43	Soo
 440	43	had
 440	43	oock
@@ -202818,7 +201462,6 @@
 440	44	ter
 440	44	somme
 441	2	van
-441	2	
 441	2	150433
 441	2	gedaen
 441	2	ende
@@ -203111,7 +201754,6 @@
 441	30	weynighe
 441	30	andere
 441	30	maintimentos
-441	30	
 441	31	9
 441	31	d
 441	31	werden
@@ -203415,7 +202057,6 @@
 442	17	moeten
 442	17	ontfanghen
 442	17	de
-442	18	
 442	18	vanden
 442	18	tol
 442	18	in
@@ -203439,7 +202080,6 @@
 442	19	alle
 442	19	die
 442	19	quartieren
-442	19	
 442	19	dat
 442	19	den
 442	19	thol
@@ -203476,7 +202116,6 @@
 442	22	Indrapoura
 442	22	ofte
 442	22	Padangh
-442	22	
 442	23	daer
 442	23	over
 442	23	bebbe
@@ -203558,7 +202197,6 @@
 442	29	een
 442	29	gelooff
 442	29	syn
-442	29	
 442	29	ende
 442	29	ten
 442	29	tyde
@@ -203598,7 +202236,6 @@
 442	32	ende
 442	32	valsche
 442	32	overdragers
-442	32	
 442	32	ende
 442	32	ten
 442	32	tyde
@@ -203637,7 +202274,6 @@
 442	35	majoor
 442	35	heeft
 442	35	toegestaen
-442	35	
 442	35	ende
 442	35	ter
 442	35	dier
@@ -203694,7 +202330,6 @@
 442	39	haere
 442	39	ingeseten
 442	39	genoomen
-442	39	
 442	40	tot
 442	40	wat
 442	40	eynde
@@ -203705,7 +202340,6 @@
 442	40	goede
 442	40	wercken
 442	40	doen
-442	40	
 442	40	ende
 442	40	nu
 442	40	tegenwoordigh
@@ -203815,7 +202449,6 @@
 443	6	Atcliien
 443	6	Darossalem
 443	6	is
-443	6	
 443	6	ende
 443	6	voor
 443	6	desen
@@ -204157,7 +202790,6 @@
 443	35	ter
 443	35	somme
 443	35	van
-443	35	
 443	35	15616
 443	35	met
 443	35	voorschreve
@@ -204501,7 +203133,6 @@
 444	22	nae
 444	22	gejaecht
 444	22	daerinne
-444	23	
 444	23	dooden
 444	23	ende
 444	23	een
@@ -204518,7 +203149,6 @@
 444	24	jacht
 444	24	Limmen
 444	24	herwaerts
-444	24	
 444	24	de
 444	24	sieckte
 444	24	bleeff
@@ -204595,7 +203225,6 @@
 444	31	vertrecken
 444	31	volgende
 444	31	vaerthuygen
-444	31	
 444	31	4
 444	31	continghs
 444	31	2
@@ -204768,7 +203397,6 @@
 445	6	rys
 445	6	ende
 445	6	erwten
-445	6	
 445	6	brenght
 445	6	een
 445	6	brieff
@@ -204787,7 +203415,6 @@
 445	7	*t
 445	7	gepasseerde
 445	7	aldaer
-445	7	
 445	8	nae
 445	8	Molucco
 445	8	was
@@ -205175,14 +203802,12 @@
 445	40	meede
 445	41	herwaerts
 445	41	quam
-445	41	
 445	41	anders
 445	41	stondt
 445	41	alles
 445	41	aldaer
 445	41	reedelycken
 445	41	wel
-445	41	
 445	41	daer
 445	41	bleeff
 445	41	ongeveer
@@ -205213,7 +203838,6 @@
 445	44	in
 445	44	goeden
 445	44	toestant
-445	44	
 445	44	't
 445	44	schip
 446	2	*l
@@ -205227,7 +203851,6 @@
 446	2	passato
 446	2	wél
 446	2	aengecomen
-446	2	
 446	2	Quilsil
 446	2	Chea
 446	2	was
@@ -206151,7 +204774,6 @@
 447	31	Coninck
 447	31	souden
 447	31	verantwoorden
-447	31	
 447	31	off
 447	31	dit
 447	31	de
@@ -206310,7 +204932,6 @@
 447	44	s
 447	44	souden
 447	44	allsnyden
-447	44	
 448	2	\VaereD
 448	2	al
 448	2	lang
@@ -206338,7 +204959,6 @@
 448	3	aLs
 448	4	andere
 448	4	gereetschappen
-448	4	
 448	4	lot
 448	4	dien
 448	4	eynde
@@ -206463,7 +205083,6 @@
 448	14	in
 448	14	gehouden
 448	14	wierden
-448	14	
 448	14	ende
 448	14	was
 448	14	Hamsia
@@ -206641,7 +205260,6 @@
 448	29	geen
 448	29	vaerthuych
 448	29	verscheenen
-448	29	
 448	29	ende
 448	29	had
 448	29	syn
@@ -207041,7 +205659,6 @@
 449	20	allen
 449	21	grootelycx
 449	21	verheucht
-449	21	
 449	21	soo
 449	21	veele
 449	21	my
@@ -207080,7 +205697,6 @@
 449	23	U
 449	23	Ed
 449	23	ordren
-449	23	
 449	24	want
 449	24	ick
 449	24	weet
@@ -207100,7 +205716,6 @@
 449	25	windt
 449	25	geslagen
 449	25	hebben
-449	25	
 449	25	door
 449	25	dien
 449	25	sy
@@ -207165,7 +205780,6 @@
 449	30	om
 449	30	verdragen
 449	30	was
-449	30	
 449	30	maer
 449	30	Gmlt
 449	30	sy
@@ -207232,7 +205846,6 @@
 449	35	oyt
 449	35	geschieden
 449	35	can
-449	35	
 449	35	maer
 449	35	door
 449	35	dien
@@ -207250,7 +205863,6 @@
 449	36	gouvernement
 449	36	te
 449	37	continueeren
-449	37	
 449	37	dienvolgende
 449	37	syn
 449	37	verlossinge
@@ -207293,7 +205905,6 @@
 449	40	volcomentlyck
 449	40	heeft
 449	40	gebleecken
-449	40	
 449	41	derhalven
 449	41	versoecke
 449	41	dat
@@ -207846,14 +206457,12 @@
 450	44	fort
 450	44	geen
 450	44	toevoer
-450	44	
 451	2	off
 451	2	ontset
 451	2	van
 451	2	Thidoor
 451	2	mochten
 451	2	becomen
-451	2	
 451	2	dit
 451	2	alsoo
 451	2	vastgestelt
@@ -208242,7 +206851,6 @@
 451	35	schade
 451	35	soude
 451	35	toebrengen
-451	35	
 451	35	veel
 451	35	jaren
 451	35	herwaerts
@@ -208267,7 +206875,6 @@
 451	37	daer
 451	37	toe
 451	37	hebben
-451	37	
 451	37	voorts
 451	37	soude
 451	37	ick
@@ -208357,7 +206964,6 @@
 451	43	sullen
 451	43	weette
 451	43	niet
-451	44	
 451	44	doch
 451	44	sal
 451	44	door
@@ -208526,7 +207132,6 @@
 452	14	ten
 452	14	vollen
 452	14	l)etaelen
-452	14	
 452	14	U
 452	14	Ed
 452	14	can
@@ -209053,7 +207658,6 @@
 453	16	dal
 453	16	een
 453	16	groot
-453	16	
 453	16	onverstand
 453	16	ende
 453	16	schadelycke
@@ -209101,7 +207705,6 @@
 453	20	gemelte
 453	21	plaetsen
 453	21	van
-453	21	
 453	21	431681
 453	21	beslaende
 453	21	m
@@ -209216,7 +207819,6 @@
 453	32	Bantam
 453	32	affgesonden
 453	32	was
-453	32	
 453	33	nae
 453	33	desselffs
 453	33	seggen
@@ -209366,7 +207968,6 @@
 454	6	picol
 454	6	out
 454	7	yser
-454	7	
 454	7	corge
 454	7	tapisarassa
 454	7	30
@@ -209831,7 +208432,6 @@
 455	13	nae
 455	13	Jamby
 455	13	verseylen
-455	13	
 455	14	inde
 455	14	Maria
 455	14	waren
@@ -209985,7 +208585,6 @@
 455	26	de
 455	26	coopmanschappen
 455	26	daer
-455	27	
 455	27	de
 455	27	voldoeningh
 455	27	in
@@ -210169,7 +208768,6 @@
 455	40	menschen
 455	40	gehouden
 455	40	waeren
-455	40	
 455	40	dat
 455	40	onse
 455	40	natie
@@ -210414,7 +209012,6 @@
 456	16	dat
 456	16	haer
 456	17	luyden
-456	17	
 456	17	hoochste
 456	17	wensch
 456	17	sy
@@ -210903,7 +209500,6 @@
 457	17	te
 457	17	deser
 457	17	steede
-457	17	
 457	18	2
 457	18	conlingbs
 457	18	van
@@ -211068,7 +209664,6 @@
 457	33	ter
 457	33	somme
 457	33	van
-457	33	
 457	33	9141
 457	34	22
 457	34	d
@@ -211088,7 +209683,6 @@
 457	35	als
 457	35	andere
 457	35	coopmanschappen
-457	35	
 457	35	comen
 457	35	eenelyck
 457	35	om
@@ -211678,7 +210272,6 @@
 459	2	over
 459	2	naer
 459	2	weusch
-459	2	
 459	2	naer
 459	2	apparenlie
 459	2	soude
@@ -212618,7 +211211,6 @@
 461	2	omstandelyck
 461	2	Ie
 461	2	spreecken
-461	2	
 461	3	Anlhonio
 461	3	Fialho
 461	3	Farera
@@ -212757,7 +211349,6 @@
 461	13	condt
 461	13	te
 461	13	doen
-461	13	
 461	13	syn
 461	13	schriflelyke
 461	14	commissien
@@ -212821,7 +211412,6 @@
 461	19	aen
 461	19	de
 461	19	grooten
-461	19	
 461	19	waeren
 461	19	alle
 461	19	nachten
@@ -213427,7 +212017,6 @@
 462	31	sulfur
 462	31	hadde
 462	31	begifticht
-462	31	
 462	32	ende
 462	32	hadde
 462	32	den
@@ -213567,7 +212156,6 @@
 463	13	man
 463	13	geladen
 463	13	met
-463	13	
 463	13	coyangh
 463	13	rys
 463	14	ende
@@ -213809,7 +212397,6 @@
 464	4	aldaer
 464	4	gansch
 464	4	getransformeert
-464	4	
 464	5	waeren
 464	5	tot
 464	5	verwonderens
@@ -214136,7 +212723,6 @@
 464	33	dienaer
 464	33	te
 464	33	missen
-464	33	
 464	33	anders
 464	33	stondt
 464	33	alles
@@ -214145,7 +212731,6 @@
 464	34	meest
 464	34	nae
 464	34	wensch
-464	34	
 464	34	die
 464	34	van
 464	34	Tommeleu
@@ -214202,7 +212787,6 @@
 464	38	oock
 464	38	allensjents
 464	38	wel
-464	38	
 464	38	den
 464	38	Jatou
 464	38	Tehakeke
@@ -214807,7 +213391,6 @@
 466	6	tyt
 466	6	te
 466	6	revengeeren
-466	6	
 466	6	sedert
 466	6	het
 466	6	aOoopen
@@ -215077,7 +213660,6 @@
 466	29	gequesten
 466	29	weeder
 466	29	vertrocken
-466	29	
 466	29	die
 466	29	van
 466	29	Laricque
@@ -215572,7 +214154,6 @@
 467	29	goeden
 467	29	toestant
 467	29	gelaten
-467	29	
 467	29	die
 467	29	van
 467	29	Lissidj
@@ -215635,7 +214216,6 @@
 467	34	gouverneur
 467	34	hadden
 467	34	overgelevert
-467	34	
 467	34	den
 467	34	hatil
 467	34	Lanourou
@@ -215654,7 +214234,6 @@
 467	35	uyt
 467	35	te
 467	35	gaen
-467	35	
 467	36	Daer
 467	36	waeren
 467	36	gecommitteerdens
@@ -215773,7 +214352,6 @@
 468	2	op
 468	2	gescheyden
 468	2	syn
-468	2	
 468	2	't
 468	2	succes
 468	2	leert
@@ -216362,91 +214940,70 @@
 469	10	Aent
 469	10	casteel
 469	10	Victoria
-469	10	
 469	10	81
 469	11	Opde
 469	11	redout
 469	11	op
 469	11	Hittoe
-469	11	
 469	11	17
 469	12	Op
 469	12	Hittoelamma
-469	12	
 469	12	26
 469	13	Op
 469	13	Larica
-469	13	
 469	13	38
 469	14	Op
 469	14	de
 469	14	Passo
-469	14	
 469	14	10
 469	15	Op
 469	15	Oma
-469	15	
 469	15	13
 469	16	Op
 469	16	Honimoa
-469	16	
 469	16	18
 469	17	Inde
 469	17	logie
 469	17	op
 469	17	Louhoe
-469	17	
 469	17	22
 469	18	Op
 469	18	Wayboutj
-469	18	
 469	18	10
 469	19	Op
 469	19	Laftla
-469	19	
 469	19	28
 469	20	Op
 469	20	Nousatello
-469	20	
-469	20	
 469	20	12
 469	21	Op
 469	21	Lissidj
-469	21	
 469	21	69
 469	22	Op
 469	22	Assahoudj
-469	22	
 469	22	44
 469	23	Of
 469	23	Quelquepoutj
-469	23	
-469	23	
 469	23	2
 469	24	Op
 469	24	H
 469	24	eylant
 469	24	Amblau
-469	24	
 469	24	2
 469	25	Op
 469	25	Ourien
 469	25	inde
 469	25	negrye
-469	25	
 469	25	10
 469	26	Op
 469	26	Manipe
-469	26	
 469	26	23
 469	27	Op
 469	27	Bonoa
-469	27	
 469	27	18
 469	28	Samen
 469	28	als
 469	28	boven
-469	28	
 469	28	431
 469	28	ofiBcieren
 469	28	als
@@ -216535,7 +215092,6 @@
 469	37	ende
 469	37	geprovideert
 469	38	voor
-469	38	
 469	38	maenden
 469	38	daer
 469	38	meede
@@ -216555,7 +215111,6 @@
 469	39	ter
 469	39	somme
 469	39	van
-469	40	
 469	40	22441
 469	41	5
 469	41	d
@@ -216748,7 +215303,6 @@
 470	17	ajuin
 470	17	loock
 470	17	etc
-470	17	
 470	18	d*andere
 470	18	van
 470	18	Dermayo
@@ -216933,9 +215487,6 @@
 470	35	synde
 470	35	34
 470	35	"/ie
-470	35	
-470	35	
-470	35	
 470	35	ropia
 470	36	de
 470	36	spiauter
@@ -216949,7 +215500,6 @@
 470	36	ceer
 470	36	ofte
 470	36	34^2
-470	36	
 470	36	synde
 470	36	S
 470	37	mamoudj
@@ -216966,7 +215516,6 @@
 470	38	man
 470	38	van
 470	38	36^4
-470	38	
 470	38	alle
 470	38	op
 470	38	drye
@@ -217019,7 +215568,6 @@
 470	42	man
 470	42	van
 470	42	3674
-470	42	
 470	42	beyde
 470	42	partyen
 470	42	op
@@ -217063,7 +215611,6 @@
 471	3	contante
 471	3	ropias
 471	3	synde
-471	3	
 471	3	1K8880
 471	3	naer
 471	4	Amadabat
@@ -217628,7 +216175,6 @@
 472	11	met
 472	11	vreuchde
 472	11	toegecomen
-472	11	
 472	12	daer
 472	12	uyt
 472	12	verstaen
@@ -217868,7 +216414,6 @@
 472	31	gesontheyt
 472	31	ende
 472	31	begeeren
-472	31	
 472	31	hier
 472	31	meede
 472	31	wensche
@@ -218042,7 +216587,6 @@
 473	5	ter
 473	5	somma
 473	5	van
-473	6	
 473	6	17760
 473	7	De
 473	7	missive
@@ -218152,7 +216696,6 @@
 473	15	d
 473	15	sonder
 473	15	passen
-473	15	
 473	15	boven
 473	15	dien
 473	15	lagen
@@ -218367,7 +216910,6 @@
 473	34	extraordinaris
 473	34	Raedt
 473	34	van
-473	35	
 473	35	Indien
 473	35	ende
 473	35	gouverneur
@@ -219120,7 +217662,6 @@
 475	23	voorschreve
 475	23	inwoonderen
 475	23	toegestaen
-475	23	
 475	23	d.at
 475	23	den
 475	23	gemelten
@@ -220070,7 +218611,6 @@
 477	23	ter
 477	23	somme
 477	24	van
-477	24	
 477	24	7730
 477	24	16:2
 477	24	naer
@@ -220101,9 +218641,6 @@
 477	26	costende
 477	26	incoops/'29092
 477	26	:13
-477	26	
-477	26	
-477	26	
 477	27	waer
 477	27	meede
 477	27	voorschieve
@@ -220733,7 +219270,6 @@
 478	39	gedaen
 478	39	begeeven
 478	39	is
-478	39	
 478	39	binnen
 478	40	ses
 478	40	dagen
@@ -220887,7 +219423,6 @@
 479	10	haeren
 479	11	swaeren
 479	11	arbeyt
-479	11	
 479	11	die
 479	11	't
 479	11	minst
@@ -221033,7 +219568,6 @@
 479	22	van
 479	22	Moar
 479	22	toesenden
-479	22	
 479	22	daer
 479	22	naer
 479	22	waeren
@@ -221140,7 +219674,6 @@
 479	29	is
 479	29	myn
 479	30	fortuyn
-479	30	
 479	30	dierhalven
 479	30	ben
 479	30	beschaemt
@@ -221151,7 +219684,6 @@
 479	30	ambassadeurs
 479	30	te
 479	30	senden
-479	30	
 479	31	wyders
 479	31	versoeckt
 479	31	d'
@@ -221257,7 +219789,6 @@
 479	38	voltrocken
 479	38	ofte
 479	38	gerepareert
-479	38	
 479	39	alsdan
 479	39	naer
 479	39	't
@@ -222056,7 +220587,6 @@
 481	27	deckmantel
 481	27	de
 481	27	nagelen
-481	27	
 481	27	aldaer
 481	27	heymelyck
 481	27	te
@@ -222097,7 +220627,6 @@
 481	31	bezendinge
 481	31	gesonden
 481	31	hebben
-481	31	
 481	31	Toloucobessj
 481	31	hielt
 481	31	sich
@@ -222498,7 +221027,6 @@
 482	24	wetten
 482	24	te
 482	24	stellen
-482	24	
 482	24	hy
 482	24	was
 482	24	van
@@ -222601,7 +221129,6 @@
 482	32	d'
 482	32	minste
 482	32	weesen
-482	32	
 482	32	wyders
 482	32	hadden
 482	32	verstaen
@@ -223147,7 +221674,6 @@
 483	36	Bantammers
 483	36	seer
 483	36	nieu
-483	36	
 483	36	hadden
 483	36	sedert
 483	36	eenige
@@ -223169,7 +221695,6 @@
 483	38	De
 483	38	prauw
 483	38	van
-483	38	
 483	38	Narenlacque
 483	38	was
 483	38	tot
@@ -223249,7 +221774,6 @@
 483	44	met
 483	44	d'
 483	44	ongelden
-483	44	
 483	44	13480:1
 483	44	:4
 483	44	volgens
@@ -223525,7 +222049,6 @@
 484	25	peper
 484	25	tot
 484	25	872
-484	25	
 484	25	d'
 484	25	picol
 484	25	omgeset
@@ -223805,7 +222328,6 @@
 485	8	het
 485	8	mogelyck
 485	8	sy
-485	8	
 485	8	den
 485	8	Gouverneur
 485	8	Generael
@@ -223897,7 +222419,6 @@
 485	15	te
 485	15	kennen
 485	16	geven
-485	16	
 485	16	het
 485	16	paert
 485	16	moet
@@ -223909,7 +222430,6 @@
 485	16	swart
 485	16	off
 485	16	with
-485	16	
 485	16	tot
 485	16	die
 485	16	couleuren
@@ -224432,7 +222952,6 @@
 486	27	wech
 486	27	geloopen
 486	27	slaven
-486	27	
 486	28	d'
 486	28	Maria
 486	28	was
@@ -224466,7 +222985,6 @@
 486	30	Japara
 486	30	gearri
 486	30	veert
-486	30	
 486	30	Capiteyn
 486	30	Willem
 486	31	Meynderts
@@ -224804,7 +223322,6 @@
 487	17	coppen
 487	18	geprovideert
 487	18	voor
-487	18	
 487	18	maenden
 487	18	met
 487	18	een
@@ -224820,7 +223337,6 @@
 487	19	Parsiaens
 487	19	paert
 487	19	ende
-487	19	
 487	19	musquetten
 487	19	voor
 487	19	deu
@@ -224883,7 +223399,6 @@
 487	25	als
 487	25	andere
 487	25	maintimentos
-487	25	
 487	26	een
 487	26	tingangh
 487	26	van
@@ -225063,7 +223578,6 @@
 487	42	500
 487	42	man
 487	42	sterck
-487	42	
 487	42	ende
 487	42	soude
 487	42	den
@@ -225546,7 +224060,6 @@
 489	2	mitsgaders
 489	2	2
 489	2	tingangbs
-489	2	
 489	2	nae
 489	2	BanUm
 489	2	met
@@ -225684,7 +224197,6 @@
 489	15	rys
 489	15	ende
 489	15	^2
-489	15	
 489	15	^ni
 489	15	waeren
 489	15	door
@@ -225706,7 +224218,6 @@
 489	16	banden
 489	16	was
 489	17	j7en
-489	17	
 489	17	vertrecken
 489	17	volgende
 489	17	vaertbuygen
@@ -225914,10 +224425,8 @@
 489	39	met
 489	39	d'
 489	39	ongelden
-489	39	
 489	39	60326
 489	39	:2:l4
-489	39	
 489	40	Den
 489	40	oppercoopman
 489	40	Pieter
@@ -226343,7 +224852,6 @@
 490	37	dit
 490	37	goet
 490	37	werck
-490	37	
 490	37	soo
 490	37	is
 490	37	Palimbangh
@@ -226471,7 +224979,6 @@
 491	6	Sourj
 491	6	hebbe
 491	6	gedaen
-491	6	
 491	6	ende
 491	6	ick
 491	6	en
@@ -226737,7 +225244,6 @@
 491	31	Daer
 491	31	jegens
 491	31	arriveeren
-491	31	
 491	32	3
 491	32	tinganghs
 491	32	2
@@ -227063,7 +225569,6 @@
 492	15	u
 492	15	leven
 492	15	becoopen
-492	15	
 492	16	hiermeede
 492	16	vaertwel
 492	17	Int
@@ -227208,7 +225713,6 @@
 492	28	u
 492	28	te
 492	28	bedriegen
-492	28	
 492	28	ende
 492	28	daerenboven
 492	29	qualyck
@@ -227227,7 +225731,6 @@
 492	29	soude
 492	30	connen
 492	30	gedoogen
-492	30	
 492	30	hoe
 492	30	is
 492	30	't
@@ -227402,7 +225905,6 @@
 492	42	Comp
 493	2	schuldich
 493	2	is
-493	2	
 493	2	en
 493	2	soo
 493	2	ymant
@@ -227434,7 +225936,6 @@
 493	4	soldaet
 493	4	ende
 493	4	Christen
-493	4	
 493	4	ende
 493	4	soo
 493	4	ghylieden
@@ -227578,7 +226079,6 @@
 493	14	cust
 493	14	souden
 493	14	brengen
-493	14	
 493	14	het
 493	14	voorgemelte
 493	14	alles
@@ -227612,7 +226112,6 @@
 493	16	dienst
 493	17	was
 493	17	onderteeckent
-493	17	
 493	17	Generael
 493	17	Dom
 493	17	Philippo
@@ -227681,7 +226180,6 @@
 493	22	myn
 493	22	toegedaen
 493	22	waert
-493	22	
 493	23	doch
 493	23	*t
 493	23	synwoorden
@@ -227836,7 +226334,6 @@
 493	34	stormen
 493	34	te
 493	34	verdistrueeren
-493	34	
 493	34	groote
 493	34	giften
 493	34	sult
@@ -227899,7 +226396,6 @@
 493	38	goet
 493	38	duncken
 493	39	sal
-493	39	
 493	39	ende
 493	39	soo
 493	39	begeerich
@@ -227929,7 +226425,6 @@
 493	40	eenige
 493	40	goede
 493	41	dorpen
-493	41	
 493	41	ende
 493	41	soo
 493	41	ulieden
@@ -227986,7 +226481,6 @@
 493	44	van
 494	2	mynen
 494	2	Conick
-494	2	
 494	2	ick
 494	2	adviseer
 494	2	ulieden
@@ -228051,7 +226545,6 @@
 494	7	1641
 494	8	Was
 494	8	onderteekent
-494	8	
 494	8	u
 494	8	seer
 494	8	goeden
@@ -228068,7 +226561,6 @@
 494	10	maniere
 494	10	was
 494	10	beantwoort
-494	10	
 494	11	Aen
 494	11	Don
 494	11	Philipo
@@ -228139,7 +226631,6 @@
 494	16	te
 494	16	comen
 494	16	vi'^leeren
-494	16	
 494	17	doch
 494	17	hoe
 494	17	wel
@@ -228394,7 +226885,6 @@
 494	35	selvige
 494	35	geintregeert
 494	35	hebbe
-494	35	
 494	35	ick
 494	35	weet
 494	35	niet
@@ -228537,7 +227027,6 @@
 495	4	1641
 495	5	Was
 495	5	onderteekent
-495	5	
 495	5	u
 495	5	nimmermeer
 495	5	ioegedaenen
@@ -228857,7 +227346,6 @@
 495	33	wat
 495	33	te
 495	33	dencken
-495	33	
 495	33	maer
 495	33	was
 495	33	den
@@ -228911,7 +227399,6 @@
 495	37	was
 495	37	buyten
 495	38	twyffel
-495	38	
 495	38	soodanich
 495	38	oock
 495	38	dat

@@ -19,9 +19,9 @@
 @volume=Anno 1640-1641
 @years=1640,1641
 @writtenBy=Text-Fabric
-@dateWritten=2021-11-29T15:35:57Z
+@dateWritten=2021-12-06T11:26:22Z
 
-249589	September  Anno  1640. 
+248066	September  Anno  1640. 
 2  10  SEPTEMBER. 
 10  SEPTEMBER.  5 
 4  10  SEPTEMBER. 
@@ -59,7 +59,7 @@ Jjt  SEPTEMBER.  51
 36  28  SEPTEMBER. 
 28  SEPTEMBER.  37 
 58  28  SEPTEMBER. 
-28   SEPTEMBER.  ^    39 
+28   SEPTEMBER.      39 
 40  28  SEPTEMBER. 
 2S    SEPTEMBER.  41 
 42  28  SEPTEMBER. 
@@ -97,9 +97,9 @@ i4~16  NOVEMBER.  6^
 74  21   NOVEMBER. 
 21   NOVEMBER.  78 
 76  21   NOVEMBER. 
-2i   NOVEMBER.  ^^ 
+2i   NOVEMBER.   
 ^8  21   NOVEMBER. 
-21   NOVEMBER.  ^     ^9 
+21   NOVEMBER.       ^9 
 8Ó  2i   NOVEMBER. 
 21   NOVEMBElk.  81 
 8i  21  NOVEMBER. 
@@ -109,10 +109,10 @@ i4~16  NOVEMBER.  6^
 86  21—27  NOVEMBER. 
 27  NOVEMBER.  87 
 88  27  NOVEMBER. 
-27  NOVEMBER.  .  89 
+27  NOVEMBER.    89 
 90  27  NOVEMBER. 
 27  NOVEMBER.  W 
-92    .  27  NOVEMBER. 
+92      27  NOVEMBER. 
 27  NOVEMBEft.  9S 
 04  27  NOVEMBER. 
 27  NOVEMBER.  9U 
@@ -124,7 +124,7 @@ iOO  27  NOVEMBER.
 27  NOVEMBER.  101 
 102  27—29   NOVEMBER. 
 29  NOVEMPER.  103 
-104  '    29  NOVEMBER. 
+104      29  NOVEMBER. 
 29  NOVEMBER.  108 
 December  Anno  1640. 
 2  EN  3  DECEMBER.  107 
@@ -182,12 +182,12 @@ I4i  31   DECEMBER.
 31   DECEMBER.  159 
 Januarlus  Anno  1641. 
 9—15   JANÜARIÜS.  161 
-iéi  ,  15  JANUARIUS. 
+iéi    15  JANUARIUS. 
 15  JANUARIUS.  163 
 i64  15  JANUARtUS. 
 15-21  JANUARIUS.  16» 
-166  21  —  23  JANÜARIUS. 
-23  —  24  JANUARIÜS.  167 
+166  21    23  JANÜARIUS. 
+23    24  JANUARIÜS.  167 
 168  24  JANÜARIÜS. 
 24  JANUARIUS.  160 
 170  24  JANÜARIOS. 
@@ -216,7 +216,7 @@ Februarlus  Anno  1641.
 19  FEBRUARIÜS.  I93 
 194  19  FEBRÜARIÜS. 
 lft~26  FEBRÜARIUS.  I95 
-196  26  —  28  FEBRUARIÜS. 
+196  26    28  FEBRUARIÜS. 
 28   FEBRÜARÏUS.  197 
 198  28  FEBRUARIDS. 
 28  FEBRUARIUS.  199 
@@ -234,7 +234,7 @@ lö  MARTIUS.  20C
 13^16  MARTIIS.  211 
 212  16  MARTIÜS. 
 17—21   MARTIÜS.  215 
-2U  •     21-27  MARTIUS. 
+2U       21-27  MARTIUS. 
 28-31   MARTIUS.  21» 
 216  31   MARTIUS. 
 ^1   MARTIUS.  217 
@@ -246,7 +246,7 @@ April    Anno  1641.
 3   APRIL.  223 
 224  3  APRIL. 
 3   APRIL.  è^^ 
-S2é  .  5  APRiL. 
+S2é    5  APRiL. 
 é  APftiL.  22;7 
 228  5  At>RlL. 
 a  APRIL.  229 
@@ -269,7 +269,7 @@ il  APRIL.  245
 246  13-15  APRIL. 
 15-17  APRIL.  247 
 248  17—19  APRIL. 
--^  19  APRIL.  249 
+  19  APRIL.  249 
 JKO  19  APRIL. 
 19  APRIL.  2JJ1 
 2S8  19  APRIL. 
@@ -288,20 +288,20 @@ léÖ  21  APRfL.
 21    APRIL.  26S 
 266  21   APRIL. 
 21   APRIL.  i67 
-268  21   ^  22  APRIL. 
+268  21     22  APRIL. 
 22-2*1  APRfL.  è6d 
-è7Ö  27  EN  28  APhiL.      ♦ 
+è7Ö  27  EN  28  APhiL.       
 2Ö  KN  29  APRÏL.  J^l 
 272  29-31   APRÜ. 
 Mayus  Anno  1641. 
 274  1   MAYÜS. 
 1   MAYÜS.  27B 
 276  1—6  MAYIS. 
-6-^8  MAYUS.  .        277 
+6-^8  MAYUS.          277 
 278  Ö-IO  MAYUS. 
 10-11   MAYÜS.  279 
 280  11   MAYUS. 
-13   MAYUS.     .  281 
+13   MAYUS.       281 
 282  13  MAYUS 
 13  MAYUS.  283 
 284  13  MAYUS. 
@@ -367,9 +367,9 @@ Junlus  Anno  1641.
 344  .0-12  JÜNIÜS. 
 13-17  JUNIUS.  545 
 346  17-20  JÜNIÜS. 
-21—23  JUNIÜS.     -  547 
+21—23  JUNIÜS.       547 
 348  23-26    JÜNIÜS. 
-27  EN  28  JÜNIÜ9.  S49     - 
+27  EN  28  JÜNIÜ9.  S49      
 JlfO  28  EN  29  JONIüS. 
 2d  EN  30    JONIOS.  m 
 Jullus  Anno  1641. 
@@ -397,7 +397,7 @@ i-4  JULiüS.  553
 374  2a-d0  JULIUS. 
 30  EN  31  JULIÜS.  375 
 376  31  JÜLIÜS. 
-/  31  JÜLIÜS.  377 
+  31  JÜLIÜS.  377 
 578  31  JULIUS. 
 31  JULIUS.  379 
 380  31   JÜLIUS. 
@@ -405,7 +405,7 @@ i-4  JULiüS.  553
 582  31   JÜLItlS. 
 Augusto  Anno  1641. 
 584  3-5  AÜGUSTO. 
-5-7  AUGUStO.  *  %Si 
+5-7  AUGUStO.    %Si 
 386  7—10    AIGISTO. 
 iO— 14  AUGUSTO.  587 
 S88  14  Bif   15  AUGUSTO. 
@@ -438,7 +438,7 @@ i  SEPTEliBER.  4lj
 2  SEPTËMBEn.  41S 
 416  2  SEPTEMBER 
 2  SEPTEMBER.  41'? 
-4l8    .  2-4  SEt^TEltBÉtt. 
+4l8      2-4  SEt^TEltBÉtt. 
 4  ^ËPTËMBËH.  41d 
 420  4   SEPTEMBER. 
 4  SEPTEMBER.  421 

@@ -11,7 +11,7 @@ REPO_DIR = f"{BASE}/{ORG}/{REPO}"
 LOCAL = f"{REPO_DIR}/_local"
 TF_DIR = f"{REPO_DIR}/{RELATIVE}/{TF_NAME}"
 AUX_DIR = f"{REPO_DIR}/aux/{TF_NAME}"
-POST_DIR = f"{REPO_DIR}/post/{TF_NAME}"
+POST_DIR = f"{REPO_DIR}/postocr/{TF_NAME}"
 
 SERIES_INFO = dict(
     fileName="daghregister",

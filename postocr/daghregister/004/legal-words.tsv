@@ -1,3 +1,8 @@
+word	legality
+'T	100
+'s	100
+'t	100
+A	100
 Aaron	100
 Ackersloot	100
 Ackerslooth	100
@@ -280,7 +285,6 @@ Bramadabat	100
 Bramane	100
 Bramenes	100
 Brampour	100
-Bre	100
 Breda	100
 Bredam	100
 Bredamme	100
@@ -306,7 +310,6 @@ Cackialj	100
 Caeff	100
 Caen	100
 Caesar	100
-CalK	100
 Calff	100
 Caliture	100
 Caliwongen	100
@@ -381,7 +384,6 @@ Ceylon	100
 Ceylonders	100
 Ceylonneesen	100
 Ceylonse	100
-Cha	100
 Chamandure	100
 Champhar	100
 Champher	100
@@ -453,7 +455,6 @@ Commandeurs	100
 Commissaris	100
 Commorin	100
 Comp	100
-CompS	100
 Compostel	100
 Comt	100
 Condewaere	100
@@ -520,6 +521,7 @@ Croocq	100
 Crough	100
 Cruys	100
 Cryn	100
+D'	100
 Daeghs	100
 Daelende	100
 Daemae	100
@@ -550,6 +552,7 @@ Darou	100
 Darrossalem	100
 Dat	100
 Dato	100
+De	100
 December	100
 Deen	100
 Deenae	100
@@ -606,6 +609,8 @@ Duytsche	100
 Duytse	100
 Duyve	100
 Duyvel	100
+E	100
+Ed	100
 Een	100
 Eendracht	100
 Eenen	100
@@ -783,7 +788,6 @@ Gomelis	100
 Gomelisz	100
 Gommeryn	100
 Gomp	100
-GompS	100
 Gompostel	100
 Gomt	100
 Gomyn	100
@@ -834,6 +838,7 @@ Grypskercken	100
 Grypskerckens	100
 Grypskereke	100
 Gulde	100
+H	100
 Hacao	100
 Hacassar	100
 Hacasser	100
@@ -955,9 +960,12 @@ Hoordeelen	100
 Hoorsche	100
 Hurcke	100
 Hurt	100
+IS	100
 Ick	100
+Ie	100
 Iman	100
 Imans	100
+In	100
 Inde	100
 Inden	100
 India	100
@@ -1047,6 +1055,7 @@ Junio	100
 Junius	100
 Junj	100
 Juny	100
+K	100
 Kerckeringh	100
 Kerckringh	100
 Kerckringhs	100
@@ -1142,6 +1151,7 @@ Lucassen	100
 Lucasz	100
 Lucht	100
 Luconio	100
+M	100
 MISSIVE	100
 Macao	100
 Macassaerse	100
@@ -1344,6 +1354,8 @@ Moren	100
 Morhon	100
 Moudj	100
 Moulana	100
+Mr	100
+N	100
 Nacassarse	100
 Naccoop	100
 Nachlegael	100
@@ -1442,6 +1454,7 @@ Oliphant	100
 Olisivaes	100
 Olisivas	100
 Oloangh	100
+Om	100
 Omme	100
 Onder	100
 Ondercoopman	100
@@ -1456,6 +1469,7 @@ Oostcappel	100
 Oostcuste	100
 Oostende	100
 Oosterse	100
+Op	100
 Oppercoopman	100
 Oppercoopmans	100
 Opperhooft	100
@@ -1486,6 +1500,7 @@ Oudewater	100
 Oureens	100
 Ourien	100
 Ouriens	100
+P	100
 Packelongen	100
 Packelongh	100
 Packeloogen	100
@@ -1617,18 +1632,11 @@ Pouleceer	100
 Poulecera	100
 Poulo	100
 Poulocera	100
-Prabat	100
-Prama	100
-Pranicker	100
-Predrick	100
-President	100
+Pr	100
 Priaman	100
 Primo	100
 Prince	100
 Prins	100
-Probat	100
-Providens	100
-Provintien	100
 Puncte	100
 Punlo	100
 Punt	100
@@ -1709,6 +1717,8 @@ Ruygenhouck	100
 Ruyler	100
 Ruyter	100
 Ryp	100
+S	100
+SS	100
 Sabandaer	100
 Sabandar	100
 Sabartiban	100
@@ -1886,13 +1896,8 @@ Spangien	100
 Spanhems	100
 Spanjaerden	100
 Spieringh	100
-Staende	100
-Staten	100
-Stel	100
-Sterck	100
-Sterre	100
-Stollen	100
-Storm	100
+Sr	100
+St	100
 Straat	100
 Straet	100
 Strate	100
@@ -1923,7 +1928,6 @@ Symonsen	100
 Syn	100
 TRANSLAET	100
 Taeckemond	100
-TaeckemondS	100
 Taeckemondo	100
 Taeckemondonne	100
 Taeckenacke	100
@@ -2061,13 +2065,17 @@ Tsickingo	100
 Twee	100
 Twelck	100
 Twist	100
+U	100
 Uliasse	100
 Uliasser	100
 Uliassers	100
+Uw	100
 Uwe	100
 Uytgeest	100
 Uytrecht	100
 Uyttrecht	100
+V	100
+Va	100
 Valck	100
 Valckenburch	100
 Valerio	100
@@ -2092,6 +2100,7 @@ Vertrecken	100
 Vertreckeu	100
 Vertreckt	100
 Verve	100
+Vi	100
 Vincent	100
 Vinck	100
 Vincke	100
@@ -2130,6 +2139,7 @@ Vries	100
 Vriesse	100
 Vrome	100
 Vrunden	100
+Vs	100
 Waccasive	100
 Wachler	100
 Wachter	100
@@ -2198,12 +2208,14 @@ Wils	100
 Wilt	100
 Wingerla	100
 Wingerlase	100
+Wt	100
 Wydenes	100
 Wyders	100
 Zeehaen	100
 Zeelandia	100
 Zeelant	100
 Zeeusche	100
+a	100
 absent	100
 absente	100
 absentie	100
@@ -2300,7 +2312,6 @@ advyseeren	100
 advyseert	100
 advysen	100
 aen	100
-aenS	100
 aenbanck	100
 aenbestede	100
 aenbesteden	100
@@ -2493,7 +2504,7 @@ aert	100
 aertbodem	100
 aertbodems	100
 aertryck	100
-afT	100
+af	100
 aff	100
 affairen	100
 affbranden	100
@@ -2619,7 +2630,7 @@ aireede	100
 airen	100
 ajuin	100
 ajuyn	100
-alT	100
+al	100
 aldaer	100
 aldaergansch	100
 aldaerop	100
@@ -3618,7 +3629,6 @@ bloeytsels	100
 bloot	100
 bloote	100
 blooten	100
-bly	100
 blyck	100
 blycke	100
 blyckelyck	100
@@ -3748,7 +3758,6 @@ bovengenoemde	100
 bovenplaetsen	100
 bovenstaende	100
 bovenverhaelde	100
-bra	100
 bracbten	100
 bracht	100
 brachten	100
@@ -3789,7 +3798,6 @@ brenght	100
 brengt	100
 bres	100
 bressen	100
-briefT	100
 brieff	100
 brieffden	100
 brieffken	100
@@ -3798,7 +3806,6 @@ brieffs	100
 brieffvan	100
 brieffvanden	100
 brieft	100
-brielT	100
 brieven	100
 brillen	100
 brochten	100
@@ -3841,6 +3848,7 @@ buytenste	100
 buytenwercken	100
 buytgelt	100
 buytgoederen	100
+by	100
 byde	100
 byden	100
 byder	100
@@ -4500,6 +4508,8 @@ cust	100
 custe	100
 custen	100
 custsorteringh	100
+d	100
+d'	100
 dach	100
 dacht	100
 dachte	100
@@ -4616,6 +4626,7 @@ datseeckere	100
 datsoodanige	100
 datsyn	100
 datter	100
+de	100
 debiteren	100
 debiteurs	100
 debouche	100
@@ -4886,6 +4897,7 @@ diversche	100
 diverse	100
 diverteren	100
 divineren	100
+do	100
 doceert	100
 doch	100
 docht	100
@@ -5009,8 +5021,6 @@ droochten	100
 drooge	100
 droogh	100
 drouve	100
-drucken	100
-dry	100
 drye	100
 dryven	100
 dubbeld	100
@@ -5169,6 +5179,7 @@ emportanten	100
 emporte	100
 emporteeren	100
 emporterende	100
+en	100
 end	100
 ende	100
 endedaeromme	100
@@ -5266,6 +5277,7 @@ eysscben	100
 eysschen	100
 eysschende	100
 eysschers	100
+f	100
 facherien	100
 facteur	100
 facteurs	100
@@ -5302,6 +5314,7 @@ feylen	100
 feyt	100
 feytelyckheden	100
 feytelyckheyt	100
+ff	100
 firmalie	100
 firman	100
 firmans	100
@@ -5371,6 +5384,7 @@ frustreren	100
 fruylen	100
 fruyt	100
 fruyten	100
+ft	100
 furie	100
 furieren	100
 furieus	100
@@ -5395,7 +5409,6 @@ gaern	100
 gaerne	100
 gaes	100
 gaet	100
-gafT	100
 gaff	100
 gageeren	100
 gagie	100
@@ -6850,6 +6863,7 @@ gunsten	100
 gunstich	100
 gunstigh	100
 gunt	100
+h	100
 hacken	100
 hackende	100
 had	100
@@ -7193,7 +7207,10 @@ huysvrou	100
 huysvrouw	100
 huysvrouwe	100
 huyten	100
+hy	100
+i	100
 ick	100
+ie	100
 iets	100
 immer	100
 immers	100
@@ -7213,6 +7230,7 @@ importuneren	100
 impositien	100
 impotenten	100
 impotentie	100
+in	100
 inbarqueeren	100
 inbebbende	100
 inbeelden	100
@@ -7400,6 +7418,7 @@ inwoonderen	100
 inwoondereu	100
 inwoonders	100
 inwortelende	100
+is	100
 ist	100
 item	100
 itererende	100
@@ -7516,6 +7535,7 @@ kraecken	100
 kreken	100
 kriecken	100
 krygen	100
+l	100
 lacca	100
 lach	100
 lachende	100
@@ -7774,7 +7794,6 @@ linga	100
 linganghs	100
 linnen	100
 lint	100
-lofF	100
 loff	100
 loffelyck	100
 loffelycke	100
@@ -7839,6 +7858,7 @@ lyt	100
 lywael	100
 lywaet	100
 lywaten	100
+m	100
 macbtich	100
 mach	100
 macht	100
@@ -8261,6 +8281,7 @@ musquettiers	100
 muyer	100
 muylerie	100
 muyren	100
+my	100
 myle	100
 mylen	100
 myls	100
@@ -8509,6 +8530,7 @@ noten	100
 notificeeren	100
 notitie	100
 noyt	100
+nu	100
 och	100
 off	100
 offentien	100
@@ -8525,7 +8547,6 @@ ofte	100
 oirsaecke	100
 oirsake	100
 oirsaken	100
-olT	100
 olie	100
 oliphanlstanden	100
 oliphant	100
@@ -8539,6 +8560,7 @@ olipharits	100
 oly	100
 olye	100
 olyen	100
+om	100
 omdat	100
 omde	100
 omden	100
@@ -8719,7 +8741,6 @@ ongeruste	100
 ongerusten	100
 ongerustheyt	100
 ongerustige	100
-ongeryfF	100
 ongeryff	100
 ongesien	100
 ongesiene	100
@@ -9005,6 +9026,7 @@ oostergadt	100
 oosterhaven	100
 oostsyde	100
 oostwaerts	100
+op	100
 opbreecken	100
 opbrengen	100
 opbrengende	100
@@ -9314,6 +9336,7 @@ overwinninghe	100
 overwintert	100
 overwonnen	100
 oyt	100
+p	100
 pacht	100
 pachten	100
 pachter	100
@@ -9488,11 +9511,9 @@ petitie	100
 petolen	100
 pettoelen	100
 petualen	100
-pha	100
 phaya	100
-pho	100
 phonck	100
-phy	100
+pi	100
 pico	100
 picol	100
 picols	100
@@ -9576,7 +9597,8 @@ poth	100
 potjen	100
 potjens	100
 potten	100
-pra	100
+pp	100
+pr	100
 pracht	100
 practicabel	100
 practiseerde	100
@@ -9662,7 +9684,6 @@ principalen	100
 principalyck	100
 prins	100
 prinse	100
-pro	100
 probeeren	100
 proccure	100
 proccureren	100
@@ -9768,6 +9789,7 @@ quitasols	100
 quymende	100
 quynen	100
 quyt	100
+r	100
 rade	100
 raden	100
 radende	100
@@ -10058,6 +10080,7 @@ reyse	100
 reysen	100
 reysens	100
 reysvelden	100
+rf	100
 rhede	100
 rheede	100
 rinck	100
@@ -11077,6 +11100,7 @@ sweeren	100
 sweet	100
 swert	100
 swerven	100
+sy	100
 syde	100
 syden	100
 sylieden	100
@@ -11094,6 +11118,8 @@ syns	100
 synse	100
 synwoorden	100
 syt	100
+t	100
+t'	100
 tail	100
 talamba	100
 talamboe	100
@@ -11136,6 +11162,7 @@ taxeeren	100
 taxeert	100
 taxt	100
 tayl	100
+te	100
 teecken	100
 teeckenen	100
 teekenen	100
@@ -11186,10 +11213,7 @@ terstont	100
 terugge	100
 terugh	100
 terwyle	100
-thael	100
-thayl	100
-thays	100
-the	100
+th	100
 theden	100
 theecoppen	100
 theyt	100
@@ -11212,7 +11236,6 @@ thoonden	100
 thoonen	100
 thoonende	100
 thoont	100
-throon	100
 thuyn	100
 thuynen	100
 thuys	100
@@ -11361,7 +11384,6 @@ touw	100
 touwack	100
 touwe	100
 touwen	100
-tra	100
 tracht	100
 trachte	100
 trachten	100
@@ -11440,8 +11462,7 @@ trouweloosen	100
 trouwelyck	100
 trouwen	100
 trouwer	100
-tsia	100
-tsiangh	100
+ts	100
 tsz	100
 tusscben	100
 tusschen	100
@@ -11481,6 +11502,7 @@ tyt	100
 tytel	100
 tytelen	100
 tyts	100
+u	100
 ultimo	100
 uwe	100
 uwen	100
@@ -12744,7 +12766,6 @@ vorige	100
 vorigen	100
 vorstelycke	100
 vorstinne	100
-vra	100
 vracht	100
 vraechde	100
 vraechden	100
@@ -13247,6 +13268,8 @@ wrenschte	100
 wrevelen	100
 wrevelmoedigh	100
 wrochte	100
+wt	100
+wy	100
 wyderingh	100
 wyders	100
 wydt	100
@@ -13304,6 +13327,7 @@ zuydooster	100
 zuydt	100
 zuyt	100
 zuytsyde	100
+zy	100
 zyde	100
 zyden	100
 zyn	100
@@ -13312,6 +13336,7 @@ zyne	100
 zynen	100
 zyner	100
 zyns	100
+ü	100
 Atchindersonwaerdicheeden	98
 alledegelegentheytaen	98
 menighvuldigeclachten	98
@@ -13427,7 +13452,6 @@ derreviraerts	96
 dienstbaerheyt	96
 difflculteert	96
 dinhabitanten	96
-druypstaertende	96
 embarcquerende	96
 eschapperende	96
 extraordinaire	96
@@ -13674,7 +13698,6 @@ Pannoroeckan	95
 Rycxdaelders	95
 Sabroseymond	95
 Seventhienen	95
-Stadthouders	95
 Toloucobessi	95
 Trancquebare	95
 Triraelevaes	95
@@ -13995,6 +14018,7 @@ Patengeloo	94
 Piscadores	94
 Poerangara	94
 Ponnemille	94
+Provintien	94
 Quiraelaha	94
 Rattacatoa	94
 Reformatie	94
@@ -14777,6 +14801,9 @@ Poelocera	93
 Portonove	93
 Pouceloue	93
 Poulolada	93
+Pranicker	93
+President	93
+Providens	93
 Quytschip	93
 Ragiapour	93
 Ragiepour	93
@@ -15246,7 +15273,6 @@ Amdabath	92
 Aniwoort	92
 Anlhooio	92
 Anlhouio	92
-AntwoorL	92
 Antwoorl	92
 Armenise	92
 Armuyden	92
@@ -15392,6 +15418,7 @@ Paryangh	92
 Pebruarj	92
 Philippe	92
 Philippo	92
+Predrick	92
 Priainan	92
 Priaraan	92
 Regenten	92
@@ -15557,6 +15584,7 @@ doctoren	92
 donckere	92
 drayende	92
 drouvich	92
+druypstaertende	92
 dryemael	92
 durabile	92
 duslangh	92
@@ -15672,7 +15700,6 @@ kistjens	92
 koebeest	92
 koerende	92
 laccagie	92
-laetstcT	92
 lanttouw	92
 lerstont	92
 leydende	92
@@ -16160,7 +16187,6 @@ Pinamba	90
 Poincte	90
 Ponnerj	90
 Pottiga	90
-Prohadt	90
 Quesnoy	90
 Quilsil	90
 Rabiere	90
@@ -16196,10 +16222,14 @@ Soubaty	90
 Souhalj	90
 Spahans	90
 Spangia	90
+Stadthouders	90
+Staende	90
+Stollen	90
 Suialla	90
 Suppley	90
 Suralta	90
 Surbaya	90
+TaeckemondS	90
 Takenen	90
 Tanjong	90
 Tarnatacnsen	90
@@ -16299,7 +16329,6 @@ boeyens	90
 bosjens	90
 boubers	90
 briefif	90
-brieflT	90
 brieflf	90
 briefls	90
 buffelshooms	90
@@ -16319,7 +16348,6 @@ comniissaris	90
 comstes	90
 comtant	90
 contenerendé	90
-contentemeDt	90
 conunitteren	90
 coorlse	90
 copgens	90
@@ -16345,7 +16373,7 @@ dorpien	90
 doucken	90
 dragams	90
 droguen	90
-druppen	90
+drucken	90
 duchten	90
 duerder	90
 duyseni	90
@@ -16676,6 +16704,7 @@ togende	90
 tolhuys	90
 tomagon	90
 toomich	90
+tsiangh	90
 tydigb	90
 uaementlyck	90
 ulieden	90
@@ -16778,7 +16807,6 @@ Palimbangfa	89
 Patengolowa	89
 Patrawangha	89
 Poltebacker	89
-Prescorneoc	89
 Rechlwaerde	89
 Taeckomondo	89
 Talucobessj	89
@@ -17120,6 +17148,8 @@ Pipilj	88
 Ponnemillj	88
 Portngesen	88
 Pottra	88
+Prabat	88
+Probat	88
 Puncto	88
 Putten	88
 Quatro	88
@@ -17159,6 +17189,9 @@ Slrate	88
 Soltan	88
 Spahan	88
 Spaugiaerd	88
+Staten	88
+Sterck	88
+Sterre	88
 Suares	88
 Suaris	88
 Sullan	88
@@ -17252,7 +17285,6 @@ bevryt	88
 billon	88
 bitter	88
 bleefi	88
-bleelF	88
 bleelf	88
 bloemwerck	88
 blyveu	88
@@ -17665,6 +17697,7 @@ telyck	88
 teoeffenen	88
 terwyl	88
 thobac	88
+throon	88
 thupen	88
 tigers	88
 timpel	88
@@ -17677,7 +17710,6 @@ touack	88
 touacq	88
 troupe	88
 tsamen	88
-tsiaey	88
 tygers	88
 uitgenomen	88
 ullimo	88
@@ -17809,7 +17841,6 @@ benefitié	87
 cargasoeD	87
 cartouweD	87
 denselveü	87
-dessellTs	87
 diamant-pendanten	87
 dkerboven	87
 eanachoda	87
@@ -17932,7 +17963,6 @@ Sincapure	86
 Snccadana	86
 Sombavira	86
 Spangjaerden	86
-Stephanus	86
 Tabakeeke	86
 Uyltrecht	86
 Watcrhont	86
@@ -17961,6 +17991,7 @@ cayolacco	86
 clappusboomen	86
 cniysende	86
 condscbap	86
+contentemeDt	86
 cortesyen	86
 coucskens	86
 d^opperhooffden	86
@@ -18077,7 +18108,6 @@ suflisant	86
 talamhoes	86
 terstoiit	86
 tinggangh	86
-tsioupous	86
 uytd'eerstcomende	86
 uytei'ste	86
 vacrtuych	86
@@ -18165,11 +18195,11 @@ Amold	84
 Amout	84
 Ancke	84
 Anger	84
-AniwoorL	84
 Aniwoorl	84
 Anlwoort	84
 Anthoniovan	84
 Antwoart	84
+AntwoorL	84
 Anums	84
 Arabj	84
 Arouw	84
@@ -18400,8 +18430,8 @@ Pinto	84
 Poete	84
 Poetj	84
 Poule	84
-Prancois	84
-Presbeschit	84
+Prama	84
+Prescorneoc	84
 Psflimbangh	84
 Punguero	84
 Puyts	84
@@ -18441,6 +18471,7 @@ Souby	84
 Souri	84
 Sowatian	84
 Spiritus	84
+Storm	84
 Sualj	84
 Suare	84
 Synde	84
@@ -18636,7 +18667,6 @@ domeynen	84
 donne	84
 dootvyanden	84
 dosen	84
-druckket	84
 dusverre	84
 duyra	84
 ecnemael	84
@@ -18747,7 +18777,6 @@ hetsy	84
 heure	84
 heusheyt	84
 hitte	84
-hoflF	84
 hoflf	84
 holle	84
 hoogsten	84
@@ -18785,6 +18814,7 @@ knden	84
 komen	84
 l>ootsgesellen	84
 laetkens	84
+laetstcT	84
 lalen	84
 lanckyns	84
 landbouwery	84
@@ -18860,6 +18890,7 @@ omringht	84
 omsetten	84
 onbesayt	84
 ondei	84
+ongeryfF	84
 onnodigh	84
 onnosele	84
 ontbloot	84
@@ -18962,6 +18993,9 @@ teken	84
 tensy	84
 termynen	84
 terwe	84
+thael	84
+thayl	84
+thays	84
 thola	84
 tiagangh	84
 tiert	84
@@ -18972,7 +19006,6 @@ togen	84
 toick	84
 touwa	84
 trouwloosen	84
-tsiat	84
 twyflfel	84
 tydenblyckenkan	84
 uiten	84
@@ -19132,6 +19165,7 @@ bequamend*onseeendodeende5gequetsten	82
 berani8	82
 bevlytichl	82
 bouwluyden	82
+brieflT	82
 bteeven	82
 cbampan	82
 compsté	82
@@ -19218,7 +19252,6 @@ vcrtrocken	82
 vderden	82
 vdsselingh	82
 vei'dryven	82
-verboDt	82
 verexcuseercn	82
 vergunl	82
 verschynén	82
@@ -19385,6 +19418,7 @@ Pasqual	80
 Paultts	80
 Payacha	80
 Pimenta	80
+Prohadt	80
 Putalao	80
 Quelquepoutj	80
 Rodrigo	80
@@ -19453,11 +19487,13 @@ debvoiren	80
 decksei	80
 desselfGs	80
 desselflb	80
+dessellTs	80
 dickwyl	80
 dievanKeffingh	80
 dobbelt	80
 docbdat	80
 dolcqua	80
+druppen	80
 dsnselven	80
 dyamanten	80
 dënselven	80
@@ -19533,7 +19569,6 @@ opmaken	80
 optreckingfa	80
 optrock	80
 oranbay	80
-oudeCompS	80
 oudsten	80
 oulsten	80
 oulyser	80
@@ -19719,11 +19754,13 @@ Mousambique	78
 Muller	78
 Osacca	78
 Portug	78
+Presbeschit	78
 Qprstdaeehs	78
 Quosaemon	78
 Sahnander	78
 Sdouck	78
 Sipalbaya	78
+Stephanus	78
 Taffascho	78
 Tchilj	78
 Tegen3	78
@@ -19754,9 +19791,12 @@ becoml	78
 bekentisendet'aUen	78
 besetb	78
 bleefl	78
+bleelF	78
+briefT	78
 briefl	78
 brieiF	78
 brieiT	78
+brielT	78
 brietf	78
 capes-sarassa	78
 cavaljere	78
@@ -19855,6 +19895,7 @@ talaiiboe	78
 tbroon	78
 tegen7	78
 thiauphia	78
+tsioupous	78
 uaeste	78
 usance	78
 uytkycken	78
@@ -19899,6 +19940,7 @@ Zandingb	77
 4'eenige	76
 Ahnogenden	76
 Anihonio	76
+AniwoorL	76
 Chinezen	76
 Ck)nnerechittj	76
 Cominosehi	76
@@ -19919,7 +19961,6 @@ Maxmiliaen	76
 Minalaky	76
 Naasahaphi	76
 Nederl.intse	76
-PlittiwaDJ	76
 Sangouua	76
 TanjonghAlangh	76
 Tidor'ende	76
@@ -20109,7 +20150,6 @@ Doch	75
 Doen	75
 Dumbra	75
 Elj	75
-FRA	75
 Feby	75
 Fera	75
 Figueroa	75
@@ -20215,6 +20255,7 @@ Pinaniba	75
 Pith	75
 Poorlmao	75
 Post	75
+Prancois	75
 Pulo	75
 Punaba	75
 Puyt	75
@@ -20239,6 +20280,7 @@ Soir	75
 Sollan	75
 Somdit	75
 Sooals	75
+Stel	75
 Suhalj	75
 Suouck	75
 Supply	75
@@ -20268,7 +20310,6 @@ Wierga	75
 With	75
 Woddon	75
 Woestyue	75
-aLs	75
 acnden	75
 adel	75
 adem	75
@@ -20334,6 +20375,7 @@ dogh	75
 domine	75
 dooi	75
 dool	75
+druckket	75
 duel	75
 dumbra	75
 eeuige	75
@@ -20563,7 +20605,8 @@ tiyren	75
 torn	75
 trae	75
 triumphe	75
-tsio	75
+tsia	75
+tsiaey	75
 tyls	75
 uiet	75
 uiogen	75
@@ -20587,7 +20630,6 @@ vyer	75
 vyvres	75
 waayen	75
 wage	75
-wasS	75
 wasi	75
 werl	75
 worl	75
@@ -20799,6 +20841,7 @@ te'weeten	72
 tmgangh	72
 tmschen	72
 toUenaers	72
+verboDt	72
 verongelucijtt	72
 visUeeren	72
 vnllich	72
@@ -20842,6 +20885,7 @@ $omme	71
 ;daer	71
 Amenl	71
 Bermy	71
+CompS	71
 Cornp	71
 Cteen	71
 Cucos	71
@@ -20850,6 +20894,7 @@ Duyfl	71
 Edele	71
 Evert	71
 Galfl	71
+GompS	71
 Hatib	71
 HeerI	71
 Hfort	71
@@ -20914,6 +20959,7 @@ haddé	71
 haesl	71
 hebbc	71
 heefl	71
+hoflF	71
 hoogb	71
 hyden	71
 iiaer	71
@@ -20997,6 +21043,7 @@ Irouwloose	70
 Issmeyl	70
 Laforce	70
 Malaoca	70
+PlittiwaDJ	70
 PyachaenDodingo	70
 Rabisit	70
 Rasalhj	70
@@ -21187,7 +21234,6 @@ Actum	66
 Adjal	66
 Anglo	66
 Anhay	66
-AniwoarL	66
 Anjer	66
 Anora	66
 Aquapulca	66
@@ -21356,6 +21402,7 @@ noiet	66
 novos	66
 ofBcieren	66
 oiyen	66
+oudeCompS	66
 pekapeca	66
 pieol	66
 probudyt	66
@@ -21391,6 +21438,7 @@ toptafel	66
 train	66
 treSelyck	66
 triumpbe	66
+tsiat	66
 uiyne	66
 uytgeücht	66
 v^oonstee	66
@@ -21647,7 +21695,6 @@ dewdcke	62
 eraige	62
 gecpmen	62
 gereUmrneerI	62
-hutjeDs	62
 lamlme	62
 lasjten	62
 maximen	62
@@ -21677,6 +21724,7 @@ xeraphin(sd'bhar	62
 BOcattjaluin	61
 750realen	60
 Ampowan	60
+AniwoarL	60
 AntboDio	60
 Artygkel	60
 AtUwoort	60
@@ -21789,6 +21837,7 @@ Aiet	58
 Anlwodrl	58
 Augustyj^^j	58
 Bitghioud	58
+CalK	58
 Calw	58
 Ceram-Laut	58
 Digitized	58
@@ -21829,6 +21878,7 @@ Zyne	58
 ^oor	58
 ^sta	58
 aenH	58
+aenS	58
 aens(^ggen	58
 assc	58
 bbar	58
@@ -21852,6 +21902,7 @@ endè	58
 endé	58
 epde	58
 eude	58
+gafT	58
 gafl	58
 gelL	58
 gouv	58
@@ -21868,6 +21919,7 @@ iode	58
 iuyl	58
 jongstl^en	58
 ll«"daeraen	58
+lofF	58
 lyfl	58
 macb	58
 malh	58
@@ -21901,6 +21953,7 @@ valU	58
 vlag	58
 vsin	58
 vyfl	58
+wasS	58
 wecb	58
 wecbk)open	58
 wijs	58
@@ -22091,7 +22144,6 @@ DTortuge^n	53
 (zyude	52
 .Mangsor	52
 12<*February	52
-AnIwoorL	52
 ArUwoorl	52
 Bagwale	52
 Caly-v\^angen	52
@@ -22129,6 +22181,7 @@ goBgetii	52
 haddïffi	52
 hefiBnge	52
 hoojft	52
+hutjeDs	52
 im|H)rteren	52
 jpersoónea	52
 lliuys	52
@@ -22157,9 +22210,6 @@ veurxken	52
 vol|(ende	52
 wyfiTkens	52
 scli.iicfcagie	51
-'T	50
-'s	50
-'t	50
 Aan	50
 Ada	50
 Aen	50
@@ -22173,12 +22223,12 @@ Ben	50
 Biday	50
 Bocra	50
 Bon	50
+Bre	50
 Cafon	50
+Cha	50
 Con	50
-D'	50
 Dabul	50
 Day	50
-De	50
 Deli	50
 Dely	50
 Der	50
@@ -22189,7 +22239,6 @@ Dit	50
 Doa	50
 Dom	50
 Dorkay	50
-Ed	50
 Eeii	50
 Eer	50
 Gab	50
@@ -22206,9 +22255,6 @@ Hey	50
 Hoioy	50
 Hugo	50
 Hun	50
-IS	50
-Ie	50
-In	50
 Ingd	50
 Inoye	50
 Istja	50
@@ -22232,14 +22278,11 @@ Man	50
 Mei	50
 Men	50
 Mon	50
-Mr	50
 Ney	50
 Nota	50
 Nul	50
 Ollcns	50
-Om	50
 Oma	50
-Op	50
 Oule	50
 Ouva	50
 Pais	50
@@ -22248,13 +22291,11 @@ Peco	50
 Per	50
 Pit	50
 Podo	50
-Pr	50
 Ragua	50
 Raia	50
 Ray	50
 Rio	50
 Rusuia	50
-SS	50
 Saidy	50
 Set	50
 Sicri	50
@@ -22263,25 +22304,17 @@ Simga	50
 Soa	50
 Soas	50
 Soya	50
-Sr	50
-St	50
 Stnmck	50
 Sum	50
 Tan	50
 Ter	50
 Tin	50
-Uw	50
 Uyt	50
-Va	50
-Vi	50
-Vl	50
 Vos	50
-Vs	50
 Was	50
 Wat	50
 Wil	50
 Wopke	50
-Wt	50
 Wyrga	50
 Wyt	50
 Zula	50
@@ -22295,12 +22328,10 @@ aeiit	50
 aem	50
 aeo	50
 aeu	50
-af	50
 afi	50
 ais	50
 ajiiin	50
 ajs	50
-al	50
 anil	50
 arac	50
 arpuis	50
@@ -22310,25 +22341,24 @@ bay	50
 baye	50
 ber	50
 bia	50
+bly	50
 boa	50
 bodun	50
 body	50
 bomod	50
+bra	50
 budy	50
 buy	50
-by	50
 byt	50
 cat	50
 cicyn	50
 com	50
 con	50
 cop	50
-d'	50
 dac	50
 dai	50
 dam	50
 das	50
-de	50
 dei	50
 del	50
 deo	50
@@ -22337,14 +22367,13 @@ deu	50
 diio	50
 dil	50
 dilo	50
-do	50
 dodi	50
 doe	50
 doiie	50
 dom	50
 don	50
 dos	50
-dr	50
+dry	50
 duer	50
 dus	50
 ebde	50
@@ -22355,18 +22384,14 @@ eep	50
 eet	50
 eeu	50
 emle	50
-en	50
 encle	50
 eta	50
 eys	50
-fS	50
 fel	50
-ff	50
 fif	50
 fin	50
 fon	50
 for	50
-ft	50
 fyn	50
 gaan	50
 gae	50
@@ -22392,13 +22417,9 @@ hou	50
 howa	50
 hoye	50
 humyl	50
-hy	50
-ie	50
 ieie	50
 iet	50
-in	50
 inet	50
-is	50
 ita	50
 jai'en	50
 jen	50
@@ -22434,7 +22455,6 @@ mirhe	50
 mirrhe	50
 mol	50
 mot	50
-my	50
 myl	50
 myt	50
 nac	50
@@ -22445,17 +22465,12 @@ ney	50
 nisi	50
 niyn	50
 nohit	50
-nu	50
 ofbe	50
-olF	50
 ole	50
-om	50
 omrae	50
 oni	50
 onune	50
 ooek	50
-op	50
-opH	50
 ora	50
 ouby	50
 oul	50
@@ -22465,12 +22480,14 @@ pau	50
 pee	50
 pen	50
 pet	50
-pi	50
+pha	50
+pho	50
+phy	50
 pipol	50
 pit	50
 pot	50
-pp	50
-pr	50
+pra	50
+pro	50
 purpre	50
 put	50
 pype	50
@@ -22481,7 +22498,6 @@ rat	50
 rata	50
 ray	50
 reu	50
-rf	50
 rol	50
 rou	50
 ryp	50
@@ -22501,16 +22517,13 @@ slx	50
 soas	50
 son	50
 sou	50
-sp	50
 sukx	50
 suy	50
-sy	50
 syo	50
-t'	50
-te	50
-th	50
+the	50
 top	50
-ts	50
+tra	50
+tsio	50
 tybydy	50
 tyhy	50
 tyl	50
@@ -22530,6 +22543,7 @@ ver	50
 vet	50
 vil	50
 vis	50
+vra	50
 wae	50
 wan	50
 wed	50
@@ -22542,15 +22556,12 @@ win	50
 wis	50
 wit	50
 won	50
-wt	50
-wy	50
 wyl	50
 wyt	50
 yet	50
 zal	50
 zin	50
 zoo	50
-zy	50
 zyiie	50
 zyt	50
 C!ompo8tel	47
@@ -22562,6 +22573,7 @@ AfUwoordl	46
 "vwlies	45
 (veyns^e	45
 20sturx	45
+AnIwoorL	45
 BRIEFF	45
 Combélh	45
 Hwélcke	45
@@ -22872,6 +22884,7 @@ DeD	25
 Diu	25
 Eat	25
 Eco	25
+FRA	25
 Hsy	25
 IVi	25
 Ier	25
@@ -22907,12 +22920,15 @@ Zyn	25
 ^ni	25
 ^oo	25
 ^yn	25
+aLs	25
 aUe	25
 aan	25
 abüys	25
 acn	25
+afT	25
 afl	25
 aiT	25
+alT	25
 aoo	25
 ayn	25
 ays	25
@@ -22961,8 +22977,11 @@ oae	25
 oen	25
 ofl	25
 oiï	25
+olF	25
+olT	25
 omH	25
 ook	25
+opH	25
 opl	25
 oud	25
 rccbl	25
@@ -23019,7 +23038,6 @@ ARBARENDO	19
 INSNOCAMY	19
 OYENOCAMY	19
 (TSIÜSSONANO	18
-/"öTOlS	18
 PHILIPO	18
 REQUEST	18
 STALLON	18
@@ -23202,6 +23220,7 @@ SEBASTIAEN	6
 .11	0
 .S4	0
 .^7	0
+/"öTOlS	0
 /'1183	0
 /'1741	0
 /'2681	0
@@ -23218,6 +23237,8 @@ SEBASTIAEN	6
 /*819321	0
 /0	0
 /^45089:2:2	0
+0	0
+1	0
 1.8	0
 10	0
 10*/4	0
@@ -23560,6 +23581,7 @@ SEBASTIAEN	6
 1^2	0
 1^4	0
 1^6	0
+2	0
 2'/2	0
 2(K	0
 2*/2	0
@@ -23759,6 +23781,7 @@ SEBASTIAEN	6
 2^2	0
 2g	0
 2ö	0
+3	0
 3(K	0
 3.a	0
 30	0
@@ -23883,6 +23906,7 @@ SEBASTIAEN	6
 3^4	0
 3g	0
 3«n	0
+4	0
 40	0
 40.10	0
 400	0
@@ -23999,6 +24023,7 @@ SEBASTIAEN	6
 4^/3	0
 4^2	0
 4n	0
+5	0
 5.3.8	0
 50	0
 50.00	0
@@ -24086,6 +24111,7 @@ SEBASTIAEN	6
 5^4	0
 5p	0
 5Ó	0
+6	0
 60	0
 600	0
 6000	0
@@ -24160,6 +24186,7 @@ SEBASTIAEN	6
 6^4	0
 6y	0
 6Ö	0
+7	0
 70	0
 700	0
 7000	0
@@ -24215,6 +24242,7 @@ SEBASTIAEN	6
 7i	0
 7j	0
 7s	0
+8	0
 80	0
 800	0
 8000	0
@@ -24275,6 +24303,7 @@ SEBASTIAEN	6
 8:15	0
 8S	0
 8^/4	0
+9	0
 9.10	0
 90	0
 900	0
@@ -24336,6 +24365,7 @@ ARTYGULEN	0
 An	0
 Ao	0
 Ay	0
+B	0
 B277	0
 B615	0
 BABBA	0
@@ -24345,6 +24375,7 @@ BOO	0
 By	0
 CAPITEYN	0
 CORTADO	0
+D	0
 D*0DS6	0
 DE	0
 DIEGO	0
@@ -24361,11 +24392,13 @@ EdK	0
 Edr	0
 En	0
 Ex	0
+F	0
 FIALHO	0
 HU	0
 Ho	0
 Hu	0
 Hy	0
+I	0
 I)e	0
 I7i	0
 I8V4	0
@@ -24388,6 +24421,7 @@ IV4	0
 IVa	0
 I^^t	0
 Is	0
+J	0
 JAN	0
 JO	0
 Ja	0
@@ -24397,6 +24431,7 @@ K2	0
 K25	0
 K5	0
 KO	0
+L	0
 LOUYS	0
 LOWYS	0
 La	0
@@ -24414,6 +24449,7 @@ PEDRO	0
 P^^l	0
 P^r	0
 Pa	0
+R	0
 RESOLUTIE	0
 RODRIGO	0
 S'/s	0
@@ -24436,6 +24472,7 @@ SVj	0
 S^s	0
 Si	0
 Sy	0
+T	0
 T'	0
 TAYOUAN	0
 TAYOÜAN	0
@@ -24452,16 +24489,21 @@ V2	0
 V4	0
 VAZ	0
 Vj	0
+Vl	0
 Vz	0
+W	0
 W7t	0
 WILLEM	0
 Wy	0
+X	0
 XVICXLI	0
 XVIII	0
 XuUa	0
+Y	0
 Y2	0
 Ya	0
 Yj	0
+Z	0
 ZOUSA	0
 [?J	0
 \V	0
@@ -24492,6 +24534,7 @@ ZOUSA	0
 ^o	0
 ^s	0
 ^t	0
+_	0
 a(F	0
 a(T	0
 a2	0
@@ -24512,8 +24555,10 @@ as	0
 at	0
 a£f	0
 aèn	0
+b	0
 ba	0
 be	0
+c	0
 c^y	0
 ccn	0
 cf	0
@@ -24525,18 +24570,22 @@ d^wh	0
 da	0
 di	0
 dl	0
+dr	0
 du	0
 dy	0
 dé	0
 dê	0
 dö	0
+e	0
 e&k	0
 em	0
 er	0
 ey	0
 eéh	0
+fS	0
 fa	0
 fi	0
+g	0
 gy	0
 he	0
 hmi	0
@@ -24558,9 +24607,11 @@ il	0
 io	0
 iq	0
 iyi	0
+j	0
 j^i	0
 ja	0
 jo	0
+k	0
 kq	0
 l'/4	0
 l'/a	0
@@ -24587,6 +24638,7 @@ mél	0
 mét	0
 n^t	0
 na	0
+o	0
 o#Ü	0
 oKe	0
 oUa	0
@@ -24598,14 +24650,17 @@ pV	0
 pa	0
 pf	0
 pér	0
+q	0
 qIs	0
 re	0
 ry	0
+s	0
 s'u	0
 sSWe	0
 sbv	0
 se	0
 shi	0
+sp	0
 t&ü	0
 t)ên	0
 ta	0
@@ -24616,6 +24671,7 @@ tót	0
 tüét	0
 uw	0
 uy	0
+v	0
 v(m	0
 v^n	0
 v^r	0
@@ -24630,6 +24686,7 @@ wd	0
 wl	0
 wèl	0
 wél	0
+y	0
 yX	0
 yl	0
 ys	0
@@ -24640,15 +24697,20 @@ za	0
 £d	0
 «Om	0
 »w	0
+Ë	0
 Ëd	0
 ÏÈ	0
 Ö17436	0
 Ü.E	0
 Ü.Etl	0
 ÜE	0
+è	0
+é	0
+ï	0
 ï^a	0
 ïö	0
 ótn	0
+ö	0
 öö...lü	0
 ül	0
 üw	0

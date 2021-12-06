@@ -1,9 +1,14 @@
+import sys
 import os
 import re
 import collections
 from bisect import bisect
 from textwrap import dedent
+from itertools import chain
 
+from Levenshtein import ratio
+
+from tf.core.helpers import unexpanduser
 from config import Config
 from tfFromTsv import loadTf
 
@@ -47,8 +52,8 @@ def makeInterval(low, high, nIntervals):
     return points
 
 
-def showDistribution(data, itemLabel, amountLabel, maxBuckets=50, maxAmounts=80):
-    """Show a frequency distribution of data with exponentially growing bins.
+def showDistributionFreq(data, itemLabel, amountLabel, maxBuckets=50, maxAmounts=80):
+    """Show a frequency distribution of data with exponentially growing buckets.
 
     Parameters
     ----------
@@ -92,7 +97,7 @@ def showDistribution(data, itemLabel, amountLabel, maxBuckets=50, maxAmounts=80)
         12500: 1,
     }
 
-    showDistribution(data, "items", "freq")
+    showDistributionFreq(data, "items", "freq")
 
     freq │items
     ─────┼──────────────────────────────────────────────────────────────────────────────────
@@ -140,6 +145,61 @@ def showDistribution(data, itemLabel, amountLabel, maxBuckets=50, maxAmounts=80)
     print("\n".join(lines))
 
 
+def showDistribution(data, itemLabel, amountLabel, maxAmounts=80, legend={}):
+    """Show a distribution of data with in buckets.
+
+    Parameters
+    ----------
+    data: dict
+        the keys are buckets and the values are the amounts of items in that bucket
+    itemLabel: string
+        the name of the items in the bucket
+    amountLabel: string
+        how the buckets should be labelled
+    maxAmounts: integer, optional 80
+        maximum number of distinct amounts
+
+    The function shows a display of buckets of items
+    and the amount of items in those buckets.
+
+    The amounts in the buckets are plotted logarithmically,
+    in at most maxAmounts intervals.
+    """
+
+    lenBucket = max(len(str(legend.get(bucket, bucket))) for bucket in data)
+
+    buckets = collections.Counter()
+
+    for (bucket, nItems) in sorted(data.items()):
+        buckets[str(legend.get(bucket, bucket))] += nItems
+
+    minAmount = min(buckets.values())
+    maxAmount = max(buckets.values())
+    lenAmountInt = len(str(maxAmount))
+    amountPoints = makeInterval(minAmount, maxAmount, maxAmounts)
+
+    lines = []
+    labelLength = max((len(amountLabel), lenBucket))
+    valueLength = max((len(itemLabel), maxAmounts + lenAmountInt))
+
+    lines.append(f"{amountLabel:<{labelLength}}│{itemLabel}")
+    lines.append("─" * labelLength + "┼" + "─" * valueLength)
+
+    for (bucket, nItems) in buckets.items():
+        valueIndex = bisect(amountPoints, nItems)
+        valueRep = "■" * valueIndex + str(nItems)
+        lines.append(f"{bucket:>{labelLength}}│{valueRep}")
+    print("\n".join(lines))
+
+
+def kindRep(kind):
+    return "" if kind is None else "-start" if kind is False else "-end"
+
+
+def isTrueBi(gram):
+    return not (len(gram) == 3 and gram[0] == "├" and gram[-1] == "┤")
+
+
 NS = (2, 3)
 
 CHAR_CLASSES = """
@@ -155,6 +215,10 @@ s1 sS5$§
 z1 zZ
 21 2%
 a1 A
+"""
+
+CONFUSIONS = """
+├H 't
 """
 
 
@@ -206,31 +270,31 @@ class PostOcr:
     def getGrams(self):
         """
         We walk through the corpus and harvest the 2- and 3- lettergrams.
-        For each gram we store information about the forms they occur in
+        For each gram we store information about the words they occur in
         and how often they occur overall.
 
-        We also build an index where we can find for each word form
+        We also build an index where we can find for each word
         the grams it contains.
 
         More precisely:
 
         When walking through the corpus, we only do the n-gram
-        inventory for the distinct word forms.
+        inventory for the distinct words.
 
-        We also make an index of the word forms with respect to their occurrences
+        We also make an index of the words with respect to their occurrences
         in WORD_OCC.
         Where needed, we can easily lookup the occurrences (or frequency)
-        of a given word form from WORD_OCC.
+        of a given word from WORD_OCC.
 
-        So the following steps are done per distinct word form, irrespective of how
-        many occurrences that word form has.
+        So the following steps are done per distinct word, irrespective of how
+        many occurrences that word has.
 
         *   `GRAM[n]["gram"]` gives per n-gram a list
-            of word forms that contain it. If a word form
+            of words that contain it. If a word
             contains a gram multiple times, then the list
-            will contain that word form that many times.
-        *   `GRAM_INDEX["form"][n]` gives per form a dict
-            keyed by `n` and valued with the *list* of n-grams in that form.
+            will contain that word that many times.
+        *   `GRAM_INDEX["word"][n]` gives per word a dict
+            keyed by `n` and valued with the *list* of n-grams in that word.
             So again, the multiplicity of grams in a word
             is taken into account.
 
@@ -244,10 +308,10 @@ class PostOcr:
         While we are composing the 2,3-grams,
         we make an inventory of the single characters and their frequencies.
 
-        For convenience, we produce a tsv file of the forms,
+        For convenience, we produce a tsv file of the words,
         where we have a line for each occurrence
-        with the page number and line number and word form.
-        This is helpful for manual lookup of forms.
+        with the page number and line number and word.
+        This is helpful for manual lookup of words.
         """
         volume = self.volume
         postDir = self.postDir
@@ -268,16 +332,16 @@ class PostOcr:
         self.CHARS = CHARS
 
         LEGAL_COMBIS = {
-            False: {2: collections.defaultdict(dict), 3: collections.defaultdict(dict)},
-            True: {2: collections.defaultdict(dict), 3: collections.defaultdict(dict)},
+            x: {2: collections.defaultdict(dict), 3: collections.defaultdict(dict)}
+            for x in (False, True)
         }
         self.LEGAL_COMBIS = LEGAL_COMBIS
 
-        LEGAL_GRAMS = {False: {2: set(), 3: set()}, True: {2: set(), 3: set()}}
+        LEGAL_GRAMS = {x: {n: set() for n in NS} for x in (False, True)}
         self.LEGAL_GRAMS = LEGAL_GRAMS
-        ILLEGAL_GRAMS = {False: {2: set(), 3: set()}, True: {2: set(), 3: set()}}
+        ILLEGAL_GRAMS = {x: {n: set() for n in NS} for x in (False, True)}
         self.ILLEGAL_GRAMS = ILLEGAL_GRAMS
-        ALLOWED_GRAMS = {2: set(), 3: set()}
+        ALLOWED_GRAMS = {n: set() for n in NS}
         self.ALLOWED_GRAMS = ALLOWED_GRAMS
 
         F = TF.api.F
@@ -286,36 +350,39 @@ class PostOcr:
 
         print(f"Getting 2,3-grams for {len(allWords)} words in volume {volume}")
 
-        formFile = f"{postDir}/forms.tsv"
-
-        with open(f"{formFile}", "w") as fh:
+        filePath = f"{postDir}/words.tsv"
+        with open(filePath, "w") as fh:
+            fh.write("page\tline\tword\n")
             for w in allWords:
-                letters = F.letters.v(w)
+                word = F.letters.v(w)
 
-                for c in letters:
+                for c in word:
                     CHARS[c] += 1
 
                 (volume, page, line) = T.sectionFromNode(w)
-                fh.write(f"{page}\t{line}\t{letters}\n")
+                fh.write(f"{page}\t{line}\t{word}\n")
+                WORD_OCCS[word].append(w)
+        print(f"All words written to {unexpanduser(filePath)}")
 
-                if letters in WORD_OCCS:
-                    # we have seen this form already
-                    WORD_OCCS[letters].append(w)
-                    continue
-
-                WORD_OCCS[letters].append(w)
-
-                end = len(letters) - 1
-                for (i, c) in enumerate(letters):
-                    for n in NS:
-                        start = i - n + 1
-                        if start >= 0:
-                            prefix = " " if start == 0 else ""
-                            suffix = " " if i == end else ""
-                            gram = prefix + letters[start : i + 1] + suffix
-                            GRAM[n][gram].append(letters)
-                            GRAM_INDEX[letters][n].append(gram)
-                            GRAM_INSENSITIVE[gram.lower()] += 1
+        for word in WORD_OCCS:
+            end = len(word) - 1
+            for (i, c) in enumerate(word):
+                for n in NS:
+                    start = i - n + 1
+                    if start < 0:
+                        if i == end and n == 2:
+                            # if the word has length 1
+                            # we add it to its 2-grams
+                            gram = f"├{word}┤"
+                        else:
+                            continue
+                    else:
+                        prefix = "├" if start == 0 else ""
+                        suffix = "┤" if i == end else ""
+                        gram = prefix + word[start : i + 1] + suffix
+                    GRAM[n][gram].append(word)
+                    GRAM_INDEX[word][n].append(gram)
+                    GRAM_INSENSITIVE[gram.lower()] += 1
 
         CHARS_CASE_SENSITIVE = {c for c in CHARS if c.upper() != c.lower()}
         self.CHARS_SENSITIVE = CHARS_CASE_SENSITIVE
@@ -337,8 +404,7 @@ class PostOcr:
         print(f"CHARACTERS (most frequent first):\n{charRep}")
         print("Call method charFreqs() to see the character frequencies")
 
-        print(f"{len(allWords)} words in {len(WORD_OCCS)} distinct forms")
-        print(f"Word forms with page/line numbers written to {formFile}")
+        print(f"{len(allWords)} word occurrences in {len(WORD_OCCS)} distinct words")
 
         for (n, grams) in GRAM.items():
             print(f"{len(grams)} distinct {n}-grams")
@@ -375,8 +441,8 @@ class PostOcr:
         GRAM = self.GRAM
         WORD_OCCS = self.WORD_OCCS
 
-        forms = GRAM[n][gram]
-        return sum(len(WORD_OCCS[form]) for form in forms)
+        words = GRAM[n][gram]
+        return sum(len(WORD_OCCS[word]) for word in words)
 
     def distFreq(self, n, kind=None):
         """Show frequency distribution of n-grams.
@@ -394,33 +460,31 @@ class PostOcr:
         postDir = self.postDir
 
         grams = GRAM[n]
-        fileName = f"{n}-gram-info.tsv"
-        itemLabel = f"{n}-grams"
+        itemLabel = f"{n}-grams{kindRep(kind)}"
         amountLabel = "word freq"
         distribution = collections.Counter()
-        with open(f"{postDir}/{fileName}", "w") as fh:
+
+        fileName = f"{n}-gram{kindRep(kind)}-info.tsv"
+        filePath = f"{postDir}/{fileName}"
+        with open(filePath, "w") as fh:
+            fh.write("gram\t#words\t#occurrences\texample1\texample2\texample3\n")
             k = 0
-            for (gram, forms) in sorted(
+            for (gram, words) in sorted(
                 grams.items(), key=lambda x: -self.occFreq(n, x[0])
             ):
-                if kind is False and gram[0] != " " or kind is True and gram[-1] != " ":
+                if kind is False and gram[0] != "├" or kind is True and gram[-1] != "┤":
                     continue
                 k += 1
-                examples = list(forms)[0:3]
+                examples = list(words)[0:3]
                 exampleRep = "\t".join(examples)
-                nForms = len(forms)
+                nWords = len(words)
                 nOccs = self.occFreq(n, gram)
                 distribution[nOccs] += 1
-                fh.write(f"{gram}\t{nForms}\t{nOccs}\t{exampleRep}\n")
-        kindRep = (
-            ""
-            if kind is None
-            else " word-starters only"
-            if kind is False
-            else " word-enders only"
-        )
-        print(f"\n{k} {itemLabel}{kindRep}\n")
-        showDistribution(distribution, itemLabel, amountLabel)
+                fh.write(f"{gram}\t{nWords}\t{nOccs}\t{exampleRep}\n")
+        print(f"All {n}-grams written to {unexpanduser(filePath)}")
+
+        print(f"\n{k} {itemLabel}{kindRep(kind)}\n")
+        showDistributionFreq(distribution, itemLabel, amountLabel)
 
     def getCombis(self, kind, n, deliver=False):
         """Get n-grams that start or end with consonant combinations.
@@ -451,11 +515,19 @@ class PostOcr:
 
         boundary = -1 if kind else 0
         otherBoundary = 0 if kind else -1
-        method = (lambda x: x[0:-1].lstrip()) if kind else (lambda x: x[1:].rstrip())
+        boundaryChar = "┤" if kind else "├"
+        otherBoundaryChar = "├" if kind else "┤"
+        method = (
+            (lambda x: x[0:-1].replace(otherBoundaryChar, ""))
+            if kind
+            else (lambda x: x[1:].replace(boundaryChar, ""))
+        )
 
         if n == 2:
             for gram in GRAM[n]:
-                if gram[boundary] != " ":
+                if not isTrueBi(gram):
+                    continue
+                if gram[boundary] != boundaryChar:
                     continue
                 bareGram = method(gram).lower()
                 if not CONSONANT_RE.match(bareGram):
@@ -467,12 +539,12 @@ class PostOcr:
                 allCombis[gram] = (main, other)
         elif n == 3:
             for gram in GRAM[n]:
-                if gram[boundary] != " ":
+                if gram[boundary] != boundaryChar:
                     continue
                 bareGram = method(gram)
                 bigram = bareGram[1:] if kind else bareGram[0:-1]
-                bigram = f"{bigram} " if kind else f" {bigram}"
-                bigramPlus = f" {bigram}" if kind else f"{bigram} "
+                bigram = f"{bigram}┤" if kind else f"├{bigram}"
+                bigramPlus = f"├{bigram}" if kind else f"{bigram}┤"
                 if bigram in theseIllegalGrams or bigramPlus in theseIllegalGrams:
                     continue
                 bareGram = bareGram.lower()
@@ -489,7 +561,7 @@ class PostOcr:
         if deliver:
             return allCombis
 
-        print(f"All {n}-combis at the {'end' if kind else 'start'} of words\n")
+        print(f"All {n}{kindRep(kind)}-combis\n")
         for (main, others) in sorted(
             combis.items(), key=lambda x: (-sum(x[1].values()), x[0])
         ):
@@ -553,11 +625,11 @@ class PostOcr:
 
         theseLegalCombis = LEGAL_COMBIS[kind][n]
         theseLegalGrams = LEGAL_GRAMS[kind][n]
-        theseIlLegalGrams = ILLEGAL_GRAMS[kind][n]
+        theseIllegalGrams = ILLEGAL_GRAMS[kind][n]
 
         theseLegalCombis.clear()
         theseLegalGrams.clear()
-        theseIlLegalGrams.clear()
+        theseIllegalGrams.clear()
 
         for line in illegalSpec.strip().split("\n"):
             (main, others) = line.split(None, 1)
@@ -599,26 +671,26 @@ class PostOcr:
             if isLegal:
                 theseLegalGrams.add(gram)
             else:
-                theseIlLegalGrams.add(gram)
+                theseIllegalGrams.add(gram)
 
-        kindRep = "end" if kind else "start"
         kindCombis = sum(
             1
             for x in GRAM[n]
-            if kind and x.endswith(" ") or not kind and x.startswith(" ")
+            if isTrueBi(x)
+            and (kind and x.endswith("┤") or not kind and x.startswith("├"))
         )
         print(
             dedent(
                 f"""
-        Total number of {kindRep:<5} {n}-grams:               {kindCombis:>5}
+        Total number of {n}-grams{kindRep(kind)}:        {kindCombis:>5}
         Total number of consonant combis among them: {len(allCombis):>5}
         Of which are   legal:                        {len(theseLegalGrams):>5}
-                 and illegal:                        {len(theseIlLegalGrams):>5}
+                 and illegal:                        {len(theseIllegalGrams):>5}
         """
             )
         )
 
-    def getLegals(self, LIMIT):
+    def getLegalGrams(self, LIMIT):
         impureRe = self.impureRe
         caseRe = self.caseRe
         postDir = self.postDir
@@ -627,53 +699,57 @@ class PostOcr:
         ILLEGAL_GRAMS = self.ILLEGAL_GRAMS
         ALLOWED_GRAMS = self.ALLOWED_GRAMS
 
-        for n in NS:
-            ALLOWED_GRAMS[n] = LEGAL_GRAMS[False][n] | LEGAL_GRAMS[True][n]
-
         for (n, grams) in GRAM.items():
             limit = LIMIT[n]
-            allowed = ALLOWED_GRAMS[n]
+            theseAllowed = ALLOWED_GRAMS[n]
+            theseAllowed.clear()
+            allowed = LEGAL_GRAMS[False][n] | LEGAL_GRAMS[True][n]
             unAllowed = ILLEGAL_GRAMS[False][n] | ILLEGAL_GRAMS[True][n]
 
-            for (gram, forms) in grams.items():
+            for gram in grams:
+                if impureRe.search(gram) or caseRe.search(gram):
+                    continue
+
                 if gram in allowed:
-                    # gram is already in
+                    theseAllowed.add(gram)
                     continue
                 if gram in unAllowed:
-                    # do not put gram in
                     continue
 
                 freq = self.occFreq(n, gram)
-                if (
-                    freq >= limit
-                    and not impureRe.search(gram)
-                    and not caseRe.search(gram)
-                ):
-                    allowed.add(gram)
+                if freq >= limit:
+                    theseAllowed.add(gram)
 
         for (n, grams) in ALLOWED_GRAMS.items():
-            print(f"\n{len(grams)} legal {n}-grams\n")
-            with open(f"{postDir}/legal-{n}-grams.tsv", "w") as fh:
-                distribution = collections.Counter()
-                for gram in sorted(grams, key=lambda x: self.occFreq(n, x)):
+            distribution = collections.Counter()
+
+            filePath = f"{postDir}/legal-{n}-grams.tsv"
+            with open(filePath, "w") as fh:
+                fh.write("gram\tfrequency\n")
+                for gram in sorted(grams, key=lambda x: -self.occFreq(n, x)):
                     freq = self.occFreq(n, gram)
                     distribution[freq] += 1
                     fh.write(f"{gram}\t{freq}\n")
-                showDistribution(distribution, f"legal {n}-gram", "occurrences")
+            print(f"All legal {n}-grams written to {unexpanduser(filePath)}")
 
-    def getLegality(self):
+            print(f"\n{len(grams)} legal {n}-grams\n")
+            showDistributionFreq(distribution, f"legal {n}-gram", "occurrences")
+
+    def getLegalWords(self):
         GRAM_INDEX = self.GRAM_INDEX
         ALLOWED_GRAMS = self.ALLOWED_GRAMS
         postDir = self.postDir
 
-        LEGAL_FORM = {}
-        self.LEGAL_FORM = LEGAL_FORM
+        LEGAL_WORD = {}
+        self.LEGAL_WORD = LEGAL_WORD
 
-        for (form, info) in GRAM_INDEX.items():
+        for (word, info) in GRAM_INDEX.items():
             legal = 0
+            divider = 0
             for (n, grams) in info.items():
                 if len(grams) == 0:
                     continue
+                divider += 1
                 legal += int(
                     round(
                         100
@@ -681,23 +757,30 @@ class PostOcr:
                         / len(grams)
                     )
                 )
-            legal = int(round(legal / 2))
-            LEGAL_FORM[form] = legal
+            legal = int(round(legal / divider)) if divider else 0
+            LEGAL_WORD[word] = legal
 
-        print(f"{len(GRAM_INDEX)} word forms with legality distributed as:")
-        with open(f"{postDir}/legality.tsv", "w") as fh:
-            distribution = collections.Counter()
-            for (form, leg) in sorted(LEGAL_FORM.items(), key=lambda x: (-x[1], x[0])):
-                fh.write(f"{form}\t{leg}\n")
-                distribution[leg] += 1
-            showDistribution(distribution, "word form", "legality")
+        distribution = collections.Counter()
 
-    def getOcrKey(self, letters):
+        filePath = f"{postDir}/legal-words.tsv"
+        with open(filePath, "w") as fh:
+            fh.write("word\tlegality\n")
+            for (word, legality) in sorted(
+                LEGAL_WORD.items(), key=lambda x: (-x[1], x[0])
+            ):
+                fh.write(f"{word}\t{legality}\n")
+                distribution[legality] += 1
+        print(f"Legality of words written to {unexpanduser(filePath)}")
+
+        print(f"{len(GRAM_INDEX)} words with legality distributed as:")
+        showDistributionFreq(distribution, "word", "legality")
+
+    def getOcrKey(self, word):
         """Get the OCR key for a string.
 
         Parameters
         ----------
-        letters: string
+        word: string
             The input string that we need the OCR key of
 
         Returns
@@ -709,7 +792,7 @@ class PostOcr:
         OCR_KEY = self.OCR_KEY
 
         clses = []
-        for c in letters:
+        for c in word:
             (cls, card) = OCR_KEY.get(c, (c, 1))
             if clses and clses[-1][0] == cls:
                 clses[-1][1] += card
@@ -719,20 +802,166 @@ class PostOcr:
 
     def makeOcrIndex(self):
         WORD_OCCS = self.WORD_OCCS
+        LEGAL_WORD = self.LEGAL_WORD
         postDir = self.postDir
 
-        WORD_OCR = collections.defaultdict(list)
+        WORD_OCR = {x: collections.defaultdict(list) for x in (False, True)}
         self.WORD_OCR = WORD_OCR
 
-        for word in WORD_OCCS:
-            WORD_OCR[self.getOcrKey(word)].append(word)
+        ocrFreq = {x: collections.Counter() for x in (False, True)}
 
-        with open(f"{postDir}/ocrkeys.tsv", "w") as fh:
-            for (okey, words) in sorted(
-                WORD_OCR.items(), key=lambda x: (-len(x[1]), x[0])
+        for (word, occs) in WORD_OCCS.items():
+            ocrKey = self.getOcrKey(word)
+            legality = LEGAL_WORD[word]
+            isLegal = legality >= 100
+            WORD_OCR[isLegal][ocrKey].append(word)
+            ocrFreq[isLegal][ocrKey] += len(occs)
+
+        for isLegal in (False, True):
+            legalRep = "legal" if isLegal else "illegal"
+            theseWordOcr = WORD_OCR[isLegal]
+            theseOcrFreq = ocrFreq[isLegal]
+
+            distribution = collections.Counter()
+
+            filePath = f"{postDir}/ocrkeys-{legalRep}.tsv"
+            with open(filePath, "w") as fh:
+                fh.write("#words\tocr-kkey\tword\tlegality\n")
+                for (okey, words) in sorted(
+                    theseWordOcr.items(), key=lambda x: (-len(x[1]), x[0])
+                ):
+                    nw = len(words)
+                    distribution[theseOcrFreq[okey]] += 1
+                    for word in sorted(words, key=lambda x: (-LEGAL_WORD[x], x)):
+                        legality = LEGAL_WORD[word]
+                        fh.write(f"{nw}\t{okey}\t{word}\t{legality}\n")
+            print(f"OCR-keys written to {unexpanduser(filePath)}")
+
+            print(
+                f"Words with {legalRep} forms clustered "
+                f"into {len(theseWordOcr)} ocr keys"
+            )
+            showDistributionFreq(distribution, "ocr-keys", f"{legalRep} occurrences")
+
+    def makeOcrMatrix(self):
+        WORD_OCR = self.WORD_OCR
+
+        MATRIX = collections.defaultdict(dict)
+        self.MATRIX = MATRIX
+
+        ocrLegal = sorted(WORD_OCR[True])
+        ocrIllegal = sorted(WORD_OCR[False])
+        nOcrLegal = len(ocrLegal)
+        nOcrIllegal = len(ocrIllegal)
+        totalComparisons = nOcrLegal * nOcrIllegal
+        block = int(round(totalComparisons / 100))
+        comparisons = 0
+        entries = 0
+        k = 0
+        print(
+            f"Creating a distance matrix between {nOcrIllegal} illegal "
+            f"and {nOcrLegal} legal ocr-keys"
+        )
+        print(f"Going to make {totalComparisons} comparisons")
+
+        threshold = 0.8
+
+        for wordI in ocrIllegal:
+            for wordL in ocrLegal:
+                k += 1
+                comparisons += 1
+                if k == block:
+                    perc = int(round(100 * comparisons / totalComparisons))
+                    sys.stdout.write(f"\r\t{perc:>3}% {entries:>7} entries")
+                    k = 0
+                sim = ratio(wordI, wordL)
+                if sim >= threshold:
+                    MATRIX[wordI][wordL] = sim
+                    entries += 1
+        perc = int(round(100 * comparisons / totalComparisons))
+        sys.stdout.write(f"\r\t{perc:>3}% {entries:>7} entries")
+        print("")
+
+    def correctOcr(self):
+        postDir = self.postDir
+        MATRIX = self.MATRIX
+        WORD_OCR = self.WORD_OCR
+        ocrIllegal = WORD_OCR[False]
+        ocrLegal = WORD_OCR[True]
+
+        closeThreshold = 0.8
+        gapThreshold = 0.1
+
+        CORRECTED = {}
+        self.CORRECTED = CORRECTED
+        legend = {
+            -3: "no legal occurrences at all",
+            -2: "no legal close neighbours",
+            -1: "close legal neighbours too similar",
+            0: "closest legal neighbour chosen",
+            1: "one close legal neighbour",
+        }
+        keyThreshold = 0.9
+        correctionLog = {status: [] for status in legend}
+
+        candidates = 0
+
+        for (ocrKey, illegals) in sorted(
+            ocrIllegal.items(), key=lambda x: (-len(x[0]), -len(x[1]))
+        ):
+            candidates += len(illegals)
+
+            thisMatrix = MATRIX.get(ocrKey, None)
+            ocrKeysLegal = (
+                []
+                if thisMatrix is None
+                else [okey for (okey, sim) in thisMatrix.items() if sim >= keyThreshold]
+            )
+            legals = list(chain.from_iterable(ocrLegal[okey] for okey in ocrKeysLegal))
+            if len(legals) == 0:
+                for illegal in illegals:
+                    correctionLog[-3].append(illegal)
+                continue
+
+            for illegal in illegals:
+                neighbours = []
+
+                for legal in legals:
+                    sim = ratio(illegal, legal)
+                    if sim < closeThreshold:
+                        continue
+                    neighbours.append((legal, sim))
+
+                if len(neighbours) == 0:
+                    correctionLog[-2].append(illegal)
+                    continue
+
+                closest = neighbours[0]
+
+                if len(neighbours) > 1:
+                    neighbours = sorted(neighbours, key=lambda x: -x[1])
+                    if closest[1] - neighbours[1][1] < gapThreshold:
+                        correctionLog[-1].append(illegal)
+                        continue
+                    correctionLog[0].append(illegal)
+                    CORRECTED[illegal] = closest
+                    continue
+
+                correctionLog[1].append(illegal)
+                CORRECTED[illegal] = closest
+
+        print(f"{candidates} correction candidates")
+        print(f"Made {len(CORRECTED)} corrections")
+        distribution = {status: len(items) for (status, items) in correctionLog.items()}
+        showDistribution(distribution, "corrections", "status", legend=legend)
+
+        filePath = f"{postDir}/correctionlog.tsv"
+        with open(filePath, "w") as fh:
+            fh.write("illegal\tlegal\tsimilarity\tcode\texplanation\n")
+            for (code, illegals) in sorted(
+                correctionLog.items(), key=lambda x: (-x[0], -len(x[1]))
             ):
-                nw = len(words)
-                for word in sorted(words):
-                    fh.write(f"{nw}\t{okey}\t{word}\n")
-
-        print(f"{len(WORD_OCCS)} words clustered into {len(WORD_OCR)} ocr keys")
+                for illegal in sorted(illegals, key=lambda x: (-len(x), x)):
+                    (legal, sim) = CORRECTED.get(illegal, ("", 0))
+                    fh.write(f"{illegal}\t{legal}\t{sim:.1f}\t{code}\t{legend[code]}\n")
+        print(f"correctionlog written to {unexpanduser(filePath)}")
