@@ -4327,6 +4327,7 @@ xel┤	2	9	Texel	dexel
 nia┤	7	9	Linia	Luconia	Tivinia
 ├yer	8	9	yertreckt	yercoopen	yersoeck
 ├nov	3	9	novo	nove	novos
+├^^^┤	1	9	^^^
 bsz┤	1	9	Jacobsz
 ├180┤	1	9	180
 cif	5	9	halgiscifti	ondergespecificeerde	gespecificeert
@@ -4749,6 +4750,7 @@ alu	7	7	vaaluygb	calumbac	Calubougen
 ├Cri	5	7	Crimbangh	Cristiaen	Cristum
 ├Chy	5	7	Chynesen	Chynnesen	Chynnese
 mpe┤	6	7	Compe	rompe	Madampe
+^^^┤	4	7	^^^^^	'^^^	^^^^
 ├lig	3	7	lignea	liggende	liggen
 300┤	3	7	2300	1300	37300
 ├Jer	2	7	Jeronimusz	Jeremias
@@ -4845,6 +4847,7 @@ isf	1	7	satisfactie
 sfa	1	7	satisfactie
 xti	7	7	g'extimeert	extimeerende	extimere
 orL┤	3	7	AniwoorL	AnIwoorL	AntwoorL
+├(*)┤	1	7	(*)
 ├Pya	2	7	Pyacha	PyachaenDodingo
 ├oot	4	6	ootmoedige	ootmoedelyck	ootmoet
 tot┤	3	6	(tot	.tot	Camper-tot
@@ -5209,6 +5212,7 @@ fae	4	5	Sfaen	scfaeenen	oorloghsscfaeepen
 gha	5	5	tinghangh	sonderlinghaengenaem	berghachtige
 ├Acc	3	5	Accoley	Accapaneyck	Accolay
 ady┤	2	5	Clady	pady
+├[?]┤	1	5	[?]
 moc	3	5	vermocht	amock	gecomenmochte
 bye┤	1	5	partbye
 ous┤	5	5	cypous	gilUous	tsioupous
@@ -5329,6 +5333,7 @@ tpl	5	5	hooftplaetse	raetplegen	wacbtplaetsen
 ├Pee	2	5	Peera	Peeckel
 boc	2	5	Lombock	Lombocq
 ity	4	5	fugityf	politycquen	fugityff
+├(')┤	1	5	(')
 ├wit┤	1	5	wit
 cul┤	3	5	pericul	sonderpericul	articul
 nvi	2	5	inviel	aenvielen
@@ -5352,6 +5357,7 @@ swi	2	5	booswichten	dieswille
 bec	5	5	onbecomelyck	te'becomen	onbecommert
 tyv	4	5	styve	alcatyven	alcatyvea
 hse┤	5	5	Palimbanghse	hinghse	Mooghse
+├^^^	2	5	^^^^^	^^^^
 sew	3	5	roosewater	rosewater	offd'anderplaetsewech
 ask	3	5	Tomaskerck	Thomaskerck	caskens
 rce┤	3	5	Laforce	Force	force
@@ -5436,6 +5442,7 @@ beq	3	5	maerbequam	onbequaem	onbequaemheyt
 him	5	5	Faichima	Chimabrara	Chimabara
 nki	4	5	Tonkins	Christenkinderen	Tonkin
 516	5	5	15165	1516S.2.9	67516.8.2
+├...┤	1	5	...
 fiB	5	5	hefiBnge	profiBtabelder	cafiBlas
 dtv	2	5	landtvooght	godtvreesent
 ├sin┤	1	5	sin
@@ -5452,6 +5459,7 @@ hme	3	5	Chmesen	ooghmerck	oochmerck
 ├Reg	2	5	Regemortes	Regenten
 agu	4	5	ouderagun	maguus	UOcattjagulhout
 ├Weg	1	5	Wegen
+├^/^┤	1	5	^/^
 opj	4	5	copjes	copjens	copjien
 ilu	5	5	intiluleert	destiluyt	rcslilueeren
 ├iem	1	5	iemant
@@ -5770,6 +5778,7 @@ acu	3	4	miraculeuselyck	miraculei	obstaculen
 ├Lac	2	4	Lackos	Lacco
 ├Hsc	4	4	Hscheurbuyck	Hschynt	Hschryven
 urb	3	4	Hscheurbuyck	van'tscheurbuyck	Surbaya
+^^^	3	4	^^^^^	(^^^^	<^^^U
 ├vde	3	4	vdert	vderd	vderden
 ouf	4	4	behoufftighste	Visiapoufder	drouffheyt
 hsg	3	4	cryghsgebruyck	chryghsgebruyck	oorloghsgereetschappen
@@ -6078,6 +6087,7 @@ inm	4	4	coinmissaris	tinmierhout	coinmandeerende
 ├d*m	2	4	d*man	d*mayor
 *ma	2	4	d*man	d*mayor
 lta┤	4	4	Hilta	Suralta	Palliacalta
+├(^)┤	1	4	(^)
 law	1	4	Palawan
 tau	2	4	Limatauw	bestaut
 kza	1	4	banckzael
@@ -6240,6 +6250,8 @@ oci	3	3	gepalrocineert	procidido	geassocieerde
 en-	2	3	leeuwen-daelders	Calcken-eylant
 ├ver┤	1	3	ver
 ├620┤	1	3	620
+├...	1	3	....
+...┤	1	3	....
 ttd	3	3	inhottde	sottde	onDuttdyck
 odl┤	1	3	Godl
 aeu┤	3	3	toegegaeu	slaeu	onstaeu
@@ -7745,6 +7757,7 @@ ILL	2	2	GARVAILLO	WILLEM
 ket┤	2	2	druckket	packet
 ├(de┤	1	2	(de
 Ueg	2	2	coUegie	coUegien
+├^^'	2	2	^^'^	^^'^^9
 ri)	2	2	waeri)y	Novei]ri)er
 jot	1	2	galjotten
 ├Ald	1	2	Aldus
@@ -8118,6 +8131,8 @@ emo┤	2	2	gouvemo	*tgouvemo
 ├307	2	2	3076	30738
 toa┤	2	2	Rattacatoa	Hattoa
 ├478┤	1	2	478
+├^"^	1	2	^"^^
+"^^┤	1	2	^"^^
 ├seb	2	2	sebenckagie	sebeen
 mev	2	2	Trimevaes	sommevan
 ├Agu	2	2	Aguada	Agus
@@ -8304,6 +8319,7 @@ sye┤	2	2	cortesye	courtosye
 miu	2	2	Limiuen	daeromiue
 leh	1	2	Sillehaer
 utl	2	2	goutlaecken	sutlen
+├?•"┤	1	2	?•"
 ├/'2	2	2	/'2681	/'286456
 268	2	2	/'2681	12685
 681┤	2	2	/'2681	431681
@@ -8489,6 +8505,7 @@ ui*	2	2	Visiapóui*sen	gedeboui*seert
 774┤	2	2	1774	1317774
 ├roU	1	2	roUe
 lea┤	2	2	realea	alea
+├^«^┤	1	2	^«^
 139	2	2	301390	28139:1:8
 teb	2	2	Poltebacker	Mottebergharo
 i'd	2	2	vei'deelt	vei'dryven
@@ -8601,6 +8618,7 @@ efB	1	2	KefBngh
 isb	2	2	misbruyck	gedisbarqueert
 ├376	2	2	37625	3766
 eyo┤	2	2	larassamaleyo	Maleyo
+├'/^┤	1	2	'/^
 979	2	2	8979:50	19795
 ├813┤	1	2	813
 356┤	1	2	172356
@@ -9361,6 +9379,7 @@ iak	1	1	niaken
 ├Ccy	1	1	Ccylon
 uce┤	1	1	Priuce
 ├Lof	1	1	Loffelj
+├®)^┤	1	1	®)^
 erg┤	1	1	mortierg
 ├v?e	1	1	v?el
 ?el┤	1	1	v?el
@@ -9608,6 +9627,8 @@ i*w	1	1	dei*waerts
 *wa	1	1	dei*waerts
 964	1	1	1964.9
 64.	1	1	1964.9
+├(*)	1	1	(*).
+*).┤	1	1	(*).
 ├Gbi	1	1	Gbineesche
 ywo	1	1	Galywongen
 tyf┤	1	1	fugityf
@@ -10745,6 +10766,7 @@ ckk	1	1	druckket
 ├rÉa	1	1	rÉach
 Éac	1	1	rÉach
 ├vye	1	1	vyer
+^'^┤	1	1	^^'^
 i)y┤	1	1	waeri)y
 vej	1	1	selvejegenwoordigh
 orU	1	1	voorU.E
@@ -10959,6 +10981,7 @@ fky	1	1	affkycken
 t'g	1	1	misdaet'gerekent
 ├Axu	1	1	Axuna
 xun	1	1	Axuna
+├!?•┤	1	1	!?•
 CAC	1	1	BONGONOCACMY
 ACM	1	1	BONGONOCACMY
 CMY┤	1	1	BONGONOCACMY
@@ -11421,6 +11444,7 @@ H^i	1	1	suH^ide
 ├gab	1	1	gabers
 lmn	1	1	Palimlmngh
 mng	1	1	Palimlmngh
+├?"•┤	1	1	?"•
 icd┤	1	1	picd
 ├549	1	1	54985
 498	1	1	54985
@@ -11532,6 +11556,8 @@ Oor	1	1	iFOort
 Ive	1	1	'Ivertreck
 242	1	1	22422
 422┤	1	1	22422
+├®°^	1	1	®°^^
+°^^┤	1	1	®°^^
 hyt	1	1	parthytjen
 ryp┤	1	1	gryp
 p^.	1	1	Gomp^.van
@@ -11943,6 +11969,7 @@ efT┤	1	1	briefT
 Dou	1	1	'Douta
 ├dié┤	1	1	dié
 ├IVa┤	1	1	IVa
+├'^^	1	1	'^^^
 ├^^9┤	1	1	^^9
 ├^en┤	1	1	^en
 653┤	1	1	1653
@@ -13395,6 +13422,7 @@ rèm	1	1	Frèmlingh
 èml	1	1	Frèmlingh
 rré┤	1	1	carré
 mlo	1	1	Samloot
+├(^^	1	1	(^^^^
 edy┤	1	1	mamoedy
 ├/*8	1	1	/*819321
 *81	1	1	/*819321
@@ -13771,6 +13799,7 @@ hyg	1	1	vaerthygen
 ├511┤	1	1	511
 ├eie	1	1	eieren
 atp┤	1	1	satp
+├&^.┤	1	1	&^.
 ├143	1	1	1434
 434┤	1	1	1434
 ├238┤	1	1	238
@@ -13950,6 +13979,7 @@ d^n┤	1	1	geleyd^n
 efs	1	1	diefstal
 rdj	1	1	waerdje
 ├27^	1	1	27^2
+├&*.┤	1	1	&*.
 ├987	1	1	987a
 87a┤	1	1	987a
 yej	1	1	tolvryejoncknaePriaman
@@ -14006,6 +14036,7 @@ ssl	1	1	misslach
 50r	1	1	750realen
 0re	1	1	750realen
 ├Psi	1	1	Psitanj
+├"/^┤	1	1	"/^
 r-t	1	1	Camper-tot
 -to	1	1	Camper-tot
 tsv	1	1	bootsvolck
@@ -14238,6 +14269,7 @@ iUe┤	1	1	wiUe
 lag┤	1	1	vlag
 dui	1	1	proceduiren
 lvé┤	1	1	deselvé
+├(?)┤	1	1	(?)
 ├Edr┤	1	1	Edr
 ├WIL	1	1	WILLEM
 LLE	1	1	WILLEM
@@ -14521,7 +14553,6 @@ ATI	1	1	SPEGIPIGATIE
 ├Con┤	1	1	Con
 gay┤	1	1	Singay
 ├67a┤	1	1	67a
-├^^'	1	1	^^'^^9
 ^'^	1	1	^^'^^9
 '^^	1	1	^^'^^9
 ^^9┤	1	1	^^'^^9
@@ -15095,7 +15126,6 @@ cng	1	1	acngeslagen
 ├582┤	1	1	582
 317	1	1	1317774
 177	1	1	1317774
-^^^	1	1	<^^^U
 ^^U┤	1	1	<^^^U
 ├373	1	1	37300
 730	1	1	37300

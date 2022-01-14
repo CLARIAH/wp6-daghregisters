@@ -46,11 +46,11 @@ information. We do not use the area containers. We do not retain the bounding bo
 ### Step 5: use text-fabric
 
 If you have installed text-fabric (`pip install text-fabric`),
-and if you have cloned this repository to `~/github/Dans-labs/clariah-dr`,
+and if you have cloned this repository to `~/github/CLARIAH/wp6-daghregisters`,
 then you can give this command on the prompt:
 
 ``` sh
-text-fabric Dans-labs/clariah-dr/tf/daghregister/001/0.1:clone --checkout=clone
+text-fabric CLARIAH/wp6-daghregisters/tf/daghregister/001/0.1:clone --checkout=clone
 ```
 
 after which your browser opens with an interface on this volume.
@@ -70,7 +70,7 @@ Here is the one on page 25 line 7:
 You can also use text-fabric in a jupyter notebook.
 
 A tutorial will follow, but it is not unlike this one for the
-[General Missives](https://nbviewer.org/github/annotation/tutorials/blob/master/missieven/start.ipynb).
+[General Missives](https://nbviewer.org/github/CLARIAH/wp6-missieven/blob/master/tutorial/start.ipynb).
 
 # Author
 

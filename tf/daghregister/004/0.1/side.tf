@@ -19,9 +19,9 @@
 @volume=Anno 1640-1641
 @years=1640,1641
 @writtenBy=Text-Fabric
-@dateWritten=2021-12-06T11:26:22Z
+@dateWritten=2022-01-10T14:33:50Z
 
-248066	R
+249315	R
 L
 R
 L

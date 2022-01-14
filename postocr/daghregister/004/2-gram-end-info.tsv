@@ -65,6 +65,7 @@ to┤	39	606	ditto	dato	cento
 me┤	79	602	genoechsame	waeromme	omme
 ye┤	58	597	partye	waerdye	parthye
 ut┤	85	558	hout	geschut	schut
+├;┤	1	546	;
 ├is┤	1	535	is
 hs┤	80	525	tinganghs	daeghs	oorloghs
 ra┤	125	495	Sumatra	Indrapoura	Endra
@@ -135,6 +136,7 @@ tc┤	2	149	etc	[^tc
 ha┤	32	147	Magaitcha	Quimelaha	Payacha
 bo┤	15	147	Tsjobbo	Cabo	Gabo
 sa┤	34	142	Wangsa	Galissa	capes-sarassa
+├»┤	1	142	»
 uw┤	51	138	ontrouw	balouw	Nassouw
 eu┤	105	138	myneu	dewelckeu	Vertreckeu
 la┤	49	136	Lilloula	Bancoela	Wingurla
@@ -184,6 +186,7 @@ dy┤	16	80	Ady	Clady	pady
 ei┤	23	77	mei	zeylei	goei
 ├60┤	1	73	60
 co┤	23	72	Tico	Molucco	Tolucco
+├.┤	1	71	.
 50┤	23	70	150	250	3350
 ├*t┤	1	70	*t
 hy┤	7	70	ghy	perthy	datghy
@@ -196,6 +199,8 @@ ks┤	25	66	gelucks	haecks	stucks
 ├80┤	1	63	80
 ├D'┤	1	62	D'
 ├21┤	1	62	21
+├/┤	1	61	/
+├:┤	1	59	:
 je┤	23	58	cargasoentje	bidje	lietje
 au┤	29	58	vau	nau	Maccau
 ├26┤	1	56	26
@@ -226,9 +231,11 @@ kx┤	11	39	jaerlyckx	ryckx	dagelyckx
 20┤	13	39	1120	620	120
 rm┤	7	39	conform	allarm	storm
 ic┤	6	39	[sic	Grissic	discreetic
+├—┤	1	38	—
 10┤	14	38	110	209888.18.10	710
 ├t┤	1	37	t
 ├In┤	1	37	In
+├^┤	1	37	^
 va┤	9	36	Java	Dessava	Dissava
 .E┤	5	36	Ü.E	U.E	voorU.E
 pa┤	13	35	Laxamapa	Wangsadiepa	Europa
@@ -241,7 +248,9 @@ ep┤	21	34	diep	roep	eep
 60┤	20	34	21060	160	260
 oy┤	20	34	Sithoy	convoy	Massavoy
 30┤	15	34	130	1130	230
+├/*┤	1	33	/*
 cn┤	31	33	gebruyckcn	aengecomcn	acn
+├«┤	1	33	«
 li┤	23	33	oorlogli	Petapouli	Pipeli
 rp┤	6	30	scharp	scherp	dorp
 ul┤	21	30	soul	titul	Wasul
@@ -256,6 +265,7 @@ oc┤	13	27	hoc	Bancoc	Prescorneoc
 bs┤	13	27	Sondagbs	langbs	daegbs
 ym┤	3	26	ruym	duym	scheepsruym
 ui┤	5	26	ambassadeui	Nangesacqui	Nangasacqui
+├•┤	1	26	•
 41┤	10	26	1641	2341	/'1741
 ro┤	17	26	Guaro	Pedro	Quatro
 ea┤	16	26	cassea	lignea	gecomea
@@ -279,6 +289,7 @@ ld┤	10	22	onthield	toehield	behield
 ni┤	17	22	Kenocouni	Anthoni	Matavani
 ├36┤	1	22	36
 ├h┤	1	22	h
+├'┤	1	21	'
 ka┤	7	21	Paducka	Welgaka	Boleka
 74┤	17	21	174	34474	5374
 cs┤	10	21	Conincs	arracs	Gonincs
@@ -287,6 +298,7 @@ fi┤	7	20	ffi	haddïffi	bleefi
 ├af┤	1	20	af
 ef┤	14	20	massief	gerief	lief
 kl┤	11	19	Coninckl	gemaeckl	genootsaeckl
+^^┤	7	19	^^^^^	^^^	®°^^
 't┤	11	18	van't	Nae't	om't
 ├A┤	1	18	A
 fe┤	5	18	stoffe	straffe	deselfe
@@ -309,6 +321,7 @@ VE┤	1	16	MISSIVE
 ├75┤	1	15	75
 ├42┤	1	15	42
 13┤	13	15	213	19832.13	148579.11.13
+├%┤	1	15	%
 ├37┤	1	15	37
 im┤	9	15	Tounalim	Tonalim	Jocksim
 ├m┤	1	15	m
@@ -335,6 +348,7 @@ kj┤	5	13	Loockj	Lokj	Lockj
 Vi┤	10	13	iVi	6Vi	2Vi
 di┤	10	13	Jacdi	sidi	dodi
 ├V┤	1	13	V
+├*┤	1	13	*
 ├39┤	1	13	39
 56┤	9	12	79756	7756	256
 ^t┤	12	12	soods^t	m^t	affgevaerdi^t
@@ -429,6 +443,7 @@ cy┤	3	8	specy	suIcy	Malvescy
 ├Vj┤	1	8	Vj
 yr┤	4	8	uyr	muyr	meeyr
 ├Ëd┤	1	8	Ëd
+..┤	2	8	....	...
 tb┤	3	8	besetb	Vlietb	opgesetb
 ├By┤	1	8	By
 ├B┤	1	8	B
@@ -437,10 +452,12 @@ ws┤	4	8	cartouws	balouws	nieuws
 ├na┤	1	8	na
 ├33┤	1	8	33
 Vs┤	6	8	ISVs	iVs	36Vs
+├^^┤	1	8	^^
 xa┤	2	8	Orixa	Parixa
 ├32┤	1	8	32
 ├62┤	1	8	62
 07┤	6	8	1707	427707	107
+/^┤	3	8	^/^	"/^	'/^
 ├Wy┤	1	8	Wy
 uv┤	2	8	Gouv	gouv
 ON┤	6	8	SIMON	DON	SABROSEYHON
@@ -456,6 +473,7 @@ Vj┤	4	7	iVj	1579Vj	2Vj
 ├55┤	1	7	55
 ├du┤	1	7	du
 ├49┤	1	7	49
+├/"┤	1	7	/"
 ^e┤	7	7	(veyns^e	syn^e	go^e
 ^i┤	5	7	^^i	opcomend^i	waer^i
 ├IV┤	1	7	IV
@@ -465,6 +483,7 @@ iy┤	6	7	fiy	Jmiy	Hcaliy
 78┤	6	7	122978	3178	2578
 92┤	6	7	7692	54492	192
 gy┤	5	7	bogy	songy	soumongy
+├>┤	1	7	>
 29┤	6	7	329	929	1729
 ├79┤	1	7	79
 39┤	5	7	14839	1639	23539
@@ -476,6 +495,7 @@ ko┤	2	7	Nicko	Eecko
 32┤	6	7	1332	332	108332
 yi┤	4	7	tyi	qualiteyi	iyi
 ├(t┤	1	7	(t
+*)┤	1	7	(*)
 33┤	5	6	133	1633	150433
 lT┤	4	6	brielT	olT	alT
 ├rf┤	1	6	rf
@@ -499,6 +519,7 @@ Va┤	3	6	2007Va	IVa	iVa
 67┤	6	6	24967	6295367	267
 85┤	6	6	12085	13185	54985
 tu┤	5	6	Panciapatu	Arrapatu	Spiritu
+├-┤	1	6	-
 hi┤	6	6	shi	Cominosehi	versochi
 ├W┤	1	6	W
 61┤	4	6	561	161	1061
@@ -509,6 +530,7 @@ wy┤	4	6	datwy	Narsanewy	Kitsanewy
 ├92┤	1	6	92
 66┤	5	6	819466	966	866
 ├k┤	1	6	k
+├\┤	1	6	\
 76┤	6	6	576	3076	31076
 89┤	5	6	789	1489	289
 ├za┤	1	6	za
@@ -521,6 +543,8 @@ rk┤	4	5	Draerk	werk	sterk
 63┤	5	5	1263	1063	8563
 ky┤	5	5	Ballacky	Minalaky	Lauky
 ├BO┤	1	5	BO
+├®┤	1	5	®
+?]┤	1	5	[?]
 36┤	5	5	436	2236	Ö17436
 ├yl┤	1	5	yl
 eH┤	5	5	straffeH	NaeH	ommeH
@@ -530,6 +554,7 @@ dé┤	5	5	endé	vandé	reedé
 73┤	5	5	2673	/*4773	273
 id┤	1	5	David
 .4┤	5	5	8088.4	68098.4	116419.6.4
+')┤	1	5	(')
 ├T┤	1	5	T
 ├77┤	1	5	77
 SO┤	1	5	ISO
@@ -615,6 +640,7 @@ ki┤	3	4	Bincki	Laacki	Locki
 ├2S┤	1	4	2S
 ah┤	1	4	Perah
 ml┤	3	4	geraeml	coml	becoml
+^)┤	1	4	(^)
 /2┤	4	4	2'/2	14'/2	P/2
 ├v┤	1	3	v
 ├1B┤	1	3	1B
@@ -652,7 +678,9 @@ pS┤	3	3	CompS	GompS	oudeCompS
 ├UI┤	1	3	UI
 ├78┤	1	3	78
 ├Do┤	1	3	Do
+├|┤	1	3	|
 ├Ho┤	1	3	Ho
+├/•┤	1	3	/•
 YS┤	3	3	LOUYS	SORBYS	LOWYS
 OS┤	3	3	SANTHOS	CAROS	LANFEROS
 ├di┤	1	3	di
@@ -660,8 +688,10 @@ IE┤	3	3	RESOLUTIE	ORDONNANTIE	SPEGIPIGATIE
 DO┤	3	3	CORTADO	ARBARENDO	FERNANDO
 IO┤	3	3	ANTONIO	VALERIO	ANTHONIO
 RO┤	2	3	GERERO	PEDRO
+├)┤	1	3	)
 ├83┤	1	3	83
 *E┤	1	3	d*E
+├&┤	1	3	&
 Je┤	3	3	souJe	enJe	vanJe
 ├68┤	1	3	68
 of┤	2	3	doof	lof
@@ -729,12 +759,14 @@ mé┤	1	2	Tomé
 87┤	2	2	13287	187
 Ts┤	2	2	vergeefTs	dessellTs
 ├ts┤	1	2	ts
+├&.┤	1	2	&.
 .3┤	2	2	304838.3	124028.3
 ├li┤	1	2	li
 ├ül┤	1	2	ül
 Ls┤	2	2	lanLs	aLs
 sf┤	2	2	diensf	meesf
 tt┤	2	2	verongelucijtt	comtt
+├}┤	1	2	}
 wn┤	2	2	Cherrelwn	Serrelwn
 aK┤	1	2	zaK
 dr┤	2	2	ordr	Edr
@@ -773,6 +805,7 @@ yc┤	2	2	insgelyc	datelyc
 ├2P┤	1	2	2P
 ├73┤	1	2	73
 ├ff┤	1	2	ff
+├"┤	1	2	"
 ié┤	2	2	dié	benefitié
 ^9┤	2	2	^^9	^^'^^9
 ├Y2┤	1	2	Y2
@@ -792,6 +825,7 @@ pj┤	2	2	tampj	Lopj
 jo┤	2	2	Januarjo	Martjo
 fj┤	2	2	quiafj	loffj
 ├II┤	1	2	II
+•"┤	1	2	?•"
 ├me┤	1	2	me
 ├98┤	1	2	98
 ├ll┤	1	2	ll
@@ -802,6 +836,7 @@ hj┤	2	2	Rasalhj	Minalahj
 /3┤	2	2	4^/3	238^/3
 ├^4┤	1	2	^4
 Vï┤	2	2	61Vï	3Vï
+«^┤	1	2	^«^
 ├£d┤	1	2	£d
 Es┤	1	2	desseUEs
 oD┤	2	2	SymoD	BoutoD
@@ -840,6 +875,7 @@ Sy┤	1	1	MossahaSy
 hc┤	1	1	valschc
 wh┤	1	1	d^wh
 mj┤	1	1	Tacomj
+├(^┤	1	1	(^
 ├Nu┤	1	1	Nu
 ├he┤	1	1	he
 sr┤	1	1	prauvsr
@@ -853,12 +889,14 @@ bk┤	1	1	Hendribk
 öb┤	1	1	Jacöb
 iB┤	1	1	hoopiB
 ├ta┤	1	1	ta
+)^┤	1	1	®)^
 Ho┤	1	1	GambeHo
 )o┤	1	1	Gayb(d)o
 sL┤	1	1	bessL
 Ay┤	1	1	vooAy
 Om┤	1	1	«Om
 èr┤	1	1	haèr
+).┤	1	1	(*).
 pQ┤	1	1	kopQ
 pw┤	1	1	Gopw
 aé┤	1	1	naé
@@ -899,12 +937,14 @@ vi┤	1	1	Ravi
 dS┤	1	1	TaeckemondS
 oA┤	1	1	sooA
 sx┤	1	1	sulsx
+├"\┤	1	1	"\
 ├IJ┤	1	1	IJ
 ├^0┤	1	1	^0
 .Ë┤	1	1	U.Ë
 VO┤	1	1	GONSALVO
 AZ┤	1	1	VAZ
 VU┤	1	1	PAVU
+'^┤	1	1	^^'^
 )y┤	1	1	waeri)y
 US┤	1	1	MARCUS
 OA┤	1	1	DEROA
@@ -918,6 +958,7 @@ tn┤	1	1	ótn
 BA┤	1	1	BABBA
 NO┤	1	1	(TSIÜSSONANO
 NÖ┤	1	1	CAMMONNÖ
+?•┤	1	1	!?•
 ├dö┤	1	1	dö
 IN┤	1	1	TONQÜIN
 vl┤	1	1	7-Auffustvl
@@ -941,9 +982,11 @@ i8┤	1	1	berani8
 ïn┤	1	1	huïn
 ├!s┤	1	1	!s
 'd┤	1	1	wiei'd
+├(┤	1	1	(
 ël┤	1	1	generaël
 ├tè┤	1	1	tè
 ├*S┤	1	1	*S
+"•┤	1	1	?"•
 cd┤	1	1	picd
 Y2┤	1	1	IOY2
 )l┤	1	1	picx)l
@@ -961,13 +1004,17 @@ sn┤	1	1	vasticheAsn
 ├oy┤	1	1	oy
 ├pV┤	1	1	pV
 ├dê┤	1	1	dê
+├#┤	1	1	#
 S2┤	1	1	244S2
 ├pa┤	1	1	pa
 ├<f┤	1	1	<f
 K2┤	1	1	89K2
 ├Ma┤	1	1	Ma
 ├kq┤	1	1	kq
+├*"┤	1	1	*"
 lü┤	1	1	öö...lü
+├?>┤	1	1	?>
+├^"┤	1	1	^"
 ├2ö┤	1	1	2ö
 ït┤	1	1	gekielhaeït
 tf┤	1	1	brietf
@@ -986,6 +1033,8 @@ né┤	1	1	syné
 lU┤	1	1	valU
 ├fS┤	1	1	fS
 sh┤	1	1	vaertuysh
+├&*┤	1	1	&*
+├^.┤	1	1	^.
 ├»w┤	1	1	»w
 yü┤	1	1	capiteyü
 ├Yj┤	1	1	Yj
@@ -1027,6 +1076,7 @@ Ci┤	1	1	dienvolgendCi
 eK┤	1	1	suyckeK
 rw┤	1	1	Eerw
 ~R┤	1	1	~~R
+├»»┤	1	1	»»
 ├pp┤	1	1	pp
 oq┤	1	1	Soq
 ├89┤	1	1	89
@@ -1038,6 +1088,8 @@ oü┤	1	1	baloü
 ËT┤	1	1	TRANSLAËT
 ├q┤	1	1	q
 -s┤	1	1	vooi-s
+├•>┤	1	1	•>
+├>)┤	1	1	>)
 ├Pr┤	1	1	Pr
 za┤	1	1	khanza
 ├_┤	1	1	_
@@ -1067,6 +1119,8 @@ gc┤	1	1	corgc
 ├pr┤	1	1	pr
 ^g┤	1	1	SB^g
 ré┤	1	1	carré
+├'^┤	1	1	'^
+├^-┤	1	1	^-
 ├Je┤	1	1	Je
 hp┤	1	1	Coihp
 iw┤	1	1	packtoiiw
@@ -1074,6 +1128,7 @@ iw┤	1	1	packtoiiw
 ├b┤	1	1	b
 Yï┤	1	1	146lYï
 èy┤	1	1	hebbèy
+├«-┤	1	1	«-
 iv┤	1	1	gouverneiv
 ?J┤	1	1	[?J
 ├5Ó┤	1	1	5Ó
@@ -1088,7 +1143,9 @@ OQ┤	1	1	GalewongOQ
 <f┤	1	1	d<f
 ├%0┤	1	1	%0
 tp┤	1	1	satp
+^.┤	1	1	&^.
 ├2Y┤	1	1	2Y
+├■┤	1	1	■
 ├jo┤	1	1	jo
 ├BC┤	1	1	BC
 .f┤	1	1	Eerw.f
@@ -1105,6 +1162,7 @@ CA┤	1	1	PIMENCA
 ├<t┤	1	1	<t
 oh┤	1	1	sioh
 'S┤	1	1	''S
+*.┤	1	1	&*.
 ├94┤	1	1	94
 ├5p┤	1	1	5p
 Gs┤	1	1	desselfGs
@@ -1114,6 +1172,8 @@ Gs┤	1	1	desselfGs
 lH┤	1	1	reaelH
 ├^j┤	1	1	^j
 ^8┤	1	1	341782^8
+├«.┤	1	1	«.
+├®'┤	1	1	®'
 ├yX┤	1	1	yX
 ├é┤	1	1	é
 ├^1┤	1	1	^1
@@ -1121,6 +1181,7 @@ lH┤	1	1	reaelH
 ├lË┤	1	1	lË
 üe┤	1	1	preiudiüe
 vé┤	1	1	deselvé
+?)┤	1	1	(?)
 EM┤	1	1	WILLEM
 UN┤	1	1	FREMUN
 ├IN┤	1	1	IN
@@ -1184,6 +1245,7 @@ xi┤	1	1	wieixi
 ├am┤	1	1	am
 ├An┤	1	1	An
 dè┤	1	1	endè
+├\%┤	1	1	\%
 nU┤	1	1	contanU
 HO┤	1	1	FIALHO
 ├re┤	1	1	re
@@ -1199,6 +1261,7 @@ lv┤	1	1	denselv
 :9┤	1	1	29092:13:9
 ├ib┤	1	1	ib
 /9┤	1	1	35^/9
+├*♦┤	1	1	*♦
 Wl┤	1	1	\Wl
 \e┤	1	1	voorschre\e
 ├Is┤	1	1	Is

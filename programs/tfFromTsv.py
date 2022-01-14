@@ -1,4 +1,5 @@
 import collections
+import re
 
 from tf.fabric import Fabric
 from tf.convert.walker import CV
@@ -9,6 +10,8 @@ from config import Config
 C = Config()
 
 SEP = "\t"
+
+SPACE_RE = re.compile("  +")
 
 SLOT_TYPE = "word"
 
@@ -25,7 +28,7 @@ GENERIC = (
 )
 
 OTEXT = {
-    "fmt:text-orig-full": "{letters}{punc} ",
+    "fmt:text-orig-full": "{letters}{punc}",
     "sectionFeatures": "n,n,n",
     "sectionTypes": "volume,page,line",
 }
@@ -183,7 +186,7 @@ def director(cv):
             previousPunc = cv.get("punc", s)
             if not previousPunc.endswith(" ") or not punc.startswith(" "):
                 punc = f"{previousPunc}{punc}"
-            cv.feature(s, punc=punc)
+            cv.feature(s, punc=SPACE_RE.sub(punc, " "))
             continue
 
         parts = letters.split(",")

@@ -9,6 +9,7 @@ from itertools import chain
 from Levenshtein import ratio
 
 from tf.core.helpers import unexpanduser
+from tf.advanced.helpers import dm
 from config import Config
 from tfFromTsv import loadTf
 
@@ -225,25 +226,11 @@ CONFUSIONS = """
 class PostOcr:
     def __init__(self, volume):
         self.volume = volume
-        self.initOcrKey()
         self.good = self.config()
         self.loadTf()
-        self.getGrams()
-
-    def initOcrKey(self):
-        """Compile the CHAR_CLASSES spec into a dict.
-
-        The dict maps characters into classes of characters
-        that tend to be confused by OCR processes.
-        """
-        OCR_KEY = {}
-        self.OCR_KEY = OCR_KEY
-
-        for line in CHAR_CLASSES.strip().split("\n"):
-            (clsCard, chars) = line.split(" ", 1)
-            (cls, card) = clsCard
-            for c in chars:
-                OCR_KEY[c] = (cls, card)
+        self.getWords()
+        # self.initOcrKey()
+        # self.getGrams()
 
     def config(self):
         """Configure context information."""
@@ -267,11 +254,363 @@ class PostOcr:
         self.TF = TF
         print("done")
 
+    def getWords(self):
+        TF = self.TF
+        F = TF.api.F
+        postDir = self.postDir
+
+        WORD_OCCS = collections.defaultdict(list)
+        self.WORD_OCCS = WORD_OCCS
+
+        for w in F.otype.s("word"):
+            word = F.letters.v(w)
+            WORD_OCCS[word].append(w)
+        print(f"{len(WORD_OCCS)} words in {F.otype.maxSlot} occurrences")
+
+        filePath = f"{postDir}/wordfreqs.tsv"
+        with open(filePath, "w") as fh:
+            fh.write("freq\tword\n")
+            for (word, occs) in sorted(WORD_OCCS.items(), key=lambda x: x[0]):
+                fh.write(f"{len(occs)}\t{word}\n")
+        print(f"All words frequencies written to {unexpanduser(filePath)}")
+
+        wordDist = collections.Counter()
+        for occs in WORD_OCCS.values():
+            wordDist[len(occs)] += 1
+        showDistributionFreq(wordDist, "word occurrence", "word frequency")
+
+    def getCharacters(self):
+        WORD_OCCS = self.WORD_OCCS
+
+        CHARS = collections.Counter()
+        self.CHARS = CHARS
+
+        for (word, occs) in WORD_OCCS.items():
+            freq = len(occs)
+            for c in word:
+                CHARS[c] += freq
+
+        CHARS_CASE_SENSITIVE = {c for c in CHARS if c.upper() != c.lower()}
+        self.CHARS_SENSITIVE = CHARS_CASE_SENSITIVE
+        CHARS_UPPER = {c for c in CHARS_CASE_SENSITIVE if c == c.upper()}
+        CHARS_LOWER = {c for c in CHARS_CASE_SENSITIVE if c == c.lower()}
+        self.CHARS_UPPER = CHARS_UPPER
+        self.CHARS_LOWER = CHARS_LOWER
+
+        charsUpperStr = "".join(sorted(CHARS_UPPER))
+        charsLowerStr = "".join(sorted(CHARS_LOWER))
+        self.impureRe = re.compile(r"""[\\/(^0-9.,*:<>()•«!\[\]"]""")
+        self.caseRe = re.compile(f"""[{charsLowerStr}][{charsUpperStr}]""")
+        self.combiRe = re.compile(r""" [bcdfghjklmnpqrstvwxz][bcdfgjk]""", re.I)
+
+        print(f"Lower case characters: {charsLowerStr}")
+        print(f"Upper case characters: {charsUpperStr}")
+
+        charRep = "".join(sorted(CHARS, key=lambda x: -CHARS[x]))
+        print(f"CHARACTERS (most frequent first):\n{charRep}")
+        print("Call method charFreqs() to see the character frequencies")
+
+    def initOcrKey(self):
+        """Compile the CHAR_CLASSES spec into a dict.
+
+        The dict maps characters into classes of characters
+        that tend to be confused by OCR processes.
+        """
+        OCR_KEY = {}
+        self.OCR_KEY = OCR_KEY
+
+        for line in CHAR_CLASSES.strip().split("\n"):
+            (clsCard, chars) = line.split(" ", 1)
+            (cls, card) = clsCard
+            for c in chars:
+                OCR_KEY[c] = (cls, card)
+
+    def getCompositions(self):
+        """Compute all word compositions into two.
+
+        *   `COMPOSE[False]` dict keyed initial word components,
+            valued by all possible suffixes that form a word together
+        *   `COMPOSE[True]` dict keyed final word components,
+            valued by all possible prefixes that form a word together
+        """
+        C = self.C
+        morfSize = C.morfSize
+        WORD_OCCS = self.WORD_OCCS
+        COMPOSE = {False: {}, True: {}}
+        self.COMPOSE = COMPOSE
+
+        for word in WORD_OCCS:
+            lw = len(word)
+            p = min((morfSize, lw))
+            for i in range(1, p + 1):
+                morfPre = word[0:i]
+                mainPre = word[i:]
+                morfPost = word[lw - i : lw]
+                mainPost = word[0 : lw - i]
+
+                COMPOSE[False].setdefault(morfPre, set()).add(mainPre)
+                COMPOSE[True].setdefault(morfPost, set()).add(mainPost)
+
+        for kind in (True, False):
+            label = "suffix" if kind else "prefix"
+            print(f"{len(COMPOSE[kind])} distinct {label}es")
+
+    def clearQuality(self):
+        """Initializes or clears the store of quality measurements of word splits.
+
+        `QUALITY` is
+
+        *   first keyed by `False` (quality of *morfs*) or
+            `True` (quality of *mains*);
+        *   then by `False` (quality of items at the start of a word) or
+            `True` (quality of items at the end of a word);
+        *   then by pairs of (pre, post) which divide words in two parts;
+        *   and the eventual value is an integer or float
+            that acts as the measure of the quality of that item.
+        """
+        if not hasattr(self, "QUALITY"):
+            QUALITY = {False: {False: {}, True: {}}, True: {False: {}, True: {}}}
+            self.QUALITY = QUALITY
+        else:
+            QUALITY = self.QUALITY
+            for what in (False, True):
+                for where in (False, True):
+                    QUALITY[what][where].clear()
+
+    def getFills(self, string, fill, what, where):
+        """Get the ways that a string can be filled up to a word.
+
+        *   string: a morf or a main for which we want to compute something
+        *   fill: a morf or a main that we want to exclude from the computation
+        *   what: whether `string` is a morf (True) or a main (False)
+        *   where: whether `string` ends a word (True) or starts it (False)
+        """
+
+        C = self.C
+        morfSize = C.morfSize
+        COMPOSE = self.COMPOSE
+        compose = COMPOSE[where]
+        if string not in compose:
+            return set()
+
+        fills = compose[string]
+        if what:
+            # the fills are mains, and we exclude the empty main
+            fills = fills - {""}
+        else:
+            # the fills are morfs, which are restricted in length
+            fills = {f for f in fills if len(f) <= morfSize}
+        # note that fills is a modified copy of the original value in compose[string]
+        # we can mutate fills without touching the original
+        if fill is not None and fill in fills:
+            fills -= {fill}
+        return fills
+
+    def getQualityRaw(self, string, fill, what, where):
+        """Compute the quality of a split, without storing results.
+
+        *   string: a morf or a main for which we want to compute something
+        *   fill: a morf or a main that we want to exclude from the computation
+        *   what: whether `string` is a morf (True) or a main (False)
+        *   where: whether `string` ends a word (True) or starts it (False)
+        """
+
+        return sum(
+            len(self.getFills(f, string, not what, not where))
+            for f in self.getFills(string, None, what, where)
+        )
+
+    def getQuality(self, string, fill, what, where):
+        """Lookup or compute and store the quality of a split.
+
+        *   string: a morf or a main for which we want to compute something
+        *   fill: a morf or a main that we want to exclude from the computation
+        *   what: whether `string` is a morf (True) or a main (False)
+        *   where: whether `string` ends a word (True) or starts it (False)
+        """
+
+        COMPOSE = self.COMPOSE
+        QUALITY = self.QUALITY
+
+        quality = QUALITY[what][where]
+        item = (string, fill)
+        if item in quality:
+            return quality[item]
+
+        # if string does not occur in the corpus as word part, the quality is trivially 0
+        # we do not store it.
+
+        compose = COMPOSE[where]
+        if string not in compose:
+            return 0
+
+        if what and string == "":
+            return 1
+
+        # the real computation
+
+        if what:
+            q = self.getQualityRaw(string, fill, what, where)
+        else:
+            q = len(self.getFills(string, fill, what, where))
+
+        quality[string] = q
+        return q
+
+    def showSplits(self, word):
+        """Show the possible splits of a word together with the quality measures.
+        """
+        C = self.C
+        morfSize = C.morfSize
+        WORD_OCCS = self.WORD_OCCS
+
+        if word not in WORD_OCCS:
+            print(f"{word} not in corpus")
+            return
+
+        lw = len(word)
+        p = min((lw - 1, morfSize))
+
+        markdown = f"**`{word}`**\n\n"
+
+        if len(word) < 2:
+            markdown += "*no splits*\n\n"
+        else:
+            for where in (False, True):
+                preLabel = "main" if where else "morf"
+                postLabel = "morf" if where else "main"
+
+                markdown += dedent(
+                    f"""\
+                pos | {preLabel} | {postLabel} | qual-morf | #-morfs | qual-main | #-main
+                --- | ---        | ---         | ---       | ---     | ---       | ---
+                """
+                )
+
+                for i in range(1, p + 1):
+                    split = lw - i if where else i
+                    pre = word[0:split]
+                    post = word[split:]
+                    morf = post if where else pre
+                    main = pre if where else post
+                    n = {}
+                    qual = {}
+                    for (string, fill, what, thisWhere) in (
+                        (main, morf, False, not where),
+                        (morf, main, True, where),
+                    ):
+                        n[not what] = len(self.getFills(string, fill, what, thisWhere))
+                        qual[what] = self.getQuality(string, fill, what, thisWhere)
+                    markdown += dedent(
+                        f"""\
+                    {split} | {pre} | {post} | {qual[True]} | {n[True]} | {qual[False]} | {n[False]}
+                    """
+                    )
+                markdown += "\n"
+
+        markdown += "\n---\n"
+        dm(markdown)
+
+    def showExamples(self, examples):
+        self.clearQuality()
+        for word in examples:
+            self.showSplits(word)
+
+    def getGramContexts(self):
+        """We harvest the 2 and 3 letter grams with their context.
+
+        A k-context of a gram are the k-letters preceding it plus the k-letters
+        following it. At the end of words we take the context characters from
+        the punc feature of the word and if that is not enough, from the next word.
+        At the start of a word, we take the context characters from the punc feature
+        of the previous word, and if that is not enough, from the previous word itself.
+        If we run out of letters, we insert spaces.
+        """
+        volume = self.volume
+        postDir = self.postDir
+        TF = self.TF
+
+        k = 2
+
+        GRAM_CONTEXT_PRE = {}
+        GRAM_CONTEXT_POST = {}
+        self.GRAM_CONTEXT_PRE = GRAM_CONTEXT_PRE
+        self.GRAM_CONTEXT_POST = GRAM_CONTEXT_POST
+
+        F = TF.api.F
+        maxSlot = F.otype.maxSlot
+
+        filePath = f"{postDir}/volume.txt"
+        with open(filePath, "w") as fh:
+            for w in range(1, maxSlot):
+                punc = F.punc.v(w)
+                nl = "\n" if "." in punc else ""
+                fh.write(f"{F.letters.v(w)}{punc}{nl}")
+
+        for n in NS:
+            print(
+                f"Getting {n}-gram-{k}-contexts for {maxSlot} words in volume {volume}"
+            )
+            theseContextsPre = collections.defaultdict(collections.Counter)
+            theseContextsPost = collections.defaultdict(collections.Counter)
+            flex = k + n
+            for w in range(1, maxSlot + 1):
+                prevPunc = "" if w == 1 else F.punc.v(w - 1)
+                prevWord = "" if w == 1 else F.letters.v(w - 1)
+                word = F.letters.v(w)
+                postPunc = F.punc.v(w)
+                postWord = "" if w == maxSlot else F.letters.v(w + 1)
+                before = (" " * flex) + prevWord + prevPunc
+                after = postPunc + postWord + (" " * flex)
+                wordPlus = before + word + after
+                startWord = len(before)
+                for i in range(-1, len(word) - n + 2):
+                    start = startWord + i
+                    end = start + n - 1
+                    gram = wordPlus[start : end + 1]
+                    pre = wordPlus[start - k : start]
+                    post = wordPlus[end + 1 : end + k + 1]
+                    theseContextsPre[gram][pre] += 1
+                    theseContextsPost[gram][post] += 1
+
+            GRAM_CONTEXT_PRE[n] = theseContextsPre
+            GRAM_CONTEXT_POST[n] = theseContextsPost
+
+            for (kind, theseContexts) in (
+                ("pre", theseContextsPre),
+                ("post", theseContextsPost),
+            ):
+                filePath = f"{postDir}/context-{k}-{kind}-{n}-grams.tsv"
+                with open(filePath, "w") as fh:
+                    gram = "gram"[0:n]
+                    context = "c" * k
+                    heads = (
+                        f"«{context}├{gram}┤"
+                        if kind == "pre"
+                        else f"├{gram}┤{context}»"
+                    )
+                    fh.write(f"{heads}\tfreqContext\tfreqGram\n")
+                    for (gram, contexts) in sorted(
+                        theseContexts.items(), key=lambda x: (-sum(x[1].values()), x[0])
+                    ):
+                        freqGram = sum(contexts.values())
+                        for (context, freq) in sorted(
+                            contexts.items(), key=lambda x: (-x[1], x[0])
+                        ):
+                            columns = (
+                                f"«{context}├{gram}┤"
+                                if kind == "pre"
+                                else f"├{gram}┤{context}»"
+                            )
+                            fh.write(f"{columns}\t{freq}\t{freqGram}\n")
+
     def getGrams(self):
         """
         We walk through the corpus and harvest the 2- and 3- lettergrams.
         For each gram we store information about the words they occur in
         and how often they occur overall.
+        We also store the immediate contexts of the grams,
+        and how often each context is witnessed.
 
         We also build an index where we can find for each word
         the grams it contains.
@@ -315,10 +654,8 @@ class PostOcr:
         """
         volume = self.volume
         postDir = self.postDir
+        WORD_OCCS = self.WORD_OCCS
         TF = self.TF
-
-        WORD_OCCS = collections.defaultdict(list)
-        self.WORD_OCCS = WORD_OCCS
 
         GRAM = {n: collections.defaultdict(list) for n in NS}
         self.GRAM = GRAM
@@ -327,9 +664,6 @@ class PostOcr:
         self.GRAM_INDEX = GRAM_INDEX
 
         GRAM_INSENSITIVE = collections.Counter()
-
-        CHARS = collections.Counter()
-        self.CHARS = CHARS
 
         LEGAL_COMBIS = {
             x: {2: collections.defaultdict(dict), 3: collections.defaultdict(dict)}
@@ -356,12 +690,8 @@ class PostOcr:
             for w in allWords:
                 word = F.letters.v(w)
 
-                for c in word:
-                    CHARS[c] += 1
-
                 (volume, page, line) = T.sectionFromNode(w)
                 fh.write(f"{page}\t{line}\t{word}\n")
-                WORD_OCCS[word].append(w)
         print(f"All words written to {unexpanduser(filePath)}")
 
         for word in WORD_OCCS:
@@ -384,33 +714,15 @@ class PostOcr:
                     GRAM_INDEX[word][n].append(gram)
                     GRAM_INSENSITIVE[gram.lower()] += 1
 
-        CHARS_CASE_SENSITIVE = {c for c in CHARS if c.upper() != c.lower()}
-        self.CHARS_SENSITIVE = CHARS_CASE_SENSITIVE
-        CHARS_UPPER = {c for c in CHARS_CASE_SENSITIVE if c == c.upper()}
-        CHARS_LOWER = {c for c in CHARS_CASE_SENSITIVE if c == c.lower()}
-        self.CHARS_UPPER = CHARS_UPPER
-        self.CHARS_LOWER = CHARS_LOWER
-
-        charsUpperStr = "".join(sorted(CHARS_UPPER))
-        charsLowerStr = "".join(sorted(CHARS_LOWER))
-        self.impureRe = re.compile(r"""[\\/(^0-9.,*:<>()•«!\[\]"]""")
-        self.caseRe = re.compile(f"""[{charsLowerStr}][{charsUpperStr}]""")
-        self.combiRe = re.compile(r""" [bcdfghjklmnpqrstvwxz][bcdfgjk]""", re.I)
-
-        print(f"Lower case characters: {charsLowerStr}")
-        print(f"Upper case characters: {charsUpperStr}")
-
-        charRep = "".join(sorted(CHARS, key=lambda x: -CHARS[x]))
-        print(f"CHARACTERS (most frequent first):\n{charRep}")
-        print("Call method charFreqs() to see the character frequencies")
-
-        print(f"{len(allWords)} word occurrences in {len(WORD_OCCS)} distinct words")
-
         for (n, grams) in GRAM.items():
             print(f"{len(grams)} distinct {n}-grams")
 
     def charFreqs(self):
         """Show the frequencies of each character that occurs in the corpus."""
+
+        if not hasattr(self, "CHARS"):
+            self.getCharacters()
+
         CHARS = self.CHARS
         for (c, freq) in sorted(CHARS.items(), key=lambda x: (-x[1], x[0])):
             print(f"{c} {freq:>7}")

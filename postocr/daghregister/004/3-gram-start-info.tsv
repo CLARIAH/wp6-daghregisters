@@ -1309,6 +1309,7 @@ gram	#words	#occurrences	example1	example2	example3
 ├cau	7	9	causerende	causeren	cauwel
 ├yer	8	9	yertreckt	yercoopen	yersoeck
 ├nov	3	9	novo	nove	novos
+├^^^┤	1	9	^^^
 ├180┤	1	9	180
 ├say	3	9	saysoen	sayen	sayekeren
 ├woe	4	9	woegh	woelen	woelende
@@ -1490,6 +1491,7 @@ gram	#words	#occurrences	example1	example2	example3
 ├sai	3	7	saisoens	sai*a9sen	saisoen
 ├Soe	4	7	Soetckau	Soerj	Soelongh
 ├Gno	7	7	Gnoflamanire	Gnoffirgnaros	GnofiBca
+├(*)┤	1	7	(*)
 ├Pya	2	7	Pyacha	PyachaenDodingo
 ├oot	4	6	ootmoedige	ootmoedelyck	ootmoet
 ├dom	6	6	dominatie	dommecrachten	domine
@@ -1609,6 +1611,7 @@ gram	#words	#occurrences	example1	example2	example3
 ├apa	3	5	aparenie	aparent	apart
 ├luc	2	5	lucht	lucbt
 ├Acc	3	5	Accoley	Accapaneyck	Accolay
+├[?]┤	1	5	[?]
 ├wyn	3	5	wynen	wyntinte	wyntint
 ├nau┤	1	5	nau
 ├opt	4	5	optreckingfa	optrecken	optineeren
@@ -1640,12 +1643,14 @@ gram	#words	#occurrences	example1	example2	example3
 ├lap	4	5	lapara	lappen	lapesarassen
 ├^de┤	1	5	^de
 ├Pee	2	5	Peera	Peeckel
+├(')┤	1	5	(')
 ├wit┤	1	5	wit
 ├bba	4	5	bbaeren	bbar	bbaer
 ├mir	5	5	miraculeuselyck	mirhe	miraculei
 ├Tex	1	5	Texel
 ├ISO┤	1	5	ISO
 ├fri	4	5	frivool	frivole	frivoUe
+├^^^	2	5	^^^^^	^^^^
 ├Bom	4	5	Bomese	Bommel	Bomeo
 ├Tim	2	5	Timmerhout	Timor
 ├ses	5	5	sessie	sesten	seslien
@@ -1668,11 +1673,13 @@ gram	#words	#occurrences	example1	example2	example3
 ├Ros	2	5	Rosario	Rossenive
 ├290	3	5	2900	2905306	29092:13:9
 ├108	3	5	1080	1088150	108332
+├...┤	1	5	...
 ├sin┤	1	5	sin
 ├Cin	4	5	Cincocbajes	Cinga	Cingal
 ├bun	3	5	buns	bunne	bunnen
 ├Reg	2	5	Regemortes	Regenten
 ├Weg	1	5	Wegen
+├^/^┤	1	5	^/^
 ├iem	1	5	iemant
 ├Fer	4	5	Ferrero	Fernando	Fermosa
 ├Tel	2	5	Tellouw	Tello
@@ -1892,6 +1899,7 @@ gram	#words	#occurrences	example1	example2	example3
 ├Wtr	1	4	Wtrecht
 ├Pel	3	4	Pellen	Pelten	Pelisa
 ├d*m	2	4	d*man	d*mayor
+├(^)┤	1	4	(^)
 ├mue	2	3	mueren	mueragie
 ├ped	1	3	pedangh
 ├dog	1	3	dogh
@@ -1950,6 +1958,7 @@ gram	#words	#occurrences	example1	example2	example3
 ├flo	3	3	florisanter	florynen	floreeren
 ├ver┤	1	3	ver
 ├620┤	1	3	620
+├...	1	3	....
 ├doe┤	1	3	doe
 ├Pay	3	3	Payacha	Payo	Pays
 ├g^e	2	3	g^effectueert	g^en
@@ -2484,6 +2493,7 @@ gram	#words	#occurrences	example1	example2	example3
 ├Vaz┤	1	2	Vaz
 ├GON	2	2	GONSALVO	GONDITIEN
 ├(de┤	1	2	(de
+├^^'	2	2	^^'^	^^'^^9
 ├Ald	1	2	Aldus
 ├DER	2	2	DERAES	DEROA
 ├DOM	1	2	DOMINGO
@@ -2607,6 +2617,7 @@ gram	#words	#occurrences	example1	example2	example3
 ├Mie	2	2	Miersiamomyn	Mieth
 ├307	2	2	3076	30738
 ├478┤	1	2	478
+├^"^	1	2	^"^^
 ├seb	2	2	sebenckagie	sebeen
 ├Agu	2	2	Aguada	Agus
 ├Cbe	2	2	Cbeylon	Cberrebon
@@ -2662,6 +2673,7 @@ gram	#words	#occurrences	example1	example2	example3
 ├sce	1	2	scer
 ├rek	1	2	rekenschap
 ├vam	2	2	vamie	vamlen
+├?•"┤	1	2	?•"
 ├/'2	2	2	/'2681	/'286456
 ├niy┤	1	2	niy
 ├Ast	1	2	Astra
@@ -2735,6 +2747,7 @@ gram	#words	#occurrences	example1	example2	example3
 ├520┤	1	2	520
 ├S^s┤	1	2	S^s
 ├roU	1	2	roUe
+├^«^┤	1	2	^«^
 ├La-	1	2	La-ala
 ├w^l	2	2	w^lck	w^licht
 ├Doe	2	2	Doen	Doely
@@ -2774,6 +2787,7 @@ gram	#words	#occurrences	example1	example2	example3
 ├Hey┤	1	2	Hey
 ├Kef	1	2	KefBngh
 ├376	2	2	37625	3766
+├'/^┤	1	2	'/^
 ├813┤	1	2	813
 ├Ren	2	2	Reneer	Rentdorp
 ├Hoc	2	2	Hocha	Hoclia
@@ -3020,6 +3034,7 @@ gram	#words	#occurrences	example1	example2	example3
 ├wle	1	1	wlert
 ├Ccy	1	1	Ccylon
 ├Lof	1	1	Loffelj
+├®)^┤	1	1	®)^
 ├v?e	1	1	v?el
 ├eep┤	1	1	eep
 ├tor	1	1	torn
@@ -3096,6 +3111,7 @@ gram	#words	#occurrences	example1	example2	example3
 ├tvi	1	1	tvi^ee
 ├onD	1	1	onDuttdyck
 ├/'9	1	1	/'944.9
+├(*)	1	1	(*).
 ├Gbi	1	1	Gbineesche
 ├Gun	1	1	Gunder
 ├lor	1	1	lorrendrayers
@@ -3530,6 +3546,7 @@ gram	#words	#occurrences	example1	example2	example3
 ├ORD	1	1	ORDONNANTIE
 ├wts	1	1	wtsien
 ├Axu	1	1	Axuna
+├!?•┤	1	1	!?•
 ├TSU	1	1	TSUISSIMANOCAMY
 ├keu	1	1	keurich
 ├Oct┤	1	1	Oct
@@ -3671,6 +3688,7 @@ gram	#words	#occurrences	example1	example2	example3
 ├Hop	1	1	Hopperhooft
 ├294┤	1	1	294
 ├gab	1	1	gabers
+├?"•┤	1	1	?"•
 ├549	1	1	54985
 ├^25	1	1	^2592
 ├SiU	1	1	SiUebar
@@ -3708,6 +3726,7 @@ gram	#words	#occurrences	example1	example2	example3
 ├Yen	1	1	Yenlo
 ├^da	1	1	^daerinne
 ├'Iv	1	1	'Ivertreck
+├®°^	1	1	®°^^
 ├"vw	1	1	"vwlies
 ├'ll	1	1	'llaet
 ├350┤	1	1	350
@@ -3859,6 +3878,7 @@ gram	#words	#occurrences	example1	example2	example3
 ├'Do	1	1	'Douta
 ├dié┤	1	1	dié
 ├IVa┤	1	1	IVa
+├'^^	1	1	'^^^
 ├^^9┤	1	1	^^9
 ├^en┤	1	1	^en
 ├407	1	1	4070.8
@@ -4409,6 +4429,7 @@ gram	#words	#occurrences	example1	example2	example3
 ├CaO	1	1	CaOila
 ├Ise	1	1	Isempour
 ├Frè	1	1	Frèmlingh
+├(^^	1	1	(^^^^
 ├/*8	1	1	/*819321
 ├gqs	1	1	gqsonden
 ├426	1	1	4262
@@ -4552,6 +4573,7 @@ gram	#words	#occurrences	example1	example2	example3
 ├fif┤	1	1	fif
 ├511┤	1	1	511
 ├eie	1	1	eieren
+├&^.┤	1	1	&^.
 ├143	1	1	1434
 ├238┤	1	1	238
 ├gUl	1	1	gUlions
@@ -4618,6 +4640,7 @@ gram	#words	#occurrences	example1	example2	example3
 ├fel┤	1	1	fel
 ├Thu	1	1	Thuys
 ├27^	1	1	27^2
+├&*.┤	1	1	&*.
 ├987	1	1	987a
 ├458┤	1	1	458
 ├ank	1	1	anker
@@ -4633,6 +4656,7 @@ gram	#words	#occurrences	example1	example2	example3
 ├623	1	1	6235
 ├750	1	1	750realen
 ├Psi	1	1	Psitanj
+├"/^┤	1	1	"/^
 ├Pos	1	1	Post
 ├Bre┤	1	1	Bre
 ├"34┤	1	1	"34
@@ -4712,6 +4736,7 @@ gram	#words	#occurrences	example1	example2	example3
 ├ima	1	1	imaginatie
 ├(ro	1	1	(rondelyck
 ├Day┤	1	1	Day
+├(?)┤	1	1	(?)
 ├Edr┤	1	1	Edr
 ├WIL	1	1	WILLEM
 ├FRA┤	1	1	FRA
@@ -4819,7 +4844,6 @@ gram	#words	#occurrences	example1	example2	example3
 ├SPE	1	1	SPEGIPIGATIE
 ├Con┤	1	1	Con
 ├67a┤	1	1	67a
-├^^'	1	1	^^'^^9
 ├lep	1	1	lepel
 ├veu	1	1	veurxken
 ├dya	1	1	dyamanten

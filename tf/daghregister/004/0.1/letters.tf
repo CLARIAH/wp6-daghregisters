@@ -19,7 +19,7 @@
 @volume=Anno 1640-1641
 @years=1640,1641
 @writtenBy=Text-Fabric
-@dateWritten=2021-12-06T11:26:22Z
+@dateWritten=2022-01-10T14:33:50Z
 
 10
 ditto
@@ -124,6 +124,7 @@ met
 bhaer
 peper
 monterende
+/*
 75648
 13:2
 door
@@ -136,6 +137,7 @@ Tico
 en
 Priaman
 genegotieert
+;
 't
 jacht
 Sanivoort
@@ -153,6 +155,7 @@ solpher
 en
 campher
 monterende
+/*
 79756
 10:8
 brenght
@@ -986,6 +989,7 @@ was
 te
 vergeeffs
 geprocureert
+;
 tot
 wat
 eynde
@@ -1151,6 +1155,7 @@ Coninck
 t*zynen
 contentemenle
 overhandight
+;
 den
 Commissaris
 hadde
@@ -1502,6 +1507,7 @@ den
 capileyn
 Lourens
 Forcenburgh
+'
 Minne
 Willemsz
 Kaertekoe
@@ -2101,6 +2107,7 @@ uyt
 de
 stadt
 becomen
+.
 Den
 6
 do
@@ -2332,6 +2339,7 @@ van
 18
 ende
 24
+«
 boven
 hetgeen
 by
@@ -4401,6 +4409,7 @@ haer
 verordonneerde
 logement
 geleyt
+»
 Op
 dato
 vertreckt
@@ -4457,7 +4466,9 @@ samen
 monterende
 f
 3244
+:
 3
+:
 8
 Heden
 arriveert
@@ -4616,6 +4627,7 @@ soul
 ende
 andere
 snuysteringh
+;
 comen
 eenelyck
 om
@@ -5286,7 +5298,9 @@ peper
 inceops
 costende
 /'64145
+:
 9
+:
 4
 ende
 advyseert
@@ -6133,6 +6147,7 @@ een
 cargasoen
 van
 26661272
+®
 nooten
 muscaten
 en
@@ -6294,6 +6309,7 @@ is
 Tot
 betalinge
 van
+•
 voors
 overgesondeu
 als
@@ -6446,6 +6462,7 @@ ryslast
 als
 andere
 mundentien
+[?]
 had
 zyn
 Ed
@@ -7472,6 +7489,7 @@ aenden
 Ed
 heerGenerael
 overgesonden
+;
 alle
 de
 materiaelen
@@ -8260,6 +8278,7 @@ Vj
 bhaer
 peper
 costende
+/
 19272
 14
 11
@@ -8431,25 +8450,36 @@ monteeren
 van
 f
 S994
+:
 1
+:
+—
+»
 Mallabaer
 en
 Wingurla
+»
 21060
 1
+:
 10
+»
 Parsia
 en
 Zuratta
+»
 23748
 3
+:
 14
 Monterende
 t'
 samen
 f
 50799
+:
 6
+:
 8
 Op
 dato
@@ -8492,6 +8522,7 @@ nagelen
 monteren
 f
 1544
+:
 10
 1
 Maccassar
@@ -8504,11 +8535,13 @@ met
 de
 onverhandelde
 restanten
+.
 5168
 :3
 10
 T'
 samen
+/
 6702:15
 11
 Den
@@ -9092,6 +9125,7 @@ anders
 doen
 nae
 welgevallen
+;
 de
 soasivos
 ende
@@ -9828,6 +9862,7 @@ den
 Spaengiaert
 niet
 senden
+;
 ghy
 schryft
 my
@@ -10316,6 +10351,7 @@ persoonen
 belaste
 te
 weten
+:
 dat
 dit
 besluy
@@ -12323,6 +12359,7 @@ ten
 rechten
 gemeent
 wierde
+«
 Op
 alle
 't
@@ -12907,6 +12944,7 @@ moeste
 verborgen
 gehouden
 worden
+;
 ick
 sweere
 by
@@ -13119,6 +13157,7 @@ sondagh
 sal
 ick
 l)eginnen
+;
 Coninck
 ghy
 syt
@@ -13206,6 +13245,7 @@ van
 oorloghe
 te
 bethoonen
+;
 ende
 ojKlat
 d'
@@ -14454,6 +14494,7 @@ den
 predicant
 Jan
 Glaesz
+.
 Bakus
 grooten
 y
@@ -14571,6 +14612,7 @@ coppen
 te
 welen
 op
+:
 Maleya
 213
 coppen
@@ -14579,6 +14621,7 @@ Tolucco
 Tacomj
 15
 Dodinge
+....
 10
 d'
 Noffica
@@ -14679,6 +14722,7 @@ de
 corps
 du
 guarden
+(^
 't
 bolwerck
 ende
@@ -16429,6 +16473,7 @@ van
 in
 specy
 aengecomen
+;
 d'
 anachodas
 Sithoy
@@ -16715,6 +16760,7 @@ niet
 en
 w^ert
 verbroocken
+^
 Voorders
 laet
 ick
@@ -17468,6 +17514,7 @@ onse
 het
 scharp
 affbyten
+;
 sy
 liepen
 veel
@@ -20051,6 +20098,7 @@ proeiT
 mocht
 halen
 geconsumeert
+;
 ende
 soo
 den
@@ -20683,6 +20731,7 @@ geworpen
 ende
 verbrant
 wesen
+;
 d'
 overloopers
 wisten
@@ -20854,6 +20903,7 @@ van
 24
 a
 30
+®)^
 soo
 wenscbten
 haer
@@ -21051,6 +21101,7 @@ int
 werck
 souden
 stellen
+;
 waren
 echter
 voornemens
@@ -21058,6 +21109,7 @@ naerder
 daerop
 te
 attenderen
+;
 t'
 seggen
 ware
@@ -21128,6 +21180,7 @@ niet
 eens
 dencken
 souden
+;
 haer
 E
 vermeenden
@@ -21194,6 +21247,7 @@ hebben
 ondienstigh
 geoordeelt
 wiert
+;
 nae
 *t
 rapport
@@ -21405,6 +21459,7 @@ gaern
 ende
 eenige
 slaeffinnen
+;
 een
 tingangh
 van
@@ -21487,7 +21542,9 @@ cargasoen
 cleeden
 etc
 monteerende
+/
 19832.13
+—
 om
 aldaer
 in
@@ -21611,6 +21668,7 @@ cleeden
 monterende
 f
 32662
+—
 .11
 't
 schip
@@ -22029,6 +22087,7 @@ cleeden
 t'
 samen
 monterende
+/
 11713.4.8
 Op
 dato
@@ -22120,15 +22179,18 @@ een
 cargasoen
 van
 55000
+«
 nagelen
 ende
 2673
+«
 oly
 van
 nagelen
 t'
 samen
 monterende
+/"
 18273.8.6
 ende
 advyseert
@@ -22605,6 +22667,7 @@ van
 volck
 Hselve
 ^overvallen
+;
 maer
 vonde
 het
@@ -22735,6 +22798,8 @@ April
 aende
 Manipe
 inde
+•
+•
 rivier
 by
 Massavoy
@@ -22822,6 +22887,7 @@ inde
 weer
 te
 wesen
+;
 d'
 eersle
 5
@@ -23758,6 +23824,7 @@ soon
 in
 Gambello
 dootgeschoten
+;
 syn
 E
 hadde
@@ -24340,6 +24407,7 @@ vyants
 strand
 gepangeyt
 hadden
+;
 leggende
 voorts
 bet
@@ -24633,6 +24701,7 @@ noyt
 begonnen
 te
 hebben
+;
 syn
 E
 gaff
@@ -24866,6 +24935,7 @@ te
 beletten
 T'
 syner
+.
 wedercompste
 aen
 *t
@@ -25109,6 +25179,7 @@ in
 zee
 geholpen
 was
+;
 syn
 E
 sond
@@ -25343,6 +25414,7 @@ was
 een
 veranderingh
 voorgevallen
+;
 d'
 inwoonders
 leeffden
@@ -25648,6 +25720,7 @@ ende
 een
 voor
 Hittoelamma
+;
 alle
 weder
 nae
@@ -25962,6 +26035,7 @@ een
 cop
 binnen
 brachten
+;
 die
 van
 Assahoudj
@@ -26508,6 +26582,7 @@ geêmployeert
 wierden
 als
 volght
+:
 Nassau
 voor
 Assahoudj
@@ -26523,6 +26598,7 @@ Zeeusche
 Nachtegael
 omtr^t
 Gambello
+;
 Jonge
 Prins
 voor
@@ -26581,6 +26657,7 @@ Nederlanders
 inde
 kettingh
 gaen
+;
 mede
 dat
 twee
@@ -26664,6 +26741,7 @@ hoe
 in
 Gherrebon
 wiert
+.
 gerucht
 dat
 Sarapada
@@ -26777,7 +26855,10 @@ Malacca
 monteerende
 't
 getaxeerde
+/*
 8088.4
+—
+.
 D'
 Ed
 heer
@@ -26840,6 +26921,7 @@ porceleyn
 ende
 andere
 cleynicheden
+;
 een
 contingb
 ende
@@ -26921,6 +27003,7 @@ en
 sacken
 groen
 ertcn
+;
 een
 tingangh
 van
@@ -27278,6 +27361,8 @@ t'
 samen
 monterende
 /'944.9
+—
+.
 Voeren
 dei*waerts
 500
@@ -27291,7 +27376,10 @@ etc
 monterende
 te
 samen
+/
 1964.9
+—
+(*).
 Vertrecken
 mede
 twee
@@ -27678,6 +27766,7 @@ te
 worden
 gevoert
 ware
+(')
 Hier
 schijnt
 in
@@ -27704,6 +27793,7 @@ halve
 cartouweD
 van
 24
+%
 1
 do
 van
@@ -28172,6 +28262,7 @@ souden
 houden
 om
 de
+.
 stadt
 te
 benauwen
@@ -28374,6 +28465,7 @@ daer
 beter
 te
 reeonvaliseren
+;
 veele
 vande
 voomaemste
@@ -28416,6 +28508,7 @@ handen
 sonde
 moeten
 comen
+;
 versochten
 van
 bier
@@ -28693,6 +28786,7 @@ S
 Compobtel
 hem
 voori^telyek
+^
 geantwoorl
 badde
 dat
@@ -28982,6 +29076,7 @@ Halacca
 daer
 wel
 gearriveert
+;
 ende
 waren
 uyt
@@ -28996,6 +29091,7 @@ coopmanschappen
 ter
 somma
 van
+/
 74954
 gelicht
 ende
@@ -29075,6 +29171,7 @@ parthye
 solphur
 ende
 huyden
+/
 52294
 ende
 hadde
@@ -29335,6 +29432,7 @@ is
 Ady
 24
 do
+.
 keert
 S
 Overschie
@@ -30050,6 +30148,7 @@ hem
 in
 Indrapoera
 genegotieert
+^
 Ady
 primo
 ditto
@@ -30338,7 +30437,9 @@ van
 Palimbangb
 incoops
 costende
+/*
 68098.4
+—
 ende
 advyseert
 den
@@ -30979,7 +31080,10 @@ prepareren
 die
 tot
 472
+^
 *V4
+^^^^^
+^^^
 P
 ingecocht
 vdert
@@ -31332,6 +31436,7 @@ noch
 redelyck
 voorsien
 Cabo
+.
 de
 Rama
 hadden
@@ -31845,6 +31950,7 @@ ende
 cogels
 van
 24
+^
 voorsien
 gev^eest
 hadden
@@ -31960,6 +32066,7 @@ blancke
 coppen
 te
 weten
+:
 Soldaten
 1130
 Matroosen
@@ -32109,6 +32216,7 @@ den
 standt
 vande
 belegeringe
+;
 Limmen
 was
 gemant
@@ -32542,6 +32650,7 @@ vivres
 ende
 andere
 nootwendigheden
+;
 ende
 dewyle
 boven
@@ -33157,6 +33266,7 @@ wercken
 met
 weynigh
 volck
+•
 beseth
 waren
 dat
@@ -33367,6 +33477,7 @@ tot
 U.E
 gesonden
 hebbe
+•
 Sangouua
 ende
 Tounalim
@@ -34163,6 +34274,7 @@ misnoegen
 huns
 Conincx
 gediscoureert
+^
 insonderheyt
 perfectelyck
 ontledight
@@ -34227,6 +34339,7 @@ van
 Twist
 verordent
 was
+;
 ende
 om
 den
@@ -34344,6 +34457,7 @@ etc
 monterende
 13287
 16
+—
 ende
 adviseert
 den
@@ -34431,6 +34545,7 @@ met
 een
 ladinge
 van
+/
 114271
 voor
 Japan
@@ -34949,6 +35064,7 @@ platten
 lande
 hadde
 doen
+^
 gelasten
 groote
 parthye
@@ -35416,6 +35532,7 @@ niet
 verlegen
 sullen
 wesen
+;
 soo
 en
 hadden
@@ -35485,6 +35602,7 @@ dat
 geen
 aguelhout
 pee
+[?]
 nae
 Tayouan
 souden
@@ -35628,6 +35746,7 @@ badden
 groote
 moeyte
 gebad
+.
 Oja
 Sicalat
 factoir
@@ -35675,6 +35794,7 @@ woegh
 800
 dat
 27a
+^^^
 bondert
 verlooren
 souden
@@ -35748,6 +35868,7 @@ van
 Siacalat
 ontslagen
 werden
+;
 den
 Goninck
 was
@@ -36077,6 +36198,7 @@ de
 Gomp
 seer
 toegedaen
+;
 ende
 is
 den
@@ -36133,6 +36255,7 @@ toegauck
 tot
 bem
 hebben
+;
 ende
 dewyle
 deselve
@@ -37002,6 +37125,7 @@ volck
 quaem
 inde
 wapenen
+;
 't
 geschut
 wiert
@@ -37266,6 +37390,7 @@ Vliets
 indispositie
 te
 vernemen
+;
 ende
 denselven
 te
@@ -37307,6 +37432,7 @@ onderstaende
 poincten
 begroet
 wierden
+:
 1
 dat
 alhoewel
@@ -37637,6 +37763,7 @@ ende
 onder
 syn
 May
+^^
 bescherminge
 te
 sillen
@@ -38077,6 +38204,7 @@ voorgaende
 goede
 genegenthey
 t
+;
 want
 weynigh
 tyts
@@ -38480,6 +38608,7 @@ daerover
 andermael
 dorste
 aenspreecken
+;
 docb
 was
 bem
@@ -39062,6 +39191,7 @@ in
 Siam
 te
 coopen
+.
 ofte
 te
 vervoeren
@@ -39219,6 +39349,7 @@ vremde
 negotianten
 den
 anderen
+*
 souden
 mogen
 crediteren
@@ -39320,6 +39451,7 @@ senden
 om
 te
 vertieren
+;
 ende
 wanneer
 't
@@ -39896,6 +40028,7 @@ ende
 230
 robynen
 ingeseth
+;
 2
 musquetten
 op
@@ -39917,6 +40050,7 @@ gout
 Chineese
 syde
 stuckwercken
+;
 5
 stux
 geschilderde
@@ -40179,6 +40313,7 @@ handen
 vande
 Justitie
 gevallen
+;
 ende
 was
 de
@@ -40250,6 +40385,7 @@ lot
 verantwoordinge
 connen
 comen
+;
 eyndelyck
 hadde
 Sediamet
@@ -40374,6 +40510,7 @@ desen
 jare
 redelyck
 slagen
+;
 de
 rys
 was
@@ -40559,6 +40696,7 @@ in
 Manilha
 te
 bestellen
+;
 d'
 onse
 hadden
@@ -40638,6 +40776,7 @@ den
 voet
 te
 lichten
+;
 d'
 onse
 hadden
@@ -40795,6 +40934,7 @@ Maccassar
 syn
 residentie
 gehouden
+;
 syn
 jacht
 was
@@ -40981,6 +41121,7 @@ rottangh
 als
 andere
 cleynigheden
+;
 hun
 was
 toegestaen
@@ -41285,6 +41426,7 @@ lywaet
 ende
 andere
 snuysteringh
+;
 een
 contingh
 nae
@@ -41424,6 +41566,7 @@ casomba
 do
 cattoene
 garen
+;
 een
 lamboe
 naer
@@ -41504,6 +41647,7 @@ monterende
 ter
 somme
 van
+/*
 8820.1
 1.8
 ende
@@ -41899,6 +42043,7 @@ hadde
 voorde
 Nederlantse
 retouren
+.
 te
 prefereren
 geschieden
@@ -41922,6 +42067,7 @@ Ceylon
 gebracht
 ende
 aen
+&.
 Chinanna
 vercocht
 bleven
@@ -42359,6 +42505,7 @@ Chinnaoa
 ende
 Connerechittj
 geweest
+.
 heeft
 in
 handen
@@ -42801,7 +42948,9 @@ met
 een
 cargasoen
 bedragende
+/*
 57795
+—
 bestaende
 in
 8000
@@ -42811,20 +42960,26 @@ tayl
 Japans
 silver
 47864
+«
 peper
 5457
 stucx
 fyn
 porceleyn
 2007Va
+«
 quicksilver
 40120
+«
 loot
 2730
+«
 thin
 10621
+«
 spiaulter
 36977
+«
 sappanhout
 160
 stucx
@@ -43034,6 +43189,7 @@ nae
 Parsia
 soude
 verlrecken
+;
 Jiaer
 opgeven
 ende
@@ -43136,6 +43292,7 @@ naer
 Bengalen
 te
 schicken
+;
 H
 jacht
 den
@@ -43242,6 +43399,7 @@ ontrent
 Negapatnam
 te
 cruyssen
+;
 soo
 daer
 vaertuygh
@@ -43351,6 +43509,7 @@ naer
 Atchin
 te
 senden
+;
 van
 S
 Letchemaneyck
@@ -43408,6 +43567,7 @@ een
 cargasoen
 gesonden
 bedragende
+/
 120975
 bestaende
 uyt
@@ -43430,6 +43590,7 @@ stucx
 Japans
 lackwerck
 69900
+«
 rompen
 600
 calty
@@ -43560,14 +43721,17 @@ f
 124028.3
 op
 Masilapalnam
+•
 70882.1.15
 op
 Pegu
+«
 83709.1.12
 op
 Pipely
 ende
 Bengala
+»
 26218.16.6
 Somma
 f
@@ -43826,6 +43990,7 @@ drie
 maenden
 te
 betalen
+;
 Tegenepatnam
 ende
 30
@@ -44006,6 +44171,7 @@ een
 cargasoen
 incoops
 costende
+/*
 18177
 hetselve
 had
@@ -44665,6 +44831,7 @@ brieffken
 vanden
 E
 Jan
+*
 Thyszen
 aenden
 Coninck
@@ -45232,6 +45399,7 @@ die
 ontrent
 syne
 May
+.
 fortresse
 commanderen
 gelieve
@@ -45572,6 +45740,7 @@ fregats
 de
 remos
 souden
+-
 gemaeckt
 ende
 met
@@ -45947,6 +46116,7 @@ fynen
 caneel
 sal
 leveren
+;
 ende
 alles
 wat
@@ -46068,12 +46238,14 @@ als
 myn
 Conincklycke
 persoon
+;
 in
 andere
 goederen
 als
 te
 weten
+:
 areecq
 rys
 vee
@@ -46228,6 +46400,7 @@ is
 gebleven
 comt
 ten
+.
 aensien
 de
 Portugesen
@@ -46579,6 +46752,7 @@ dertigh
 dagen
 gemist
 hebben
+;
 syn
 mede
 noch
@@ -47703,6 +47877,7 @@ goederlierentheyt
 van
 syne
 May
+;
 daermede
 van
 syne
@@ -47938,6 +48113,7 @@ a
 6
 larynen
 ende
+^
 cleetjens
 v^as
 missende
@@ -47954,6 +48130,7 @@ gestolen
 ende
 medegenomen
 hebben
+;
 den
 president
 dede
@@ -48189,6 +48366,7 @@ te
 rusten
 is
 int
+.
 nederbucken
 alsoo
 de
@@ -48686,6 +48864,7 @@ E
 niet
 wys
 worden
+;
 was
 met
 eenige
@@ -48830,6 +49009,7 @@ daermede
 conden
 gaende
 houden
+;
 ende
 soo
 der
@@ -48905,6 +49085,7 @@ niemant
 die
 yets
 brenght
+;
 soo
 hadden
 't
@@ -49050,6 +49231,7 @@ redelycken
 tyt
 geslreckt
 worden
+;
 sullende
 hun
 den
@@ -49424,6 +49606,7 @@ samen
 ter
 spmme
 van
+/
 148579.11.13
 van
 Palliacatta
@@ -49463,9 +49646,11 @@ lakenen
 ter
 somma
 van
+/*
 209888.18.10
 van
 Masilipatnam
+;
 brengende
 tydinge
 dat
@@ -49947,6 +50132,7 @@ welck
 schaers
 /0
 15
+—
 ten
 hondert
 verlies
@@ -50459,6 +50645,7 @@ een
 vorderlycke
 conditie
 was
+;
 soo
 was
 oock
@@ -50757,19 +50944,24 @@ Portugesen
 Fredrick
 Henrick
 150
+»
 17
 Sutphen
 110
+»
 12
 Leeuwaerden
 110
+»
 13
 Middelburgh
 130
+»
 14
 den
 Salamander
 110
+»
 11
 Matrosen
 710
@@ -50889,13 +51081,21 @@ ende
 uialroosen
 de
 Duyff
+»
 40
+»
+»
 40
+»
 't
 galllot
+»
 12
 Soldaten
+.
+.
 80
+.
 malroosen
 102
 voor
@@ -51038,14 +51238,17 @@ picol
 swart
 nat
 lack
+|
 60
 picol
 thin
+}
 voor
 Japan
 80
 stux
 hartevellen
+'
 Voor
 Tayouan
 hadden
@@ -51220,6 +51423,7 @@ betaelt
 met
 toeseggingh
 de
+/
 3000
 mede
 haest
@@ -51383,6 +51587,7 @@ des
 Conincx
 soon
 maer
+'
 vermerckende
 uyt
 vele
@@ -51598,6 +51803,7 @@ de
 Comp
 waren
 gecomen
+;
 soo
 syn
 May
@@ -52174,6 +52380,7 @@ geadvanceert
 de
 somma
 van
+/*
 115534
 Hy
 hadde
@@ -52218,6 +52425,7 @@ weder
 te
 sullen
 gerieven
+;
 sy
 versocht
 ernstelyck
@@ -52521,6 +52729,7 @@ samen
 ter
 somme
 van
+/*
 1088150
 d'
 oorsake
@@ -52853,6 +53062,7 @@ schepen
 een
 cargasoen
 van
+/
 184272
 De
 houtwercken
@@ -52996,6 +53206,7 @@ Japan
 gedespecheert
 te
 weten
+:
 den
 14
 Juny
@@ -53037,6 +53248,7 @@ hier
 gecomen
 was
 van
+»
 2072028
 9.10
 den
@@ -53045,6 +53257,7 @@ Augusty
 den
 Otter
 met
+»
 808920.10
 2
 den
@@ -53054,6 +53267,7 @@ Ryp
 ende
 Gracht
 met
+-
 1144915.19.11
 den
 6
@@ -53061,6 +53275,7 @@ September
 de
 Pauw
 met
+»
 1123340.18.13
 ende
 den
@@ -53071,6 +53286,7 @@ jonck
 Goede
 Hoop
 met
+»
 15165
 2
 9
@@ -53081,6 +53297,7 @@ nae
 Japan
 gesonden
 i
+...
 f
 5173613
 5
@@ -53102,6 +53319,7 @@ Firando
 de
 waerdye
 van
+/
 28493
 in
 Chinese
@@ -53278,6 +53496,7 @@ U
 becomen
 sal
 wesen
+;
 den
 eysch
 vande
@@ -53325,6 +53544,7 @@ gesonden
 werden
 namen
 tlyck
+:
 66
 duysent
 stux
@@ -53450,6 +53670,7 @@ contanten
 ende
 coopmanschappen
 namentlyck
+:
 300
 kisten
 schuytsilver
@@ -53457,14 +53678,19 @@ schuytsilver
 catty
 peper
 316
+»
 mirhe
 4630
+»
 nagelen
 9748
+»
 catchouw
 8477
+»
 oliphantstanden
 10120
+>
 wierook
 als
 andere
@@ -53519,6 +53745,7 @@ voor
 desen
 hadden
 voorgestelt
+;
 ten
 selven
 dage
@@ -53722,6 +53949,7 @@ eenigen
 tyt
 weynigh
 stutten
+;
 echter
 hadde
 syn
@@ -53835,6 +54063,7 @@ gout
 synde
 f
 216481.9
+—
 in
 voorraet
 hadden
@@ -53898,6 +54127,7 @@ moet
 die
 te
 maecken
+;
 echter
 hadde
 syn
@@ -54249,6 +54479,7 @@ in
 handen
 te
 becomen
+;
 maer
 aldaer
 gecomen
@@ -54282,6 +54513,7 @@ eynde
 mede
 aldaer
 gecomen
+;
 naer
 sy
 presumeerden
@@ -54388,6 +54620,7 @@ van
 Gilem
 gevoert
 hebben
+;
 doch
 aldaer
 gecomen
@@ -54591,12 +54824,14 @@ te
 samen
 gehoorsame
 kinderen
+;
 den
 Christen
 religie
 nam
 groeten
 voortganck
+;
 veele
 derselve
 menschen
@@ -54738,6 +54973,7 @@ syne
 plaetse
 vertrocken
 is
+;
 daer
 vsrierd
 bevonden
@@ -55619,6 +55855,7 @@ September
 in
 Tayouan
 geretourneert
+;
 het
 cleyne
 jonckjen
@@ -56100,6 +56337,7 @@ int
 werck
 te
 houden
+;
 't
 verongelucken
 vande
@@ -56370,6 +56608,7 @@ wel
 onsmaeckelyck
 maken
 mocht
+;
 uyt
 de
 Chinesen
@@ -56644,6 +56883,7 @@ met
 een
 cargasoen
 van
+/
 1516S.2.9
 God
 betert
@@ -56731,6 +56971,7 @@ het
 voick
 mede
 gesalveert
+;
 God
 den
 Heere
@@ -56834,6 +57075,7 @@ meest
 tot
 swarlen
 verwe
+.
 ende
 weynigh
 tot
@@ -56876,20 +57118,24 @@ rode
 sware
 gilems
 1228
+>
 roode
 sware
 pangsjes
 256
+>
 sware
 damasten
 alderhande
 coleur
 199
+»
 gefigureerde
 als
 effene
 sattynen
 70
+»
 witte
 platgevouwen
 pelinghs
@@ -56976,6 +57222,7 @@ ten
 eynde
 te
 loopen
+;
 syn
 E
 calculeert
@@ -57034,6 +57281,7 @@ gemetselt
 is
 te
 gasteren
+/
 20000
 te
 samen
@@ -57081,6 +57329,7 @@ te
 boven
 gecomen
 wesen
+;
 desen
 jare
 bedroegen
@@ -57231,6 +57480,7 @@ die
 daer
 op
 valt
+;
 maer
 was
 syn
@@ -57685,6 +57935,7 @@ cleetjes
 ende
 andere
 snuysteringh
+;
 daerentegen
 vertrecken
 4
@@ -58009,6 +58260,7 @@ in
 desel^s
 plaetse
 gesurrogeert
+;
 ende
 adviseert
 denselve
@@ -58267,6 +58519,7 @@ een
 brieff
 van
 complementos
+;
 conden
 d'
 onse
@@ -58337,6 +58590,7 @@ stadt
 op
 te
 eysscben
+;
 aende
 wal
 gecomen
@@ -58401,6 +58655,7 @@ nae
 gemelte
 eylant
 conunitteren
+;
 aldaer
 souden
 van
@@ -58680,6 +58935,7 @@ Jan
 Jansz
 Menie
 voors
+;
 met
 deselve
 quamen
@@ -58894,9 +59150,11 @@ tinganghs
 nae
 Cherrebon
 1
+»
 Bantam
 ende
 1
+»
 Dammack
 voeren
 eenige
@@ -58931,10 +59189,12 @@ met
 eenige
 pitjes
 1
+»
 Cherrebon
 niets
 uytvoerende
 1
+»
 Packelongen
 met
 eenige
@@ -59053,6 +59313,7 @@ bhaer
 catty
 Atchins
 costen
+/*
 74859.1.9
 met
 5600
@@ -59523,6 +59784,7 @@ aenden
 man
 te
 helpen
+;
 desgelycx
 bleven
 mede
@@ -59632,6 +59894,7 @@ gecargeert
 ter
 somme
 van
+/
 103250
 Wegen
 de
@@ -59787,6 +60050,7 @@ in
 stucx
 cabessa
 40
+»
 bariga
 wegende
 75
@@ -59800,6 +60064,7 @@ Va
 't
 hondert
 30
+»
 phee
 Met
 Nappra
@@ -60048,6 +60313,7 @@ ende
 200
 picol
 gommelac
+;
 waren
 versproocken
 dat
@@ -60122,6 +60388,7 @@ picol
 hadde
 souden
 aennemen
+;
 den
 gommelac
 is
@@ -60433,6 +60700,7 @@ minder
 de
 coyangh
 dalen
+;
 gold
 op
 dato
@@ -60501,6 +60769,7 @@ hun
 oock
 niet
 aen
+;
 soo
 deselve
 root
@@ -60636,6 +60905,7 @@ drie
 jaren
 hadde
 toegestaen
+;
 hadden
 aldaer
 veele
@@ -60689,6 +60959,7 @@ derwaerts
 opde
 munte
 42
+^/^
 ten
 hondert
 geadvanceert
@@ -60931,6 +61202,7 @@ jaer
 soude
 connen
 gagieren
+;
 de
 packhuysen
 lagen
@@ -61312,6 +61584,7 @@ aen
 hem
 gedaen
 was
+;
 dan
 waren
 des
@@ -61562,6 +61835,7 @@ aldaer
 sochten
 te
 vercoopen
+;
 soo
 was
 mede
@@ -61767,6 +62041,7 @@ tinganghs
 nae
 Japara
 1
+»
 Dammack
 voeren
 uyt
@@ -61860,6 +62135,7 @@ als
 eenige
 cleeden
 1
+>
 Biema
 met
 cleeden
@@ -61868,6 +62144,7 @@ Chinese
 coopmanschappen
 ende
 2
+>
 Bantam
 uytvoerende
 eenige
@@ -62018,6 +62295,7 @@ te
 rugge
 f
 765
+;
 denselve
 hadde
 mede
@@ -62147,6 +62425,7 @@ met
 een
 cargasoen
 van
+/•
 42114.11.4
 Ende
 adviseert
@@ -62652,8 +62931,11 @@ stucx
 Nederlantse
 fluweelen
 K
+»
+»
 felpen
 2
+»
 Persiaense
 alcatyvea
 met
@@ -62950,6 +63232,7 @@ vande
 Nederlantse
 Comp
 verleent
+;
 daerop
 antwoorde
 d^selve
@@ -63063,6 +63346,7 @@ hem
 soude
 doenlyck
 wesen
+;
 naer
 welcke
 redenen
@@ -63601,6 +63885,7 @@ synde
 sommige
 der
 voors
+^
 heeren
 geoordeelt
 hadden
@@ -63880,6 +64165,7 @@ hun
 voornemen
 geraken
 souden
+•
 Den
 30
 do
@@ -64200,6 +64486,7 @@ do
 weder
 gecomen
 synde
+"\\
 dede
 syn
 E
@@ -64243,6 +64530,7 @@ met
 groeten
 yerwonderingh
 aen
+;
 maer
 alsoo
 den
@@ -64277,6 +64565,7 @@ ende
 wyn
 trefTigh
 onthaelt
+;
 des
 anderen
 daegbs
@@ -65181,6 +65470,7 @@ bedencken
 daervan
 conde
 hebben
+;
 versoeckende
 met
 eenen
@@ -65532,6 +65822,7 @@ Kenocouni
 des
 May
 oom
+/
 te
 gaen
 alsoo
@@ -65790,6 +66081,7 @@ hadde
 connen
 uy
 twachten
+;
 doch
 't
 geene
@@ -65870,6 +66162,7 @@ onse
 tale
 als
 volcht
+:
 Ten
 tyde
 van
@@ -66626,6 +66919,7 @@ Gouv
 van
 Nangasacqui
 Onderteeckent
+:
 LOUYS
 PATCfflCO
 RODRIGO
@@ -67227,6 +67521,7 @@ gelichte
 penningen
 mogen
 voldoen
+;
 tot
 welcken
 eynde
@@ -67308,6 +67603,7 @@ Regenten
 van
 Nangasacqui
 onderteeckent
+:
 De
 principaelste
 der
@@ -67352,6 +67648,7 @@ haer
 ingelade
 goederen
 op
+^^'^
 dagh
 der
 10
@@ -67984,6 +68281,7 @@ A
 Ende
 was
 onderteeckent
+:
 DON
 SEBASTIAEN
 CORTADO
@@ -68036,6 +68334,8 @@ MICHIELO
 DE
 MASSADJ
 1
+.
+^
 ™V^r^
 ^^Vv^T\\!^w
 Gecommitteerde
@@ -68046,6 +68346,7 @@ PEDRO
 DE
 S
 DOMINGO
+)
 FRATER
 BENTO
 LEMONTE
@@ -68074,6 +68375,7 @@ regent
 Sabroseymond
 ten
 antwoorde
+:
 In
 Uwen
 briefi
@@ -68587,6 +68889,7 @@ eynde
 gegraven
 wech
 gesmeten
+;
 dit
 alsoo
 volbracht
@@ -69170,6 +69473,7 @@ maen
 3
 dagh
 Onderstont
+:
 Aan
 BABBA
 SABROSEYHON
@@ -69241,6 +69545,7 @@ te
 dooden
 gelast
 syn
+;
 den
 verleden
 jare
@@ -69504,6 +69809,7 @@ wacht
 naer
 Nangasacqui
 schicken
+!?•
 jaer
 6
 maen
@@ -69612,6 +69918,7 @@ haven
 lach
 gevaren
 syn
+;
 hetselve
 keurich
 besichtight
@@ -69728,6 +70035,7 @@ langh
 verwachte
 Pauw
 met
+....
 Somma
 Van
 TONQÜIN
@@ -69760,9 +70068,11 @@ f
 244025
 4
 9
+.
 187951
 1
 1
+/
 431974
 5:10
 Van
@@ -69774,6 +70084,7 @@ de
 fluyt
 Gaslricum
 met
+/
 1032liO:16
 4
 Van
@@ -69816,6 +70127,7 @@ schepen
 ter
 somma
 van
+/
 6295367
 8
 1
@@ -70587,6 +70899,7 @@ hun
 nest
 te
 jagen
+;
 Macao
 aengetast
 synde
@@ -70785,6 +71098,7 @@ eenige
 dreygende
 onheylen
 voorgecomen
+;
 want
 hadde
 d'
@@ -71051,6 +71365,7 @@ bemoeyen
 als
 binnen
 scheepsboort
+;
 sy
 dragen
 swarte
@@ -72415,6 +72730,7 @@ de
 Lequese
 eylanden
 gestrant
+;
 het
 jacht
 ende
@@ -72678,6 +72994,7 @@ almede
 sporlingh
 gemaeckt
 hadde
+;
 willen
 's
 Keysers
@@ -72690,6 +73007,7 @@ excusen
 prompt
 naegecomen
 hebben
+;
 gemelte
 schipper
 was
@@ -73196,6 +73514,7 @@ afflreck
 inde
 goederen
 was
+;
 item
 dat
 de
@@ -73564,6 +73883,7 @@ middelen
 byster
 geworden
 was
+;
 doch
 dese
 synde
@@ -73745,6 +74065,7 @@ noch
 alle
 onvercocht
 lagen
+;
 den
 eysch
 was
@@ -73797,6 +74118,7 @@ maclieyers
 ende
 Doornickse
 sayen
+;
 item
 't
 meerder
@@ -73814,6 +74136,7 @@ geit
 qualyck
 conden
 halen
+;
 soo
 bleven
 oock
@@ -73823,6 +74146,7 @@ voort
 vragen
 ryckelyck
 voorsien
+;
 maer
 't
 geëyschte
@@ -73893,6 +74217,7 @@ ende
 luyden
 sententien
 uytgesproken
+;
 hem
 was
 't
@@ -73973,6 +74298,7 @@ de
 primiere
 ofte
 middelbare
+»
 310
 1
 picol
@@ -73981,6 +74307,7 @@ secunda
 ofte
 derde
 sorteringe
+»
 280
 welck
 ten
@@ -74291,6 +74618,7 @@ beyden
 achten
 wy
 cleyn
+;
 dat
 ghy
 Christenen
@@ -74859,6 +75187,7 @@ werck
 breecken
 wachte
 besoecken
+;
 audiëntie
 becomen
 hebbende
@@ -74904,10 +75233,12 @@ soude
 hebben
 te
 reguleren
+;
 denselve
 gaff
 ten
 antwoord
+:
 't
 is
 my
@@ -74954,6 +75285,7 @@ altyt
 volbracht
 moet
 werden
+;
 over
 uwen
 handel
@@ -74989,6 +75321,7 @@ vrundelyck
 syn
 affscheyt
 nam
+;
 des
 anderen
 daeghs
@@ -75070,6 +75403,7 @@ oock
 soude
 connen
 geschieden
+;
 men
 mochte
 geen
@@ -75214,6 +75548,7 @@ Japan
 niet
 meer
 als
+/*
 980894
 in
 gout
@@ -75322,6 +75657,7 @@ der
 Chinesen
 te
 crygen
+;
 doch
 waren
 meest
@@ -75390,6 +75726,7 @@ duysent
 tayl
 schuytsUver
 off
+/*
 399000
 dat
 weynigh
@@ -75425,6 +75762,7 @@ Rata
 gesecundeert
 can
 werden
+/"
 638689.8
 gout
 in
@@ -75673,6 +76011,7 @@ de
 retour
 gebracht
 waren
+;
 eenige
 Chinesen
 aldaer
@@ -76027,6 +76366,7 @@ ajuyn
 ende
 Ioock
 Den
+^^^
 do
 vertreckt
 een
@@ -76173,6 +76513,7 @@ met
 20
 coyangh
 rys
+;
 hadde
 syn
 reyse
@@ -76268,11 +76609,13 @@ coppen
 Maestricht
 met
 110
+»
 de
 fluyt
 Berckel
 met
 80
+»
 T'
 samen
 290
@@ -76377,6 +76720,7 @@ picol
 catty
 peper
 monterende
+/
 64156.14.11
 ende
 gout
@@ -76554,6 +76898,7 @@ aldaer
 wel
 aengecomen
 medebrengende
+^
 comp
 soldaten
 alle
@@ -76756,6 +77101,7 @@ zeegen
 toe
 verleenen
 wil
+;
 ondertusschen
 wierden
 soo
@@ -77115,6 +77461,7 @@ eylant
 aenden
 gront
 geraeekt
+;
 den
 capileyn
 vresende
@@ -77435,6 +77782,7 @@ conden
 te
 wege
 brengen
+;
 dese
 gingen
 tegens
@@ -77505,6 +77853,7 @@ inde
 stadt
 geclommen
 hebben
+;
 echter
 cregen
 van
@@ -77767,6 +78116,7 @@ eenige
 namaels
 gestorven
 syn
+;
 's
 morgens
 inden
@@ -78003,6 +78353,7 @@ niet
 nader
 dorsten
 comen
+;
 naer
 gissinge
 waren
@@ -78271,6 +78622,7 @@ d'
 effecten
 verstaen
 mogen
+.
 Voors
 jacht
 Langerack
@@ -78327,6 +78679,7 @@ ende
 daerdoor
 veracbtert
 sy
+;
 gemelte
 fluyt
 hadde
@@ -78891,6 +79244,7 @@ op
 hy
 soude
 voors
+.
 vaertuygh
 echter
 naer
@@ -79313,6 +79667,7 @@ reeckeningh
 te
 verwachten
 is
+/"
 2435:7
 15
 ende
@@ -79469,6 +79824,7 @@ een
 blauwe
 excuys
 was
+;
 want
 door
 't
@@ -79592,6 +79948,7 @@ weder
 soude
 mogen
 vercopen
+;
 ondertusschen
 verschynt
 aldaer
@@ -79836,6 +80193,7 @@ getaxeert
 tot
 6000
 tangen
+;
 met
 gemelte
 scheepskens
@@ -79866,6 +80224,7 @@ spiegels
 mede
 tot
 een
+'
 vereeringe
 voorden
 Goninck
@@ -79976,6 +80335,7 @@ die
 aldaer
 voor
 13
+&
 14hondert
 tangen
 ingecocht
@@ -80256,6 +80616,8 @@ daeraen
 *t
 oorloghsjacht
 Oudewater
+/
+^
 Op
 't
 porceleyn
@@ -81296,6 +81658,7 @@ veroveringh
 der
 stad
 Malacca
+;
 met
 't
 jonghste
@@ -81405,6 +81768,7 @@ alles
 gereet
 gemaakt
 wierd
+;
 ende
 alsoo
 te
@@ -81591,6 +81955,7 @@ daerinne
 gevonden
 soude
 werden
+(
 uytgesondert
 't
 canon
@@ -81898,13 +82263,16 @@ onder
 capiteyn
 Cleyn
 Javaen
+...
 54
+»
 mitsgaders
 de
 Luytenant
 Harderwyck
 met
 40
+»
 Makende
 samen
 192
@@ -81922,6 +82290,7 @@ Bandanesen
 ende
 Javanen
 84
+»
 Samen
 822
 coppen
@@ -81938,6 +82307,7 @@ stat
 aen
 te
 tasten
+;
 den
 sergeant-mayor
 Johan
@@ -82531,6 +82901,7 @@ ende
 uytgedeelt
 te
 werden
+;
 van
 het
 eerste
@@ -82670,6 +83041,7 @@ ontrent
 60
 gequetsten
 becomen
+;
 ende
 dusdanigh
 is
@@ -82947,6 +83319,7 @@ voors
 gewAischte
 victorie
 gecommuniceert
+;
 d'
 selve
 hadden
@@ -83095,6 +83468,7 @@ ruym
 zee
 geraeckt
 waren
+;
 God
 wil
 haer
@@ -83280,10 +83654,12 @@ f
 6
 den
 Otter
+»
 126988
 8:10
 de
 Pauw
+»
 140800
 1
 8
@@ -83300,6 +83676,7 @@ ende
 Xis
 voor
 Ghoromandel
+»
 657772
 4
 4
@@ -84366,6 +84743,7 @@ costelyck
 ingeladen
 cargasoen
 bedragende
+.
 te
 samen
 ter
@@ -84805,6 +85183,7 @@ weder
 op
 te
 maken
+;
 souden
 deselve
 soo
@@ -84989,6 +85368,7 @@ weder
 nae
 Onrust
 Den
+?"•
 do
 vertreckt
 een
@@ -85362,6 +85742,7 @@ Orangcays
 te
 samen
 30
+®
 gewrocht
 silver
 mitsgaders
@@ -85490,6 +85871,7 @@ beesten
 voor
 het
 volck
+•
 Met
 voors
 2
@@ -85567,6 +85949,7 @@ mogen
 vertrecken
 niemant
 uytgesondert
+;
 hebben
 soo
 't
@@ -85593,6 +85976,7 @@ tot
 bosschieters
 ende
 ambachtsluyden
+;
 eenige
 smits
 timmerluyden
@@ -85666,6 +86050,7 @@ ende
 cleeden
 voor't
 guamisoen
+;
 met
 't
 galiot
@@ -85914,6 +86299,7 @@ samen
 ter
 somma
 van
+/*
 508165:1
 4:5
 de
@@ -86450,6 +86836,7 @@ peper
 ende
 2
 rottanghmatten
+;
 by
 voors
 brieff
@@ -86650,6 +87037,7 @@ ende
 weynigh
 droge
 pisangh
+;
 deselve
 v^as
 ontrent
@@ -86765,6 +87153,7 @@ sameji
 ter
 somme
 van
+/*
 38780
 ende
 adviseert
@@ -86792,6 +87181,7 @@ in
 hunne
 voorgaende
 ongelegentheyt
+;
 den
 Ghristiaenshaven
 en
@@ -86883,6 +87273,7 @@ vande
 andere
 Denen
 affgescheyden
+;
 ende
 hadden
 op
@@ -88253,6 +88644,8 @@ niet
 hooger
 als
 12672
+^^
+®°^^
 weynigh
 minder
 connen
@@ -88348,6 +88741,7 @@ een
 aenden
 Coninck
 van
+*
 Camatica
 ende
 een
@@ -88424,11 +88818,13 @@ met
 percento
 advance
 gedebiteert
+;
 van
 gelycken
 aen
 diverse
 402
+«
 attael
 tot
 4
@@ -88447,6 +88843,7 @@ bahar
 ende
 soo
 veel
+«
 sandelhout
 tot
 65
@@ -88455,6 +88852,7 @@ de
 babar
 van
 480
+«
 soo
 oock
 eenige
@@ -88993,6 +89391,7 @@ betalinge
 aen
 te
 neemen
+;
 de
 ordinaire
 geschencken
@@ -89067,6 +89466,7 @@ voorige
 preeminentien
 te
 mainteneeren
+;
 ende
 soude
 gemelte
@@ -89383,6 +89783,7 @@ ende
 tegen
 te
 staen
+;
 het
 eerste
 conde
@@ -89587,6 +89988,7 @@ gelicht
 inden
 brant
 steecken
+;
 item
 de
 vreemde
@@ -90766,6 +91168,7 @@ hem
 doenlyck
 soude
 syn
+;
 Block
 des
 anderen
@@ -91036,6 +91439,7 @@ te
 verstercken
 ende
 Franicker
+\\
 Vliegende
 Hart
 ofbe
@@ -91057,6 +91461,7 @@ Paultts
 Groot
 geadvisecrt
 hadden
+;
 den
 Neptunus
 was
@@ -91065,6 +91470,7 @@ niet
 te
 voorschyn
 gecomen
+;
 800
 souden
 oock
@@ -91221,6 +91627,7 @@ den
 tyt
 In
 onse
+.
 vloote
 was
 weinich
@@ -91275,6 +91682,7 @@ S
 Paets
 over
 genomen
+;
 de
 boecken
 waren
@@ -91518,6 +91926,7 @@ alsdan
 herwaerts
 te
 senden
+;
 maer
 soude
 niet
@@ -91657,6 +92066,7 @@ d'
 selve
 te
 ontsetten
+;
 eerstdaechs
 M
 Pieter
@@ -92185,6 +92595,7 @@ werden
 tot
 welcken
 13
+#
 eynde
 omme
 seecker
@@ -92200,6 +92611,7 @@ vrunden
 aldaer
 geremitteert
 hadden
+;
 uyt
 de
 vloote
@@ -92214,36 +92626,47 @@ Wingerla
 gelicht
 het
 naervolgende
+:
 12011
 S
 noten
 muscaet
 9460
+»
 nagelen
 3170
+•
 foelie
 1729
+»
 benjuin
 cabessa
 2464
+»
 dito
 barrigo
 2754
+»
 aluyn
 2411
+»
 radix
 china
 244S2
+»
 swavel
 57522
+.
 loot
 2362
 stx
 fyne
 porceleynen
 2578
+»
 grove
 ditto
+•
 96
 bos
 boeck
@@ -92743,6 +93166,7 @@ meede
 haere
 creatuyren
 moeten
+^
 hebben
 Den
 21
@@ -92763,6 +93187,7 @@ met
 40
 bahar
 peper
+;
 ende
 vertrecken
 een
@@ -93136,7 +93561,9 @@ maenden
 bedragende
 het
 ingeladen
+/*
 24406
+—
 Ultimo
 <f
 arriveert
@@ -93176,8 +93603,10 @@ beschadicht
 geweer
 ende
 gevangenen
+;
 den
 E
+.
 van
 Twist
 ende
@@ -93284,6 +93713,7 @@ behoorlycke
 ordre
 te
 stellen
+;
 maer
 hadde
 syn
@@ -95104,50 +95534,72 @@ volcht
 Den
 oppercoopman
 Hurt
+.
+.
 f
 89K2
+—
 Sergeant
 Majoor
 Lamot
+»
 9688
+—
 den
 commissaris
 Spanhems
+»
 8886
+—
 den
 capiteyn
 Forcenburcb
+»
 8907
+—
 den
 oppercoopman
 Nicolaes
 Houtcoper
+»
 8886
+—
 d'
 schipper
 P
 Baeck
+»
 9452
 den
 fiscael
 Childerhuysen
+»
 1000
+—
 den
 predicant
 Joannes
 Schottanus
+;
+»
 1000
+—
 ende
 hem
 commandeur
+*
 15502
+—
 Bedragende
+•
 ter
 samen
 ter
 somme
 van
+/
 65995
+—
 Gelyck
 dan
 oock
@@ -95789,30 +96241,44 @@ van
 't
 guamisoen
 296
+»
+»
 71
 Bosschieters
 aen
 lant
 10
+»
+»
 4
 Opt
 schip
 Uytrecht
 21
+«
+»
 29
 Wassenaer
 19
+»
+»
 83
 Bredamme
 10
+»
+»
 16
 Engelse
 Anna
 6
+»
+»
 6
 Cleyn
 Sutphen
 6
+»
+»
 6
 Cleyn
 Amsterdam
@@ -95820,7 +96286,9 @@ tegen
 de
 wal
 gehaelt
+.
 2
+»
 In
 alles
 coppen
@@ -96211,6 +96679,7 @@ neemen
 voornements
 sulcx
 rontomme
+.
 de
 stadtsmuyren
 daer
@@ -96445,6 +96914,7 @@ Gherrebon
 met
 9
 man
+*
 ende
 2
 Va
@@ -96628,6 +97098,7 @@ voors
 president
 overhandicht
 badden
+;
 in
 discours
 van
@@ -96675,6 +97146,7 @@ Zandingb
 ter
 bant
 gestelt
+;
 denselven
 toonden
 hem
@@ -97219,6 +97691,7 @@ weynich
 over
 gemiscontenteert
 was
+;
 p
 gemelte
 joncke
@@ -97957,6 +98430,7 @@ deselve
 soude
 blyven
 sitten
+;
 ende
 hadden
 naederhant
@@ -98079,6 +98553,7 @@ buy
 ten
 verwacht
 wiert
+;
 den
 nachoda
 Champher
@@ -98225,7 +98700,10 @@ f
 1
 stucx
 lackwerck
+•
+»
 41
+...
 5
 1
 175
@@ -98235,12 +98713,15 @@ kq
 in
 74
 vercocht
+*"
+*
 öö...lü
 op
 reeckeninge
 vande
 gutta
 gomma
+>
 42
 item
 vanden
@@ -98251,7 +98732,10 @@ van
 3
 stx
 juweelen
+•
 97
+.
+.
 4
 mitsgaders
 op
@@ -98272,7 +98756,10 @@ ende
 ysere
 pannen
 vereocht
+/
 69
+.
+.
 8
 hebbende
 daerentegen
@@ -98359,6 +98846,7 @@ supplement
 vande
 overige
 scheepsniymte
+;
 hare
 onvercochte
 juweelen
@@ -98472,6 +98960,7 @@ Den
 November
 waeren
 aldaer
+?>
 Macassaerse
 vaertuygen
 aengecomen
@@ -98518,6 +99007,7 @@ stuck
 fyn
 lynwaet
 met
+^
 louris
 als
 eenige
@@ -99098,6 +99588,7 @@ schip
 alleen
 inden
 alfandige
+[?]
 overgeslagen
 ende
 gewaerdeert
@@ -99495,6 +99986,7 @@ uyt
 realen
 aen
 cleeden
+;
 d'
 ander
 nae
@@ -99610,6 +100102,7 @@ ende
 2
 coyangh
 boontjes
+;
 ditlo
 hadde
 in
@@ -99751,6 +100244,7 @@ IS
 Augustj
 behouden
 int
+.
 patria
 gearriveerl
 waereo
@@ -99759,6 +100253,7 @@ sy
 loff
 mder
 eeuwiclieyl
+;
 de
 Duynkerckers
 hadde
@@ -99820,6 +100315,7 @@ volgens
 resolutie
 vande
 ff
+^"
 Seventhienen
 op
 voors
@@ -100004,6 +100500,7 @@ lydinge
 daervan
 verlangende
 was
+;
 denselven
 was
 voornemens
@@ -100023,6 +100520,7 @@ oock
 een
 weynich
 amphion
+"
 Conien
 oock
 ten
@@ -100129,6 +100627,7 @@ te
 samen
 f
 10545
+—
 ende
 advyseeren
 Comp
@@ -100365,6 +100864,7 @@ herwaerts
 te
 rugge
 sonden
+;
 soo
 was
 oock
@@ -100534,6 +101034,7 @@ tot
 coste
 vande
 Gomp
+;
 ende
 en
 was
@@ -100804,6 +101305,7 @@ desen
 van
 hier
 wechgeloopen
+;
 den
 gemelte
 brieff
@@ -100940,6 +101442,7 @@ leenen
 salse
 hem
 geven
+;
 ende
 nu
 jegenwoordich
@@ -101006,6 +101509,7 @@ Generael
 my
 soude
 doen
+'
 alsoo
 ick
 seer
@@ -101159,7 +101663,10 @@ lasten
 padje
 ende
 Vz
+'^^^
 ^^9
+^^^^
+^^
 champan
 van
 Mannac
@@ -101228,6 +101735,8 @@ carga
 van
 f
 1653
+—
+.
 Punto
 Gale
 met
@@ -101258,6 +101767,7 @@ cargasoen
 van
 f
 4070.8
+—
 22
 d
 comen
@@ -101515,6 +102025,7 @@ tapasarassen
 2
 .committers
 ende
+....
 corge
 goelonghs
 En
@@ -101867,6 +102378,7 @@ met
 een
 cargasoen
 van
+/*
 191343
 bestaende
 wt
@@ -101879,11 +102391,13 @@ witte
 poeyer
 suycker
 6008
+«
 boscruyt
 1500
 stx
 rochevellen
 1298
+«
 wasch
 3
 stx
@@ -101892,6 +102406,7 @@ doosen
 muscus
 ende
 37
+»
 slaven
 Per
 gemelte
@@ -101967,6 +102482,7 @@ samen
 ter
 somme
 van
+/*
 557772
 meerder
 quantiteyt
@@ -102264,6 +102780,7 @@ vermindert
 ende
 doorgaens
 wel
+^/^
 derselver
 geremitteert
 dat
@@ -102346,6 +102863,7 @@ daermeede
 aff
 te
 schepen
+^
 Gemelte
 Nabab
 hield
@@ -102423,6 +102941,7 @@ doch
 weynich
 eere
 genooten
+;
 soo
 waeren
 d'
@@ -102908,6 +103427,7 @@ coopmanschappen
 ter
 somme
 van
+/*
 53500
 ende
 ten
@@ -103125,6 +103645,7 @@ de
 man
 van
 24
+^
 HoUants
 deels
 contant
@@ -103140,6 +103661,7 @@ de
 giroffelnagelen
 tot
 478
+^"^^
 ^^U
 pagoden
 de
@@ -103519,6 +104041,7 @@ uyttermaten
 wel
 gecomen
 was
+.
 Om
 Comp
 handel
@@ -103914,6 +104437,7 @@ dato
 Januarj
 gelyck
 volcht
+^
 Den
 vyant
 hielt
@@ -104235,6 +104759,7 @@ opt
 lyff
 soude
 vallen
+;
 de
 carvel
 daer
@@ -104456,6 +104981,7 @@ hoenders
 als
 andere
 cleynicheeden
+;
 brengen
 tydinge
 hoe
@@ -104935,6 +105461,7 @@ buylen
 expectatie
 beter
 uytgevallen
+;
 syn
 E
 hadde
@@ -104999,6 +105526,7 @@ alle
 doenlycke
 middelen
 geêmployeert
+;
 hy
 hadde
 voorts
@@ -105777,6 +106305,7 @@ noch
 andere
 dorpen
 welcker
+%
 genaemt
 Simelangan
 ende
@@ -105999,6 +106528,7 @@ bestaen
 uyt
 het
 navolgende
+:
 Eerstelyck
 soo
 wierd
@@ -106143,6 +106673,7 @@ schappa
 rys
 van
 iVa
+«
 d'
 man
 Voorts
@@ -106833,6 +107364,7 @@ besersteen
 yser
 verekens
 etc
+;
 Rio
 Campber
 geeft
@@ -107291,6 +107823,7 @@ weten
 potten
 botter
 17
+»
 olie
 191
 candi
@@ -107310,6 +107843,7 @@ netten
 d
 gaeren
 9
+&*
 suycker
 2
 boeyons
@@ -107479,21 +108013,31 @@ van
 der
 Heyden
 l
+•
+^
+^.
 [Luytenants
 Claes
 Pietersz
 van
 Ditmarsen
+)
 Nicolaes
 Lantsknecht
 van
 Middelburch
+|
+.
 »w
+«
+«
+}
 Vendncns
 Hans
 Creuger
 van
 Betsou
+)
 Andries
 Christoffel
 Poppe
@@ -107737,6 +108281,7 @@ ondei
 hout
 genieten
 7
+«
 rys
 iVi
 d
@@ -107827,6 +108372,7 @@ samen
 coppen
 te
 weeten
+:
 547
 soldaten
 de
@@ -107834,6 +108380,7 @@ rest
 bosschieters
 constapels
 etc
+;
 doch
 verhoopen
 eerlangh
@@ -109111,6 +109658,7 @@ procure
 van
 peper
 versonden
+;
 ende
 opdat
 condtschap
@@ -109960,6 +110508,7 @@ cargasoen
 ter
 somme
 van
+/
 597887.16.12
 Vertreckt
 oock
@@ -111424,6 +111973,7 @@ cortelyck
 sult
 comen
 besoecken
+;
 soo
 ü
 E
@@ -111489,6 +112039,7 @@ niet
 en
 wilden
 hebben
+;
 dat
 sy
 naer
@@ -111533,6 +112084,7 @@ tot
 de
 zeevaert
 nodich
+;
 victualie
 hebbe
 ick
@@ -111552,6 +112104,7 @@ is
 haer
 eygen
 schuit
+;
 ingevalle
 U
 E
@@ -111580,6 +112133,7 @@ haer
 niet
 laet
 vaeren
+;
 sonder
 Iwyffel
 die
@@ -111791,8 +112345,10 @@ witte
 poeyer
 suycker
 935
+»
 giroffelnagelen
 929
+»
 nooten
 muscaten
 4
@@ -111805,7 +112361,9 @@ catli
 stx
 orange
 laeckenen
+•
 90800
+»
 alderhande
 sorteringe
 groff
@@ -112180,6 +112738,7 @@ syn
 dese
 twee
 mannen
+[?]
 van
 Candj
 woonen
@@ -112334,6 +112893,7 @@ Januarj
 daeraen
 gedoleert
 had
+.
 Op
 de'duysent
 bhar
@@ -112897,6 +113457,7 @@ d'
 onse
 verhandelt
 werden
+;
 soo
 en
 was
@@ -112992,6 +113553,7 @@ eerder
 geschiet
 soude
 syn
+;
 doch
 bleeck
 allerweegen
@@ -114720,6 +115282,7 @@ een
 ander
 laten
 sitten
+;
 soodat
 voorneemens
 bleeven
@@ -115757,6 +116320,7 @@ Oostcappel
 te
 wachten
 'maer
+.
 naderhant
 bevindende
 denselven
@@ -115854,6 +116418,7 @@ geadviseerl
 Neederlanders
 op
 de
+-
 Tonckinse
 joncke
 an
@@ -116003,6 +116568,7 @@ gansch
 scheepsladingh
 mochten
 uytvoeren
+;
 eenige
 der
 aengelande
@@ -116339,6 +116905,7 @@ hoenders
 partye
 eyereu
 etc
+;
 den
 nachoda
 verhaelt
@@ -116532,6 +117099,7 @@ wart
 14
 d
 comen
+%
 tingangbs
 d'
 eene
@@ -116571,6 +117139,7 @@ contingh
 van
 Japara
 met
+&
 man
 gdaden
 met
@@ -116619,6 +117188,7 @@ met
 een
 cargasoen
 monterende
+/
 27355.9.8
 15
 do
@@ -117242,6 +117812,7 @@ ende
 556
 bos
 rottangh
+;
 1
 coDÜDgh
 nae
@@ -117270,6 +117841,7 @@ cleeden
 Daer
 tegen
 arriveeren
+•
 3
 tinganghs
 van
@@ -117473,6 +118045,7 @@ met
 een
 cargasoen
 van
+/
 100386.11.12
 bestaende
 uyt
@@ -117492,6 +118065,7 @@ fyne
 gerafineerde
 sulfer
 43445
+»
 witte
 poeyer
 suycker
@@ -117501,6 +118075,7 @@ Japaense
 eycken
 balcken
 1000
+»
 vloersteenen
 etc
 ende
@@ -117516,6 +118091,7 @@ den
 Januarj
 het
 volgende
+:
 Het
 fluytschip
 Oostcappel
@@ -117532,6 +118108,7 @@ met
 een
 cargasoen
 van
+/
 19125
 ende
 hadden
@@ -117613,6 +118190,7 @@ die
 van
 Tayouan
 de
+•
 geordonneerde
 licenten
 betaelende
@@ -117828,6 +118406,7 @@ met
 een
 cargasoen
 van
+/
 991
 72
 voor
@@ -117924,6 +118503,7 @@ syde
 stuckwercken
 met
 verlies
+;
 de
 Catsiouse
 bockins
@@ -118061,6 +118641,7 @@ aldaer
 met
 merckelycke
 soumie
+*
 geadepositeerde
 penningen
 belast
@@ -118767,6 +119348,7 @@ hooft
 gepraet
 ende
 is
+&.
 Hertsinck
 voornoemt
 van
@@ -120062,12 +120644,16 @@ rouwe
 zyde
 1
 j
+^^
+^
+\\
 d
 pnnce
 ende
 10
 stx
 conmcx
+'
 De
 brieven
 vanden
@@ -120122,6 +120708,7 @@ in
 Hollanty
 te
 weeteu
+:
 een
 musquet
 met
@@ -120172,9 +120759,11 @@ fyne
 roode
 laeckenen
 10
+»
 d
 swart
 10
+»
 d
 carmosyn
 root
@@ -120325,6 +120914,7 @@ ten
 hoochsten
 behaecht
 heeft
+;
 Gapiteyn
 Couckebacker
 U
@@ -120614,15 +121204,19 @@ fyn
 root
 laecken
 3
+»
 d
 groen
 5
+•
 hemelsblauw
 laecken
 10
+•
 d
 swert
 50
+>
 gefigureerde
 satynen
 met
@@ -120633,16 +121227,19 @@ van
 alderhande
 coleuren
 20
+»
 cleeden
 met
 groote
 bloemen
 50
+»
 sai*a9sen
 met
 groote
 bloemen
 100
+»
 fyne
 witte
 cangangs
@@ -120759,6 +121356,7 @@ volgende
 inhoude
 TRANSLAET
 MISSIVE
+*
 vaurfew
 Coninck
 van
@@ -120918,6 +121516,7 @@ met
 aenstaende
 mousson
 senden
+;
 ick
 hoop
 dat
@@ -120988,6 +121587,7 @@ wt
 Batavia
 mach
 becomen
+;
 voorders
 versoeck
 ick
@@ -121304,8 +121904,10 @@ eyndelyck
 de
 somme
 van
+/
 92
 123.8
+—
 uyt
 Comp
 cassa
@@ -121667,6 +122269,7 @@ al
 vlytich
 naergecomen
 wierd
+;
 den
 E
 Caron
@@ -121864,6 +122467,7 @@ waer
 te
 laeten
 blycken
+;
 want
 't
 geene
@@ -122556,6 +123160,7 @@ insgelycx
 wech
 gesonden
 dienden
+;
 alle
 H
 weicke
@@ -122847,6 +123452,7 @@ Ariama
 geprevenieert
 mochten
 werden
+;
 waer
 meede
 sooveel
@@ -122936,6 +123542,7 @@ behoorde
 niet
 te
 gaen
+;
 eenige
 als
 Sannickedo
@@ -122952,6 +123559,7 @@ weynich
 doch
 te
 laet
+;
 den
 commissaris
 was
@@ -123661,6 +124269,7 @@ eerste
 besendinge
 noch
 onvercocht
+\\
 gebleven
 daervan
 was
@@ -123698,6 +124307,7 @@ costende
 incoops
 f
 479.7
+—
 vercocht
 tot
 f
@@ -123717,6 +124327,7 @@ incoop
 van
 weynich
 consideratien
+'
 De
 81
 stucx
@@ -123746,8 +124357,10 @@ incoops
 gecost
 f
 24.15
+—
 eqde
 gerendeert
+/
 85.2.1
 ende
 indien
@@ -123768,6 +124381,7 @@ waren
 geweest
 souden
 ryckelyck
+/
 120
 gegeven
 hebben
@@ -123885,6 +124499,7 @@ incoop
 van
 f
 40.10
+—
 weynich
 advance
 ende
@@ -124102,11 +124717,13 @@ sarassen
 Japanse
 sorteringe
 1000
+»
 fyne
 gestreepte
 toffachieles
 gingan
 1000
+»
 Parsiaense
 bereyde
 vellen
@@ -124121,29 +124738,37 @@ allerleye
 levende
 coleuren
 1000
+•
 gebleeckte
 parcallen
 500
+•
 guinees
 lywaet
 500
+»
 salampourys
 200
 p
 groven
 peper
 100
+•
 giroffelnagelen
 50
+»
 poetsjock
 50
+»
 catchiou
 25
+»
 sandelhout
 schoon
 ende
 groot
 25
+»
 rompen
 S
 Thonese
@@ -124258,6 +124883,7 @@ was
 int
 generael
 geadvanceert
+/*
 848899
 inaer
 souden
@@ -124347,6 +124973,7 @@ bedragende
 de
 somme
 van
+/•
 1783340
 belast
 Den
@@ -124735,6 +125362,7 @@ hadde
 aldaer
 te
 behouden
+;
 ende
 v^aeren
 sedert
@@ -125147,6 +125775,7 @@ te
 lande
 te
 ondersoecken
+;
 soo
 waeren
 oock
@@ -125433,6 +126062,7 @@ een
 preuve
 herwaerts
 geremitteert
+;
 goet
 geoordeelt
 wordende
@@ -125672,6 +126302,7 @@ somme
 van
 R
 3890
+—
 ende
 om
 pertinent
@@ -125707,24 +126338,32 @@ pacht
 voor
 R
 380
+—
 d'
 visscheryen
 excepto
 den
 herder
 vanghst
+»
 300
+—
 't
 arrack
 branden
 ende
 d'
 passar
+»
 420
+—
 d'
 verscbe
 boter
+»
 200
+—
+.
 Somma
 ~~R
 1300
@@ -125736,6 +126375,7 @@ overslach
 d'
 incomsten
 vanl
+-
 hooftgelt
 voor
 12
@@ -125743,7 +126383,10 @@ maenden
 ter
 somme
 van
+.
+»
 1200
+—
 alsmeede
 de
 thienden
@@ -125763,7 +126406,9 @@ soo
 voort
 geschat
 tot
+»»
 680
+—
 Souden
 de
 generale
@@ -125778,6 +126423,7 @@ somme
 van
 R
 13950
+—
 ende
 daermede
 de
@@ -126176,6 +126822,7 @@ in
 goede
 dispositie
 gevonden
+;
 d'
 selve
 waeren
@@ -127104,6 +127751,7 @@ salpeter
 swavel
 ende
 coegels
+;
 sulcx
 Paducca
 Siri
@@ -127143,6 +127791,7 @@ gelycken
 versoeckt
 Paducca
 Siri
+.
 Sultan
 vanden
 h
@@ -127569,6 +128218,7 @@ eenige
 cleeden
 gecocht
 had
+;
 waren
 ontrent
 30
@@ -127763,6 +128413,7 @@ als
 hun
 te
 onderdrucken
+;
 maer
 mochten
 eens
@@ -127777,6 +128428,7 @@ oock
 tol
 doen
 geven
+;
 den
 Gouverneur
 Generael
@@ -128063,6 +128715,7 @@ den
 schipper
 Gerrit
 Vinckenburch
+;
 ende
 adviseert
 den
@@ -128189,6 +128842,7 @@ op
 den
 roofl
 vaeren
+;
 daer
 was
 nevens
@@ -128440,6 +129094,7 @@ wesen
 versoeckt
 eenige
 plougen
+;
 bestiael
 daertoe
 bequaem
@@ -128519,6 +129174,7 @@ aenstaende
 jaer
 vruchten
 geven
+;
 soo
 quamen
 oock
@@ -129348,6 +130004,7 @@ tot
 hun
 groot
 leelw^esen
+;
 het
 seeckerste
 dunckt
@@ -129447,6 +130104,7 @@ misnoegen
 syn
 voort
 gecomen
+;
 voor
 de
 tweede
@@ -129677,6 +130335,7 @@ eygen
 handen
 heen
 gedaen
+;
 daer
 en
 handele
@@ -129689,6 +130348,7 @@ inde
 kennisse
 te
 steecken
+;
 doch
 het
 seeckersle
@@ -130015,6 +130675,7 @@ E
 gehoor
 te
 becomen
+;
 wegen
 alle
 't
@@ -130086,6 +130747,7 @@ etc
 ende
 was
 onderteeckent
+:
 VALERIO
 GENTYL
 In
@@ -130117,6 +130779,7 @@ gouverneur
 Joan
 van
 Twisl
+;
 hadden
 op
 105
@@ -130164,6 +130827,7 @@ nae
 Borneo
 uytvoerende
 302
+^/^
 realen
 aen
 cleeden
@@ -130560,6 +131224,7 @@ lyffeygenen
 10
 zyde
 pelolen
+^
 picol
 Chinese
 corael
@@ -130567,6 +131232,7 @@ ende
 900
 realen
 contant
+?•"
 do
 arriveert
 het
@@ -130737,6 +131403,7 @@ pi
 gesuyverde
 peper
 bedragende
+/"
 68868
 ende
 adviseert
@@ -130827,6 +131494,7 @@ niet
 van
 te
 verwachten
+;
 den
 Queey
 Ranga
@@ -132011,6 +132679,7 @@ genegen
 tot
 alle
 coopluyden
+;
 hy
 ist
 die
@@ -132449,6 +133118,7 @@ het
 gansche
 cargasoen
 ongeveer
+/
 32000
 gewonnen
 worden
@@ -132649,6 +133319,7 @@ Engelsen
 bewaringe
 hadde
 gegeven
+;
 van
 gelycken
 eenen
@@ -132713,6 +133384,7 @@ te
 bejegenen
 Macassar
 aengeloopen
+;
 d^Engelse
 hadden
 aengenomen
@@ -132760,6 +133432,7 @@ Goa
 te
 verscylen
 maer
+*
 siende
 dat
 gemelte
@@ -132931,6 +133604,7 @@ te
 rugge
 gecoinen
 was
+;
 het
 auder
 was
@@ -133324,17 +133998,21 @@ voorraet
 picol
 sappanhout
 181
+•>
 Siams
 tin
 268
+»
 swart
 natlack
 31540
 stx
 herlevellen
 6672
+»
 rochevellen
 875
+»
 buflelshoornen
 Soodat
 om
@@ -133362,6 +134040,7 @@ cattj
 oliphanls
 lauden
 114
+>)
 agulhoul
 6
 stx
@@ -133377,6 +134056,7 @@ Batavia
 quialj
 hakken
 222
+»
 plancken
 550
 ronde
@@ -133401,6 +134081,7 @@ monteerden
 ter
 somme
 van
+/
 32713
 daer
 onder
@@ -134157,6 +134838,7 @@ Coninck
 in
 HoUant
 gesonden
+;
 lot
 noch
 heeft
@@ -134267,6 +134949,7 @@ gepasseerde
 alhier
 connen
 doen
+;
 syne
 May
 ende
@@ -134597,6 +135280,7 @@ lanck
 over
 steeveus
 I8V4
+^"^^
 ^Y
 374
 vadem
@@ -134903,6 +135587,7 @@ nergens
 by
 connen
 vergelycken
+;
 daerom
 versoucken
 andermael
@@ -135085,6 +135770,7 @@ danckelyck
 vergolden
 werden
 sal
+;
 wy
 sullen
 dan
@@ -135228,6 +135914,7 @@ bedragende
 ter
 somme
 van
+/"
 80634
 ende
 wert
@@ -135290,6 +135977,7 @@ nootwendicheeden
 ter
 somme
 van
+/
 173498
 Den
 kimelaha
@@ -135894,6 +136582,7 @@ naer
 Macassar
 moeten
 retourneeren
+;
 want
 naer
 dat
@@ -136064,6 +136753,7 @@ Coninek
 van
 Macassar
 verzonden
+^
 De
 vierde
 jonck
@@ -136228,6 +136918,7 @@ aengênomen
 ende
 belooft
 was
+;
 mitsgaders
 dat
 in
@@ -136637,6 +137328,7 @@ in
 C!omp
 handen
 gebracht
+;
 de
 presentatie
 van
@@ -136878,6 +137570,7 @@ noch
 met
 voordeel
 contiuueerende
+;
 ende
 v^s
 bet
@@ -137134,6 +137827,7 @@ nevens
 gelycke
 vant
 Casteel
+;
 dese
 liepen
 met
@@ -138350,6 +139044,7 @@ Neederlantsen
 staet
 geweest
 hadde
+;
 desen
 liet
 syn
@@ -140171,6 +140866,7 @@ eerstdaechs
 aent
 casteel
 verschynen
+;
 syn
 E
 was
@@ -140266,6 +140962,7 @@ kleyne
 boete
 te
 beteren
+;
 Godt
 den
 Heere
@@ -140707,6 +141404,7 @@ naer
 sloopen
 vant
 jacht
+•
 de
 Swaen
 sich
@@ -140734,6 +141432,7 @@ Neederlanders
 ende
 5
 swarten
+;
 den
 schipper
 was
@@ -141080,6 +141779,7 @@ generale
 bevreedinge
 genegen
 was
+;
 daer
 beneffens
 dat
@@ -141268,6 +141968,7 @@ altyt
 3
 4
 a
+&
 corcorren
 int
 Hittoese
@@ -141926,6 +142627,7 @@ ander
 te
 helpen
 ruyneeren
+;
 om
 den
 oorloch
@@ -141978,6 +142680,7 @@ die
 van
 Hittoe
 aengeleyt
+;
 hoe
 sy
 dan
@@ -142043,6 +142746,7 @@ van
 daer
 gecomen
 waren
+;
 syn
 E
 was
@@ -142513,6 +143217,7 @@ beneffens
 ysere
 gotelingen
 voor
+*
 Cackialj
 als
 meede
@@ -143074,6 +143779,7 @@ dier
 spetie
 soude
 baren
+;
 ende
 bleeff
 syn
@@ -143146,6 +143852,7 @@ buyten
 twyffel
 onlusten
 aenbrengen
+;
 in
 Banda
 bestaet
@@ -143258,6 +143965,7 @@ niet
 gevonden
 soude
 werden
+;
 bleef
 echter
 voomeemens
@@ -143585,6 +144293,7 @@ overgenoomen
 herwaerts
 te
 navigeren
+;
 omme
 voorschreve
 persoenen
@@ -143887,6 +144596,7 @@ met
 2
 lasten
 rys
+;
 een
 jonck
 van
@@ -143985,6 +144695,7 @@ gevictualieert
 voor
 12
 maenden
+*
 de
 fluyt
 Meerman
@@ -144331,6 +145042,7 @@ wierd
 stereken
 wacht
 gehouden
+;
 ende
 vonden
 aldaer
@@ -144465,6 +145177,7 @@ niet
 en
 wilde
 verstaen
+;
 den
 brieff
 van
@@ -145417,22 +146130,27 @@ S
 indigo
 Biana
 113229
+»
 salpeter
 34
 caskens
 ofte
 1579Vj
+«
 root
 segellack
 313257i
+»
 poetchioc
 42
 7i
+»
 amphion
 6
 kisten
 ofte
 949
+«
 mirrhe
 partye
 droguen
@@ -145464,7 +146182,9 @@ somme
 vcin
 f
 560902
+:
 2
+:
 6
 Den
 directeur
@@ -145713,6 +146433,7 @@ navigeeren
 gehadt
 soude
 hebben
+;
 want
 en
 waeren
@@ -145733,8 +146454,10 @@ Agra
 packen
 kleeden
 206
+»
 indigo
 23
+»
 syfdLTie
 breede
 baftas
@@ -145755,6 +146478,7 @@ witte
 smalle
 baftas
 11
+»
 Nequanias
 dat
 op
@@ -146140,6 +146864,7 @@ bedragende
 ter
 somnie
 van
+/*
 110880
 voor
 reeckeningh
@@ -146171,6 +146896,7 @@ vrachtloon
 daer
 voor
 ontfangen
+/
 9501
 ende
 waeren
@@ -146296,6 +147022,7 @@ mitsgaders
 de
 cleeden
 bedragende
+/
 41294
 tot
 den
@@ -146418,6 +147145,7 @@ Piëtersz
 aldaer
 gelaten
 costende
+/
 1500
 aenden
 gouverneur
@@ -146810,6 +147538,7 @@ genouchsaem
 te
 conjectureren
 sy
+;
 grooten
 arbeyt
 en
@@ -147014,6 +147743,7 @@ jae
 den
 Coninck
 vervloeckt
+;
 andere
 hadden
 't
@@ -147055,6 +147785,7 @@ een
 stuyver
 minder
 betaelt
+;
 die
 van
 d'
@@ -147111,6 +147842,7 @@ dat
 den
 tol
 van
+^
 jacren
 mei
 voors
@@ -147135,6 +147867,7 @@ aenden
 Coninck
 te
 doen
+;
 maer
 soude
 echter
@@ -147189,6 +147922,7 @@ ende
 eenige
 specery
 olyen
+;
 de
 jonghste
 oiyen
@@ -147219,6 +147953,7 @@ de
 hant
 te
 houden
+;
 ende
 wanneer
 syn
@@ -147747,6 +148482,7 @@ de
 man
 hadden
 gebracht
+;
 maer
 alsoo
 d'
@@ -147862,11 +148598,14 @@ Hindon
 2276
 man
 synde
+«
 120628
 Biana
+'
 Samen
 4320
 man
+«
 228960
 Daerby
 gevoucht
@@ -147890,21 +148629,25 @@ overgebleven
 2236
 man
 achabarj
+«
 118508
 Indigo
 van
 Gorgie
 1324
 man
+«
 70172
 Samen
 3560
 man
 a
 53
+«
 p
 man
 synde
+«
 188680
 Soodat
 desen
@@ -147917,6 +148660,7 @@ staen
 1080
 packen
 houdende
+«
 228960
 Indigo
 Biana
@@ -147925,6 +148669,7 @@ Hindon
 890
 packen
 houdende
+«
 188680
 van
 Gorgie
@@ -147935,6 +148680,10 @@ samen
 1970
 packen
 maeckende
+^
+.
+.
+.
 8
 417640
 Waermeede
@@ -147973,6 +148722,7 @@ niet
 hadden
 connen
 suppleeren
+;
 maer
 was
 den
@@ -148182,6 +148932,7 @@ liever
 naer
 Pérsia
 voeren
+;
 doch
 souden
 hun
@@ -148267,6 +149018,7 @@ nu
 selve
 quamen
 aensoecken
+;
 verlaten
 denselven
 voor
@@ -148951,6 +149703,7 @@ corgc
 niet
 connen
 becomen
+;
 echter
 om
 syn
@@ -149197,6 +149950,8 @@ de
 man
 van
 4372
+^^^^
+^^^
 SB^g
 ft
 off
@@ -149287,6 +150042,8 @@ genoemt
 Capperia
 connen
 becomen
+.
+^
 Geduyrendo
 het
 aenweeseu
@@ -149521,6 +150278,7 @@ inden
 alfandigo
 gebracht
 als
+^
 47
 packen
 lakenen
@@ -149630,11 +150388,13 @@ a
 144
 ft
 Hpack
+.
 427
 d
 Biana
 a
 265
+«
 yder
 40
 d
@@ -149817,6 +150577,7 @@ ingecocbt
 corge
 mercoelys
 1645
+»
 derria
 badys
 100000
@@ -149839,6 +150600,7 @@ d
 d'
 man
 120
+»
 indigo
 Gorgie
 a
@@ -149863,6 +150625,7 @@ en
 tegen
 9500
 r
+;
 soo
 badden
 oock
@@ -150350,6 +151113,7 @@ niet
 gevordert
 sal
 werden
+;
 doch
 had
 syn
@@ -150709,6 +151473,7 @@ Soir
 Porodera
 74
 r
+'^
 Samloot
 ende
 Mosempour
@@ -150719,7 +151484,9 @@ in
 Cassempour
 mede
 ^4
+^-
 P
+(^^^^
 gemitigeert
 dat
 den
@@ -150821,6 +151588,7 @@ ende
 Wingerla
 van
 /*819321
+;
 H
 geene
 voor
@@ -150846,6 +151614,7 @@ bedragende
 ter
 somme
 van
+/
 160084
 maer
 en
@@ -150989,6 +151758,7 @@ van
 hier
 naer
 Suratta
+•
 gesonden
 wierde
 welck
@@ -151268,6 +152038,7 @@ gelyck
 oock
 geschiet
 was
+^
 De
 kist
 gutta
@@ -151425,6 +152196,7 @@ ongelden
 ter
 somme
 van
+/*
 51950
 Ende
 waeren
@@ -151562,6 +152334,7 @@ van
 scheepsruym
 aldaer
 overgebleven
+;
 ende
 had
 syn
@@ -151683,6 +152456,7 @@ jachten
 van
 welcke
 een
+.
 verongeluckt
 was
 in
@@ -151721,6 +152495,7 @@ jaers
 niet
 meer
 als
+/*
 50571
 dat
 met
@@ -151746,6 +152521,7 @@ op
 responde
 gegeven
 hadden
+;
 dVespondiers
 an
 1
@@ -152350,6 +153126,7 @@ met
 een
 cargasoen
 van
+/*
 180432
 bestaende
 uyl
@@ -152363,6 +153140,7 @@ stx
 Japanse
 coupans
 2059
+%
 rouwe
 Chinese
 zyde
@@ -152370,8 +153148,10 @@ zyde
 ft
 alluyn
 1530
+%
 macis
 25
+^/^
 ft
 Bomesen
 campher
@@ -152533,6 +153313,7 @@ intrest
 penningen
 te
 ontlasten
+;
 in
 Petatoulj
 ende
@@ -152657,6 +153438,7 @@ dat
 goede
 winsten
 sy
+;
 soo
 hadden
 oock
@@ -153167,6 +153949,7 @@ jen
 vertrecken
 volgende
 vaerthuygen
+:
 een
 tingangh
 nae
@@ -153288,6 +154071,7 @@ ende
 40
 contant
 g^en
+^«^
 vertreckt
 een
 tingangh
@@ -153382,6 +154166,7 @@ eestende
 met
 de
 ongeldeu
+/*
 70805
 ende
 adviseert
@@ -153402,6 +154187,7 @@ in
 substantie
 als
 volcht
+:
 De
 scheepen
 Walvisch
@@ -153476,6 +154262,7 @@ met
 den
 Tidorees
 gehouden
+;
 maer
 int
 particulier
@@ -153759,6 +154546,7 @@ t
 ende
 commotie
 gecauseert
+;
 den
 Coninck
 Hamsia
@@ -153911,6 +154699,7 @@ ende
 Hollanders
 trouwelyck
 gehouden
+;
 voorts
 meest
 alle
@@ -154178,6 +154967,7 @@ syn
 duysent
 bhaar
 nagelen
+.
 Wy
 soubatten
 voor
@@ -154223,6 +155013,7 @@ hebben
 t'
 samen
 beraetslaecht
+;
 d'
 b
 gouverneur
@@ -154410,6 +155201,7 @@ bhaer
 naer
 Macasser
 gesonden
+;
 daer
 en
 boven
@@ -154848,6 +155640,7 @@ myn
 limiten
 laten
 vertrecken
+;
 want
 soo
 baest
@@ -154866,6 +155659,7 @@ de
 myne
 daertoe
 voegen
+;
 sullen
 gesamentlyck
 het
@@ -155043,6 +155837,7 @@ rebelligen
 Quimelaha
 heeft
 affgesondert
+;
 daeromme
 segge
 by
@@ -155070,6 +155865,7 @@ by
 myn
 alhier
 comen
+;
 dit
 doende
 sal
@@ -155567,6 +156363,7 @@ den
 Iman
 van
 Lissidj
+;
 en
 soo
 ick
@@ -155651,6 +156448,7 @@ sullen
 te
 rechte
 brengen
+«-
 By
 aldien
 den
@@ -155932,6 +156730,7 @@ Tidorse
 corcorren
 gecruyst
 werden
+;
 soo
 was
 oock
@@ -156315,6 +157114,7 @@ weynich
 in
 voorraet
 blecff
+;
 ende
 en
 soude
@@ -156529,6 +157329,7 @@ niet
 boven
 de
 4
+%
 salpeter
 connen
 gemaeckt
@@ -156988,6 +157789,7 @@ gemeene
 gevanckenis
 verseeckert
 gehouden
+;
 het
 joncksken
 was
@@ -157828,6 +158630,7 @@ met
 groot
 contentement
 geaccepteert
+;
 d'
 antwoord
 daer
@@ -158502,6 +159305,7 @@ te
 wille
 te
 wesen
+;
 van
 Battacaloa
 stonden
@@ -158542,6 +159346,7 @@ Venlo
 naer
 Palliacatta
 geêmmitteert
+;
 bovendien
 sonden
 gemelte
@@ -158763,6 +159568,7 @@ staet
 affhaudicht
 te
 maken
+;
 ende
 waer
 niet
@@ -158966,6 +159772,7 @@ veel
 in
 te
 brengen
+;
 de
 fortressen
 Trinquenemale
@@ -159069,6 +159876,7 @@ ofte
 moetwillens
 uylgelalen
 was
+;
 den
 adsistent
 Nicolaes
@@ -159327,6 +160135,7 @@ ende
 meer
 te
 fortificeeren
+;
 hadden
 de
 punt
@@ -159400,6 +160209,7 @@ ciniyn
 voeten
 dick
 comen
+;
 soo
 waeren
 oock
@@ -159433,6 +160243,7 @@ reedelycke
 defentie
 souden
 wesen
+;
 vant
 jacht
 Valckenburch
@@ -159687,6 +160498,7 @@ cours
 beseylt
 can
 worden
+;
 denselve
 synde
 een
@@ -159704,6 +160516,7 @@ naer
 Punte
 Gale
 oversteecken
+;
 want
 soo
 men
@@ -159759,6 +160572,7 @@ int
 begin
 van
 November
+;
 doch
 om
 opt
@@ -160586,6 +161400,7 @@ voornoemde
 cust
 te
 vertrecken
+;
 gelyck
 dan
 oock
@@ -160862,6 +161677,7 @@ met
 een
 cargasoen
 van
+/•
 43711:1:3
 Soo
 vertreckt
@@ -161016,6 +161832,7 @@ Schrael
 ly
 Hugo
 Borre
+^
 Goert
 Glaessen
 Backer
@@ -161029,9 +161846,11 @@ Gyselingh
 Lim
 Lacco
 1^1
+'
 I
 Chmesen
 Bencon
+|
 Tot
 Hooft
 Officieren
@@ -161429,6 +162248,7 @@ om
 gekielhaelt
 te
 worden
+*
 ende
 retourneert
 't
@@ -162037,6 +162857,7 @@ welcken
 redelycke
 verversinge
 bequamen
+;
 soo
 ontmoeten
 hun
@@ -162451,6 +163272,7 @@ Japara
 met
 partye
 pitjes
+'
 als
 meede
 een
@@ -162697,6 +163519,7 @@ om
 gekielhaelt
 te
 worden
+\\
 daer
 tegen
 arriveeren
@@ -163077,6 +163900,7 @@ belicht
 synde
 opgetrocken
 sterck
+:
 de
 5
 comp
@@ -163087,9 +163911,11 @@ coppen
 de
 Bandaneesen
 75
+»
 de
 Javanen
 50
+»
 Samen
 481
 coppen
@@ -163264,6 +164090,7 @@ personen
 geredit
 te
 veeeten
+:
 4
 Javanen
 met
@@ -163349,6 +164176,7 @@ in
 zee
 19
 Neederlanderen
+'
 nevens
 een
 Japander
@@ -164017,6 +164845,7 @@ patelen
 rollen
 satp
 5
+&^.
 fluweel
 ende
 10
@@ -164125,6 +164954,7 @@ insgelycx
 niets
 uytvoerende
 24en
+^«^
 vertreckt
 een
 lamboe
@@ -164182,6 +165012,7 @@ petualen
 stx
 goelonghs
 etc
+^
 een
 champan
 nae
@@ -164220,6 +165051,8 @@ realen
 aen
 Chinese
 coopmanschappen
+'
+'
 ende
 een
 tingangh
@@ -164350,6 +165183,7 @@ ende
 2
 rolle
 fluweel
+"
 ende
 d'
 ander
@@ -164511,6 +165345,7 @@ van
 Paleïnbangh
 syn
 affscheyt
+■
 27en
 jo
 yerlrecken
@@ -164543,6 +165378,7 @@ bedragende
 het
 ingeladen
 cargasoen
+/
 248232:5:1
 ende
 H
@@ -164662,6 +165498,7 @@ bycans
 geheel
 vemieut
 was
+'
 Op
 dato
 becomt
@@ -164803,6 +165640,7 @@ behulpsaem
 te
 sullen
 weesen
+;
 d'
 Engelse
 ende
@@ -164817,6 +165655,7 @@ tot
 vertreck
 te
 maecken
+;
 de
 Deenen
 hadde
@@ -165174,6 +166013,7 @@ connen
 geraecken
 te
 soliciteeren
+;
 het
 is
 my
@@ -165550,6 +166390,7 @@ E
 groot
 mogende
 vruntschappen
+;
 ende
 't
 geene
@@ -165650,6 +166491,7 @@ als
 13
 lasten
 sout
+\\
 's
 maents
 Primo
@@ -165739,6 +166581,7 @@ van
 aclitereenvolgende
 maenden
 verpacht
+;
 de
 gerechticheyt
 vande
@@ -165748,6 +166591,8 @@ voor
 realen
 van
 8
+.
+.
 de
 cieeden
 passer
@@ -165901,6 +166746,7 @@ ander
 dorp
 genaemt
 Corupan
+;
 daer
 binnen
 ontrent
@@ -165993,6 +166839,7 @@ ende
 kinderen
 als
 boven
+;
 alhiei
 vond
 7
@@ -166010,6 +166857,7 @@ swart
 ende
 meest
 vergaen
+;
 in
 dese
 negryen
@@ -166077,6 +166925,7 @@ Javanen
 van
 Bantam
 vereert
+;
 volgens
 de
 verclaeringe
@@ -166176,6 +167025,7 @@ Batavia
 souden
 mogen
 venten
+;
 nae
 't
 seggen
@@ -166209,6 +167059,7 @@ te
 vercopen
 gelast
 hadde
+;
 soo
 wierd
 aldaer
@@ -166278,6 +167129,7 @@ vaerthuygh
 op
 te
 setten
+;
 daer
 die
 van
@@ -166642,6 +167494,7 @@ cargasoen
 ter
 somme
 van
+/
 1852:19.14
 5
 d
@@ -166715,6 +167568,7 @@ zuycker
 als
 andere
 cleynicheden
+;
 d'
 nachoda
 van
@@ -166876,6 +167730,7 @@ maents
 adviserende
 als
 volcht
+:
 sedert
 syn
 laesle
@@ -166914,6 +167769,7 @@ daer
 meede
 te
 begroeten
+;
 dese
 hadden
 ontrent
@@ -167008,6 +167864,7 @@ Coninck
 van
 Tello
 den
+?•"
 May
 verleeden
 sieckelyck
@@ -167082,6 +167939,7 @@ cocus
 mangus
 etc
 verciert
+;
 het
 huys
 daerop
@@ -167374,6 +168232,7 @@ Ck)mp
 niet
 te
 weesen
+;
 het
 Engels
 schip
@@ -167385,6 +168244,7 @@ nae
 Banjermassingh
 te
 vertrecken
+;
 den
 Pangeran
 ginck
@@ -167782,6 +168642,7 @@ Matliys
 Quast
 naer
 Goa
+;
 soo
 meede
 den
@@ -167845,6 +168706,7 @@ geraeckten
 daer
 sonder
 groote
+^
 swaricheyt
 ofte
 moeyten
@@ -167924,6 +168786,7 @@ Geertruyls
 eylant
 ten
 ancker
+;
 waeren
 noch
 besich
@@ -167943,6 +168806,7 @@ aen
 H
 werck
 togen
+;
 soo
 vonden
 oock
@@ -168078,6 +168942,7 @@ ballast
 ende
 hout
 baelen
+;
 des
 avonts
 quam
@@ -168098,6 +168963,7 @@ van
 het
 schip
 Amsterdam
+;
 was
 afgesonden
 vanden
@@ -168571,6 +169437,7 @@ vermogen
 staat
 te
 vergelden
+;
 H
 is
 my
@@ -168581,6 +169448,7 @@ dos
 moeyelyck
 moet
 syn
+;
 soot
 Uw
 Ed
@@ -168710,6 +169578,7 @@ de
 predicatie
 gedaen
 wierd
+;
 deselve
 geèyndicht
 heeft
@@ -168736,6 +169605,7 @@ voor
 den
 volcke
 gepubliceert
+;
 .voort
 tot
 vice-commandeur
@@ -168880,6 +169750,7 @@ voor
 Anger
 ten
 ancker
+.
 mochten
 comen
 Naer
@@ -169174,6 +170045,7 @@ ontrent
 mylen
 buyten
 Onrust
+;
 ende
 hadden
 den
@@ -169406,6 +170278,7 @@ ophebbende
 B
 man
 1
+%
 lasten
 rys
 als
@@ -169435,6 +170308,7 @@ met
 S
 lasten
 rys
+^
 ende
 een
 van
@@ -169451,6 +170325,7 @@ piesangh
 Daer
 jegens
 vertrocken
+:
 6
 lamboes
 twee
@@ -169531,6 +170406,7 @@ diversche
 cleeden
 ende
 40
+&*.
 in
 geldt
 4
@@ -169542,6 +170418,7 @@ niet
 uytvoerende
 als
 pitjes
+;
 een
 nae
 Cherrebon
@@ -169700,6 +170577,7 @@ ende
 10
 realen
 contant
+^
 ende
 een
 nae
@@ -170409,6 +171287,7 @@ bedragende
 getaxeert
 te
 samen
+/
 5862
 :18
 :8
@@ -170753,6 +171632,7 @@ van
 Spangen
 toegesecht
 wierdt
+;
 naer
 den
 geseyden
@@ -170824,6 +171704,7 @@ ende
 kinderen
 te
 rantsoeneeren
+;
 dese
 gemelte
 Anthonio
@@ -171754,6 +172635,7 @@ ende
 Sutphen
 volgen
 soude
+;
 denselve
 ongeacht
 voors
@@ -172025,6 +172907,7 @@ hun
 despesche
 had
 gegeven
+;
 uyt
 de
 advysen
@@ -172190,6 +173073,7 @@ Maccam
 Touheel
 verwacht
 wierd
+.
 Wt
 Patanj
 waeren
@@ -172211,6 +173095,7 @@ den
 gouverneur
 tot
 47
+"/^
 realen
 de
 coyangh
@@ -172316,6 +173201,7 @@ nae
 Malacca
 te
 brengen
+;
 dat
 oordeelen
 met
@@ -172398,6 +173284,7 @@ om
 zee
 te
 bouwen
+;
 vai
 maetrosen
 ende
@@ -173091,6 +173978,7 @@ hem
 hadde
 comen
 besoecken
+;
 soude
 geeme
 by
@@ -173124,6 +174012,7 @@ niet
 hadde
 connen
 geschieden
+;
 den
 ebbenhout
 stock
@@ -173259,6 +174148,7 @@ sout
 5
 stx
 slagen
+[?]
 7
 cattj
 ongetweemde
@@ -173403,6 +174293,7 @@ met
 bhar
 ofte
 31124
+%
 suyver
 gewicht
 giroffel
@@ -173418,6 +174309,7 @@ f
 10244
 mitsgaders
 39000
+%
 Bouroes
 ebbenhout
 ongetaxeert
@@ -173434,6 +174326,7 @@ S
 sandelhout
 775
 V
+®
 schilpadtshoom
 137
 picol
@@ -173448,7 +174341,9 @@ ongelden
 ter
 somme
 van
+/
 30738
+;
 volgens
 d'
 advysen
@@ -173472,6 +174367,7 @@ Neederlanden
 aldaer
 nae
 wensch
+;
 van
 des
 Kimelahas
@@ -173771,6 +174667,7 @@ ten
 ancker
 waeren
 gelopen
+;
 maer
 als
 den
@@ -173827,6 +174724,7 @@ voorschreve
 jachten
 te
 beschermen
+;
 maer
 gaven
 d'
@@ -173870,6 +174768,7 @@ veel
 gequets
 waeren
 geworden
+;
 doch
 had
 den
@@ -174604,6 +175503,7 @@ in
 schermutsinge
 geweest
 doch
+(')
 Hier
 ontbreekt
 iets
@@ -174693,6 +175593,7 @@ tyt
 niet
 connen
 geschieden
+;
 ende
 bequam
 syn
@@ -175352,6 +176253,7 @@ vaerthuygen
 aent
 casteel
 vertoont
+;
 die
 van
 Ceram
@@ -175373,6 +176275,7 @@ daerinne
 voorsien
 mochte
 werden
+;
 maer
 d'
 andere
@@ -175757,6 +176660,7 @@ wassende
 te
 genieten
 7
+^^^^^
 ^P
 Y
 baroth
@@ -176265,6 +177169,7 @@ in
 S
 oliphants
 tanden
+'
 Per
 gemelte
 commissaris
@@ -176340,6 +177245,7 @@ jegen
 vertrecken
 volgende
 vaerthuygen
+:
 4
 tinganghs
 een
@@ -176718,6 +177624,7 @@ nae
 Japara
 met
 241
+'/^
 realen
 aen
 Chinese
@@ -176794,9 +177701,11 @@ ende
 ons
 vaderlanl
 om
+-
 adsistentie
 gesonden
 hadden
+;
 Godt
 geve
 sulcx
@@ -176923,6 +177832,7 @@ scheepsruymte
 aldaer
 moslen
 overblyven
+;
 soo
 den
 voorschreve
@@ -177010,6 +177920,7 @@ volgende
 goederen
 aldaer
 overgehouden
+:
 26640
 S
 indigo
@@ -177018,27 +177929,40 @@ costende
 f
 23302
 Ö17436
+.
 catcha
+•
 2484
 13186
+»
 cottoene
 gaeren
+»
 6863
 262
 Va
 corge
 roode
 chelas
+»
 12463
 100
+»
 swarte
 berams
+»
 3891
 102
+»
+»
 cavghanghs
+»
 B615
 820
+»
+»
 cannekins
+»
 13014
 Oostende
 te
@@ -177098,6 +178022,7 @@ ende
 sonder
 sant
 geêmbaleert
+;
 virelcke
 best
 bevallen
@@ -177146,6 +178071,7 @@ selve
 behoorde
 te
 weegen
+;
 gelyck
 oock
 die
@@ -177220,6 +178146,8 @@ Japanse
 oubans
 a
 IOV4
+^^
+^^
 Ütk^Adi
 hebbende
 het
@@ -177263,6 +178191,7 @@ comt
 voor
 suyver
 advance
+/"
 28139:1:8
 ontrent
 17
@@ -177358,10 +178287,12 @@ van
 341782^8
 ropias
 ofte
+/*
 4
 101
 38
 17
+—
 synde
 Vj
 p
@@ -177552,6 +178483,7 @@ d*man
 van
 56
 V4
+«.
 100
 sockels
 foelie
@@ -177578,6 +178510,8 @@ ropia
 d'
 man
 18
+»
+»
 rompen
 tot
 7
@@ -177588,7 +178522,10 @@ d'
 man
 a
 37Vio
+®'
 10
+»
+»
 quicksilver
 tot
 35
@@ -177597,7 +178534,10 @@ d'
 man
 van
 34^2
+^^
 8
+»
+»
 vermilioen
 tot
 35
@@ -177606,6 +178546,7 @@ d'
 man
 d
 2
+»
 man
 ofte
 69000
@@ -177656,6 +178597,8 @@ V4
 ft
 y
 172
+»
+»
 Quedas
 tin
 tot
@@ -177667,6 +178610,7 @@ de
 man
 van
 34
+'/^
 ft
 yX
 10
@@ -177688,6 +178632,8 @@ V
 10
 a
 11
+»
+»
 lange
 peper
 goet
@@ -177700,6 +178646,7 @@ mamoudj
 d'
 man
 van
+/
 36
 V4
 ft
@@ -177737,6 +178684,7 @@ soo
 meede
 d'
 porceleynen
+;
 in
 Suhalj
 lach
@@ -177786,6 +178734,7 @@ m
 d'
 man
 4000
+»
 cubebe
 tot
 20
@@ -177853,6 +178802,7 @@ het
 naevolgende
 dienslich
 weesen
+:
 4
 halve
 stucken
@@ -178155,6 +179105,7 @@ gesonden
 de
 somme
 van
+/*
 62673
 meest
 bestaende
@@ -178568,6 +179519,7 @@ ende
 lelyck
 uy
 tgescholden
+;
 gelyck
 syn
 E
@@ -178619,6 +179571,7 @@ niet
 om
 te
 handelen
+;
 nae
 't
 gevoelen
@@ -178870,6 +179823,7 @@ meede
 getaxeert
 moeten
 werden
+;
 de
 nagelen
 tot
@@ -178939,6 +179893,7 @@ besocht
 soude
 connen
 werden
+;
 maer
 soo
 daerinne
@@ -179167,6 +180122,7 @@ met
 274
 packen
 cleeden
+;
 den
 Suppley
 nae
@@ -179180,6 +180136,7 @@ Halabarse
 rovers
 te
 cruysen
+;
 het
 jacht
 den
@@ -179240,6 +180197,7 @@ den
 president
 Willem
 Fremlingh
+.
 Eerwaerdige
 Heeren
 onse
@@ -179531,6 +180489,7 @@ nevens
 ons
 bewust
 is
+;
 ende
 gelyck
 hieronime
@@ -179735,6 +180694,7 @@ blasen
 hebt
 laten
 behouden
+;
 maer
 wy
 gaen
@@ -179774,6 +180734,7 @@ affwyckinge
 gelieft
 te
 pardonneeren
+;
 gelooft
 ons
 Ed
@@ -179834,6 +180795,7 @@ recht
 macbtich
 te
 syn
+;
 echter
 behoorden
 d'
@@ -179877,6 +180839,7 @@ schip
 sendende
 te
 geschieden
+;
 ende
 onaengesien
 onsen
@@ -180078,6 +181041,7 @@ ende
 kennelyck
 maecken
 sal
+;
 ende
 by
 aldien
@@ -180090,6 +181054,9 @@ verdiende
 straffen
 van
 dien
+.
+.
+(?)
 doch
 impertinenten
 conounandeur
@@ -180167,6 +181134,7 @@ doen
 onderteeckenen
 Was
 onderteeckent
+:
 U
 Edr
 respective
@@ -180250,6 +181218,7 @@ met
 een
 cargasoen
 van
+/
 42476:3:12
 ende
 arriveert
@@ -180523,6 +181492,7 @@ van
 sal
 verbroocken
 werden
+;
 ende
 de
 Neederlanders
@@ -180585,6 +181555,7 @@ en
 is
 te
 doen
+;
 ende
 alsoo
 hy
@@ -180669,8 +181640,10 @@ ende
 alle
 omleggende
 dorpen
+;
 van
 die
+'
 twee
 steeden
 hebben
@@ -180911,6 +181884,7 @@ Portugese
 coopluyden
 te
 procureeren
+;
 brenght
 oock
 een
@@ -180953,6 +181927,7 @@ dagen
 nae
 Suratta
 verseylen
+^^^
 (t
 comen
 een
@@ -181238,6 +182213,7 @@ ophebbende
 5
 man
 geladen
+.
 met
 2
 lasten
@@ -181863,6 +182839,7 @@ cleyne
 jonge
 caymans
 gevangen
+;
 oock
 had
 een
@@ -181879,6 +182856,7 @@ gevonden
 ende
 binnen
 gebracht
+;
 H
 was
 wonder
@@ -182275,6 +183253,7 @@ hebbende
 geen
 scheepen
 vernomen
+;
 bracht
 een
 brieff
@@ -182446,6 +183425,7 @@ het
 wilt
 verjaecht
 hadden
+;
 Nundicipati
 hadde
 gesecht
@@ -183055,6 +184035,7 @@ gedisarmeert
 ende
 ontmant
 waeren
+;
 den"president
 Backer
 had
@@ -183401,6 +184382,7 @@ pryse
 aende
 man
 geholpen
+;
 doch
 badden
 p
@@ -183413,6 +184395,7 @@ een
 cargasoen
 becomen
 van
+/
 14969B
 bestaende
 uyt
@@ -183573,6 +184556,7 @@ bedragende
 een
 met
 het
+*
 ander
 omtrent
 42200
@@ -183716,11 +184700,13 @@ stucken
 gesmeeten
 was
 geworden
+;
 hun
 fregat
 den
 Diamant
 op
+^^^
 April
 uyt
 Gamron
@@ -183919,6 +184905,7 @@ costende
 met
 d'
 ongeldcn
+/*
 27912
 ingenomen
 den
@@ -183955,6 +184942,7 @@ Nederlantse
 Comp
 seer
 toegedaen
+;
 hadde
 gemelte
 van
@@ -184137,6 +185125,7 @@ costende
 met
 de
 ongelden
+/*
 65790
 ende
 soude
@@ -184635,6 +185624,7 @@ opgesette
 stompen
 aengelant
 waeren
+;
 het
 schip
 Maestricht
@@ -184996,6 +185986,7 @@ uytter
 zee
 te
 halen
+•
 Aengaende
 het
 eylandt
@@ -185579,6 +186570,7 @@ waeren
 echter
 eyndelyck
 veraccordeert
+;
 meest
 op
 voorjarigen
@@ -185716,6 +186708,7 @@ nae
 Sillida
 soude
 doen
+;
 alwaer
 gecomen
 uyt
@@ -185962,6 +186955,7 @@ Conincx
 schulden
 te
 rescontreeren
+;
 Priaman
 soude
 volgens
@@ -186127,6 +187121,7 @@ ende
 seedert
 weynich
 geadvanceert
+;
 d'
 chaloupe
 Amboina
@@ -186424,6 +187419,7 @@ den
 selven
 sich
 verexcuseert
+;
 d*joncke
 was
 wel
@@ -186889,6 +187885,7 @@ winden
 achter
 wege
 gebleeven
+;
 gemelte
 jachten
 hadden
@@ -187595,6 +188592,7 @@ met
 diergelycke
 ceremoniën
 tracteerde
+;
 H
 is
 de
@@ -187670,6 +188668,7 @@ den
 29
 Januarj
 1640
+;
 in
 den
 selffden
@@ -188075,6 +189074,7 @@ sal
 my
 sulcx
 toestaen
+;
 het
 meerder
 't
@@ -188438,6 +189438,7 @@ ick
 U
 E
 toedrage
+;
 de
 memorie
 daer
@@ -188713,6 +189714,7 @@ veroveringh
 vant
 voorschreve
 casteel
+;
 ende
 't
 geene
@@ -188819,6 +189821,7 @@ U
 E
 souden
 begeeren
+;
 int
 meerder
 Godt
@@ -188960,13 +189963,19 @@ metael
 twaelff
 verlackte
 rottanghs
+:
 drye
 aent
 eynde
 met
 gout
 beslagen
+»
+»
+»
+»
 silver
+»
 Het
 naervolgende
 sendt
@@ -189240,6 +190249,7 @@ met
 geit
 soude
 betaelen
+;
 de
 selve
 syn
@@ -189284,6 +190294,7 @@ die
 groot
 endegoet
 is
+;
 het
 fatsoen
 moet
@@ -189307,6 +190318,7 @@ Sultan
 mochten
 aengenaem
 syn
+;
 't
 geen
 soude
@@ -189316,6 +190328,7 @@ costen
 sal
 Patrahitta
 betaelen
+;
 ende
 in
 geval
@@ -189360,6 +190373,7 @@ Sipalbaya
 hooft
 over
 allen
+;
 versouck
 myn
 broeder
@@ -189619,6 +190633,7 @@ qualyck
 bejegent
 soude
 worden
+;
 ende
 belangende
 de
@@ -189653,6 +190668,7 @@ behandichl
 ende
 waeren
 syluyden
+'
 gevangens
 op
 dato
@@ -189673,6 +190689,7 @@ Japanders
 ende
 een
 Portugees
+;
 Godt
 Almachtich
 wil
@@ -189878,6 +190895,7 @@ tale
 als
 volcht
 Rechlwaerde
+/
 U
 Ed
 aengename
@@ -190124,6 +191142,7 @@ in
 uyt
 te
 wercken
+;
 ten
 is
 niet
@@ -190419,6 +191438,7 @@ is
 geweest
 Hoilandt
 te
+^
 besichtigen
 geroerden
 doose
@@ -190512,6 +191532,7 @@ onachtsaem
 daerin
 geweest
 is
+;
 syn
 particuliere
 aflairen
@@ -190583,6 +191604,7 @@ te
 gebieden
 (was
 geteeckent
+:
 JOHN
 STALLON
 50
@@ -190621,6 +191643,7 @@ ende
 geladen
 met
 1
+%
 lasten
 rys
 nevens
@@ -191136,6 +192159,7 @@ weeder
 gedimitteert
 geworden
 syn
+;
 ende
 synde
 voorschreve
@@ -191457,6 +192481,7 @@ wech
 te
 lande
 marcheren
+;
 ende
 soo
 het
@@ -191643,6 +192668,7 @@ den
 22
 Januarj
 daeraenvolgende
+;
 de
 lust
 die
@@ -191868,6 +192894,7 @@ benefitie
 ende
 gunste
 gedaen
+;
 door
 syn
 oorsaecke
@@ -191886,6 +192913,7 @@ souden
 hebben
 connen
 sien
+;
 ick
 weet
 niet
@@ -191903,6 +192931,7 @@ gevangenen
 gehoor
 heeft
 gegeven
+;
 die
 geene
 die
@@ -191962,6 +192991,7 @@ E
 de
 waerheyt
 verclaeren
+;
 meede
 hebben
 met
@@ -192278,6 +193308,7 @@ inden
 morgenstondt
 soude
 aencomen
+;
 doch
 eer
 myn
@@ -192682,6 +193713,7 @@ de
 middelen
 te
 versameien
+;
 ben
 gecomen
 in
@@ -192693,6 +193725,7 @@ seeckere
 feesten
 genaemt
 Parhera
+;
 synde
 ick
 binnen
@@ -192757,6 +193790,7 @@ araches
 ende
 eenige
 lascaryns
+;
 met
 dit
 succes
@@ -192822,6 +193856,7 @@ ende
 5
 sonder
 tanden
+;
 't
 gcene
 ick
@@ -192833,6 +193868,7 @@ gegeven
 is
 het
 navolgende
+:
 Inden
 jare
 a
@@ -192860,6 +193896,7 @@ een
 halve
 bhaar
 peeper
+;
 in
 den
 jare
@@ -192883,6 +193920,7 @@ van
 674
 conido
 5010
+%
 wasch
 44000
 ponden
@@ -192902,12 +193940,14 @@ ken
 ende
 twee
 mannekens
+;
 inden
 jaer
 1640
 in
 Marlio
 11400
+%
 fynen
 caneel
 712
@@ -193022,6 +194062,7 @@ nieuw
 secours
 te
 senden
+:
 ick
 hebbe
 alreets
@@ -193065,6 +194106,7 @@ in
 roere
 syn
 geworden
+;
 U
 E
 sende
@@ -193209,6 +194251,7 @@ doen
 in
 contante
 penningen
+;
 soo
 daer
 yemant
@@ -193304,6 +194347,7 @@ vande
 prys
 der
 coopmanschappen
+;
 begeerende
 andere
 dingen
@@ -193338,6 +194382,7 @@ al
 in
 handen
 hebt
+;
 stelt
 alsoo
 den
@@ -193475,6 +194520,7 @@ inde
 quartieren
 van
 Mature
+;
 als
 ick
 voldoe
@@ -193614,6 +194660,7 @@ als
 tot
 mynen
 dienst
+;
 al
 ist
 saecke
@@ -193668,6 +194715,7 @@ te
 hebben
 genieten
 sal
+;
 ende
 als
 wanneer
@@ -193846,6 +194894,7 @@ Porlugesen
 't
 selve
 veroverden
+;
 U
 E
 verneeme
@@ -194005,6 +195054,7 @@ contrarie
 het
 3
 artyckel
+;
 by
 aldien
 onse
@@ -194072,12 +195122,14 @@ contrarie
 bet
 3
 artyckel
+;
 ick
 bebbe
 plaets
 sulcx
 te
 presumeeren
+;
 want
 inde
 capittelen
@@ -194485,6 +195537,7 @@ May
 vertrouwt
 wil
 weesen
+;
 item
 voor
 oprechte
@@ -194699,6 +195752,7 @@ myn
 ambassadeurs
 met
 hun
+;
 op
 d'
 andere
@@ -194855,6 +195909,7 @@ niet
 en
 can
 probeeren
+;
 de
 vreemdelingen
 die
@@ -195316,6 +196371,7 @@ bespringen
 der
 Portugesen
 niet
+;
 nochtans
 inde
 selve
@@ -195651,6 +196707,7 @@ in
 myn
 ge^acbte
 gecomen
+;
 want
 soo
 ick
@@ -195667,6 +196724,7 @@ daer
 voor
 gebouden
 bebbe
+;
 ick
 ben
 wel
@@ -195721,6 +196779,7 @@ dit
 eyiant
 te
 vei'dryven
+;
 ende
 ü
 E
@@ -196090,6 +197149,7 @@ cunt
 met
 my
 handelen
+;
 het
 geene
 voor
@@ -196291,6 +197351,7 @@ die
 E
 gegeven
 worden
+;
 alhoewel
 soo
 ick
@@ -196449,6 +197510,7 @@ t
 soude
 geweest
 syn
+;
 doch
 ten
 is
@@ -196462,6 +197524,7 @@ soo
 g'imbroeljeert
 syn
 geworden
+;
 maer
 die
 versamelt
@@ -196471,6 +197534,7 @@ in
 dese
 tegenwoordige
 scheepen
+;
 die
 niet
 tydelyck
@@ -196532,6 +197596,7 @@ derseWer
 vestingh
 geruymt
 wort
+;
 op
 uwe
 May
@@ -196736,6 +197801,7 @@ geen
 secours
 gedaen
 hebbe
+;
 doch
 het
 en
@@ -196760,6 +197826,7 @@ eenige
 feesten
 gecomen
 was
+;
 in
 dese
 tyt
@@ -196806,6 +197873,7 @@ comen
 met
 myne
 macht
+;
 maer
 alsoo
 in
@@ -196913,6 +197981,7 @@ ende
 soo
 veel
 Javanen
+;
 brenght
 10
 coyangh
@@ -196993,6 +198062,7 @@ buscruyt
 bedragende
 te
 samen
+/
 15898
 uyt
 d'
@@ -197048,6 +198118,7 @@ een
 sober
 cargasoentjen
 van
+/
 12489
 aldaer
 was
@@ -197161,6 +198232,7 @@ duyren
 geweest
 soude
 syn
+;
 niaer
 was
 naer
@@ -197290,6 +198362,7 @@ op
 voorraet
 doen
 maken
+;
 soo
 en
 waeren
@@ -197357,6 +198430,7 @@ hadden
 een
 capitael
 van
+/
 35943
 becomen
 bestaende
@@ -197664,6 +198738,7 @@ van
 Comp
 aen
 te
+.
 brengen
 cargasoen
 in
@@ -197871,6 +198946,7 @@ dato
 noch
 niet
 gecontracteert
+;
 alle
 het
 sandelhout
@@ -197915,6 +198991,7 @@ deses
 jaers
 aldaer
 geavanceert
+/*
 27856
 blyvende
 d'
@@ -197922,6 +198999,7 @@ restanten
 ter
 somme
 van
+/
 71115
 Helmont
 ende
@@ -198017,6 +199095,7 @@ Masulipatnam
 nae
 Trancquebare
 verseylt
+;
 den
 Ghristiaenshaven
 wierd
@@ -198535,6 +199614,7 @@ ginck
 noch
 lancksaem
 voort
+;
 d'
 tweede
 punt
@@ -198675,6 +199755,7 @@ met
 een
 cargasoen
 bedragende
+/
 12621
 waermeede
 op
@@ -198691,6 +199772,7 @@ gereede
 ter
 somme
 van
+/
 34083
 ingenomen
 hebbende
@@ -198909,6 +199991,7 @@ cleeden
 bedragende
 te
 samen
+/
 40345
 voor
 Jambj
@@ -198956,6 +200039,7 @@ met
 packen
 cleeden
 bedragende
+/
 3668
 6
 d
@@ -198978,6 +200062,7 @@ sout
 als
 andere
 cleynicheeden
+;
 ende
 vertrecken
 2
@@ -199515,6 +200600,7 @@ realen
 gevalueert
 bly
 ven
+;
 vande
 tolvryheyt
 in
@@ -200483,10 +201569,13 @@ schriftelyck
 mandament
 van
 my
+(*)
 Mahamoulia
+(*)
 Bava
 Dely
 Hallarat
+(')
 Paducka
 Sirj
 Sultan
@@ -200496,6 +201585,7 @@ Nul
 Mackaram
 Siahe
 Berdouleth
+(*)
 jang
 diatas
 tachta
@@ -200503,6 +201593,7 @@ garadien
 Atche
 Darou
 Salem
+(^)
 Jala
 Chalipha
 ToUa
@@ -200533,17 +201624,22 @@ gaet
 dit
 myn
 mandament
+(*)
+.
 De
 hoochgeachtste
+(*)
 Daelende
 van
 myne
 hoogheyts
 gratie
+(*)
 Syn
 hacrc
 Conincklycke
 nadnen
+(^)
 Die
 op
 den
@@ -200551,6 +201647,7 @@ throon
 van
 Atchin
 sidt
+(')
 Coninginne
 van
 Godt
@@ -200564,6 +201661,7 @@ Paducca
 Siry
 radja
 Panglima
+(^)
 Bandaer
 Calipha
 den
@@ -200689,6 +201787,7 @@ Priaman
 Indrapoura
 en
 Padangh
+;
 gelyck
 Paducka
 Morhoni
@@ -200735,6 +201834,7 @@ sullen
 haeren
 tol
 met
+(^)
 realen
 piddangh
 betalen
@@ -200853,6 +201953,7 @@ van
 siy
 ende
 iVj
+®
 ryst
 's
 daechs
@@ -200999,7 +202100,9 @@ rys
 als
 andere
 coopmanschappen
+(')
 Ticou
+(*)
 Rycxdaelders
 daer
 toe
@@ -201076,6 +202179,7 @@ desen
 te
 verneemen
 staet
+;
 omme
 d'
 zee
@@ -201106,6 +202210,7 @@ dienstich
 soude
 syn
 altyt
+%
 ofte
 meer
 gelias
@@ -201303,6 +202408,7 @@ den
 selven
 aengeschreven
 was
+;
 off
 die
 van
@@ -201320,6 +202426,7 @@ hebben
 heeft
 syn
 bedencken
+:
 soo
 waeren
 oock
@@ -201349,6 +202456,7 @@ vivres
 comende
 van
 Serbon
+;
 het
 hooft
 daervan
@@ -201421,6 +202529,10 @@ teverstrecken
 4
 8
 vlees
+.
+.
+.
+^
 2
 8
 speek
@@ -201451,7 +202563,9 @@ de
 soldaten
 als
 maetrosen
+^/^
 reaels
+.
 iVa
 can
 de
@@ -201461,6 +202575,7 @@ op
 haer
 reeckeninge
 2
+»
 arrac
 Soo
 had
@@ -201484,6 +202599,7 @@ monteereude
 ter
 somme
 van
+/*
 150433
 gedaen
 ende
@@ -202102,6 +203218,7 @@ van
 alle
 die
 quartieren
+.
 dat
 den
 thol
@@ -202138,6 +203255,7 @@ ofte
 Indrapoura
 ofte
 Padangh
+;
 daer
 over
 bebbe
@@ -202219,6 +203337,7 @@ van
 een
 gelooff
 syn
+;
 ende
 ten
 tyde
@@ -202258,6 +203377,7 @@ dappers
 ende
 valsche
 overdragers
+;
 ende
 ten
 tyde
@@ -202296,6 +203416,7 @@ aenden
 majoor
 heeft
 toegestaen
+;
 ende
 ter
 dier
@@ -202352,6 +203473,7 @@ ende
 haere
 ingeseten
 genoomen
+;
 tot
 wat
 eynde
@@ -202362,6 +203484,7 @@ sulcke
 goede
 wercken
 doen
+;
 ende
 nu
 tegenwoordigh
@@ -202471,6 +203594,7 @@ in
 Atcliien
 Darossalem
 is
+;
 ende
 voor
 desen
@@ -202812,6 +203936,7 @@ samen
 ter
 somme
 van
+/*
 15616
 met
 voorschreve
@@ -203155,6 +204280,7 @@ waren
 nae
 gejaecht
 daerinne
+^
 dooden
 ende
 een
@@ -203171,6 +204297,7 @@ geroerde
 jacht
 Limmen
 herwaerts
+;
 de
 sieckte
 bleeff
@@ -203247,6 +204374,7 @@ d
 vertrecken
 volgende
 vaerthuygen
+;
 4
 continghs
 2
@@ -203419,6 +204547,7 @@ weynich
 rys
 ende
 erwten
+;
 brenght
 een
 brieff
@@ -203437,6 +204566,7 @@ van
 *t
 gepasseerde
 aldaer
+;
 nae
 Molucco
 was
@@ -203824,12 +204954,14 @@ deesen
 meede
 herwaerts
 quam
+;
 anders
 stondt
 alles
 aldaer
 reedelycken
 wel
+;
 daer
 bleeff
 ongeveer
@@ -203860,6 +204992,7 @@ insgelycx
 in
 goeden
 toestant
+;
 't
 schip
 *l
@@ -203873,6 +205006,7 @@ May
 passato
 wél
 aengecomen
+;
 Quilsil
 Chea
 was
@@ -204796,6 +205930,7 @@ haren
 Coninck
 souden
 verantwoorden
+;
 off
 dit
 de
@@ -204954,6 +206089,7 @@ spyscamei
 s
 souden
 allsnyden
+;
 \\VaereD
 al
 lang
@@ -205105,6 +206241,7 @@ noch
 in
 gehouden
 wierden
+;
 ende
 was
 Hamsia
@@ -205282,6 +206419,7 @@ advysen
 geen
 vaerthuych
 verscheenen
+;
 ende
 had
 syn
@@ -205681,6 +206819,7 @@ ons
 allen
 grootelycx
 verheucht
+;
 soo
 veele
 my
@@ -205719,6 +206858,7 @@ van
 U
 Ed
 ordren
+;
 want
 ick
 weet
@@ -205738,6 +206878,7 @@ inde
 windt
 geslagen
 hebben
+;
 door
 dien
 sy
@@ -205802,6 +206943,7 @@ swaer
 om
 verdragen
 was
+;
 maer
 Gmlt
 sy
@@ -205868,6 +207010,7 @@ ende
 oyt
 geschieden
 can
+;
 maer
 door
 dien
@@ -205927,6 +207070,7 @@ oprechticheyt
 volcomentlyck
 heeft
 gebleecken
+;
 derhalven
 versoecke
 dat
@@ -206479,12 +207623,14 @@ opt
 fort
 geen
 toevoer
+-
 off
 ontset
 van
 Thidoor
 mochten
 becomen
+;
 dit
 alsoo
 vastgestelt
@@ -206873,6 +208019,7 @@ en
 schade
 soude
 toebrengen
+;
 veel
 jaren
 herwaerts
@@ -206897,6 +208044,7 @@ gelegentheyl
 daer
 toe
 hebben
+;
 voorts
 soude
 ick
@@ -206986,6 +208134,7 @@ voornemen
 sullen
 weette
 niet
+.
 doch
 sal
 door
@@ -207154,6 +208303,7 @@ danckbaerlyck
 ten
 vollen
 l)etaelen
+;
 U
 Ed
 can
@@ -207680,6 +208830,7 @@ waere
 dal
 een
 groot
+^
 onverstand
 ende
 schadelycke
@@ -207727,6 +208878,7 @@ voor
 gemelte
 plaetsen
 van
+/
 431681
 beslaende
 m
@@ -207841,6 +208993,7 @@ nae
 Bantam
 affgesonden
 was
+;
 nae
 desselffs
 seggen
@@ -207990,6 +209143,7 @@ d
 picol
 out
 yser
+\\%
 corge
 tapisarassa
 30
@@ -208454,6 +209608,7 @@ eerstdaechs
 nae
 Jamby
 verseylen
+;
 inde
 Maria
 waren
@@ -208790,6 +209945,7 @@ van
 menschen
 gehouden
 waeren
+;
 dat
 onse
 natie
@@ -209034,6 +210190,7 @@ weesen
 dat
 haer
 luyden
+'
 hoochste
 wensch
 sy
@@ -209522,6 +210679,7 @@ arriveeren
 te
 deser
 steede
+:
 2
 conlingbs
 van
@@ -209686,6 +210844,7 @@ factura
 ter
 somme
 van
+/"
 9141
 22
 d
@@ -209705,6 +210864,7 @@ suycker
 als
 andere
 coopmanschappen
+;
 comen
 eenelyck
 om
@@ -210294,6 +211454,7 @@ derwaerts
 over
 naer
 weusch
+;
 naer
 apparenlie
 soude
@@ -211233,6 +212394,7 @@ seer
 omstandelyck
 Ie
 spreecken
+;
 Anlhonio
 Fialho
 Farera
@@ -211371,6 +212533,7 @@ Portugesen
 condt
 te
 doen
+;
 syn
 schriflelyke
 commissien
@@ -211434,6 +212597,7 @@ d
 aen
 de
 grooten
+;
 waeren
 alle
 nachten
@@ -212039,6 +213203,7 @@ partye
 sulfur
 hadde
 begifticht
+;
 ende
 hadde
 den
@@ -212178,6 +213343,7 @@ op
 man
 geladen
 met
+...
 coyangh
 rys
 ende
@@ -212419,6 +213585,7 @@ menschen
 aldaer
 gansch
 getransformeert
+;
 waeren
 tot
 verwonderens
@@ -212745,6 +213912,7 @@ yverich
 dienaer
 te
 missen
+;
 anders
 stondt
 alles
@@ -212753,6 +213921,7 @@ over
 meest
 nae
 wensch
+;
 die
 van
 Tommeleu
@@ -212809,6 +213978,7 @@ saken
 oock
 allensjents
 wel
+;
 den
 Jatou
 Tehakeke
@@ -213413,6 +214583,7 @@ syner
 tyt
 te
 revengeeren
+;
 sedert
 het
 aOoopen
@@ -213682,6 +214853,7 @@ veele
 gequesten
 weeder
 vertrocken
+;
 die
 van
 Laricque
@@ -214176,6 +215348,7 @@ in
 goeden
 toestant
 gelaten
+;
 die
 van
 Lissidj
@@ -214238,6 +215411,7 @@ Neederiantsen
 gouverneur
 hadden
 overgelevert
+;
 den
 hatil
 Lanourou
@@ -214256,6 +215430,7 @@ Garou
 uyt
 te
 gaen
+\\
 Daer
 waeren
 gecommitteerdens
@@ -214374,6 +215549,7 @@ waer
 op
 gescheyden
 syn
+;
 't
 succes
 leert
@@ -215133,6 +216309,7 @@ monterende
 ter
 somme
 van
+/
 22441
 5
 d
@@ -215325,6 +216502,7 @@ suycker
 ajuin
 loock
 etc
+^
 d*andere
 van
 Dermayo
@@ -215509,6 +216687,9 @@ ceer
 synde
 34
 "/ie
+®
+^^^
+^^^
 ropia
 de
 spiauter
@@ -215522,6 +216703,7 @@ van
 ceer
 ofte
 34^2
+%
 synde
 S
 mamoudj
@@ -215538,6 +216720,7 @@ de
 man
 van
 36^4
+%
 alle
 op
 drye
@@ -215590,6 +216773,7 @@ d'
 man
 van
 3674
+*♦
 beyde
 partyen
 op
@@ -215633,6 +216817,7 @@ met
 contante
 ropias
 synde
+/
 1K8880
 naer
 Amadabat
@@ -216197,6 +217382,7 @@ my
 met
 vreuchde
 toegecomen
+;
 daer
 uyt
 verstaen
@@ -216436,6 +217622,7 @@ E
 gesontheyt
 ende
 begeeren
+;
 hier
 meede
 wensche
@@ -216609,6 +217796,7 @@ had
 ter
 somma
 van
+/
 17760
 De
 missive
@@ -216718,6 +217906,7 @@ ende
 d
 sonder
 passen
+;
 boven
 dien
 lagen
@@ -216932,6 +218121,7 @@ Twist
 extraordinaris
 Raedt
 van
+'
 Indien
 ende
 gouverneur
@@ -218633,6 +219823,7 @@ incoop
 ter
 somme
 van
+/
 7730
 16:2
 naer
@@ -218663,6 +219854,8 @@ cleeden
 costende
 incoops/'29092
 :13
+:
+—
 waer
 meede
 voorschieve
@@ -219292,6 +220485,7 @@ gelyck
 gedaen
 begeeven
 is
+;
 binnen
 ses
 dagen
@@ -219445,6 +220639,7 @@ voor
 haeren
 swaeren
 arbeyt
+;
 die
 't
 minst
@@ -219590,6 +220785,7 @@ volcq
 van
 Moar
 toesenden
+;
 daer
 naer
 waeren
@@ -219696,6 +220892,7 @@ doen
 is
 myn
 fortuyn
+;
 dierhalven
 ben
 beschaemt
@@ -219706,6 +220903,7 @@ Malacca
 ambassadeurs
 te
 senden
+;
 wyders
 versoeckt
 d'
@@ -219811,6 +221009,7 @@ niet
 voltrocken
 ofte
 gerepareert
+;
 alsdan
 naer
 't
@@ -220649,6 +221848,7 @@ Macassarse
 bezendinge
 gesonden
 hebben
+;
 Toloucobessj
 hielt
 sich
@@ -221049,6 +222249,7 @@ negotieerende
 wetten
 te
 stellen
+;
 hy
 was
 van
@@ -221151,6 +222352,7 @@ geerne
 d'
 minste
 weesen
+;
 wyders
 hadden
 verstaen
@@ -221696,6 +222898,7 @@ de
 Bantammers
 seer
 nieu
+;
 hadden
 sedert
 eenige
@@ -221717,6 +222920,7 @@ fatsoen
 De
 prauw
 van
+'
 Narenlacque
 was
 tot
@@ -221796,6 +223000,7 @@ costende
 met
 d'
 ongelden
+/*
 13480:1
 :4
 volgens
@@ -222071,6 +223276,7 @@ jegens
 peper
 tot
 872
+^^^
 d'
 picol
 omgeset
@@ -222350,6 +223556,7 @@ als
 het
 mogelyck
 sy
+;
 den
 Gouverneur
 Generael
@@ -222441,6 +223648,7 @@ Pangeran
 te
 kennen
 geven
+;
 het
 paert
 moet
@@ -222452,6 +223660,7 @@ off
 swart
 off
 with
+;
 tot
 die
 couleuren
@@ -222974,6 +224183,7 @@ seven
 wech
 geloopen
 slaven
+^
 d'
 Maria
 was
@@ -223007,6 +224217,7 @@ van
 Japara
 gearri
 veert
+;
 Capiteyn
 Willem
 Meynderts
@@ -223344,6 +224555,7 @@ met
 coppen
 geprovideert
 voor
+...
 maenden
 met
 een
@@ -223421,6 +224633,7 @@ rys
 als
 andere
 maintimentos
+'
 een
 tingangh
 van
@@ -223600,6 +224813,7 @@ a
 500
 man
 sterck
+;
 ende
 soude
 den
@@ -224082,6 +225296,7 @@ pera
 mitsgaders
 2
 tingangbs
+.
 nae
 BanUm
 met
@@ -224219,6 +225434,7 @@ coyangb
 rys
 ende
 ^2
+^^^^
 ^ni
 waeren
 door
@@ -224240,6 +225456,7 @@ op
 banden
 was
 j7en
+^^
 vertrecken
 volgende
 vaertbuygen
@@ -224447,6 +225664,7 @@ costende
 met
 d'
 ongelden
+/
 60326
 :2:l4
 Den
@@ -224874,6 +226092,7 @@ over
 dit
 goet
 werck
+;
 soo
 is
 Palimbangh
@@ -225001,6 +226220,7 @@ Cap
 Sourj
 hebbe
 gedaen
+:
 ende
 ick
 en
@@ -225266,6 +226486,7 @@ scheepen
 Daer
 jegens
 arriveeren
+:
 3
 tinganghs
 2
@@ -225591,6 +226812,7 @@ met
 u
 leven
 becoopen
+;
 hiermeede
 vaertwel
 Int
@@ -225735,6 +226957,7 @@ om
 u
 te
 bedriegen
+:
 ende
 daerenboven
 qualyck
@@ -225753,6 +226976,7 @@ niet
 soude
 connen
 gedoogen
+;
 hoe
 is
 't
@@ -225927,6 +227151,7 @@ de
 Comp
 schuldich
 is
+;
 en
 soo
 ymant
@@ -225958,6 +227183,7 @@ als
 soldaet
 ende
 Christen
+;
 ende
 soo
 ghylieden
@@ -226101,6 +227327,7 @@ dese
 cust
 souden
 brengen
+;
 het
 voorgemelte
 alles
@@ -226134,6 +227361,7 @@ Coniucklycken
 dienst
 was
 onderteeckent
+:
 Generael
 Dom
 Philippo
@@ -226202,6 +227430,7 @@ dat
 myn
 toegedaen
 waert
+;
 doch
 *t
 synwoorden
@@ -226356,6 +227585,7 @@ met
 stormen
 te
 verdistrueeren
+;
 groote
 giften
 sult
@@ -226418,6 +227648,7 @@ u
 goet
 duncken
 sal
+;
 ende
 soo
 begeerich
@@ -226447,6 +227678,7 @@ met
 eenige
 goede
 dorpen
+;
 ende
 soo
 ulieden
@@ -226503,6 +227735,7 @@ beloove
 van
 mynen
 Conick
+;
 ick
 adviseer
 ulieden
@@ -226567,6 +227800,7 @@ May
 1641
 Was
 onderteekent
+:
 u
 seer
 goeden
@@ -226583,6 +227817,7 @@ naervolgende
 maniere
 was
 beantwoort
+:
 Aen
 Don
 Philipo
@@ -226653,6 +227888,7 @@ spoedich
 te
 comen
 vi'^leeren
+;
 doch
 hoe
 wel
@@ -226907,6 +228143,7 @@ het
 selvige
 geintregeert
 hebbe
+;
 ick
 weet
 niet
@@ -227049,6 +228286,7 @@ Janyo
 1641
 Was
 onderteekent
+:
 u
 nimmermeer
 ioegedaenen
@@ -227368,6 +228606,7 @@ weet
 wat
 te
 dencken
+;
 maer
 was
 den
@@ -227421,6 +228660,7 @@ hadde
 was
 buyten
 twyffel
+;
 soodanich
 oock
 dat

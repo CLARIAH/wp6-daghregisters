@@ -78,6 +78,7 @@ gram	#words	#occurrences	example1	example2	example3
 ├ga	116	580	gantsch	gaen	gantsche
 ├Pa	140	562	Panghlymas	Panglima	Paducka
 ├qu	79	551	quamen	queen	qualyck
+├;┤	1	546	;
 ├De	36	540	Des	Den	Dese
 ├Ca	143	538	Capiteyn	Cap	Capt
 ├Ch	76	536	Cherrebon	Chillebhaer	Chineese
@@ -194,6 +195,7 @@ gram	#words	#occurrences	example1	example2	example3
 ├ri	24	148	ringen	riviere	rivit^re
 ├fo	40	148	fondamenteelder	fort	folie
 ├ly	39	147	lydelyck	lyffeygene	lyt
+├»┤	1	142	»
 ├Qu	34	140	Queda	Quey	Quimelaha
 ├Ju	20	140	Juny	July	Junio
 ├vl	45	138	vlyt	vlote	vleugelen
@@ -266,6 +268,7 @@ gram	#words	#occurrences	example1	example2	example3
 ├60┤	1	73	60
 ├Cr	22	73	Crayen	Crus	Crimbangh
 ├11	38	72	1125	112	1120
+├.┤	1	71	.
 ├gh	5	71	ghy	ghylieden	ghyse
 ├50	12	71	500	50799	5000
 ├Gh	21	71	Ghoromandel	Gherrebon	Ghineese
@@ -289,7 +292,9 @@ gram	#words	#occurrences	example1	example2	example3
 ├Ap	1	62	April
 ├uw	5	62	uwe	uwen	uwc
 ├40	12	61	400	40120	4000
+├/┤	1	61	/
 ├Fi	10	61	Firando	Firandos	Fisend
+├:┤	1	59	:
 ├Oc	7	59	October	Oclober	Ocknea
 ├Fe	10	59	Feby	February	Ferrero
 ├13	36	57	13:2	133	13054:8:2
@@ -338,10 +343,12 @@ gram	#words	#occurrences	example1	example2	example3
 ├(v	8	38	(vande	(volgen	(vermits
 ├it	4	38	item	itterative	itererende
 ├Ru	10	38	Ruttem	Ruttems	Ruanelle
+├—┤	1	38	—
 ├t┤	1	37	t
 ├sn	14	37	snyt	snoode	snuysteringh
 ├Tw	4	37	Twee	Twist	Twisl
 ├In┤	1	37	In
+├^┤	1	37	^
 ├ie	9	37	ieyten	iets	ieugenen
 ├St	13	36	Stephanus	Straat	Sterck
 ├ef	7	36	effect	effecten	effecte
@@ -355,7 +362,9 @@ gram	#words	#occurrences	example1	example2	example3
 ├Va┤	1	34	Va
 ├g'	23	34	g'armeert	g'arriveert	g'intituleert
 ├Du	17	34	Duytsche	Durramayo	Duyff
+├/*┤	1	33	/*
 ├vn	22	33	vnmden	vnlden	vnert
+├«┤	1	33	«
 ├ab	17	33	abuyselyck	abondantie	absent
 ├Hs	12	32	Hselve	Hsyn	Hscheurbuyck
 ├24	29	32	245	24967	243
@@ -377,6 +386,7 @@ gram	#words	#occurrences	example1	example2	example3
 ├ci	16	27	civilen	cierlycke	cieraet
 ├sm	17	27	smaldeelt	smerten	smeltende
 ├Fo	11	26	Forcenburgh	Force	Formosa
+├•┤	1	26	•
 ├(g	5	26	(gelyck	(gelost	(geene
 ├Ot	2	26	Ottens	Otter
 ├Oo	10	26	Oock	Oost-lndise	Oostcappel
@@ -393,6 +403,7 @@ gram	#words	#occurrences	example1	example2	example3
 ├P┤	1	24	P
 ├Sn	5	24	Snouck	Snaren	Snccadana
 ├d^	19	23	d^wh	d^Ed	d^onderstaeDde
+├^^	12	23	^^i	^^^^^	^^^
 ├28	17	23	280	28086	28617.11.8
 ├Ry	6	23	Rysviryck	Ryp	Rysselse
 ├90┤	1	22	90
@@ -401,6 +412,7 @@ gram	#words	#occurrences	example1	example2	example3
 ├ag	6	22	aguelhout	aguilhout	agaet
 ├36┤	1	22	36
 ├h┤	1	22	h
+├'┤	1	21	'
 ├Er	4	21	Eredam	Erangh	Erang
 ├26	15	21	26661272	2673	264
 ├eo	7	21	eode	eoopman	eoopluyden
@@ -451,6 +463,7 @@ gram	#words	#occurrences	example1	example2	example3
 ├Zu	7	15	Zuratta	Zula	Zutphen
 ├42┤	1	15	42
 ├42	12	15	4240	428	420
+├%┤	1	15	%
 ├37┤	1	15	37
 ├cb	6	15	cbits	cbaloupen	cbampan
 ├m┤	1	15	m
@@ -477,6 +490,7 @@ gram	#words	#occurrences	example1	example2	example3
 ├za	7	13	zal	zaK	zael
 ├(u	4	13	(uytgesondert	(uyt	(uytwysende
 ├V┤	1	13	V
+├*┤	1	13	*
 ├39┤	1	13	39
 ├ed	7	13	edelman	edelluyden	edelen
 ├zi	7	12	zich	zielen	zijn
@@ -560,17 +574,20 @@ gram	#words	#occurrences	example1	example2	example3
 ├eu	2	8	eusten	eude
 ├Ëd┤	1	8	Ëd
 ├vc	8	8	vcrstaen	vcreeringe	vcrmaert
+├..	2	8	....	...
 ├By┤	1	8	By
 ├B┤	1	8	B
 ├*t	8	8	*tsware	*tbyten	*tbos
 ├na┤	1	8	na
 ├Fa	6	8	Fakiry	Faichima	Farimaya
 ├üy	5	8	üyt	üytgewrocht	üytterlyck
-├^^	8	8	^^i	^^Vv^T\!^w	^^9
 ├It	3	8	Item	Itrachl	Itam
+├(*	2	8	(*).	(*)
+├('	2	8	(')	('t
 ├IS	4	8	ISO	ISVs	IShondertpicoljaerlycx
 ├33┤	1	8	33
 ├Oy	4	8	Oyas	Oya	Oyed
+├^^┤	1	8	^^
 ├57	7	8	57795	57522	576
 ├54	8	8	5457	54492	548
 ├tb	6	8	tbuynen	tbreeckers	tbeecoppen
@@ -599,7 +616,9 @@ gram	#words	#occurrences	example1	example2	example3
 ├ep	2	7	epde	epdelyck
 ├du┤	1	7	du
 ├iu	7	7	iusgelyckx	iuhoude	iugeladen
+├(^	4	7	(^onincx	(^gereyst	(^^^^
 ├49┤	1	7	49
+├/"┤	1	7	/"
 ├Yo	5	7	Yoorburgh	Yoors	Yougende
 ├IV┤	1	7	IV
 ├D*	6	7	D*0DS6	D*Engelsen	D*inwoonders
@@ -609,6 +628,7 @@ gram	#words	#occurrences	example1	example2	example3
 ├58	6	7	58600	5850:5:1	581
 ├39	7	7	39842	3917	399000
 ├56	5	7	561	5600	562
+├>┤	1	7	>
 ├79┤	1	7	79
 ├94	6	7	942	9460	9452
 ├SO┤	1	7	SO
@@ -627,6 +647,8 @@ gram	#words	#occurrences	example1	example2	example3
 ├t*	5	6	t*zynen	t*achterheyt	t*samen
 ├(l	6	6	(lopende	(leffens	(lager
 ├rf┤	1	6	rf
+├[?	2	6	[?]	[?J
+├^/	2	6	^/g	^/^
 ├UE┤	1	6	UE
 ├Ir	6	6	Irivole	Irouwloose	Irecken
 ├(G	4	6	(Goninck	(God	(Gode
@@ -643,12 +665,14 @@ gram	#words	#occurrences	example1	example2	example3
 ├'S┤	1	6	'S
 ├Il	6	6	Ille	Ilartogenboscli	Ilendrick
 ├33	5	6	3350	33084	338
+├'/	4	6	'/s	'/a	'/j
 ├(e┤	1	6	(e
 ├77	6	6	7756	77i	77041
 ├*l┤	1	6	*l
 ├81┤	1	6	81
 ├88	5	6	8820.1	8886	881
 ├69	6	6	69900	696	690
+├-┤	1	6	-
 ├W┤	1	6	W
 ├El	4	6	Eliaen	Elserac	Elj
 ├Oe	5	6	Oen	Oeniemedonne	Oeyn
@@ -660,6 +684,7 @@ gram	#words	#occurrences	example1	example2	example3
 ├gd	6	6	gd)rant	gdegenlheyt	gdiaelt
 ├k┤	1	6	k
 ├5^	4	6	5^2	5^0	5^4
+├\┤	1	6	\
 ├za┤	1	6	za
 ├Iv	1	6	Ivie
 ├n^	5	5	n^yoor	n^aer	n^t
@@ -669,6 +694,7 @@ gram	#words	#occurrences	example1	example2	example3
 ├BO┤	1	5	BO
 ├vv	5	5	vveltigh	vvrasch	vvackeren
 ├'d	5	5	'den	'daer	'die
+├®┤	1	5	®
 ├yl┤	1	5	yl
 ├dw	3	5	dwingen	dwers	dwanck
 ├eé	5	5	eénige	eéh	eéniger
@@ -733,7 +759,6 @@ gram	#words	#occurrences	example1	example2	example3
 ├lO	4	4	lOOsiecken	lOOO	lOcoyangh
 ├84┤	1	4	84
 ├IB┤	1	4	IB
-├'/	3	4	'/s	'/a	'/j
 ├V2┤	1	4	V2
 ├iy	4	4	iydelyck	iyl	iyi
 ├86┤	1	4	86
@@ -818,6 +843,7 @@ gram	#words	#occurrences	example1	example2	example3
 ├78┤	1	3	78
 ├Do┤	1	3	Do
 ├3B	2	3	3B0	3B8
+├|┤	1	3	|
 ├Zi	3	3	Zinsemon	Zimbed	Zierickzee
 ├97	3	3	9748	9750	974
 ├D^	3	3	D^inbabitanien	D^onse	D^oude
@@ -830,6 +856,7 @@ gram	#words	#occurrences	example1	example2	example3
 ├uo	3	3	uoyt	uoode	uoopende
 ├Ho┤	1	3	Ho
 ├Tv	2	3	Tvdst	Tvnst
+├/•┤	1	3	/•
 ├vt	3	3	vtertiallen	vtryse	vtnyti
 ├yo	2	3	yolck	yoors
 ├LO	3	3	LOUYS	LOWYS	LONDEN
@@ -837,11 +864,12 @@ gram	#words	#occurrences	example1	example2	example3
 ├TA	3	3	TABATO	TAYOUAN	TAYOÜAN
 ├AR	3	3	ARBARENDO	AROONS	ARTYGULEN
 ├JE	2	3	JERONIMO	JENLIGOES
-├('	1	3	('t
+├)┤	1	3	)
 ├IN	2	3	INSNOCAMY	INtto
 ├8:	3	3	8:13	8:15	8:10
 ├83┤	1	3	83
 ├1S	3	3	1S3	1S440	1S8
+├&┤	1	3	&
 ├:1	3	3	:13:10	:18	:13
 ├oD	1	3	oDse
 ├'a	2	3	'als	'aleer
@@ -895,7 +923,6 @@ gram	#words	#occurrences	example1	example2	example3
 ├t^	1	2	t^samen
 ├Tt	2	2	Ttdoreesen	Tttssehen
 ├HS	2	2	HSpaense	HSum
-├(^	2	2	(^onincx	(^gereyst
 ├bj	2	2	bjnnen	bjevaren
 ├dé	2	2	déselve	désen
 ├-d	2	2	-dat	-de
@@ -938,6 +965,7 @@ gram	#words	#occurrences	example1	example2	example3
 ├Ev	2	2	Evangelio	Evert
 ├ig	2	2	ighsin	ignoniineus
 ├ts┤	1	2	ts
+├&.┤	1	2	&.
 ├'e	1	2	'ende
 ├73	2	2	73921	731
 ├83	2	2	83709.1.12	833
@@ -948,6 +976,7 @@ gram	#words	#occurrences	example1	example2	example3
 ├rc	2	2	rccbl	rcslilueeren
 ├ln	2	2	lngeladene	lnd
 ├78	2	2	788	789
+├}┤	1	2	}
 ├72	2	2	72271	721
 ├wc	2	2	wcge	wcchgesonden
 ├mj	2	2	mjes	mjlien
@@ -1005,10 +1034,12 @@ gram	#words	#occurrences	example1	example2	example3
 ├73┤	1	2	73
 ├Jh	2	2	Jhoriten	Jhda
 ├ff┤	1	2	ff
+├"┤	1	2	"
 ├ds	2	2	dsnselven	dsit
 ├.c	2	2	.committers	.cours
 ├Y2┤	1	2	Y2
 ├a^	2	2	a^vys	a^gewent
+├^"	1	2	^"^^
 ├bé	2	2	bécomen	bén
 ├dt	1	2	dte
 ├SS┤	1	2	SS
@@ -1026,6 +1057,7 @@ gram	#words	#occurrences	example1	example2	example3
 ├EA┤	1	2	EA
 ├II┤	1	2	II
 ├86	2	2	866	867
+├?•	1	2	?•"
 ├me┤	1	2	me
 ├98┤	1	2	98
 ├bs	2	2	bst	bsien
@@ -1040,6 +1072,7 @@ gram	#words	#occurrences	example1	example2	example3
 ├sé	1	2	sélve
 ├53┤	1	2	53
 ├^4┤	1	2	^4
+├^«	1	2	^«^
 ├Gy	2	2	Gyluyden	Gyselingh
 ├£d┤	1	2	£d
 ├3B┤	1	2	3B
@@ -1047,6 +1080,7 @@ gram	#words	#occurrences	example1	example2	example3
 ├88┤	1	2	88
 ├.v	2	2	.voort	.vermerckende
 ├.M	2	2	.Maart	.Mangsor
+├"/	2	2	"/^	"/ie
 ├J┤	1	2	J
 ├Y┤	1	2	Y
 ├\W	2	2	\Wsten	\Wl
@@ -1088,7 +1122,6 @@ gram	#words	#occurrences	example1	example2	example3
 ├/v	1	1	/vry
 ├HG	1	1	HGasteelpleyn
 ├ré	1	1	ré&el
-├^/	1	1	^/g
 ├3.	1	1	3.a
 ├S9	1	1	S994
 ├:3┤	1	1	:3
@@ -1103,6 +1136,7 @@ gram	#words	#occurrences	example1	example2	example3
 ├ji	1	1	jirauwen
 ├ön	1	1	öntbooden
 ├HN	1	1	HNederlants
+├(^┤	1	1	(^
 ├BH	1	1	BHIEFF
 ├uc	1	1	ucken
 ├Nu┤	1	1	Nu
@@ -1117,6 +1151,7 @@ gram	#words	#occurrences	example1	example2	example3
 ├wl	1	1	wlert
 ├ta┤	1	1	ta
 ├Cc	1	1	Ccylon
+├®)	1	1	®)^
 ├v?	1	1	v?el
 ├.1	1	1	.11
 ├tü	1	1	tüét
@@ -1198,6 +1233,7 @@ gram	#words	#occurrences	example1	example2	example3
 ├v«	1	1	v«raerop
 ├Oh	1	1	Ohiod
 ├(H	1	1	(Hwelck
+├"\┤	1	1	"\
 ├Uc	1	1	Ucht
 ├IJ┤	1	1	IJ
 ├aS	1	1	aSscheyt
@@ -1224,6 +1260,7 @@ gram	#words	#occurrences	example1	example2	example3
 ├OY	1	1	OYENOCAMY
 ├OR	1	1	ORDONNANTIE
 ├Ax	1	1	Axuna
+├!?	1	1	!?•
 ├TS	1	1	TSUISSIMANOCAMY
 ├dö┤	1	1	dö
 ├7-	1	1	7-Auffustvl
@@ -1253,11 +1290,13 @@ gram	#words	#occurrences	example1	example2	example3
 ├2S	1	1	2S6
 ├.r	1	1	.rycke
 ├!s┤	1	1	!s
+├(┤	1	1	(
 ├tè┤	1	1	tè
 ├Xi	1	1	Xis
 ├gö	1	1	göuts
 ├*S┤	1	1	*S
 ├3(	1	1	3(K
+├?"	1	1	?"•
 ├^2	1	1	^2592
 ├ok	1	1	okers
 ├Bg	1	1	Bgmont
@@ -1270,6 +1309,7 @@ gram	#words	#occurrences	example1	example2	example3
 ├S6┤	1	1	S6
 ├iF	1	1	iFOort
 ├Up┤	1	1	Up
+├®°	1	1	®°^^
 ├"v	1	1	"vwlies
 ├4)	1	1	4)ff
 ├Cp	1	1	Cpmp
@@ -1285,6 +1325,7 @@ gram	#words	#occurrences	example1	example2	example3
 ├S'	1	1	S'/s
 ├pV┤	1	1	pV
 ├dê┤	1	1	dê
+├#┤	1	1	#
 ├pa┤	1	1	pa
 ├bp	1	1	bpae
 ├<f┤	1	1	<f
@@ -1299,13 +1340,17 @@ gram	#words	#occurrences	example1	example2	example3
 ├Hr	1	1	Hroode
 ├cè	1	1	cènto
 ├kq┤	1	1	kq
+├*"┤	1	1	*"
 ├öö	1	1	öö...lü
+├?>┤	1	1	?>
 ├Vy	1	1	Vycerey
+├^"┤	1	1	^"
 ├Oö	1	1	Oödewater
 ├2ö┤	1	1	2ö
 ├pé	1	1	pér
 ├'D	1	1	'Douta
 ├Vz┤	1	1	Vz
+├'^	1	1	'^^^
 ├En┤	1	1	En
 ├ys┤	1	1	ys
 ├$o	1	1	$omme
@@ -1318,6 +1363,8 @@ gram	#words	#occurrences	example1	example2	example3
 ├CJ	1	1	CJomp
 ├fS┤	1	1	fS
 ├Mm	1	1	Mmn
+├&*┤	1	1	&*
+├^.┤	1	1	^.
 ├[L	1	1	[Luytenants
 ├»w┤	1	1	»w
 ├J2	1	1	J2rcd[)sz
@@ -1373,6 +1420,7 @@ gram	#words	#occurrences	example1	example2	example3
 ├2.	1	1	2.11.14
 ├-'	1	1	-'s
 ├~~	1	1	~~R
+├»»┤	1	1	»»
 ├pp┤	1	1	pp
 ├Üe	1	1	Üenemercken
 ├89┤	1	1	89
@@ -1387,6 +1435,8 @@ gram	#words	#occurrences	example1	example2	example3
 ├cc	1	1	ccn
 ├s[	1	1	s[oupos
 ├q┤	1	1	q
+├•>┤	1	1	•>
+├>)┤	1	1	>)
 ├Óp	1	1	Ópra
 ├Pr┤	1	1	Pr
 ├Xa	1	1	Xacu
@@ -1431,6 +1481,8 @@ gram	#words	#occurrences	example1	example2	example3
 ├a3	1	1	a30
 ├DV	1	1	DVoorschreve
 ├mg	1	1	mgge
+├'^┤	1	1	'^
+├^-┤	1	1	^-
 ├Je┤	1	1	Je
 ├-8	1	1	-80
 ├Ai	1	1	Aiet
@@ -1443,11 +1495,11 @@ gram	#words	#occurrences	example1	example2	example3
 ├b┤	1	1	b
 ├Uv	1	1	Uvooren
 ├.m	1	1	.macht
+├«-┤	1	1	«-
 ├vë	1	1	vëmieuwingh
 ├sS	1	1	sSWe
 ├nï	1	1	nïetten
 ├sd	1	1	sdieltwoorden
-├[?	1	1	[?J
 ├yc	1	1	yck
 ├aQ	1	1	aQoopen
 ├nl	1	1	nletale
@@ -1466,10 +1518,12 @@ gram	#words	#occurrences	example1	example2	example3
 ├d<	1	1	d<f
 ├mn	1	1	mnytenatie
 ├%0┤	1	1	%0
+├&^	1	1	&^.
 ├gU	1	1	gUlions
 ├2Y┤	1	1	2Y
 ├|n	1	1	|net
 ├€n	1	1	€nde
+├■┤	1	1	■
 ├jo┤	1	1	jo
 ├BC┤	1	1	BC
 ├4B	1	1	4B0
@@ -1490,6 +1544,7 @@ gram	#words	#occurrences	example1	example2	example3
 ├<t┤	1	1	<t
 ├''	1	1	''S
 ├'q	1	1	'quamen
+├&*	1	1	&*.
 ├94┤	1	1	94
 ├5p┤	1	1	5p
 ├-2	1	1	-2yde
@@ -1508,12 +1563,15 @@ gram	#words	#occurrences	example1	example2	example3
 ├II	1	1	IIV2
 ├Üt	1	1	Ütk^Adi
 ├kw	1	1	kwart
+├«.┤	1	1	«.
+├®'┤	1	1	®'
 ├yX┤	1	1	yX
 ├é┤	1	1	é
 ├^1┤	1	1	^1
 ├tg	1	1	tgescholden
 ├4S┤	1	1	4S
 ├lË┤	1	1	lË
+├(?	1	1	(?)
 ├WI	1	1	WILLEM
 ├IN┤	1	1	IN
 ├WY	1	1	WYLDS
@@ -1599,6 +1657,7 @@ gram	#words	#occurrences	example1	example2	example3
 ├hc	1	1	hctselve
 ├2'	1	1	2'/2
 ├"l	1	1	"lasten
+├\%┤	1	1	\%
 ├FI	1	1	FIALHO
 ├FA	1	1	FARERA
 ├Ia	1	1	Iaat
@@ -1625,7 +1684,7 @@ gram	#words	#occurrences	example1	example2	example3
 ├z^	1	1	z^l
 ├Of┤	1	1	Of
 ├ib┤	1	1	ib
-├"/	1	1	"/ie
+├*♦┤	1	1	*♦
 ├1K	1	1	1K8880
 ├£a	1	1	£assimir
 ├9^	1	1	9^2

@@ -855,6 +855,7 @@ mot┤	2	9	Lamot	Chitchermot
 800┤	8	9	3800	45800	140800
 xel┤	2	9	Texel	dexel
 nia┤	7	9	Linia	Luconia	Tivinia
+├^^^┤	1	9	^^^
 bsz┤	1	9	Jacobsz
 ├180┤	1	9	180
 bot┤	2	9	gebot	verbot
@@ -957,6 +958,7 @@ hie┤	4	7	Overschie	parthie	mochie
 rau┤	1	7	prau
 ├900┤	1	7	900
 mpe┤	6	7	Compe	rompe	Madampe
+^^^┤	4	7	^^^^^	'^^^	^^^^
 300┤	3	7	2300	1300	37300
 deo┤	7	7	soadeo	condeo	boudeo
 iso┤	1	7	Adviso
@@ -977,6 +979,7 @@ efl┤	6	7	slaefl	heefl	briefl
 acu┤	3	7	Jacu	l'Jacu	Xacu
 ipa┤	2	7	Wangsadipa	Dipa
 orL┤	3	7	AniwoorL	AnIwoorL	AntwoorL
+├(*)┤	1	7	(*)
 tot┤	3	6	(tot	.tot	Camper-tot
 net┤	6	6	inet	verschonet	Barmanet
 rno┤	2	6	gouverno	Hgouverno
@@ -1052,6 +1055,7 @@ ule┤	4	5	faule	Oule	Poule
 ida┤	1	5	Sillida
 rum┤	5	5	interum	Wirwassarum	intrum
 ady┤	2	5	Clady	pady
+├[?]┤	1	5	[?]
 bye┤	1	5	partbye
 ous┤	5	5	cypous	gilUous	tsioupous
 ├nau┤	1	5	nau
@@ -1088,6 +1092,7 @@ eep┤	3	5	sleep	begreep	seep
 ita┤	4	5	Margarita	Pallicaita	Narita
 roe┤	2	5	ingebooroe	Bouroe
 ├^de┤	1	5	^de
+├(')┤	1	5	(')
 ├wit┤	1	5	wit
 cul┤	3	5	pericul	sonderpericul	articul
 ├ISO┤	1	5	ISO
@@ -1116,8 +1121,10 @@ eli┤	2	5	Pipeli	Deli
 fer┤	3	5	sulfer	offer	straffer
 ati┤	4	5	quiati	vati	Pati
 100┤	2	5	1100	2100
+├...┤	1	5	...
 ├sin┤	1	5	sin
 hay┤	3	5	Anhay	Jocthay	mahay
+├^/^┤	1	5	^/^
 vet┤	2	5	gelievet	navet
 ofl┤	5	5	hofl	ongeoorloofl	roofl
 god┤	1	5	Tsickingod
@@ -1280,6 +1287,7 @@ cto┤	2	4	Puncto	Saincto
 ├ady┤	1	4	ady
 rah┤	1	4	Perah
 lta┤	4	4	Hilta	Suralta	Palliacalta
+├(^)┤	1	4	(^)
 usl┤	1	3	Weslcusl
 lel┤	2	3	Composlel	giroflel
 nle┤	3	3	contentemenle	gewoonle	geweygenle
@@ -1319,6 +1327,7 @@ iit┤	3	3	Laoiit	terstoiit	aeiit
 oms┤	3	3	rooms	schildpadtshooms	buffelshooms
 ├ver┤	1	3	ver
 ├620┤	1	3	620
+...┤	1	3	....
 odl┤	1	3	Godl
 aeu┤	3	3	toegegaeu	slaeu	onstaeu
 ├doe┤	1	3	doe
@@ -1821,6 +1830,7 @@ boc┤	1	2	Lomboc
 emo┤	2	2	gouvemo	*tgouvemo
 toa┤	2	2	Rattacatoa	Hattoa
 ├478┤	1	2	478
+"^^┤	1	2	^"^^
 e^n┤	2	2	de^n	DTortuge^n
 ├dte┤	1	2	dte
 adi┤	1	2	padi
@@ -1870,6 +1880,7 @@ bre┤	2	2	Ambre	sobre
 ual┤	1	2	Pasqual
 cer┤	1	2	scer
 sye┤	2	2	cortesye	courtosye
+├?•"┤	1	2	?•"
 681┤	2	2	/'2681	431681
 ├niy┤	1	2	niy
 nJe┤	2	2	enJe	vanJe
@@ -1927,6 +1938,7 @@ aei┤	2	2	raei	etmaei
 ├S^s┤	1	2	S^s
 774┤	2	2	1774	1317774
 lea┤	2	2	realea	alea
+├^«^┤	1	2	^«^
 üen┤	2	2	consideraüen	articiüen
 iva┤	1	2	Olisiva
 ory┤	1	2	Cibory
@@ -1961,6 +1973,7 @@ Jen┤	2	2	seyJen	besyJen
 ├Hey┤	1	2	Hey
 '/4┤	2	2	l'/4	17'/4
 eyo┤	2	2	larassamaleyo	Maleyo
+├'/^┤	1	2	'/^
 ├813┤	1	2	813
 356┤	1	2	172356
 4^2┤	1	2	34^2
@@ -2148,6 +2161,7 @@ piB┤	1	1	hoopiB
 ├955┤	1	1	955
 ├757┤	1	1	757
 uce┤	1	1	Priuce
+├®)^┤	1	1	®)^
 erg┤	1	1	mortierg
 ?el┤	1	1	v?el
 ├eep┤	1	1	eep
@@ -2204,6 +2218,7 @@ BOO┤	1	1	IBOO
 ijn┤	1	1	zijn
 ^ee┤	1	1	tvi^ee
 ^cq┤	1	1	Luytv^cq
+*).┤	1	1	(*).
 tyf┤	1	1	fugityf
 jnt┤	1	1	schijnt
 opQ┤	1	1	kopQ
@@ -2492,6 +2507,7 @@ AVU┤	1	1	PAVU
 iDe┤	1	1	wiDe
 fat┤	1	1	affgevaerdigfat
 ├üwe┤	1	1	üwe
+^'^┤	1	1	^^'^
 i)y┤	1	1	waeri)y
 U.E┤	1	1	voorU.E
 #er┤	1	1	n#er
@@ -2530,6 +2546,7 @@ HON┤	1	1	SABROSEYHON
 ANO┤	1	1	(TSIÜSSONANO
 NNÖ┤	1	1	CAMMONNÖ
 yrs┤	1	1	nabuyrs
+├!?•┤	1	1	!?•
 CMY┤	1	1	BONGONOCACMY
 ehi┤	1	1	Cominosehi
 aeH┤	1	1	NaeH
@@ -2647,6 +2664,7 @@ lre┤	1	1	selre
 ├dTi┤	1	1	dTi
 tod┤	1	1	patod
 ├294┤	1	1	294
+├?"•┤	1	1	?"•
 icd┤	1	1	picd
 985┤	1	1	54985
 592┤	1	1	^2592
@@ -2679,6 +2697,7 @@ omm┤	1	1	daeromm
 oin┤	1	1	ürangebooin
 ├jet┤	1	1	jet
 422┤	1	1	22422
+°^^┤	1	1	®°^^
 ryp┤	1	1	gryp
 lth┤	1	1	gestelth
 ├350┤	1	1	350
@@ -3348,6 +3367,7 @@ yrl┤	1	1	buyrl
 ├fif┤	1	1	fif
 ├511┤	1	1	511
 atp┤	1	1	satp
+├&^.┤	1	1	&^.
 434┤	1	1	1434
 ├238┤	1	1	238
 lly┤	1	1	Dilly
@@ -3395,6 +3415,7 @@ noy┤	1	1	Quesnoy
 d^n┤	1	1	geleyd^n
 ├-de┤	1	1	-de
 ├fel┤	1	1	fel
+├&*.┤	1	1	&*.
 87a┤	1	1	987a
 ├458┤	1	1	458
 ├247┤	1	1	247
@@ -3407,6 +3428,7 @@ fGs┤	1	1	desselfGs
 duy┤	1	1	geduy
 ong┤	1	1	Tanjong
 235┤	1	1	6235
+├"/^┤	1	1	"/^
 ├Bre┤	1	1	Bre
 ├"34┤	1	1	"34
 ├47j┤	1	1	47j
@@ -3478,6 +3500,7 @@ iüe┤	1	1	preiudiüe
 iUe┤	1	1	wiUe
 lag┤	1	1	vlag
 lvé┤	1	1	deselvé
+├(?)┤	1	1	(?)
 ├Edr┤	1	1	Edr
 LEM┤	1	1	WILLEM
 MUN┤	1	1	FREMUN

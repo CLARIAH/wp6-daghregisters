@@ -1,7 +1,7 @@
 import os
 
 BASE = os.path.expanduser("~/github")
-ORG = "Dans-labs"
+ORG = "annotation"
 REPO = "clariah-dr"
 RELATIVE = "tf"
 NAME = "daghregister001"
@@ -41,6 +41,8 @@ THIN_SPACE_THRESHOLD = 9
 
 TF_VERSION = "0.1"
 
+MORF_SIZE = 5
+
 
 class Config:
     def __init__(self):
@@ -57,6 +59,7 @@ class Config:
         self.auxDir = AUX_DIR
         self.postDir = POST_DIR
         self.tfVersion = TF_VERSION
+        self.morfSize = MORF_SIZE
 
     def checkVolume(self, volume):
         volumes = sorted(self.volumeInfo.keys())

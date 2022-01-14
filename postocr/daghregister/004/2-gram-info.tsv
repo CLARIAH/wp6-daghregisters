@@ -308,6 +308,7 @@ ut┤	85	558	hout	geschut	schut
 ue	234	555	Queda	mueren	conquesle
 ├qu	79	551	quamen	queen	qualyck
 rh	171	550	overhandight	Opperhooft	metterhaest
+├;┤	1	546	;
 sl	264	545	conquesle	hooghslen	accommodabelsle
 ├De	36	540	Des	Den	Dese
 ├Ca	143	538	Capiteyn	Cap	Capt
@@ -566,6 +567,7 @@ tn	42	146	ontnomen	sietniet	uytnemende
 cq	59	144	trocqueren	trocqueeren	mancquement
 dj	36	142	Maradja	Radja	bidje
 sa┤	34	142	Wangsa	Galissa	capes-sarassa
+├»┤	1	142	»
 ├Qu	34	140	Queda	Quey	Quimelaha
 ├Ju	20	140	Juny	July	Junio
 uw┤	51	138	ontrouw	balouw	Nassouw
@@ -714,6 +716,7 @@ nf	42	72	Nederlanfsche	informatie	infesteren
 hl	58	72	Panghlymas	Wachler	rechlelyck
 xc	30	71	excuseert	excedeert	excusen
 sh	49	71	weshalven	mishaeght	huyshouden
+├.┤	1	71	.
 ├gh	5	71	ghy	ghylieden	ghyse
 ├50	12	71	500	50799	5000
 ├Gh	21	71	Ghoromandel	Gherrebon	Ghineese
@@ -751,8 +754,10 @@ ej	31	62	naergejaeght	schobbejacken	wechgejacht
 ├uw	5	62	uwe	uwen	uwc
 ju	17	62	ajuyn	injurien	benjuwyn
 ├40	12	61	400	40120	4000
+├/┤	1	61	/
 ao	37	61	Laout	Baoarj	Laoiit
 ├Fi	10	61	Firando	Firandos	Fisend
+├:┤	1	59	:
 ├Oc	7	59	October	Oclober	Ocknea
 ├Fe	10	59	Feby	February	Ferrero
 mu	29	58	stadsmueren	schermutsinge	amunitie
@@ -851,6 +856,7 @@ ic┤	6	39	[sic	Grissic	discreetic
 kj	12	38	sluckjens	stuckjens	coeckjens
 ├it	4	38	item	itterative	itererende
 ├Ru	10	38	Ruttem	Ruttems	Ruanelle
+├—┤	1	38	—
 :1	38	38	6702:15	26:12	8:13
 10┤	14	38	110	209888.18.10	710
 ├t┤	1	37	t
@@ -860,6 +866,7 @@ Ua	14	37	hoUantse	HoUandt	voUadingh
 ^e	35	37	v^elken	Hetv^elck	g^effectueert
 ├Tw	4	37	Twee	Twist	Twisl
 ├In┤	1	37	In
+├^┤	1	37	^
 ├ie	9	37	ieyten	iets	ieugenen
 ├St	13	36	Stephanus	Straat	Sterck
 lb	23	36	llberaelsten	Middelburg	adelborst
@@ -894,9 +901,11 @@ oy┤	20	34	Sithoy	convoy	Massavoy
 ├Du	17	34	Duytsche	Durramayo	Duyff
 tp	18	34	Sutphen	Zutphen	hooftplaetse
 30┤	15	34	130	1130	230
+├/*┤	1	33	/*
 ├vn	22	33	vnmden	vnlden	vnert
 cn┤	31	33	gebruyckcn	aengecomcn	acn
 ko	17	33	Kaertekoe	bekomen	eaickooven
+├«┤	1	33	«
 ├ab	17	33	abuyselyck	abondantie	absent
 50	20	33	/^45089:2:2	55000	4500
 kr	13	33	Kerokringh	Kerckringh	Coninckryck
@@ -956,6 +965,7 @@ ym┤	3	26	ruym	duym	scheepsruym
 *o	11	26	d*onse	d*oude	bequamend*onseeendodeende5gequetsten
 LA	4	26	TUANSLAET	TRANSLAET	PLACCAET
 ui┤	5	26	ambassadeui	Nangesacqui	Nangasacqui
+├•┤	1	26	•
 41┤	10	26	1641	2341	/'1741
 ro┤	17	26	Guaro	Pedro	Quatro
 ├(g	5	26	(gelyck	(gelost	(geene
@@ -1000,6 +1010,7 @@ hl┤	22	23	beschadighl	volghl	vercochl
 ├d^	19	23	d^wh	d^Ed	d^onderstaeDde
 ti┤	16	23	wieti	vrQleti	halgiscifti
 ky	16	23	Kackyaly	Gackyaly	Cackyaly
+├^^	12	23	^^i	^^^^^	^^^
 ├28	17	23	280	28086	28617.11.8
 ├Ry	6	23	Rysviryck	Ryp	Rysselse
 11	23	23	28617.11.8	148579.11.13	81150
@@ -1021,6 +1032,7 @@ iw	10	22	PlittiwaDJ	Pattiwanis	Caliwongen
 ni┤	17	22	Kenocouni	Anthoni	Matavani
 ├36┤	1	22	36
 ├h┤	1	22	h
+├'┤	1	21	'
 ka┤	7	21	Paducka	Welgaka	Boleka
 ok	14	21	vokk	Kerokringh	Lokj
 ├Er	4	21	Eredam	Erangh	Erang
@@ -1049,6 +1061,7 @@ mg	17	20	omgeseth	eemge	omgingen
 ├Wo	11	20	Wotton	Wonderaer	Wottongh
 ├Om	6	20	Omme	Oma	Omon
 88	17	20	8088.4	70882.1.15	209888.18.10
+^^	16	20	^^^^^	^^^^^	P^^l
 SS	5	20	MISSIVE	MASSADJ	(TSIÜSSONANO
 ├af┤	1	20	af
 ef┤	14	20	massief	gerief	lief
@@ -1060,6 +1073,7 @@ kl┤	11	19	Coninckl	gemaeckl	genootsaeckl
 10	16	19	21060	1100	437102
 eU	15	19	heU)en	vei'soeckeU.Ed	vremdeUngen
 ├Ck	9	19	Cknnp	Ck)ninck	Ck)mp
+^^┤	7	19	^^^^^	^^^	®°^^
 ze	13	19	Portugezen	voorlezen	S^JanThyszen
 ├34	13	19	340	34474	342
 ├Iq	2	19	Iquan	Iquans
@@ -1149,6 +1163,7 @@ ji	10	15	Ketjil	Kitjil	ojider
 13┤	13	15	213	19832.13	148579.11.13
 ├42	12	15	4240	428	420
 8.	15	15	18273.8.6	8088.4	68098.4
+├%┤	1	15	%
 ├37┤	1	15	37
 86	13	15	28617.11.8	47864	58600
 im┤	9	15	Tounalim	Tonalim	Jocksim
@@ -1233,6 +1248,7 @@ Ui	9	13	uUimo	soUicitatien	giUion
 ├(u	4	13	(uytgesondert	(uyt	(uytwysende
 ├V┤	1	13	V
 êy	4	13	geêyst	geêyscht	geêyschte
+├*┤	1	13	*
 01	13	13	40120	201600	10120
 ├39┤	1	13	39
 ├ed	7	13	edelman	edelluyden	edelen
@@ -1392,7 +1408,6 @@ bd	9	10	accessibdste	hembden	volgbden
 ├51┤	1	10	51
 ├ym	5	10	ymant	ymandt	ymandl
 ├52┤	1	10	52
-^^	10	10	P^^l	<^^6s	CangathueMimbod^^endeMonno
 ├l┤	1	10	l
 84┤	8	10	33084	284	160084
 42┤	6	10	39842	342	9242
@@ -1484,6 +1499,8 @@ yr┤	4	8	uyr	muyr	meeyr
 Go	6	8	(Goninck	(God	out-Gouverneur
 RI	7	8	BRIEFF	RODRIGO	VALERIO
 IE	7	8	BRIEFF	BHIEFF	MICHIELO
+├..	2	8	....	...
+..┤	2	8	....	...
 tb┤	3	8	besetb	Vlietb	opgesetb
 ├By┤	1	8	By
 ├B┤	1	8	B
@@ -1498,10 +1515,11 @@ uu	8	8	gecontiuueert	Sangouua	forluue
 ├Fa	6	8	Fakiry	Faichima	Farimaya
 ├üy	5	8	üyt	üytgewrocht	üytterlyck
 ^l	8	8	J^ly	ders^lver	w^lck
-├^^	8	8	^^i	^^Vv^T\!^w	^^9
 oü	8	8	groüwelycke	negoüanten	coüien
 éx	3	8	geéxecuteert	geéxcuseert	geéxamineert
 ├It	3	8	Item	Itrachl	Itam
+├(*	2	8	(*).	(*)
+├('	2	8	(')	('t
 Bc	7	8	ofBcieren	gedUBculleert	ofBcien
 95	8	8	74954	157957	187951
 22	8	8	52294	122978	72271
@@ -1512,6 +1530,7 @@ Vs┤	6	8	ISVs	iVs	36Vs
 42	8	8	114271	184272	142470
 fw	8	8	affwendinge	affwerpen	afwesen
 ├Oy	4	8	Oyas	Oya	Oyed
+├^^┤	1	8	^^
 0.	8	8	8820.1	10.2.15	808920.10
 ├57	7	8	57795	57522	576
 78	8	8	47864	24780	38780
@@ -1528,6 +1547,7 @@ xa┤	2	8	Orixa	Parixa
 07┤	6	8	1707	427707	107
 25	8	8	103250	125375	^2592
 ├dV	6	8	dVelcke	dVoors	dVespondiers
+/^┤	3	8	^/^	"/^	'/^
 ├Wy┤	1	8	Wy
 uv┤	2	8	Gouv	gouv
 ON┤	6	8	SIMON	DON	SABROSEYHON
@@ -1573,8 +1593,10 @@ cm	6	7	verstcmt	complcments	Palcmbangh
 ├ep	2	7	epde	epdelyck
 ├du┤	1	7	du
 ├iu	7	7	iusgelyckx	iuhoude	iugeladen
+├(^	4	7	(^onincx	(^gereyst	(^^^^
 ├49┤	1	7	49
 71	7	7	11713.4.8	437102	457102
+├/"┤	1	7	/"
 82	7	7	18273.8.6	8820.1	70882.1.15
 ├Yo	5	7	Yoorburgh	Yoors	Yougende
 ^e┤	7	7	(veyns^e	syn^e	go^e
@@ -1604,6 +1626,7 @@ Ti	6	7	mocTite	trefTigh	ViTitten
 36	7	7	5173613	6295367	2362
 92┤	6	7	7692	54492	192
 gy┤	5	7	bogy	songy	soumongy
+├>┤	1	7	>
 cg	7	7	wcge	tocgelaelcn	belcgeringhe
 29┤	6	7	329	929	1729
 gy	4	7	chirurgyns	chyrurgyns	chirurgyn
@@ -1628,6 +1651,7 @@ gd	6	7	vreugde	overgdevert	langduyrich
 yi┤	4	7	tyi	qualiteyi	iyi
 ├Gn	7	7	Gnoflamanire	Gnoffirgnaros	GnofiBca
 ├(t┤	1	7	(t
+*)┤	1	7	(*)
 ├Py	2	7	Pyacha	PyachaenDodingo
 ├kr	5	6	krack	krygen	kreken
 kc	6	6	gebruyckcn	peckcransen	stuckcn
@@ -1639,8 +1663,10 @@ lT┤	4	6	brielT	olT	alT
 ├rf┤	1	6	rf
 95┤	6	6	195	57795	65995
 9:	6	6	/^45089:2:2	2:9:3	169111:19:11
+├[?	2	6	[?]	[?J
 ïe	6	6	contentenïent	onïïer	vereiïenen
 kx	6	6	cockxhuysen	slockxken	noordelyckxste
+├^/	2	6	^/g	^/^
 4^	5	6	2544^/4	34^2	34^1
 's┤	6	6	Limoury's	vooi's	vordei's
 ├UE┤	1	6	UE
@@ -1674,6 +1700,7 @@ V2┤	6	6	7V2	6V2	IV2
 ├Il	6	6	Ille	Ilartogenboscli	Ilendrick
 ├33	5	6	3350	33084	338
 V4┤	6	6	*V4	17V4	7V4
+├'/	4	6	'/s	'/a	'/j
 ├(e┤	1	6	(e
 Dg	6	6	EDgelsen	aeDgaende	coDÜDgh
 ├77	6	6	7756	77i	77041
@@ -1689,6 +1716,7 @@ Va┤	3	6	2007Va	IVa	iVa
 85┤	6	6	12085	13185	54985
 39	6	6	73921	53920	13950
 tu┤	5	6	Panciapatu	Arrapatu	Spiritu
+├-┤	1	6	-
 hi┤	6	6	shi	Cominosehi	versochi
 ├W┤	1	6	W
 61┤	4	6	561	161	1061
@@ -1715,6 +1743,7 @@ En	4	6	IKEngelsen	D*Engelsen	d^Engelse
 vn	4	6	ongevnlt	gevnsselt	Tvnst
 kg	6	6	stuckgens	stuckgen	stuckgoederen
 ├5^	4	6	5^2	5^0	5^4
+├\┤	1	6	\
 76┤	6	6	576	3076	31076
 89┤	5	6	789	1489	289
 ├za┤	1	6	za
@@ -1742,6 +1771,8 @@ js	5	5	negotijsren	genoojsaeckt	advjseeren
 r^	5	5	tholvr^'heyt	Tidor^s	omtr^t
 dg	5	5	lodgie	ddgelycks	sydgeweer
 ├'d	5	5	'den	'daer	'die
+├®┤	1	5	®
+?]┤	1	5	[?]
 36┤	5	5	436	2236	Ö17436
 -t	3	5	oliphants-tanden	Dodinge-te	Camper-tot
 iQ	5	5	IiiQuey	sufiQsant	aiQoopen
@@ -1757,6 +1788,7 @@ n-	4	5	non-observantie	leeuwen-daelders	Calcken-eylant
 i)	5	5	gei)asseerde	waeri)y	Novei]ri)er
 ├us	4	5	usurperen	usantie	usance
 ├gé	5	5	gérestitueert	gébreck	gémelte
+..	3	5	....	öö...lü	öö...lü
 ├Ko	4	5	Kouinck	Koukercken	Konnerechittj
 ih	4	5	Anihonio	gelegeniheyt	Coihp
 e-	4	5	Dodinge-te	syde-v]in	vice-commandeur
@@ -1781,6 +1813,7 @@ Un	4	5	vremdeUngen	CooUnan	handeUnge
 eW	5	5	denseWe	denseWen	seWe
 .4┤	5	5	8088.4	68098.4	116419.6.4
 ├Mu	3	5	Munda	Muller	Mustasschan
+')┤	1	5	(')
 ├aU	2	5	aUe	aUaer
 ├T┤	1	5	T
 ├bb	4	5	bbaeren	bbar	bbaer
@@ -1872,6 +1905,7 @@ iè	2	4	arrière	nièt
 óm	4	4	gecómen	bewellecómt	becómen
 ^h	4	4	gecommitteerde^heeren	r^ht	alle^het
 'c	4	4	l'cedeeren	vei'copen	i'calen
+^'	4	4	tholvr^'heyt	^^'^	ll^''deses;d'Deenen
 98┤	4	4	8598	1298	173498
 ├o┤	1	4	o
 hh	4	4	neerstighheyt	hoochhertiger	eenichheyt
@@ -1917,7 +1951,6 @@ Os	4	4	lOOsiecken	l)Oscruyt	lyfiOstraffe
 *p	4	4	en*pertye	te*passeeren	D*panglima
 ├84┤	1	4	84
 ├IB┤	1	4	IB
-├'/	3	4	'/s	'/a	'/j
 ├V2┤	1	4	V2
 7.	4	4	28617.11.8	597887.16.12	18.7.5
 ├iy	4	4	iydelyck	iyl	iyi
@@ -2011,6 +2044,7 @@ UE	3	4	desseUEs	REQUEST	MANUEL
 ah┤	1	4	Perah
 ml┤	3	4	geraeml	coml	becoml
 *m	2	4	d*man	d*mayor
+^)┤	1	4	(^)
 /2┤	4	4	2'/2	14'/2	P/2
 ├'b	3	3	'by	'bevroeden	'bisten
 ├v┤	1	3	v
@@ -2023,7 +2057,6 @@ ié	3	3	compaignién	wiért	iniurién
 iO	3	3	/aiOSTroiia	1032liO:16	lyfiOstraffe
 TO	3	3	/"öTOlS	ANTONIO	BRETON
 ├(c	2	3	(comende	(corts
-^'	3	3	tholvr^'heyt	ll^''deses;d'Deenen	^^'^^9
 'h	3	3	tholvr^'heyt	int'heymelyck	ended'hooft
 -b	3	3	crepel-bossige	cocus-boomen	schout-by-nacht
 ├m^	3	3	m^t	m^scben	m^ischen
@@ -2126,6 +2159,7 @@ lT	3	3	alTbreuck	dessellTs	sulTur
 ├78┤	1	3	78
 ├Do┤	1	3	Do
 ├3B	2	3	3B0	3B8
+├|┤	1	3	|
 ├Zi	3	3	Zinsemon	Zimbed	Zierickzee
 ├97	3	3	9748	9750	974
 ├D^	3	3	D^inbabitanien	D^onse	D^oude
@@ -2139,6 +2173,7 @@ lT	3	3	alTbreuck	dessellTs	sulTur
 ws	3	3	Lauwsen	vrouwspersoonen	lynws^et
 ├Ho┤	1	3	Ho
 ├Tv	2	3	Tvdst	Tvnst
+├/•┤	1	3	/•
 ├vt	3	3	vtertiallen	vtryse	vtnyti
 ├yo	2	3	yolck	yoors
 üd	3	3	syüde	soüde	uytgesoüdert
@@ -2165,9 +2200,9 @@ NA	3	3	FERNANDO	(TSIÜSSONANO	ORDONNANTIE
 RO┤	2	3	GERERO	PEDRO
 IN	2	3	DOMINGO	MASCARINA
 ├JE	2	3	JERONIMO	JENLIGOES
+├)┤	1	3	)
 AY	3	3	SOBAYA	TAYOUAN	TAYOÜAN
 GO	3	3	JENLIGOES	BONGONOCAMY	BONGONOCACMY
-├('	1	3	('t
 ^m	3	3	heeft^men	emport^mte	tin^merbout
 ├IN	2	3	INSNOCAMY	INtto
 Is	3	3	'Iselve	'Ischyul	E^Ise
@@ -2184,6 +2219,7 @@ sU	3	3	schuytsUver	cassUas	visUeeren
 vv	3	3	alvvaer	hetvvelck	bovvarra
 KE	2	3	IKEngelsen	BACKER
 uï	3	3	huïn	geruïneerde	huïpe
+├&┤	1	3	&
 ëx	2	3	geëxcuseert	geëxpereert
 ├:1	3	3	:13:10	:18	:13
 ├oD	1	3	oDse
@@ -2326,7 +2362,6 @@ Ag	2	2	böAge	d^Aguada
 ├Tt	2	2	Ttdoreesen	Tttssehen
 ├HS	2	2	HSpaense	HSum
 U.	2	2	vei'soeckeU.Ed	voorU.E
-├(^	2	2	(^onincx	(^gereyst
 So	2	2	(Souvemeur	moQSon
 ├bj	2	2	bjnnen	bjevaren
 qm	2	2	daerqmme	Cocqmi
@@ -2409,6 +2444,7 @@ Fe	2	2	trefFelycke	12<*February
 ├Ev	2	2	Evangelio	Evert
 ├ig	2	2	ighsin	ignoniineus
 ├ts┤	1	2	ts
+├&.┤	1	2	&.
 'r	2	2	ext'raordinarie	and're
 nT	2	2	S^JanThyszen	SvanTegal
 lq	2	2	welqk	Quelquepoutj
@@ -2439,6 +2475,7 @@ Tb	2	2	alTbreuck	afiTbreecken
 ├78	2	2	788	789
 eP	2	2	wancannaePamelangen	tolvryejoncknaePriaman
 3c	2	2	13corgegoelonghs	13cn
+├}┤	1	2	}
 .v	2	2	tingangh.van	Gomp^.van
 wn┤	2	2	Cherrelwn	Serrelwn
 e;	2	2	gouverne;nent	gede;ipositeerde
@@ -2602,11 +2639,11 @@ oM	2	2	soMaten	PoMugesen
 eT	2	2	naeToUongh	vfieTi
 .c	2	2	ende.coraelsteen	Conin.ck
 ├73┤	1	2	73
-..	2	2	öö...lü	öö...lü
 .l	2	2	öö...lü	op.lO
 ├Jh	2	2	Jhoriten	Jhda
 bè	2	2	vendibèlste	hebbèy
 ├ff┤	1	2	ff
+├"┤	1	2	"
 ├ds	2	2	dsnselven	dsit
 ié┤	2	2	dié	benefitié
 ^9┤	2	2	^^9	^^'^^9
@@ -2614,6 +2651,8 @@ ié┤	2	2	dié	benefitié
 ├Y2┤	1	2	Y2
 ├a^	2	2	a^vys	a^gewent
 nr┤	2	2	dbenr	Gamronr
+├^"	1	2	^"^^
+"^	1	2	^"^^
 ^U┤	2	2	^^U	<^^^U
 Hp	2	2	MasuHpatnam	PhiHppo
 \a	2	2	i\ae	daer\an
@@ -2663,6 +2702,8 @@ fj┤	2	2	quiafj	loffj
 ├II┤	1	2	II
 TY	2	2	GENTYL	ARTYGULEN
 ├86	2	2	866	867
+├?•	1	2	?•"
+•"┤	1	2	?•"
 ├me┤	1	2	me
 ├98┤	1	2	98
 ├bs	2	2	bst	bsien
@@ -2697,6 +2738,8 @@ Oi	2	2	CaOila	OlOimas
 Vï┤	2	2	61Vï	3Vï
 E.	2	2	synE.seecker	U.E.E
 Bt	2	2	profiBtabelder	gaBtangh
+├^«	1	2	^«^
+«^┤	1	2	^«^
 ├Gy	2	2	Gyluyden	Gyselingh
 èy	2	2	geèyschte	geèyndicht
 lO	2	2	OlOimas	vany^lOO
@@ -2717,6 +2760,7 @@ Ch	2	2	BataviaseChineesen	eenigeChristenen
 ├.M	2	2	.Maart	.Mangsor
 yJ	2	2	seyJen	besyJen
 Je	2	2	seyJen	besyJen
+├"/	2	2	"/^	"/ie
 37┤	2	2	937	137
 ├J┤	1	2	J
 ├Y┤	1	2	Y
@@ -2805,7 +2849,6 @@ Ga	1	1	HGasteelpleyn
 rG	1	1	heerGenerael
 ├ré	1	1	ré&el
 é&	1	1	ré&el
-├^/	1	1	^/g
 /g┤	1	1	^/g
 jv	1	1	aerjvruchten
 m-	1	1	Ceram-Laut
@@ -2853,6 +2896,7 @@ Kl	1	1	ojKlat
 ├ön	1	1	öntbooden
 ├HN	1	1	HNederlants
 mj┤	1	1	Tacomj
+├(^┤	1	1	(^
 ├BH	1	1	BHIEFF
 ├uc	1	1	ucken
 ├Nu┤	1	1	Nu
@@ -2885,6 +2929,8 @@ iB┤	1	1	hoopiB
 ├wl	1	1	wlert
 ├ta┤	1	1	ta
 ├Cc	1	1	Ccylon
+├®)	1	1	®)^
+)^┤	1	1	®)^
 ├v?	1	1	v?el
 ├.1	1	1	.11
 .5	1	1	14466.5.8
@@ -2928,6 +2974,8 @@ Om┤	1	1	«Om
 Du	1	1	onDuttdyck
 '9	1	1	/'944.9
 *w	1	1	dei*waerts
+*)	1	1	(*).
+).┤	1	1	(*).
 pQ┤	1	1	kopQ
 ├zQ	1	1	zQn
 dï	1	1	haddïffi
@@ -3108,6 +3156,7 @@ oA┤	1	1	sooA
 sx┤	1	1	sulsx
 ├Oh	1	1	Ohiod
 ├(H	1	1	(Hwelck
+├"\┤	1	1	"\
 ├Uc	1	1	Ucht
 oJ	1	1	cryghs-oJQQcieren
 JQ	1	1	cryghs-oJQQcieren
@@ -3137,6 +3186,7 @@ VU┤	1	1	PAVU
 ├üw	1	1	üwe
 ├rÉ	1	1	rÉach
 Éa	1	1	rÉach
+'^┤	1	1	^^'^
 )y┤	1	1	waeri)y
 OL	1	1	RESOLUTIE
 LU	1	1	RESOLUTIE
@@ -3212,6 +3262,8 @@ NÖ┤	1	1	CAMMONNÖ
 DO	1	1	ORDONNANTIE
 ├Ax	1	1	Axuna
 xu	1	1	Axuna
+├!?	1	1	!?•
+?•┤	1	1	!?•
 CM	1	1	BONGONOCACMY
 ├TS	1	1	TSUISSIMANOCAMY
 SU	1	1	TSUISSIMANOCAMY
@@ -3287,6 +3339,7 @@ S4	1	1	1S440
 ^1	1	1	80^18:11:8
 bó	1	1	Ambóina
 'd┤	1	1	wiei'd
+├(┤	1	1	(
 s*	1	1	mitsgaders*ontrent
 -m	1	1	sergeant-mayor
 aë	1	1	generaël
@@ -3303,6 +3356,8 @@ uJ	1	1	souJe
 ├*S┤	1	1	*S
 ├3(	1	1	3(K
 H^	1	1	suH^ide
+├?"	1	1	?"•
+"•┤	1	1	?"•
 cd┤	1	1	picd
 ├^2	1	1	^2592
 ïk	1	1	aiïkeer
@@ -3335,6 +3390,8 @@ gè	1	1	jegènwoordigh
 FO	1	1	iFOort
 ├Up┤	1	1	Up
 Iv	1	1	'Ivertreck
+├®°	1	1	®°^^
+°^	1	1	®°^^
 ^.	1	1	Gomp^.van
 ├"v	1	1	"vwlies
 vw	1	1	"vwlies
@@ -3366,6 +3423,7 @@ Ot	1	1	vk)Ote
 ├pV┤	1	1	pV
 O7	1	1	IO74
 ├dê┤	1	1	dê
+├#┤	1	1	#
 4S	1	1	244S2
 S2┤	1	1	244S2
 fD	1	1	halffDecember
@@ -3400,15 +3458,18 @@ h*	1	1	alh*antie
 ├cè	1	1	cènto
 hw	1	1	wechwerpen
 ├kq┤	1	1	kq
+├*"┤	1	1	*"
 ├öö	1	1	öö...lü
 ö.	1	1	öö...lü
 lü┤	1	1	öö...lü
+├?>┤	1	1	?>
 t*	1	1	met*den
 ├Vy	1	1	Vycerey
 5m	1	1	15maii
 7d	1	1	17dooden
 -i	1	1	Oosl-indise
 aê	1	1	maêr
+├^"┤	1	1	^"
 ├Oö	1	1	Oödewater
 ├2ö┤	1	1	2ö
 )q	1	1	Ck)qun
@@ -3418,6 +3479,7 @@ aê	1	1	maêr
 tf┤	1	1	brietf
 ├'D	1	1	'Douta
 ├Vz┤	1	1	Vz
+├'^	1	1	'^^^
 0b	1	1	80bhar
 t$	1	1	cloot$uycker
 $u	1	1	cloot$uycker
@@ -3452,7 +3514,9 @@ lU┤	1	1	valU
 sh┤	1	1	vaertuysh
 )b	1	1	hd)bende
 ├Mm	1	1	Mmn
+├&*┤	1	1	&*
 l.	1	1	Nederl.intse
+├^.┤	1	1	^.
 ├[L	1	1	[Luytenants
 Lu	1	1	[Luytenants
 ├»w┤	1	1	»w
@@ -3579,6 +3643,7 @@ eK┤	1	1	suyckeK
 rw┤	1	1	Eerw
 ├~~	1	1	~~R
 ~R┤	1	1	~~R
+├»»┤	1	1	»»
 )d	1	1	ei)de
 ├pp┤	1	1	pp
 oq┤	1	1	Soq
@@ -3612,6 +3677,8 @@ AË	1	1	TRANSLAËT
 ├q┤	1	1	q
 cv	1	1	overgelcvert
 -s┤	1	1	vooi-s
+├•>┤	1	1	•>
+├>)┤	1	1	>)
 hk	1	1	knechkens
 ├Óp	1	1	Ópra
 fï	1	1	deselfïs
@@ -3715,6 +3782,8 @@ bI	1	1	14/bIasen
 aO	1	1	CaOila
 èm	1	1	Frèmlingh
 ré┤	1	1	carré
+├'^┤	1	1	'^
+├^-┤	1	1	^-
 *8	1	1	/*819321
 qs	1	1	gqsonden
 ├Je┤	1	1	Je
@@ -3743,6 +3812,7 @@ Yï┤	1	1	146lYï
 èy┤	1	1	hebbèy
 ├Uv	1	1	Uvooren
 ├.m	1	1	.macht
+├«-┤	1	1	«-
 aT	1	1	MaTeyen
 ├vë	1	1	vëmieuwingh
 iv┤	1	1	gouverneiv
@@ -3753,7 +3823,6 @@ aG	1	1	schebnaGhtich
 Gh	1	1	schebnaGhtich
 yy	1	1	scbryyen
 ├sd	1	1	sdieltwoorden
-├[?	1	1	[?J
 ?J┤	1	1	[?J
 ├yc	1	1	yck
 ├aQ	1	1	aQoopen
@@ -3789,10 +3858,13 @@ tê	1	1	geraportêert
 ├mn	1	1	mnytenatie
 ├%0┤	1	1	%0
 tp┤	1	1	satp
+├&^	1	1	&^.
+^.┤	1	1	&^.
 ├gU	1	1	gUlions
 ├2Y┤	1	1	2Y
 ├|n	1	1	|net
 ├€n	1	1	€nde
+├■┤	1	1	■
 ├jo┤	1	1	jo
 4«	1	1	24«"ditto
 ├BC┤	1	1	BC
@@ -3843,6 +3915,8 @@ oh┤	1	1	sioh
 ├''	1	1	''S
 'S┤	1	1	''S
 ├'q	1	1	'quamen
+├&*	1	1	&*.
+*.┤	1	1	&*.
 ├94┤	1	1	94
 Pr	1	1	tolvryejoncknaePriaman
 ├5p┤	1	1	5p
@@ -3887,7 +3961,9 @@ OV	1	1	IOV4
 l3	1	1	al365
 ^8┤	1	1	341782^8
 Ws	1	1	\Wsten
+├«.┤	1	1	«.
 Vi	1	1	37Vio
+├®'┤	1	1	®'
 ├yX┤	1	1	yX
 ├é┤	1	1	é
 ├^1┤	1	1	^1
@@ -3899,6 +3975,8 @@ Bl	1	1	cafiBlas
 ├lË┤	1	1	lË
 üe┤	1	1	preiudiüe
 vé┤	1	1	deselvé
+├(?	1	1	(?)
+?)┤	1	1	(?)
 ├WI	1	1	WILLEM
 EM┤	1	1	WILLEM
 MU	1	1	FREMUN
@@ -4093,6 +4171,7 @@ l}	1	1	hebl}e
 dè┤	1	1	endè
 ├2'	1	1	2'/2
 ├"l	1	1	"lasten
+├\%┤	1	1	\%
 nU┤	1	1	contanU
 vt	1	1	svtrarte
 ├FI	1	1	FIALHO
@@ -4152,10 +4231,10 @@ Up	1	1	MasuUpatnams
 *c	1	1	d*comptoiren
 :9┤	1	1	29092:13:9
 ├ib┤	1	1	ib
-├"/	1	1	"/ie
 /i	1	1	"/ie
 7'	1	1	17'/4
 /9┤	1	1	35^/9
+├*♦┤	1	1	*♦
 ëv	1	1	voorschrëve
 ├1K	1	1	1K8880
 K8	1	1	1K8880

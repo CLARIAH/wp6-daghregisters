@@ -3,7 +3,7 @@
 @editor=Uitgegeven door het Bataviaasch Genootschap van Kunsten en Wetenschappen, met medewerking van de Nederlandsch-Indische Regering en onder toezicht van Mr. J.A. van der Chijs
 @endPage=496
 @fileName=daghregister
-@fmt:text-orig-full={letters}{punc} 
+@fmt:text-orig-full={letters}{punc}
 @institute=CLARIAH-Huygens-INT-DANS
 @language=nld
 @project=daghregister
@@ -19,5 +19,5 @@
 @volume=Anno 1640-1641
 @years=1640,1641
 @writtenBy=Text-Fabric
-@dateWritten=2021-12-06T11:26:22Z
+@dateWritten=2022-01-10T14:33:50Z
 
