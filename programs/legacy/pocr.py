@@ -639,7 +639,7 @@ class PostOcr:
 
         We surround each word by a space first,
         in order to be sensitive to word boundaries.
-        These spaces will be included in the 2,3-gtams.
+        These spaces will be included in the 2,3-grams.
         However, we do not count the space as a character,
         so we will have 2-grams like ` ab` and `ab `
         and we will have 3-grams like ` abc` and `abc `.

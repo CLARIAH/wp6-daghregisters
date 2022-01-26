@@ -195,17 +195,26 @@ def director(cv):
             if part == "":
                 continue
             thisPunc = punc if i == lastPart else ", "
-            s = cv.slot()
             if len(part) > 2 and (
-                part[0] == "'"
-                and part[1].lower() in {"s", "t"}
+                part[0] in {"'", "*"}
+                and part[1].lower() in {"s", "t", "i", "l"}
                 or part[0].lower() in {"d", "t"}
                 and part[1] == "'"
             ):
+                s = cv.slot()
                 cv.feature(s, letters=part[0:2], punc=" ")
                 s = cv.slot()
                 cv.feature(s, letters=part[2:], punc=thisPunc)
+            elif part[0] == "(":
+                previousPunc = cv.get("punc", s)
+                if len(part) == 1:
+                    cv.feature(s, punc=f"{previousPunc}({thisPunc}")
+                else:
+                    cv.feature(s, punc=f"{previousPunc}(")
+                    s = cv.slot()
+                    cv.feature(s, letters=part[1:], punc=thisPunc)
             else:
+                s = cv.slot()
                 cv.feature(s, letters=part, punc=thisPunc)
 
     for i in reversed(range(nSec)):

@@ -17,10 +17,10 @@
 @volume=Anno 1640-1641
 @years=1640,1641
 @writtenBy=Text-Fabric
-@dateWritten=2022-01-10T14:33:50Z
+@dateWritten=2022-01-21T11:28:57Z
 
-1-229023	word
-229024-249314	line
-249315-249797	page
-249798-253990	para
-253991	volume
+1-229055	word
+229056-249346	line
+249347-249829	page
+249830-254022	para
+254023	volume

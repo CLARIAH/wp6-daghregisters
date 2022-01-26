@@ -1,8 +1,8 @@
 import os
 
 BASE = os.path.expanduser("~/github")
-ORG = "annotation"
-REPO = "clariah-dr"
+ORG = "clariah"
+REPO = "wp6-daghregisters"
 RELATIVE = "tf"
 NAME = "daghregister001"
 TF_NAME = "daghregister"
