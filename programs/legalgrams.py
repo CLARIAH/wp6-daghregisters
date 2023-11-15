@@ -70,9 +70,9 @@ class Gram:
         inventory for the distinct words.
 
         We also make an index of the words with respect to their occurrences
-        in WORD_OCC.
+        in `WORD_OCC`.
         Where needed, we can easily lookup the occurrences (or frequency)
-        of a given word from WORD_OCC.
+        of a given word from `WORD_OCC`.
 
         So the following steps are done per distinct word, irrespective of how
         many occurrences that word has.
@@ -96,7 +96,7 @@ class Gram:
         While we are composing the 2,3-grams,
         we make an inventory of the single characters and their frequencies.
 
-        For convenience, we produce a tsv file of the words,
+        For convenience, we produce a TSV file of the words,
         where we have a line for each occurrence
         with the page number and line number and word.
         This is helpful for manual lookup of words.

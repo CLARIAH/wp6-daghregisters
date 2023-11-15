@@ -32,7 +32,7 @@ We averaged the character confidences to word confidences.
 
 ### Step 3: clean
 
-We removed all frontmatter pages, plus all words "Digitized by Google".
+We removed all front matter pages, plus all words "Digitized by Google".
 Funnily enough, these strings were OCRed too, and sometimes not entirely
 correctly. We still found them by using the Levenshtein edit distance.
 
@@ -40,7 +40,7 @@ Also the header lines were removed.
 
 ### Step 4: make text-fabric
 
-We genereated straightforward text-fabric out of it, and decided to loose some of the
+We generated straightforward text-fabric out of it, and decided to loose some of the
 information. We do not use the area containers. We do not retain the bounding box information.
 
 ### Step 5: use text-fabric
